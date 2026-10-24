@@ -1,0 +1,7454 @@
+{
+  "edition": "BB2025",
+  "teams": [
+    {
+      "id": "old-world-alliance",
+      "name": "Old World Alliance",
+      "tier": 1,
+      "positions": [
+        {
+          "id": "old-world-alliance-0",
+          "name": "Human Lineman",
+          "role": "Lineman, Human",
+          "max": 16,
+          "cost": 50,
+          "stats": {
+            "MA": "6",
+            "ST": "3",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "9+"
+          },
+          "skills": [],
+          "primary": [
+            "G"
+          ],
+          "secondary": [
+            "A",
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "old-world-alliance-1",
+          "name": "Halfling Hopeful",
+          "role": "Lineman, Halfling",
+          "max": 3,
+          "cost": 30,
+          "stats": {
+            "MA": "5",
+            "ST": "2",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "7+"
+          },
+          "skills": [
+            "Dodge",
+            "Right Stuff",
+            "Stunty"
+          ],
+          "primary": [
+            "A"
+          ],
+          "secondary": [
+            "G",
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "old-world-alliance-2",
+          "name": "Human Catcher",
+          "role": "Catcher, Human",
+          "max": 1,
+          "cost": 75,
+          "stats": {
+            "MA": "8",
+            "ST": "3",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Catch",
+            "Dodge"
+          ],
+          "primary": [
+            "A",
+            "G"
+          ],
+          "secondary": [
+            "P",
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "old-world-alliance-3",
+          "name": "Dwarf Lineman",
+          "role": "Lineman, Dwarf",
+          "max": 3,
+          "cost": 70,
+          "stats": {
+            "MA": "4",
+            "ST": "3",
+            "AG": "4+",
+            "PA": "5+",
+            "AV": "10+"
+          },
+          "skills": [
+            "Block",
+            "Defensive",
+            "Thick Skull"
+          ],
+          "primary": [
+            "G",
+            "D"
+          ],
+          "secondary": [
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "old-world-alliance-4",
+          "name": "Human Thrower",
+          "role": "Thrower, Human",
+          "max": 1,
+          "cost": 75,
+          "stats": {
+            "MA": "6",
+            "ST": "3",
+            "AG": "3+",
+            "PA": "3+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Pass",
+            "Sure Hands"
+          ],
+          "primary": [
+            "G",
+            "P"
+          ],
+          "secondary": [
+            "A",
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "old-world-alliance-5",
+          "name": "Dwarf Runner",
+          "role": "Runner, Dwarf",
+          "max": 1,
+          "cost": 80,
+          "stats": {
+            "MA": "6",
+            "ST": "3",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Sprint",
+            "Sure Hands",
+            "Thick Skull"
+          ],
+          "primary": [
+            "G",
+            "P"
+          ],
+          "secondary": [
+            "A",
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "old-world-alliance-6",
+          "name": "Human Blitzer",
+          "role": "Blitzer, Human",
+          "max": 1,
+          "cost": 85,
+          "stats": {
+            "MA": "7",
+            "ST": "3",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Block",
+            "Tackle"
+          ],
+          "primary": [
+            "G",
+            "S"
+          ],
+          "secondary": [
+            "A"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "old-world-alliance-7",
+          "name": "Dwarf Blitzer",
+          "role": "Blitzer, Dwarf",
+          "max": 1,
+          "cost": 100,
+          "stats": {
+            "MA": "5",
+            "ST": "3",
+            "AG": "4+",
+            "PA": "4+",
+            "AV": "10+"
+          },
+          "skills": [
+            "Block",
+            "Diving Tackle",
+            "Tackle",
+            "Thick Skull"
+          ],
+          "primary": [
+            "G",
+            "S"
+          ],
+          "secondary": [
+            "P"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "old-world-alliance-8",
+          "name": "Troll Slayer",
+          "role": "Special, Dwarf",
+          "max": 1,
+          "cost": 95,
+          "stats": {
+            "MA": "5",
+            "ST": "3",
+            "AG": "4+",
+            "PA": "5+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Block",
+            "Dauntless",
+            "Frenzy",
+            "Hatred (Troll)",
+            "Thick Skull"
+          ],
+          "primary": [
+            "G",
+            "S"
+          ],
+          "secondary": [
+            "A"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "old-world-alliance-9",
+          "name": "Ogre",
+          "role": "Big Guy, Ogre",
+          "max": 1,
+          "cost": 140,
+          "stats": {
+            "MA": "5",
+            "ST": "5",
+            "AG": "4+",
+            "PA": "5+",
+            "AV": "10+"
+          },
+          "skills": [
+            "Bone Head",
+            "Loner (3+)",
+            "Mighty Blow",
+            "Thick Skull",
+            "Throw Team-mate"
+          ],
+          "primary": [
+            "S"
+          ],
+          "secondary": [
+            "A",
+            "G"
+          ],
+          "bigGuy": true
+        },
+        {
+          "id": "old-world-alliance-10",
+          "name": "Altern Forest Treeman",
+          "role": "Big Guy, Treeman",
+          "max": 1,
+          "cost": 120,
+          "stats": {
+            "MA": "2",
+            "ST": "6",
+            "AG": "5+",
+            "PA": "5+",
+            "AV": "11+"
+          },
+          "skills": [
+            "Loner (4+)",
+            "Mighty Blow",
+            "Stand Firm",
+            "Strong Arm",
+            "Take Root",
+            "Thick Skull",
+            "Throw Team-mate",
+            "Timmm-ber!"
+          ],
+          "primary": [
+            "S"
+          ],
+          "secondary": [
+            "A",
+            "G",
+            "P"
+          ],
+          "bigGuy": true
+        }
+      ],
+      "rerollCost": 70,
+      "apothecary": true,
+      "leagues": [
+        "Old World Classic"
+      ],
+      "specialRules": [],
+      "favouredOptions": [],
+      "maxBigGuys": 1,
+      "source": "https://bloodbowlbase.ru/bb2025/teams/Old_World_Alliance/"
+    },
+    {
+      "id": "orc",
+      "name": "Orc",
+      "tier": 1,
+      "positions": [
+        {
+          "id": "orc-0",
+          "name": "Orc Lineman",
+          "role": "Lineman, Orc",
+          "max": 16,
+          "cost": 50,
+          "stats": {
+            "MA": "5",
+            "ST": "3",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "10+"
+          },
+          "skills": [],
+          "primary": [
+            "G",
+            "S"
+          ],
+          "secondary": [
+            "A",
+            "D"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "orc-1",
+          "name": "Goblin Lineman",
+          "role": "Lineman, Goblin",
+          "max": 4,
+          "cost": 40,
+          "stats": {
+            "MA": "6",
+            "ST": "2",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Dodge",
+            "Right Stuff",
+            "Stunty"
+          ],
+          "primary": [
+            "A",
+            "D"
+          ],
+          "secondary": [
+            "G",
+            "P",
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "orc-2",
+          "name": "Orc Thrower",
+          "role": "Thrower, Orc",
+          "max": 2,
+          "cost": 75,
+          "stats": {
+            "MA": "6",
+            "ST": "3",
+            "AG": "3+",
+            "PA": "3+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Pass",
+            "Sure Hands"
+          ],
+          "primary": [
+            "G",
+            "P"
+          ],
+          "secondary": [
+            "A",
+            "S",
+            "D"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "orc-3",
+          "name": "Orc Blitzer",
+          "role": "Blitzer, Orc",
+          "max": 2,
+          "cost": 85,
+          "stats": {
+            "MA": "6",
+            "ST": "3",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "10+"
+          },
+          "skills": [
+            "Block",
+            "Break Tackle"
+          ],
+          "primary": [
+            "G",
+            "S"
+          ],
+          "secondary": [
+            "A",
+            "D"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "orc-4",
+          "name": "Big Un Blocker",
+          "role": "Blocker, Orc",
+          "max": 2,
+          "cost": 95,
+          "stats": {
+            "MA": "5",
+            "ST": "4",
+            "AG": "4+",
+            "PA": "6+",
+            "AV": "10+"
+          },
+          "skills": [
+            "Mighty Blow",
+            "Taunt",
+            "Thick Skull",
+            "Unsteady"
+          ],
+          "primary": [
+            "G",
+            "S"
+          ],
+          "secondary": [
+            "A",
+            "D"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "orc-5",
+          "name": "Troll",
+          "role": "Big Guy, Troll",
+          "max": 1,
+          "cost": 115,
+          "stats": {
+            "MA": "4",
+            "ST": "5",
+            "AG": "5+",
+            "PA": "5+",
+            "AV": "10+"
+          },
+          "skills": [
+            "Always Hungry",
+            "Loner (4+)",
+            "Mighty Blow",
+            "Projectile Vomit",
+            "Really Stupid",
+            "Regeneration",
+            "Throw Team-mate"
+          ],
+          "primary": [
+            "S"
+          ],
+          "secondary": [
+            "A",
+            "G",
+            "P"
+          ],
+          "bigGuy": false
+        }
+      ],
+      "rerollCost": 60,
+      "apothecary": true,
+      "leagues": [
+        "Badlands Brawl"
+      ],
+      "specialRules": [
+        "Brawlin' Brutes",
+        "Team Captain"
+      ],
+      "favouredOptions": [],
+      "maxBigGuys": null,
+      "source": "https://bloodbowlbase.ru/bb2025/teams/Orc/"
+    },
+    {
+      "id": "wood-elf",
+      "name": "Wood Elf",
+      "tier": 1,
+      "positions": [
+        {
+          "id": "wood-elf-0",
+          "name": "Wood Elf Lineman",
+          "role": "Lineman, Elf",
+          "max": 16,
+          "cost": 65,
+          "stats": {
+            "MA": "7",
+            "ST": "3",
+            "AG": "2+",
+            "PA": "3+",
+            "AV": "8+"
+          },
+          "skills": [],
+          "primary": [
+            "A",
+            "G"
+          ],
+          "secondary": [
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "wood-elf-1",
+          "name": "Wood Elf Thrower",
+          "role": "Thrower, Elf",
+          "max": 2,
+          "cost": 85,
+          "stats": {
+            "MA": "7",
+            "ST": "3",
+            "AG": "2+",
+            "PA": "2+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Pass",
+            "Safe Pair of Hands"
+          ],
+          "primary": [
+            "A",
+            "G",
+            "P"
+          ],
+          "secondary": [
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "wood-elf-2",
+          "name": "Wood Elf Catcher",
+          "role": "Catcher, Elf",
+          "max": 2,
+          "cost": 90,
+          "stats": {
+            "MA": "8",
+            "ST": "2",
+            "AG": "2+",
+            "PA": "3+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Catch",
+            "Dodge",
+            "Sprint"
+          ],
+          "primary": [
+            "A",
+            "G"
+          ],
+          "secondary": [
+            "P",
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "wood-elf-3",
+          "name": "Wardancer",
+          "role": "Blitzer, Elf",
+          "max": 2,
+          "cost": 130,
+          "stats": {
+            "MA": "8",
+            "ST": "3",
+            "AG": "2+",
+            "PA": "3+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Block",
+            "Dodge",
+            "Leap"
+          ],
+          "primary": [
+            "A",
+            "G"
+          ],
+          "secondary": [
+            "P",
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "wood-elf-4",
+          "name": "Loren Forest Treeman",
+          "role": "Big Guy, Treeman",
+          "max": 1,
+          "cost": 120,
+          "stats": {
+            "MA": "2",
+            "ST": "6",
+            "AG": "5+",
+            "PA": "5+",
+            "AV": "11+"
+          },
+          "skills": [
+            "Loner (4+)",
+            "Mighty Blow",
+            "Stand Firm",
+            "Strong Arm",
+            "Take Root",
+            "Thick Skull",
+            "Throw Team-mate"
+          ],
+          "primary": [
+            "S"
+          ],
+          "secondary": [
+            "A",
+            "G"
+          ],
+          "bigGuy": false
+        }
+      ],
+      "rerollCost": 50,
+      "apothecary": true,
+      "leagues": [
+        "Elven Kingdoms League",
+        "Woodland League"
+      ],
+      "specialRules": [],
+      "favouredOptions": [],
+      "maxBigGuys": null,
+      "source": "https://bloodbowlbase.ru/bb2025/teams/Wood_Elf/"
+    },
+    {
+      "id": "amazon",
+      "name": "Amazon",
+      "tier": 2,
+      "positions": [
+        {
+          "id": "amazon-0",
+          "name": "Eagle Warrior",
+          "role": "Lineman, Human",
+          "max": 16,
+          "cost": 50,
+          "stats": {
+            "MA": "6",
+            "ST": "3",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Dodge"
+          ],
+          "primary": [
+            "G"
+          ],
+          "secondary": [
+            "A",
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "amazon-1",
+          "name": "Python Warrior",
+          "role": "Thrower, Human",
+          "max": 2,
+          "cost": 80,
+          "stats": {
+            "MA": "6",
+            "ST": "3",
+            "AG": "3+",
+            "PA": "3+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Dodge",
+            "On the Ball",
+            "Pass",
+            "Safe Pass"
+          ],
+          "primary": [
+            "G",
+            "P"
+          ],
+          "secondary": [
+            "A",
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "amazon-2",
+          "name": "Piranha Warrior",
+          "role": "Blitzer, Human",
+          "max": 2,
+          "cost": 90,
+          "stats": {
+            "MA": "7",
+            "ST": "3",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Dodge",
+            "Hit and Run",
+            "Jump Up"
+          ],
+          "primary": [
+            "A",
+            "G"
+          ],
+          "secondary": [
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "amazon-3",
+          "name": "Jaguar Warrior",
+          "role": "Blocker, Human",
+          "max": 2,
+          "cost": 110,
+          "stats": {
+            "MA": "6",
+            "ST": "4",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Defensive",
+            "Dodge"
+          ],
+          "primary": [
+            "G",
+            "S"
+          ],
+          "secondary": [
+            "A"
+          ],
+          "bigGuy": false
+        }
+      ],
+      "rerollCost": 60,
+      "apothecary": true,
+      "leagues": [
+        "Lustrian Superleague"
+      ],
+      "specialRules": [],
+      "favouredOptions": [],
+      "maxBigGuys": null,
+      "source": "https://bloodbowlbase.ru/bb2025/teams/Amazon/"
+    },
+    {
+      "id": "skaven",
+      "name": "Skaven",
+      "tier": 2,
+      "positions": [
+        {
+          "id": "skaven-0",
+          "name": "Skaven Clanrat",
+          "role": "Lineman, Skaven",
+          "max": 16,
+          "cost": 50,
+          "stats": {
+            "MA": "7",
+            "ST": "3",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "8+"
+          },
+          "skills": [],
+          "primary": [
+            "G",
+            "D"
+          ],
+          "secondary": [
+            "A",
+            "M",
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "skaven-1",
+          "name": "Skaven Thrower",
+          "role": "Thrower, Skaven",
+          "max": 2,
+          "cost": 80,
+          "stats": {
+            "MA": "7",
+            "ST": "3",
+            "AG": "3+",
+            "PA": "2+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Pass",
+            "Sure Hands"
+          ],
+          "primary": [
+            "G",
+            "P"
+          ],
+          "secondary": [
+            "A",
+            "D",
+            "M",
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "skaven-2",
+          "name": "Gutter Runner",
+          "role": "Runner, Skaven",
+          "max": 2,
+          "cost": 85,
+          "stats": {
+            "MA": "9",
+            "ST": "2",
+            "AG": "2+",
+            "PA": "4+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Dodge",
+            "Stab"
+          ],
+          "primary": [
+            "A",
+            "G",
+            "D"
+          ],
+          "secondary": [
+            "M",
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "skaven-3",
+          "name": "Skaven Blitzer",
+          "role": "Blitzer, Skaven",
+          "max": 2,
+          "cost": 90,
+          "stats": {
+            "MA": "8",
+            "ST": "3",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Block",
+            "Strip Ball"
+          ],
+          "primary": [
+            "G",
+            "S"
+          ],
+          "secondary": [
+            "A",
+            "D",
+            "M"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "skaven-4",
+          "name": "Rat Ogre",
+          "role": "Big Guy, Skaven",
+          "max": 1,
+          "cost": 150,
+          "stats": {
+            "MA": "6",
+            "ST": "5",
+            "AG": "4+",
+            "PA": "6+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Animal Savagery",
+            "Frenzy",
+            "Loner (4+)",
+            "Mighty Blow",
+            "Prehensile Tail"
+          ],
+          "primary": [
+            "S"
+          ],
+          "secondary": [
+            "A",
+            "G",
+            "M"
+          ],
+          "bigGuy": false
+        }
+      ],
+      "rerollCost": 50,
+      "apothecary": true,
+      "leagues": [
+        "Underworld Challenge"
+      ],
+      "specialRules": [],
+      "favouredOptions": [],
+      "maxBigGuys": null,
+      "source": "https://bloodbowlbase.ru/bb2025/teams/Skaven/"
+    },
+    {
+      "id": "underworld-denizens",
+      "name": "Underworld Denizens",
+      "tier": 2,
+      "positions": [
+        {
+          "id": "underworld-denizens-0",
+          "name": "Goblin Lineman",
+          "role": "Goblin, Lineman",
+          "max": 16,
+          "cost": 40,
+          "stats": {
+            "MA": "6",
+            "ST": "2",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Dodge",
+            "Right Stuff",
+            "Stunty"
+          ],
+          "primary": [
+            "A",
+            "D",
+            "M"
+          ],
+          "secondary": [
+            "G",
+            "P",
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "underworld-denizens-1",
+          "name": "Snotling Lineman",
+          "role": "Lineman, Snotling",
+          "max": 6,
+          "cost": 15,
+          "stats": {
+            "MA": "5",
+            "ST": "1",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "6+"
+          },
+          "skills": [
+            "Dodge",
+            "Insignificant",
+            "Right Stuff",
+            "Sidestep",
+            "Stunty",
+            "Titchy"
+          ],
+          "primary": [
+            "A",
+            "D",
+            "M"
+          ],
+          "secondary": [
+            "G"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "underworld-denizens-2",
+          "name": "Skaven Clanrat",
+          "role": "Lineman, Skaven",
+          "max": 3,
+          "cost": 50,
+          "stats": {
+            "MA": "7",
+            "ST": "3",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Animosity (Goblin)"
+          ],
+          "primary": [
+            "G",
+            "M",
+            "D"
+          ],
+          "secondary": [
+            "A",
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "underworld-denizens-3",
+          "name": "Skaven Thrower",
+          "role": "Skaven, Thrower",
+          "max": 1,
+          "cost": 80,
+          "stats": {
+            "MA": "7",
+            "ST": "3",
+            "AG": "3+",
+            "PA": "2+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Animosity (Goblin)",
+            "Pass",
+            "Sure Hands"
+          ],
+          "primary": [
+            "G",
+            "M",
+            "P"
+          ],
+          "secondary": [
+            "A",
+            "D",
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "underworld-denizens-4",
+          "name": "Gutter Runner",
+          "role": "Runner, Skaven",
+          "max": 1,
+          "cost": 85,
+          "stats": {
+            "MA": "9",
+            "ST": "2",
+            "AG": "2+",
+            "PA": "4+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Animosity (Goblin)",
+            "Dodge",
+            "Stab"
+          ],
+          "primary": [
+            "A",
+            "G",
+            "M",
+            "D"
+          ],
+          "secondary": [
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "underworld-denizens-5",
+          "name": "Skaven Blitzer",
+          "role": "Blitzer, Skaven",
+          "max": 1,
+          "cost": 90,
+          "stats": {
+            "MA": "8",
+            "ST": "3",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Animosity (Goblin)",
+            "Block",
+            "Strip Ball"
+          ],
+          "primary": [
+            "G",
+            "M",
+            "S"
+          ],
+          "secondary": [
+            "A",
+            "P"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "underworld-denizens-6",
+          "name": "Troll",
+          "role": "Big Guy, Troll",
+          "max": 1,
+          "cost": 115,
+          "stats": {
+            "MA": "4",
+            "ST": "5",
+            "AG": "5+",
+            "PA": "5+",
+            "AV": "10+"
+          },
+          "skills": [
+            "Always Hungry",
+            "Loner (4+)",
+            "Mighty Blow",
+            "Projectile Vomit",
+            "Really Stupid",
+            "Regeneration",
+            "Throw Team-mate"
+          ],
+          "primary": [
+            "M",
+            "S"
+          ],
+          "secondary": [
+            "A",
+            "G",
+            "P"
+          ],
+          "bigGuy": true
+        },
+        {
+          "id": "underworld-denizens-7",
+          "name": "Rat Ogre",
+          "role": "Big Guy, Skaven",
+          "max": 1,
+          "cost": 150,
+          "stats": {
+            "MA": "6",
+            "ST": "5",
+            "AG": "4+",
+            "PA": "6+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Animal Savagery",
+            "Frenzy",
+            "Loner (4+)",
+            "Mighty Blow",
+            "Prehensile Tail"
+          ],
+          "primary": [
+            "M",
+            "S"
+          ],
+          "secondary": [
+            "A",
+            "G"
+          ],
+          "bigGuy": true
+        }
+      ],
+      "rerollCost": 70,
+      "apothecary": true,
+      "leagues": [
+        "Underworld Challenge"
+      ],
+      "specialRules": [
+        "Bribery and Corruption"
+      ],
+      "favouredOptions": [],
+      "maxBigGuys": 1,
+      "source": "https://bloodbowlbase.ru/bb2025/teams/Underworld_Denizens/"
+    },
+    {
+      "id": "dark-elf",
+      "name": "Dark Elf",
+      "tier": 3,
+      "positions": [
+        {
+          "id": "dark-elf-0",
+          "name": "Dark Elf Lineman",
+          "role": "Lineman, Elf",
+          "max": 16,
+          "cost": 65,
+          "stats": {
+            "MA": "6",
+            "ST": "3",
+            "AG": "2+",
+            "PA": "3+",
+            "AV": "9+"
+          },
+          "skills": [
+            "-"
+          ],
+          "primary": [
+            "A",
+            "G"
+          ],
+          "secondary": [
+            "S",
+            "D"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "dark-elf-1",
+          "name": "Dark Elf Runner",
+          "role": "Runner, Elf",
+          "max": 2,
+          "cost": 80,
+          "stats": {
+            "MA": "7",
+            "ST": "3",
+            "AG": "2+",
+            "PA": "3+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Dump-off",
+            "Punt"
+          ],
+          "primary": [
+            "A",
+            "G",
+            "P"
+          ],
+          "secondary": [
+            "S",
+            "D"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "dark-elf-2",
+          "name": "Dark Elf Assassin",
+          "role": "Special, Elf",
+          "max": 2,
+          "cost": 90,
+          "stats": {
+            "MA": "7",
+            "ST": "3",
+            "AG": "2+",
+            "PA": "4+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Hit and Run",
+            "Shadowing",
+            "Stab"
+          ],
+          "primary": [
+            "A",
+            "D"
+          ],
+          "secondary": [
+            "G",
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "dark-elf-3",
+          "name": "Dark Elf Blitzer",
+          "role": "Blitzer, Elf",
+          "max": 2,
+          "cost": 105,
+          "stats": {
+            "MA": "7",
+            "ST": "3",
+            "AG": "2+",
+            "PA": "3+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Block"
+          ],
+          "primary": [
+            "A",
+            "G"
+          ],
+          "secondary": [
+            "P",
+            "S",
+            "D"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "dark-elf-4",
+          "name": "Witch Elf",
+          "role": "Special, Elf",
+          "max": 2,
+          "cost": 110,
+          "stats": {
+            "MA": "7",
+            "ST": "3",
+            "AG": "2+",
+            "PA": "4+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Dodge",
+            "Frenzy",
+            "Jump Up"
+          ],
+          "primary": [
+            "A",
+            "G"
+          ],
+          "secondary": [
+            "S",
+            "D"
+          ],
+          "bigGuy": false
+        }
+      ],
+      "rerollCost": 50,
+      "apothecary": true,
+      "leagues": [
+        "Elven Kingdoms League"
+      ],
+      "specialRules": [],
+      "favouredOptions": [],
+      "maxBigGuys": null,
+      "source": "https://bloodbowlbase.ru/bb2025/teams/Dark_Elf/"
+    },
+    {
+      "id": "high-elf",
+      "name": "High Elf",
+      "tier": 3,
+      "positions": [
+        {
+          "id": "high-elf-0",
+          "name": "High Elf Lineman",
+          "role": "Lineman, Elf",
+          "max": 16,
+          "cost": 65,
+          "stats": {
+            "MA": "6",
+            "ST": "3",
+            "AG": "2+",
+            "PA": "3+",
+            "AV": "9+"
+          },
+          "skills": [],
+          "primary": [
+            "A",
+            "G"
+          ],
+          "secondary": [
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "high-elf-1",
+          "name": "Phoenix Warrior",
+          "role": "Thrower, Elf",
+          "max": 2,
+          "cost": 90,
+          "stats": {
+            "MA": "6",
+            "ST": "3",
+            "AG": "2+",
+            "PA": "2+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Cloud Burster",
+            "Pass",
+            "Safe Pass"
+          ],
+          "primary": [
+            "A",
+            "G",
+            "P"
+          ],
+          "secondary": [
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "high-elf-2",
+          "name": "Dragon Prince",
+          "role": "Blitzer, Elf, Runner",
+          "max": 2,
+          "cost": 110,
+          "stats": {
+            "MA": "8",
+            "ST": "3",
+            "AG": "2+",
+            "PA": "4+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Block",
+            "My Ball",
+            "Steady Footing"
+          ],
+          "primary": [
+            "A",
+            "G"
+          ],
+          "secondary": [
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "high-elf-3",
+          "name": "White Lion",
+          "role": "Blitzer, Elf",
+          "max": 2,
+          "cost": 110,
+          "stats": {
+            "MA": "7",
+            "ST": "3",
+            "AG": "2+",
+            "PA": "3+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Claws",
+            "Wrestle"
+          ],
+          "primary": [
+            "A",
+            "G"
+          ],
+          "secondary": [
+            "P",
+            "S"
+          ],
+          "bigGuy": false
+        }
+      ],
+      "rerollCost": 50,
+      "apothecary": true,
+      "leagues": [
+        "Elven Kingdoms League"
+      ],
+      "specialRules": [],
+      "favouredOptions": [],
+      "maxBigGuys": null,
+      "source": "https://bloodbowlbase.ru/bb2025/teams/High_Elf/"
+    },
+    {
+      "id": "human",
+      "name": "Human",
+      "tier": 3,
+      "positions": [
+        {
+          "id": "human-0",
+          "name": "Human Lineman",
+          "role": "Lineman, Human",
+          "max": 16,
+          "cost": 50,
+          "stats": {
+            "MA": "6",
+            "ST": "3",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "9+"
+          },
+          "skills": [],
+          "primary": [
+            "G"
+          ],
+          "secondary": [
+            "A",
+            "D",
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "human-1",
+          "name": "Halfling Hopeful",
+          "role": "Lineman, Halfling",
+          "max": 3,
+          "cost": 30,
+          "stats": {
+            "MA": "5",
+            "ST": "2",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "7+"
+          },
+          "skills": [
+            "Dodge",
+            "Right Stuff",
+            "Stunty"
+          ],
+          "primary": [
+            "A"
+          ],
+          "secondary": [
+            "D",
+            "G",
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "human-2",
+          "name": "Human Catcher",
+          "role": "Catcher, Human",
+          "max": 2,
+          "cost": 75,
+          "stats": {
+            "MA": "8",
+            "ST": "3",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Catch",
+            "Dodge"
+          ],
+          "primary": [
+            "A",
+            "G"
+          ],
+          "secondary": [
+            "D",
+            "P",
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "human-3",
+          "name": "Human Thrower",
+          "role": "Thrower, Human",
+          "max": 2,
+          "cost": 75,
+          "stats": {
+            "MA": "6",
+            "ST": "3",
+            "AG": "3+",
+            "PA": "3+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Pass",
+            "Sure Hands"
+          ],
+          "primary": [
+            "G",
+            "P"
+          ],
+          "secondary": [
+            "A",
+            "D",
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "human-4",
+          "name": "Human Blitzer",
+          "role": "Blitzer, Human",
+          "max": 2,
+          "cost": 85,
+          "stats": {
+            "MA": "7",
+            "ST": "3",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Block",
+            "Tackle"
+          ],
+          "primary": [
+            "G",
+            "S"
+          ],
+          "secondary": [
+            "A",
+            "D"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "human-5",
+          "name": "Ogre",
+          "role": "Big Guy, Ogre",
+          "max": 1,
+          "cost": 140,
+          "stats": {
+            "MA": "5",
+            "ST": "5",
+            "AG": "4+",
+            "PA": "5+",
+            "AV": "10+"
+          },
+          "skills": [
+            "Bone Head",
+            "Loner (3+)",
+            "Mighty Blow",
+            "Thick Skull",
+            "Throw Team-mate"
+          ],
+          "primary": [
+            "S"
+          ],
+          "secondary": [
+            "A",
+            "G"
+          ],
+          "bigGuy": false
+        }
+      ],
+      "rerollCost": 50,
+      "apothecary": true,
+      "leagues": [
+        "Old World Classic"
+      ],
+      "specialRules": [
+        "Team Captain"
+      ],
+      "favouredOptions": [],
+      "maxBigGuys": null,
+      "source": "https://bloodbowlbase.ru/bb2025/teams/Human/"
+    },
+    {
+      "id": "lizardmen",
+      "name": "Lizardmen",
+      "tier": 3,
+      "positions": [
+        {
+          "id": "lizardmen-0",
+          "name": "Skink Lineman",
+          "role": "Lineman, Lizardman",
+          "max": 16,
+          "cost": 60,
+          "stats": {
+            "MA": "8",
+            "ST": "2",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Dodge",
+            "Stunty"
+          ],
+          "primary": [
+            "A"
+          ],
+          "secondary": [
+            "G",
+            "P",
+            "S",
+            "D"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "lizardmen-1",
+          "name": "Chameleon Skink",
+          "role": "Thrower, Lizardman",
+          "max": 2,
+          "cost": 70,
+          "stats": {
+            "MA": "7",
+            "ST": "2",
+            "AG": "3+",
+            "PA": "3+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Dodge",
+            "On the Ball",
+            "Shadowing",
+            "Stunty"
+          ],
+          "primary": [
+            "A",
+            "P"
+          ],
+          "secondary": [
+            "G",
+            "S",
+            "D"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "lizardmen-2",
+          "name": "Saurus Blocker",
+          "role": "Blocker, Lizardman",
+          "max": 6,
+          "cost": 90,
+          "stats": {
+            "MA": "6",
+            "ST": "4",
+            "AG": "5+",
+            "PA": "6+",
+            "AV": "10+"
+          },
+          "skills": [
+            "Juggernaut",
+            "Unsteady"
+          ],
+          "primary": [
+            "G",
+            "S"
+          ],
+          "secondary": [
+            "A"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "lizardmen-3",
+          "name": "Kroxigor",
+          "role": "Big Guy, Lizardman",
+          "max": 1,
+          "cost": 140,
+          "stats": {
+            "MA": "6",
+            "ST": "5",
+            "AG": "5+",
+            "PA": "6+",
+            "AV": "10+"
+          },
+          "skills": [
+            "Bone Head",
+            "Loner (4+)",
+            "Mighty Blow",
+            "Prehensile Tail",
+            "Thick Skull"
+          ],
+          "primary": [
+            "S"
+          ],
+          "secondary": [
+            "A",
+            "G"
+          ],
+          "bigGuy": false
+        }
+      ],
+      "rerollCost": 70,
+      "apothecary": true,
+      "leagues": [
+        "Lustrian Superleague"
+      ],
+      "specialRules": [],
+      "favouredOptions": [],
+      "maxBigGuys": null,
+      "source": "https://bloodbowlbase.ru/bb2025/teams/Lizardmen/"
+    },
+    {
+      "id": "shambling-undead",
+      "name": "Shambling Undead",
+      "tier": 3,
+      "positions": [
+        {
+          "id": "shambling-undead-0",
+          "name": "Skeleton Lineman",
+          "role": "Human, Lineman, Skeleton, Undead",
+          "max": 16,
+          "cost": 40,
+          "stats": {
+            "MA": "5",
+            "ST": "3",
+            "AG": "4+",
+            "PA": "6+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Regeneration",
+            "Thick Skull"
+          ],
+          "primary": [
+            "G"
+          ],
+          "secondary": [
+            "A",
+            "D",
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "shambling-undead-1",
+          "name": "Zombie Lineman",
+          "role": "Human, Lineman, Undead, Zombie",
+          "max": 16,
+          "cost": 40,
+          "stats": {
+            "MA": "4",
+            "ST": "3",
+            "AG": "4+",
+            "PA": "6+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Eye Gouge",
+            "Regeneration",
+            "Unsteady"
+          ],
+          "primary": [
+            "D",
+            "G"
+          ],
+          "secondary": [
+            "A",
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "shambling-undead-2",
+          "name": "Ghoul Runner",
+          "role": "Ghoul, Runner, Undead",
+          "max": 2,
+          "cost": 75,
+          "stats": {
+            "MA": "7",
+            "ST": "3",
+            "AG": "3+",
+            "PA": "3+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Dodge",
+            "Regeneration"
+          ],
+          "primary": [
+            "A",
+            "G"
+          ],
+          "secondary": [
+            "D",
+            "P",
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "shambling-undead-3",
+          "name": "Wight Blitzer",
+          "role": "Blitzer, Human, Skeleton, Undead",
+          "max": 2,
+          "cost": 95,
+          "stats": {
+            "MA": "6",
+            "ST": "3",
+            "AG": "3+",
+            "PA": "5+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Block",
+            "Regeneration",
+            "Tackle",
+            "Thick Skull"
+          ],
+          "primary": [
+            "G",
+            "S"
+          ],
+          "secondary": [
+            "A",
+            "D"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "shambling-undead-4",
+          "name": "Mummy",
+          "role": "Big Guy, Blocker, Human, Undead",
+          "max": 2,
+          "cost": 125,
+          "stats": {
+            "MA": "3",
+            "ST": "5",
+            "AG": "5+",
+            "PA": "6+",
+            "AV": "10+"
+          },
+          "skills": [
+            "Mighty Blow",
+            "Regeneration"
+          ],
+          "primary": [
+            "S"
+          ],
+          "secondary": [
+            "A",
+            "G"
+          ],
+          "bigGuy": false
+        }
+      ],
+      "rerollCost": 70,
+      "apothecary": false,
+      "leagues": [
+        "Sylvanian Spotlight"
+      ],
+      "specialRules": [
+        "Masters of Undeath"
+      ],
+      "favouredOptions": [],
+      "maxBigGuys": null,
+      "source": "https://bloodbowlbase.ru/bb2025/teams/Shambling_Undead/"
+    },
+    {
+      "id": "vampire",
+      "name": "Vampire",
+      "tier": 3,
+      "positions": [
+        {
+          "id": "vampire-0",
+          "name": "Thrall Lineman",
+          "role": "Human, Lineman, Thrall",
+          "max": 16,
+          "cost": 40,
+          "stats": {
+            "MA": "6",
+            "ST": "3",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "8+"
+          },
+          "skills": [],
+          "primary": [
+            "G"
+          ],
+          "secondary": [
+            "A",
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "vampire-1",
+          "name": "Vampire Runner",
+          "role": "Runner, Undead, Vampire",
+          "max": 2,
+          "cost": 100,
+          "stats": {
+            "MA": "8",
+            "ST": "3",
+            "AG": "2+",
+            "PA": "3+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Bloodlust (2+)",
+            "Hypnotic Gaze",
+            "Regeneration"
+          ],
+          "primary": [
+            "A",
+            "G"
+          ],
+          "secondary": [
+            "P",
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "vampire-2",
+          "name": "Vampire Thrower",
+          "role": "Thrower, Undead, Vampire",
+          "max": 2,
+          "cost": 110,
+          "stats": {
+            "MA": "6",
+            "ST": "4",
+            "AG": "2+",
+            "PA": "2+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Bloodlust (2+)",
+            "Hypnotic Gaze",
+            "Pass",
+            "Regeneration"
+          ],
+          "primary": [
+            "A",
+            "G",
+            "P"
+          ],
+          "secondary": [
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "vampire-3",
+          "name": "Vampire Blitzer",
+          "role": "Blitzer, Undead, Vampire",
+          "max": 2,
+          "cost": 110,
+          "stats": {
+            "MA": "6",
+            "ST": "4",
+            "AG": "2+",
+            "PA": "4+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Bloodlust (3+)",
+            "Hypnotic Gaze",
+            "Juggernaut",
+            "Regeneration"
+          ],
+          "primary": [
+            "A",
+            "G",
+            "S"
+          ],
+          "secondary": [],
+          "bigGuy": false
+        },
+        {
+          "id": "vampire-4",
+          "name": "Vargheist",
+          "role": "Big Guy, Undead, Vampire",
+          "max": 1,
+          "cost": 150,
+          "stats": {
+            "MA": "5",
+            "ST": "5",
+            "AG": "4+",
+            "PA": "6+",
+            "AV": "10+"
+          },
+          "skills": [
+            "Bloodlust (3+)",
+            "Claws",
+            "Frenzy",
+            "Loner (4+)",
+            "Regeneration"
+          ],
+          "primary": [
+            "S"
+          ],
+          "secondary": [
+            "A",
+            "G"
+          ],
+          "bigGuy": false
+        }
+      ],
+      "rerollCost": 60,
+      "apothecary": true,
+      "leagues": [
+        "Sylvanian Spotlight"
+      ],
+      "specialRules": [
+        "Masters of Undeath"
+      ],
+      "favouredOptions": [],
+      "maxBigGuys": null,
+      "source": "https://bloodbowlbase.ru/bb2025/teams/Vampire/"
+    },
+    {
+      "id": "necromantic-horror",
+      "name": "Necromantic Horror",
+      "tier": 4,
+      "positions": [
+        {
+          "id": "necromantic-horror-0",
+          "name": "Zombie Lineman",
+          "role": "Human, Lineman, Undead, Zombie",
+          "max": 16,
+          "cost": 40,
+          "stats": {
+            "MA": "4",
+            "ST": "3",
+            "AG": "4+",
+            "PA": "6+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Eye Gouge",
+            "Regeneration",
+            "Unsteady"
+          ],
+          "primary": [
+            "D",
+            "G"
+          ],
+          "secondary": [
+            "A",
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "necromantic-horror-1",
+          "name": "Ghoul Runner",
+          "role": "Ghoul, Runner, Undead",
+          "max": 2,
+          "cost": 75,
+          "stats": {
+            "MA": "7",
+            "ST": "3",
+            "AG": "3+",
+            "PA": "3+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Dodge",
+            "Regeneration"
+          ],
+          "primary": [
+            "A",
+            "G"
+          ],
+          "secondary": [
+            "D",
+            "P",
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "necromantic-horror-2",
+          "name": "Wraith",
+          "role": "Blocker, Undead, Wraith",
+          "max": 2,
+          "cost": 85,
+          "stats": {
+            "MA": "6",
+            "ST": "3",
+            "AG": "3+",
+            "PA": "-",
+            "AV": "9+"
+          },
+          "skills": [
+            "Block",
+            "Foul Appearance",
+            "No Ball",
+            "Regeneration",
+            "Sidestep"
+          ],
+          "primary": [
+            "G",
+            "S"
+          ],
+          "secondary": [
+            "A",
+            "D"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "necromantic-horror-3",
+          "name": "Flesh Golem",
+          "role": "Blocker, Construct, Undead",
+          "max": 2,
+          "cost": 110,
+          "stats": {
+            "MA": "4",
+            "ST": "4",
+            "AG": "4+",
+            "PA": "6+",
+            "AV": "10+"
+          },
+          "skills": [
+            "Regeneration",
+            "Stand Firm",
+            "Thick Skull",
+            "Unsteady"
+          ],
+          "primary": [
+            "G",
+            "S"
+          ],
+          "secondary": [
+            "A",
+            "D"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "necromantic-horror-4",
+          "name": "Werewolf",
+          "role": "Blitzer, Undead, Werewolf",
+          "max": 2,
+          "cost": 120,
+          "stats": {
+            "MA": "8",
+            "ST": "3",
+            "AG": "3+",
+            "PA": "3+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Claws",
+            "Frenzy",
+            "Regeneration"
+          ],
+          "primary": [
+            "A",
+            "G"
+          ],
+          "secondary": [
+            "D",
+            "P",
+            "S"
+          ],
+          "bigGuy": false
+        }
+      ],
+      "rerollCost": 70,
+      "apothecary": false,
+      "leagues": [
+        "Sylvanian Spotlight"
+      ],
+      "specialRules": [
+        "Masters of Undeath"
+      ],
+      "favouredOptions": [],
+      "maxBigGuys": null,
+      "source": "https://bloodbowlbase.ru/bb2025/teams/Necromantic_Horror/"
+    },
+    {
+      "id": "norse",
+      "name": "Norse",
+      "tier": 4,
+      "positions": [
+        {
+          "id": "norse-0",
+          "name": "Norse Raider",
+          "role": "Lineman, Human",
+          "max": 16,
+          "cost": 50,
+          "stats": {
+            "MA": "6",
+            "ST": "3",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Block",
+            "Drunkard",
+            "Thick Skull",
+            "Unsteady"
+          ],
+          "primary": [
+            "G"
+          ],
+          "secondary": [
+            "A",
+            "P",
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "norse-1",
+          "name": "Beer Boar",
+          "role": "Special, Animal",
+          "max": 2,
+          "cost": 20,
+          "stats": {
+            "MA": "5",
+            "ST": "1",
+            "AG": "3+",
+            "PA": "-",
+            "AV": "6+"
+          },
+          "skills": [
+            "Dodge",
+            "No Ball",
+            "Pick-me-up",
+            "Stunty",
+            "Titchy"
+          ],
+          "primary": [],
+          "secondary": [
+            "A"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "norse-2",
+          "name": "Norse Berserker",
+          "role": "Blitzer, Human",
+          "max": 2,
+          "cost": 90,
+          "stats": {
+            "MA": "6",
+            "ST": "3",
+            "AG": "3+",
+            "PA": "5+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Block",
+            "Frenzy",
+            "Jump Up"
+          ],
+          "primary": [
+            "G",
+            "S"
+          ],
+          "secondary": [
+            "A",
+            "P"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "norse-3",
+          "name": "Valkyrie",
+          "role": "Catcher, Human, Thrower",
+          "max": 2,
+          "cost": 95,
+          "stats": {
+            "MA": "7",
+            "ST": "3",
+            "AG": "3+",
+            "PA": "3+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Catch",
+            "Dauntless",
+            "Pass",
+            "Strip Ball"
+          ],
+          "primary": [
+            "A",
+            "G",
+            "P"
+          ],
+          "secondary": [
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "norse-4",
+          "name": "Ulfwerener",
+          "role": "Blocker, Human",
+          "max": 2,
+          "cost": 105,
+          "stats": {
+            "MA": "6",
+            "ST": "4",
+            "AG": "4+",
+            "PA": "6+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Frenzy",
+            "Unsteady"
+          ],
+          "primary": [
+            "G",
+            "S"
+          ],
+          "secondary": [
+            "A"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "norse-5",
+          "name": "Yhetee",
+          "role": "Big Guy, Yhetee",
+          "max": 1,
+          "cost": 140,
+          "stats": {
+            "MA": "5",
+            "ST": "5",
+            "AG": "4+",
+            "PA": "6+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Claws",
+            "Disturbing Presence",
+            "Frenzy",
+            "Loner (4+)",
+            "Unchannelled Fury"
+          ],
+          "primary": [
+            "S"
+          ],
+          "secondary": [
+            "A",
+            "G"
+          ],
+          "bigGuy": false
+        }
+      ],
+      "rerollCost": 60,
+      "apothecary": true,
+      "leagues": [
+        "Chaos Clash",
+        "Old World Classic"
+      ],
+      "specialRules": [
+        "Favoured of Khorne"
+      ],
+      "favouredOptions": [],
+      "maxBigGuys": null,
+      "source": "https://bloodbowlbase.ru/bb2025/teams/Norse/"
+    },
+    {
+      "id": "nurgle",
+      "name": "Nurgle",
+      "tier": 4,
+      "positions": [
+        {
+          "id": "nurgle-0",
+          "name": "Rotter",
+          "role": "Lineman, Human",
+          "max": 16,
+          "cost": 40,
+          "stats": {
+            "MA": "5",
+            "ST": "3",
+            "AG": "4+",
+            "PA": "6+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Decay",
+            "Plague Ridden"
+          ],
+          "primary": [
+            "G",
+            "M",
+            "D"
+          ],
+          "secondary": [
+            "A",
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "nurgle-1",
+          "name": "Pestigor",
+          "role": "Runner, Beastman",
+          "max": 2,
+          "cost": 70,
+          "stats": {
+            "MA": "6",
+            "ST": "3",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Horns",
+            "Plague Ridden",
+            "Regeneration",
+            "Steady Footing",
+            "Thick Skull"
+          ],
+          "primary": [
+            "G",
+            "M",
+            "S"
+          ],
+          "secondary": [
+            "A",
+            "P",
+            "D"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "nurgle-2",
+          "name": "Bloater",
+          "role": "Blocker, Human",
+          "max": 4,
+          "cost": 110,
+          "stats": {
+            "MA": "4",
+            "ST": "4",
+            "AG": "4+",
+            "PA": "6+",
+            "AV": "10+"
+          },
+          "skills": [
+            "Disturbing Presence",
+            "Foul Appearance",
+            "Plague Ridden",
+            "Regeneration",
+            "Stand Firm",
+            "Unsteady"
+          ],
+          "primary": [
+            "G",
+            "M",
+            "S"
+          ],
+          "secondary": [
+            "A",
+            "D"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "nurgle-3",
+          "name": "Rotspawn",
+          "role": "Big Guy, Spawn",
+          "max": 1,
+          "cost": 140,
+          "stats": {
+            "MA": "4",
+            "ST": "5",
+            "AG": "5+",
+            "PA": "6+",
+            "AV": "10+"
+          },
+          "skills": [
+            "Disturbing Presence",
+            "Foul Appearance",
+            "Loner (4+)",
+            "Mighty Blow",
+            "Pick-me-up",
+            "Plague Ridden",
+            "Really Stupid",
+            "Regeneration",
+            "Tentacles"
+          ],
+          "primary": [
+            "S"
+          ],
+          "secondary": [
+            "G",
+            "M",
+            "D"
+          ],
+          "bigGuy": false
+        }
+      ],
+      "rerollCost": 60,
+      "apothecary": false,
+      "leagues": [
+        "Chaos Clash"
+      ],
+      "specialRules": [
+        "Favoured of Nurgle",
+        "Brawlin' Brutes"
+      ],
+      "favouredOptions": [],
+      "maxBigGuys": null,
+      "source": "https://bloodbowlbase.ru/bb2025/teams/Nurgle/"
+    },
+    {
+      "id": "tomb-kings",
+      "name": "Tomb Kings",
+      "tier": 4,
+      "positions": [
+        {
+          "id": "tomb-kings-0",
+          "name": "Skeleton Lineman",
+          "role": "Human, Lineman, Skeleton, Undead",
+          "max": 16,
+          "cost": 40,
+          "stats": {
+            "MA": "5",
+            "ST": "3",
+            "AG": "4+",
+            "PA": "6+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Regeneration",
+            "Thick Skull"
+          ],
+          "primary": [
+            "G"
+          ],
+          "secondary": [
+            "A",
+            "D",
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "tomb-kings-1",
+          "name": "Tomb Kings Thrower",
+          "role": "Human, Skeleton, Thrower, Undead",
+          "max": 2,
+          "cost": 65,
+          "stats": {
+            "MA": "6",
+            "ST": "3",
+            "AG": "4+",
+            "PA": "3+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Pass",
+            "Regeneration",
+            "Sure Hands",
+            "Thick Skull"
+          ],
+          "primary": [
+            "G",
+            "P"
+          ],
+          "secondary": [
+            "A",
+            "D",
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "tomb-kings-2",
+          "name": "Tomb Kings Blitzer",
+          "role": "Blitzer, Human, Skeleton, Undead",
+          "max": 2,
+          "cost": 85,
+          "stats": {
+            "MA": "6",
+            "ST": "3",
+            "AG": "4+",
+            "PA": "5+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Block",
+            "Regeneration",
+            "Thick Skull"
+          ],
+          "primary": [
+            "G",
+            "S"
+          ],
+          "secondary": [
+            "A",
+            "D"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "tomb-kings-3",
+          "name": "Tomb Guardian",
+          "role": "Big Guy, Blocker, Human, Undead",
+          "max": 4,
+          "cost": 115,
+          "stats": {
+            "MA": "4",
+            "ST": "5",
+            "AG": "5+",
+            "PA": "6+",
+            "AV": "10+"
+          },
+          "skills": [
+            "Brawler",
+            "Decay",
+            "Regeneration"
+          ],
+          "primary": [
+            "S"
+          ],
+          "secondary": [
+            "A",
+            "G"
+          ],
+          "bigGuy": false
+        }
+      ],
+      "rerollCost": 60,
+      "apothecary": false,
+      "leagues": [
+        "Sylvanian Spotlight"
+      ],
+      "specialRules": [
+        "Masters of Undeath"
+      ],
+      "favouredOptions": [],
+      "maxBigGuys": null,
+      "source": "https://bloodbowlbase.ru/bb2025/teams/Tomb_Kings/"
+    },
+    {
+      "id": "chaos-chosen",
+      "name": "Chaos Chosen",
+      "tier": 5,
+      "positions": [
+        {
+          "id": "chaos-chosen-0",
+          "name": "Beastman Lineman",
+          "role": "Lineman, Beastman",
+          "max": 16,
+          "cost": 55,
+          "stats": {
+            "MA": "6",
+            "ST": "3",
+            "AG": "3+",
+            "PA": "3+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Horns",
+            "Thick Skull"
+          ],
+          "primary": [
+            "G",
+            "M"
+          ],
+          "secondary": [
+            "A",
+            "P",
+            "S",
+            "D"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "chaos-chosen-1",
+          "name": "Chaos Chosen",
+          "role": "Blocker, Human",
+          "max": 4,
+          "cost": 100,
+          "stats": {
+            "MA": "5",
+            "ST": "4",
+            "AG": "3+",
+            "PA": "5+",
+            "AV": "10+"
+          },
+          "skills": [
+            "Arm Bar"
+          ],
+          "primary": [
+            "G",
+            "M",
+            "S"
+          ],
+          "secondary": [
+            "A",
+            "D"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "chaos-chosen-2",
+          "name": "Troll",
+          "role": "Big Guy, Troll",
+          "max": 1,
+          "cost": 115,
+          "stats": {
+            "MA": "4",
+            "ST": "5",
+            "AG": "5+",
+            "PA": "5+",
+            "AV": "10+"
+          },
+          "skills": [
+            "Always Hungry",
+            "Loner (4+)",
+            "Mighty Blow",
+            "Projectile Vomit",
+            "Really Stupid",
+            "Regeneration",
+            "Throw Team-mate"
+          ],
+          "primary": [
+            "M",
+            "S"
+          ],
+          "secondary": [
+            "A",
+            "G",
+            "P"
+          ],
+          "bigGuy": true
+        },
+        {
+          "id": "chaos-chosen-3",
+          "name": "Ogre",
+          "role": "Big Guy, Ogre",
+          "max": 1,
+          "cost": 140,
+          "stats": {
+            "MA": "5",
+            "ST": "5",
+            "AG": "4+",
+            "PA": "5+",
+            "AV": "10+"
+          },
+          "skills": [
+            "Bone Head",
+            "Loner (4+)",
+            "Mighty Blow",
+            "Thick Skull",
+            "Throw Team-mate"
+          ],
+          "primary": [
+            "M",
+            "S"
+          ],
+          "secondary": [
+            "A",
+            "G"
+          ],
+          "bigGuy": true
+        },
+        {
+          "id": "chaos-chosen-4",
+          "name": "Minotaur",
+          "role": "Big Guy, Minotaur",
+          "max": 1,
+          "cost": 150,
+          "stats": {
+            "MA": "5",
+            "ST": "5",
+            "AG": "4+",
+            "PA": "6+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Frenzy",
+            "Horns",
+            "Loner (4+)",
+            "Mighty Blow",
+            "Thick Skull",
+            "Unchannelled Fury"
+          ],
+          "primary": [
+            "M",
+            "S"
+          ],
+          "secondary": [
+            "A",
+            "G"
+          ],
+          "bigGuy": true
+        }
+      ],
+      "rerollCost": 50,
+      "apothecary": true,
+      "leagues": [
+        "Chaos Clash"
+      ],
+      "specialRules": [],
+      "favouredOptions": [
+        "Undivided",
+        "Hashut",
+        "Khorne",
+        "Nurgle",
+        "Slaanesh",
+        "Tzeentch"
+      ],
+      "maxBigGuys": 1,
+      "source": "https://bloodbowlbase.ru/bb2025/teams/Chaos_Chosen/"
+    },
+    {
+      "id": "chaos-dwarf",
+      "name": "Chaos Dwarf",
+      "tier": 5,
+      "positions": [
+        {
+          "id": "chaos-dwarf-0",
+          "name": "Hobgoblin Lineman",
+          "role": "Lineman, Goblin",
+          "max": 16,
+          "cost": 40,
+          "stats": {
+            "MA": "6",
+            "ST": "3",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "8+"
+          },
+          "skills": [
+            "-"
+          ],
+          "primary": [
+            "D"
+          ],
+          "secondary": [
+            "A",
+            "G",
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "chaos-dwarf-1",
+          "name": "Sneaky Stabba",
+          "role": "Special, Goblin",
+          "max": 2,
+          "cost": 60,
+          "stats": {
+            "MA": "6",
+            "ST": "3",
+            "AG": "3+",
+            "PA": "5+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Shadowing",
+            "Stab"
+          ],
+          "primary": [
+            "D",
+            "G"
+          ],
+          "secondary": [
+            "A",
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "chaos-dwarf-2",
+          "name": "Chaos Dwarf Blocker",
+          "role": "Blocker, Dwarf",
+          "max": 4,
+          "cost": 70,
+          "stats": {
+            "MA": "4",
+            "ST": "3",
+            "AG": "4+",
+            "PA": "6+",
+            "AV": "10+"
+          },
+          "skills": [
+            "Block",
+            "Iron Hard Skin",
+            "Thick Skull"
+          ],
+          "primary": [
+            "G",
+            "S"
+          ],
+          "secondary": [
+            "A",
+            "D",
+            "M"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "chaos-dwarf-3",
+          "name": "Flamesmith",
+          "role": "Special, Dwarf",
+          "max": 2,
+          "cost": 80,
+          "stats": {
+            "MA": "5",
+            "ST": "3",
+            "AG": "4+",
+            "PA": "6+",
+            "AV": "10+"
+          },
+          "skills": [
+            "Brawler",
+            "Breathe Fire",
+            "Disturbing Presence",
+            "Thick Skull"
+          ],
+          "primary": [
+            "G",
+            "S"
+          ],
+          "secondary": [
+            "A",
+            "D",
+            "M"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "chaos-dwarf-4",
+          "name": "Bull Centaur",
+          "role": "Blitzer, Dwarf",
+          "max": 2,
+          "cost": 130,
+          "stats": {
+            "MA": "6",
+            "ST": "4",
+            "AG": "4+",
+            "PA": "6+",
+            "AV": "10+"
+          },
+          "skills": [
+            "Sprint",
+            "Sure Feet",
+            "Thick Skull",
+            "Unsteady"
+          ],
+          "primary": [
+            "G",
+            "S"
+          ],
+          "secondary": [
+            "A",
+            "D",
+            "M"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "chaos-dwarf-5",
+          "name": "Minotaur",
+          "role": "Big Guy, Minotaur",
+          "max": 1,
+          "cost": 150,
+          "stats": {
+            "MA": "5",
+            "ST": "5",
+            "AG": "4+",
+            "PA": "6+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Frenzy",
+            "Horns",
+            "Loner (4+)",
+            "Mighty Blow",
+            "Thick Skull",
+            "Unchannelled Fury"
+          ],
+          "primary": [
+            "M",
+            "S"
+          ],
+          "secondary": [
+            "A",
+            "G"
+          ],
+          "bigGuy": false
+        }
+      ],
+      "rerollCost": 70,
+      "apothecary": true,
+      "leagues": [
+        "Badlands Brawl",
+        "Chaos Clash"
+      ],
+      "specialRules": [
+        "Favoured of Hashut"
+      ],
+      "favouredOptions": [],
+      "maxBigGuys": null,
+      "source": "https://bloodbowlbase.ru/bb2025/teams/Chaos_Dwarf/"
+    },
+    {
+      "id": "dwarf",
+      "name": "Dwarf",
+      "tier": 5,
+      "positions": [
+        {
+          "id": "dwarf-0",
+          "name": "Dwarf Lineman",
+          "role": "Lineman, Dwarf",
+          "max": 16,
+          "cost": 70,
+          "stats": {
+            "MA": "4",
+            "ST": "3",
+            "AG": "4+",
+            "PA": "5+",
+            "AV": "10+"
+          },
+          "skills": [
+            "Block",
+            "Defensive",
+            "Thick Skull"
+          ],
+          "primary": [
+            "D",
+            "G"
+          ],
+          "secondary": [
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "dwarf-1",
+          "name": "Dwarf Runner",
+          "role": "Runner, Dwarf",
+          "max": 2,
+          "cost": 80,
+          "stats": {
+            "MA": "6",
+            "ST": "3",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Sprint",
+            "Sure Hands",
+            "Thick Skull"
+          ],
+          "primary": [
+            "G",
+            "P"
+          ],
+          "secondary": [
+            "A",
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "dwarf-2",
+          "name": "Dwarf Blitzer",
+          "role": "Blitzer, Dwarf",
+          "max": 2,
+          "cost": 100,
+          "stats": {
+            "MA": "5",
+            "ST": "3",
+            "AG": "4+",
+            "PA": "4+",
+            "AV": "10+"
+          },
+          "skills": [
+            "Block",
+            "Diving Tackle",
+            "Tackle",
+            "Thick Skull"
+          ],
+          "primary": [
+            "G",
+            "S"
+          ],
+          "secondary": [
+            "P"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "dwarf-3",
+          "name": "Troll Slayer",
+          "role": "Special, Dwarf",
+          "max": 2,
+          "cost": 95,
+          "stats": {
+            "MA": "5",
+            "ST": "3",
+            "AG": "4+",
+            "PA": "5+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Block",
+            "Dauntless",
+            "Frenzy",
+            "Hatred (Troll)",
+            "Thick Skull"
+          ],
+          "primary": [
+            "G",
+            "S"
+          ],
+          "secondary": [
+            "D"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "dwarf-4",
+          "name": "Deathroller",
+          "role": "Big Guy, Dwarf, Special",
+          "max": 1,
+          "cost": 170,
+          "stats": {
+            "MA": "5",
+            "ST": "7",
+            "AG": "5+",
+            "PA": "-",
+            "AV": "11+"
+          },
+          "skills": [
+            "Break Tackle",
+            "Dirty Player",
+            "Juggernaut",
+            "Loner (4+)",
+            "Mighty Blow",
+            "No Ball",
+            "Secret Weapon",
+            "Stand Firm"
+          ],
+          "primary": [
+            "D",
+            "S"
+          ],
+          "secondary": [
+            "G"
+          ],
+          "bigGuy": false
+        }
+      ],
+      "rerollCost": 60,
+      "apothecary": true,
+      "leagues": [
+        "Worlds Edge Superleague"
+      ],
+      "specialRules": [
+        "Brawlin' Brutes",
+        "Bribery and Corruption"
+      ],
+      "favouredOptions": [],
+      "maxBigGuys": null,
+      "source": "https://bloodbowlbase.ru/bb2025/teams/Dwarf/"
+    },
+    {
+      "id": "elven-union",
+      "name": "Elven Union",
+      "tier": 5,
+      "positions": [
+        {
+          "id": "elven-union-0",
+          "name": "Elf Lineman",
+          "role": "Lineman, Elf",
+          "max": 16,
+          "cost": 65,
+          "stats": {
+            "MA": "6",
+            "ST": "3",
+            "AG": "2+",
+            "PA": "3+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Fumblerooski"
+          ],
+          "primary": [
+            "A",
+            "G"
+          ],
+          "secondary": [
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "elven-union-1",
+          "name": "Elf Thrower",
+          "role": "Thrower, Elf",
+          "max": 2,
+          "cost": 75,
+          "stats": {
+            "MA": "6",
+            "ST": "3",
+            "AG": "2+",
+            "PA": "2+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Hail Mary Pass",
+            "Pass"
+          ],
+          "primary": [
+            "A",
+            "G",
+            "P"
+          ],
+          "secondary": [
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "elven-union-2",
+          "name": "Elf Catcher",
+          "role": "Catcher, Elf",
+          "max": 2,
+          "cost": 100,
+          "stats": {
+            "MA": "8",
+            "ST": "3",
+            "AG": "2+",
+            "PA": "4+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Catch",
+            "Diving Catch",
+            "Nerves of Steel"
+          ],
+          "primary": [
+            "A",
+            "G"
+          ],
+          "secondary": [
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "elven-union-3",
+          "name": "Elf Blitzer",
+          "role": "Blitzer, Elf",
+          "max": 2,
+          "cost": 115,
+          "stats": {
+            "MA": "7",
+            "ST": "3",
+            "AG": "2+",
+            "PA": "3+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Block",
+            "Sidestep"
+          ],
+          "primary": [
+            "A",
+            "G"
+          ],
+          "secondary": [
+            "P",
+            "S"
+          ],
+          "bigGuy": false
+        }
+      ],
+      "rerollCost": 50,
+      "apothecary": true,
+      "leagues": [
+        "Elven Kingdoms League"
+      ],
+      "specialRules": [],
+      "favouredOptions": [],
+      "maxBigGuys": null,
+      "source": "https://bloodbowlbase.ru/bb2025/teams/Elven_Union/"
+    },
+    {
+      "id": "imperial-nobility",
+      "name": "Imperial Nobility",
+      "tier": 5,
+      "positions": [
+        {
+          "id": "imperial-nobility-0",
+          "name": "Imperial Retainer",
+          "role": "Lineman, Human",
+          "max": 16,
+          "cost": 45,
+          "stats": {
+            "MA": "6",
+            "ST": "3",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Fend"
+          ],
+          "primary": [
+            "G"
+          ],
+          "secondary": [
+            "A",
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "imperial-nobility-1",
+          "name": "Imperial Thrower",
+          "role": "Thrower, Human",
+          "max": 2,
+          "cost": 75,
+          "stats": {
+            "MA": "6",
+            "ST": "3",
+            "AG": "3+",
+            "PA": "2+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Give and Go",
+            "Pass",
+            "Pro"
+          ],
+          "primary": [
+            "G",
+            "P"
+          ],
+          "secondary": [
+            "A",
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "imperial-nobility-2",
+          "name": "Bodyguard",
+          "role": "Blocker, Human",
+          "max": 4,
+          "cost": 85,
+          "stats": {
+            "MA": "5",
+            "ST": "3",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Stand Firm",
+            "Wrestle"
+          ],
+          "primary": [
+            "G",
+            "S"
+          ],
+          "secondary": [
+            "A"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "imperial-nobility-3",
+          "name": "Noble Blitzer",
+          "role": "Blitzer, Human",
+          "max": 2,
+          "cost": 90,
+          "stats": {
+            "MA": "7",
+            "ST": "3",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Block",
+            "Catch",
+            "Pro"
+          ],
+          "primary": [
+            "A",
+            "G"
+          ],
+          "secondary": [
+            "P",
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "imperial-nobility-4",
+          "name": "Ogre",
+          "role": "Big Guy, Ogre",
+          "max": 1,
+          "cost": 140,
+          "stats": {
+            "MA": "5",
+            "ST": "5",
+            "AG": "4+",
+            "PA": "5+",
+            "AV": "10+"
+          },
+          "skills": [
+            "Bone Head",
+            "Loner (3+)",
+            "Mighty Blow",
+            "Thick Skull",
+            "Throw Team-mate"
+          ],
+          "primary": [
+            "S"
+          ],
+          "secondary": [
+            "A",
+            "G"
+          ],
+          "bigGuy": false
+        }
+      ],
+      "rerollCost": 60,
+      "apothecary": true,
+      "leagues": [
+        "Old World Classic"
+      ],
+      "specialRules": [],
+      "favouredOptions": [],
+      "maxBigGuys": null,
+      "source": "https://bloodbowlbase.ru/bb2025/teams/Imperial_Nobility/"
+    },
+    {
+      "id": "slann",
+      "name": "Slann",
+      "tier": 5,
+      "positions": [
+        {
+          "id": "slann-0",
+          "name": "Slann Lineman",
+          "role": "Lineman, Lizardman",
+          "max": 16,
+          "cost": 60,
+          "stats": {
+            "MA": "6",
+            "ST": "3",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Pogo"
+          ],
+          "primary": [
+            "G"
+          ],
+          "secondary": [
+            "A",
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "slann-1",
+          "name": "Slann Catcher",
+          "role": "Catcher, Lizardman",
+          "max": 2,
+          "cost": 80,
+          "stats": {
+            "MA": "7",
+            "ST": "2",
+            "AG": "2+",
+            "PA": "3+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Diving Catch",
+            "On the Ball",
+            "Pogo",
+            "Very Long Legs"
+          ],
+          "primary": [
+            "A",
+            "G"
+          ],
+          "secondary": [
+            "P",
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "slann-2",
+          "name": "Slann Blitzer",
+          "role": "Blitzer, Lizardman",
+          "max": 2,
+          "cost": 100,
+          "stats": {
+            "MA": "7",
+            "ST": "3",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Diving Tackle",
+            "Hit and Run",
+            "Jump Up",
+            "Pogo"
+          ],
+          "primary": [
+            "A",
+            "G",
+            "S"
+          ],
+          "secondary": [
+            "P"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "slann-3",
+          "name": "Kroxigor",
+          "role": "Big Guy, Lizardman",
+          "max": 1,
+          "cost": 140,
+          "stats": {
+            "MA": "6",
+            "ST": "5",
+            "AG": "5+",
+            "PA": "-",
+            "AV": "10+"
+          },
+          "skills": [
+            "Bone Head",
+            "Loner (4+)",
+            "Mighty Blow",
+            "Prehensile Tail",
+            "Thick Skull"
+          ],
+          "primary": [
+            "S"
+          ],
+          "secondary": [
+            "A",
+            "G"
+          ],
+          "bigGuy": false
+        }
+      ],
+      "rerollCost": 50,
+      "apothecary": true,
+      "leagues": [
+        "Lustrian Superleague"
+      ],
+      "specialRules": [],
+      "favouredOptions": [],
+      "maxBigGuys": null,
+      "source": "https://dadidimerda.it/teams.php?ruleset=bb25"
+    },
+    {
+      "id": "snotling",
+      "name": "Snotling",
+      "tier": 5,
+      "positions": [
+        {
+          "id": "snotling-0",
+          "name": "Snotling Lineman",
+          "role": "Lineman, Snotling",
+          "max": 16,
+          "cost": 15,
+          "stats": {
+            "MA": "5",
+            "ST": "1",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "6+"
+          },
+          "skills": [
+            "Dodge",
+            "Insignificant",
+            "Right Stuff",
+            "Sidestep",
+            "Stunty",
+            "Titchy"
+          ],
+          "primary": [
+            "A",
+            "D"
+          ],
+          "secondary": [
+            "G"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "snotling-1",
+          "name": "Fun-hoppa",
+          "role": "Snotling, Special",
+          "max": 2,
+          "cost": 20,
+          "stats": {
+            "MA": "6",
+            "ST": "1",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "6+"
+          },
+          "skills": [
+            "Dodge",
+            "Pogo",
+            "Right Stuff",
+            "Sidestep",
+            "Stunty"
+          ],
+          "primary": [
+            "A",
+            "D"
+          ],
+          "secondary": [
+            "G"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "snotling-2",
+          "name": "Stilty Runna",
+          "role": "Runner, Snotling",
+          "max": 2,
+          "cost": 20,
+          "stats": {
+            "MA": "6",
+            "ST": "1",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "6+"
+          },
+          "skills": [
+            "Dodge",
+            "Right Stuff",
+            "Sidestep",
+            "Sprint",
+            "Stunty"
+          ],
+          "primary": [
+            "A",
+            "D"
+          ],
+          "secondary": [
+            "G"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "snotling-3",
+          "name": "Fungus Flinga",
+          "role": "Snotling, Special",
+          "max": 2,
+          "cost": 30,
+          "stats": {
+            "MA": "5",
+            "ST": "1",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "6+"
+          },
+          "skills": [
+            "Bombardier",
+            "Dodge",
+            "Right Stuff",
+            "Secret Weapon",
+            "Sidestep",
+            "Stunty",
+            "Titchy"
+          ],
+          "primary": [
+            "A",
+            "D",
+            "P"
+          ],
+          "secondary": [
+            "G"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "snotling-4",
+          "name": "Pump Wagon",
+          "role": "Big Guy, Snotling, Special",
+          "max": 2,
+          "cost": 100,
+          "stats": {
+            "MA": "5",
+            "ST": "5",
+            "AG": "5+",
+            "PA": "6+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Dirty Player",
+            "Juggernaut",
+            "Mighty Blow",
+            "Really Stupid",
+            "Stand Firm"
+          ],
+          "primary": [
+            "D",
+            "S"
+          ],
+          "secondary": [
+            "A",
+            "G"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "snotling-5",
+          "name": "Trained Troll",
+          "role": "Big Guy, Troll",
+          "max": 2,
+          "cost": 115,
+          "stats": {
+            "MA": "4",
+            "ST": "5",
+            "AG": "5+",
+            "PA": "5+",
+            "AV": "10+"
+          },
+          "skills": [
+            "Always Hungry",
+            "Mighty Blow",
+            "Projectile Vomit",
+            "Really Stupid",
+            "Regeneration",
+            "Throw Team-mate"
+          ],
+          "primary": [
+            "S"
+          ],
+          "secondary": [
+            "A",
+            "G",
+            "P"
+          ],
+          "bigGuy": false
+        }
+      ],
+      "rerollCost": 70,
+      "apothecary": true,
+      "leagues": [
+        "Underworld Challenge"
+      ],
+      "specialRules": [
+        "Bribery and Corruption",
+        "Low Cost Linemen",
+        "Swarming"
+      ],
+      "favouredOptions": [],
+      "maxBigGuys": null,
+      "source": "https://bloodbowlbase.ru/bb2025/teams/Snotling/"
+    },
+    {
+      "id": "black-orc",
+      "name": "Black Orc",
+      "tier": 6,
+      "positions": [
+        {
+          "id": "black-orc-0",
+          "name": "Goblin Bruiser",
+          "role": "Lineman, Goblin",
+          "max": 16,
+          "cost": 45,
+          "stats": {
+            "MA": "6",
+            "ST": "2",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Dodge",
+            "Right Stuff",
+            "Stunty",
+            "Thick Skull"
+          ],
+          "primary": [
+            "A",
+            "D"
+          ],
+          "secondary": [
+            "G",
+            "P",
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "black-orc-1",
+          "name": "Black Orc",
+          "role": "Blocker, Orc",
+          "max": 6,
+          "cost": 90,
+          "stats": {
+            "MA": "4",
+            "ST": "4",
+            "AG": "4+",
+            "PA": "5+",
+            "AV": "10+"
+          },
+          "skills": [
+            "Brawler",
+            "Grab"
+          ],
+          "primary": [
+            "G",
+            "S"
+          ],
+          "secondary": [
+            "A",
+            "D"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "black-orc-2",
+          "name": "Trained Troll",
+          "role": "Big Guy, Troll",
+          "max": 1,
+          "cost": 115,
+          "stats": {
+            "MA": "4",
+            "ST": "5",
+            "AG": "5+",
+            "PA": "5+",
+            "AV": "10+"
+          },
+          "skills": [
+            "Always Hungry",
+            "Mighty Blow",
+            "Projectile Vomit",
+            "Really Stupid",
+            "Regeneration",
+            "Throw Team-mate"
+          ],
+          "primary": [
+            "S"
+          ],
+          "secondary": [
+            "A",
+            "G",
+            "P"
+          ],
+          "bigGuy": false
+        }
+      ],
+      "rerollCost": 60,
+      "apothecary": true,
+      "leagues": [
+        "Badlands Brawl"
+      ],
+      "specialRules": [
+        "Bribery and Corruption",
+        "Brawlin' Brutes"
+      ],
+      "favouredOptions": [],
+      "maxBigGuys": null,
+      "source": "https://bloodbowlbase.ru/bb2025/teams/Black_Orc/"
+    },
+    {
+      "id": "bretonnian",
+      "name": "Bretonnian",
+      "tier": 6,
+      "positions": [
+        {
+          "id": "bretonnian-0",
+          "name": "Bretonnian Squire",
+          "role": "Lineman, Human",
+          "max": 16,
+          "cost": 50,
+          "stats": {
+            "MA": "6",
+            "ST": "3",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Wrestle"
+          ],
+          "primary": [
+            "G"
+          ],
+          "secondary": [
+            "A",
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "bretonnian-1",
+          "name": "Bretonnian Knight Catcher",
+          "role": "Catcher, Human",
+          "max": 2,
+          "cost": 85,
+          "stats": {
+            "MA": "7",
+            "ST": "3",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Catch",
+            "Dauntless",
+            "Nerves of Steel"
+          ],
+          "primary": [
+            "A",
+            "G"
+          ],
+          "secondary": [
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "bretonnian-2",
+          "name": "Bretonnian Knight Thrower",
+          "role": "Thrower, Human",
+          "max": 2,
+          "cost": 80,
+          "stats": {
+            "MA": "6",
+            "ST": "3",
+            "AG": "3+",
+            "PA": "3+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Dauntless",
+            "Nerves of Steel",
+            "Pass"
+          ],
+          "primary": [
+            "G",
+            "P"
+          ],
+          "secondary": [
+            "A",
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "bretonnian-3",
+          "name": "Grail Knight",
+          "role": "Blitzer, Human",
+          "max": 2,
+          "cost": 95,
+          "stats": {
+            "MA": "7",
+            "ST": "3",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "10+"
+          },
+          "skills": [
+            "Block",
+            "Dauntless",
+            "Steady Footing"
+          ],
+          "primary": [
+            "G",
+            "S"
+          ],
+          "secondary": [
+            "A"
+          ],
+          "bigGuy": false
+        }
+      ],
+      "rerollCost": 60,
+      "apothecary": true,
+      "leagues": [
+        "Old World Classic"
+      ],
+      "specialRules": [],
+      "favouredOptions": [],
+      "maxBigGuys": null,
+      "source": "https://bloodbowlbase.ru/bb2025/teams/Bretonnian/"
+    },
+    {
+      "id": "chaos-renegades",
+      "name": "Chaos Renegades",
+      "tier": 6,
+      "positions": [
+        {
+          "id": "chaos-renegades-0",
+          "name": "Renegade Human",
+          "role": "Lineman, Human",
+          "max": 16,
+          "cost": 50,
+          "stats": {
+            "MA": "6",
+            "ST": "3",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Animosity (All)"
+          ],
+          "primary": [
+            "D",
+            "G",
+            "M"
+          ],
+          "secondary": [
+            "A",
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "chaos-renegades-1",
+          "name": "Renegade Goblin",
+          "role": "Goblin, Lineman",
+          "max": 1,
+          "cost": 40,
+          "stats": {
+            "MA": "6",
+            "ST": "2",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Animosity (All)",
+            "Dodge",
+            "Right Stuff",
+            "Stunty"
+          ],
+          "primary": [
+            "A",
+            "D",
+            "M"
+          ],
+          "secondary": [
+            "G",
+            "P"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "chaos-renegades-2",
+          "name": "Renegade Orc",
+          "role": "Lineman, Orc",
+          "max": 1,
+          "cost": 50,
+          "stats": {
+            "MA": "5",
+            "ST": "3",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "10+"
+          },
+          "skills": [
+            "Animosity (All)"
+          ],
+          "primary": [
+            "D",
+            "G",
+            "M"
+          ],
+          "secondary": [
+            "A",
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "chaos-renegades-3",
+          "name": "Renegade Skaven",
+          "role": "Lineman, Skaven",
+          "max": 1,
+          "cost": 50,
+          "stats": {
+            "MA": "7",
+            "ST": "3",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Animosity (All)"
+          ],
+          "primary": [
+            "D",
+            "G",
+            "M"
+          ],
+          "secondary": [
+            "A",
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "chaos-renegades-4",
+          "name": "Renegade Dark Elf",
+          "role": "Elf, Lineman",
+          "max": 1,
+          "cost": 65,
+          "stats": {
+            "MA": "6",
+            "ST": "3",
+            "AG": "2+",
+            "PA": "3+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Animosity (All)"
+          ],
+          "primary": [
+            "A",
+            "D",
+            "G",
+            "M"
+          ],
+          "secondary": [
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "chaos-renegades-5",
+          "name": "Renegade Human Thrower",
+          "role": "Human, Thrower",
+          "max": 1,
+          "cost": 75,
+          "stats": {
+            "MA": "6",
+            "ST": "3",
+            "AG": "3+",
+            "PA": "3+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Animosity (All)",
+            "Pass",
+            "Sure Hands"
+          ],
+          "primary": [
+            "D",
+            "G",
+            "M",
+            "P"
+          ],
+          "secondary": [
+            "A",
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "chaos-renegades-6",
+          "name": "Troll",
+          "role": "Big Guy, Troll",
+          "max": 1,
+          "cost": 115,
+          "stats": {
+            "MA": "4",
+            "ST": "5",
+            "AG": "5+",
+            "PA": "5+",
+            "AV": "10+"
+          },
+          "skills": [
+            "Always Hungry",
+            "Loner (4+)",
+            "Mighty Blow",
+            "Projectile Vomit",
+            "Really Stupid",
+            "Regeneration",
+            "Throw Team-mate"
+          ],
+          "primary": [
+            "S"
+          ],
+          "secondary": [
+            "A",
+            "G",
+            "M",
+            "P"
+          ],
+          "bigGuy": true
+        },
+        {
+          "id": "chaos-renegades-7",
+          "name": "Ogre",
+          "role": "Big Guy, Ogre",
+          "max": 1,
+          "cost": 140,
+          "stats": {
+            "MA": "5",
+            "ST": "5",
+            "AG": "4+",
+            "PA": "5+",
+            "AV": "10+"
+          },
+          "skills": [
+            "Bone Head",
+            "Loner (3+)",
+            "Mighty Blow",
+            "Thick Skull",
+            "Throw Team-mate"
+          ],
+          "primary": [
+            "S"
+          ],
+          "secondary": [
+            "A",
+            "G",
+            "M"
+          ],
+          "bigGuy": true
+        },
+        {
+          "id": "chaos-renegades-8",
+          "name": "Minotaur",
+          "role": "Big Guy, Minotaur",
+          "max": 1,
+          "cost": 150,
+          "stats": {
+            "MA": "5",
+            "ST": "5",
+            "AG": "4+",
+            "PA": "6+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Frenzy",
+            "Horns",
+            "Loner (4+)",
+            "Mighty Blow",
+            "Thick Skull",
+            "Unchannelled Fury"
+          ],
+          "primary": [
+            "S"
+          ],
+          "secondary": [
+            "A",
+            "G",
+            "M"
+          ],
+          "bigGuy": true
+        },
+        {
+          "id": "chaos-renegades-9",
+          "name": "Rat Ogre",
+          "role": "Big Guy, Skaven",
+          "max": 1,
+          "cost": 150,
+          "stats": {
+            "MA": "6",
+            "ST": "5",
+            "AG": "4+",
+            "PA": "6+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Animal Savagery",
+            "Frenzy",
+            "Loner (4+)",
+            "Mighty Blow",
+            "Prehensile Tail"
+          ],
+          "primary": [
+            "S"
+          ],
+          "secondary": [
+            "A",
+            "G",
+            "M"
+          ],
+          "bigGuy": true
+        }
+      ],
+      "rerollCost": 70,
+      "apothecary": true,
+      "leagues": [
+        "Chaos Clash"
+      ],
+      "specialRules": [],
+      "favouredOptions": [
+        "Undivided",
+        "Khorne",
+        "Nurgle",
+        "Slaanesh",
+        "Tzeentch"
+      ],
+      "maxBigGuys": 3,
+      "source": "https://bloodbowlbase.ru/bb2025/teams/Chaos_Renegades/"
+    },
+    {
+      "id": "gnome",
+      "name": "Gnome",
+      "tier": 6,
+      "positions": [
+        {
+          "id": "gnome-0",
+          "name": "Gnome Lineman",
+          "role": "Lineman, Gnome",
+          "max": 16,
+          "cost": 40,
+          "stats": {
+            "MA": "5",
+            "ST": "2",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "7+"
+          },
+          "skills": [
+            "Jump Up",
+            "Right Stuff",
+            "Stunty",
+            "Wrestle"
+          ],
+          "primary": [
+            "A"
+          ],
+          "secondary": [
+            "G",
+            "S",
+            "D"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "gnome-1",
+          "name": "Woodland Fox",
+          "role": "Runner, Animal",
+          "max": 2,
+          "cost": 50,
+          "stats": {
+            "MA": "7",
+            "ST": "2",
+            "AG": "2+",
+            "PA": "-",
+            "AV": "6+"
+          },
+          "skills": [
+            "Dodge",
+            "My Ball",
+            "Sidestep",
+            "Stunty"
+          ],
+          "primary": [],
+          "secondary": [
+            "A"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "gnome-2",
+          "name": "Gnome Illusionist",
+          "role": "Special, Gnome",
+          "max": 2,
+          "cost": 50,
+          "stats": {
+            "MA": "5",
+            "ST": "2",
+            "AG": "3+",
+            "PA": "3+",
+            "AV": "7+"
+          },
+          "skills": [
+            "Jump Up",
+            "Stunty",
+            "Trickster",
+            "Wrestle"
+          ],
+          "primary": [
+            "A",
+            "P"
+          ],
+          "secondary": [
+            "G",
+            "D"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "gnome-3",
+          "name": "Gnome Beastmaster",
+          "role": "Blocker, Gnome",
+          "max": 2,
+          "cost": 55,
+          "stats": {
+            "MA": "5",
+            "ST": "2",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Guard",
+            "Jump Up",
+            "Stunty",
+            "Wrestle"
+          ],
+          "primary": [
+            "A"
+          ],
+          "secondary": [
+            "D",
+            "G",
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "gnome-4",
+          "name": "Altern Forest Treeman",
+          "role": "Big Guy, Treeman",
+          "max": 2,
+          "cost": 120,
+          "stats": {
+            "MA": "2",
+            "ST": "6",
+            "AG": "5+",
+            "PA": "5+",
+            "AV": "11+"
+          },
+          "skills": [
+            "Mighty Blow",
+            "Stand Firm",
+            "Strong Arm",
+            "Take Root",
+            "Thick Skull",
+            "Throw Team-mate",
+            "Timmm-ber!"
+          ],
+          "primary": [
+            "S"
+          ],
+          "secondary": [
+            "A",
+            "G",
+            "P"
+          ],
+          "bigGuy": false
+        }
+      ],
+      "rerollCost": 50,
+      "apothecary": true,
+      "leagues": [
+        "Halfling Thimble Cup",
+        "Woodland League"
+      ],
+      "specialRules": [],
+      "favouredOptions": [],
+      "maxBigGuys": null,
+      "source": "https://bloodbowlbase.ru/bb2025/teams/Gnome/"
+    },
+    {
+      "id": "goblin",
+      "name": "Goblin",
+      "tier": 6,
+      "positions": [
+        {
+          "id": "goblin-0",
+          "name": "Goblin Lineman",
+          "role": "Goblin, Lineman",
+          "max": 16,
+          "cost": 40,
+          "stats": {
+            "MA": "6",
+            "ST": "2",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Dodge",
+            "Right Stuff",
+            "Stunty"
+          ],
+          "primary": [
+            "A",
+            "D"
+          ],
+          "secondary": [
+            "G",
+            "P",
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "goblin-1",
+          "name": "Looney",
+          "role": "Goblin, Special",
+          "max": 1,
+          "cost": 40,
+          "stats": {
+            "MA": "6",
+            "ST": "2",
+            "AG": "3+",
+            "PA": "-",
+            "AV": "8+"
+          },
+          "skills": [
+            "Chainsaw",
+            "No Ball",
+            "Secret Weapon",
+            "Stunty"
+          ],
+          "primary": [
+            "D"
+          ],
+          "secondary": [
+            "A",
+            "G",
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "goblin-2",
+          "name": "Bomma",
+          "role": "Goblin, Special",
+          "max": 1,
+          "cost": 45,
+          "stats": {
+            "MA": "6",
+            "ST": "2",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Bombardier",
+            "Dodge",
+            "Secret Weapon",
+            "Stunty"
+          ],
+          "primary": [
+            "D",
+            "P"
+          ],
+          "secondary": [
+            "A",
+            "G",
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "goblin-3",
+          "name": "'Ooligan",
+          "role": "Goblin, Special",
+          "max": 1,
+          "cost": 60,
+          "stats": {
+            "MA": "6",
+            "ST": "2",
+            "AG": "3+",
+            "PA": "5+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Dirty Player (+1)",
+            "Disturbing Presence",
+            "Dodge",
+            "Right Stuff",
+            "Stunty",
+            "Taunt"
+          ],
+          "primary": [
+            "A",
+            "D"
+          ],
+          "secondary": [
+            "G",
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "goblin-4",
+          "name": "Doom Diver",
+          "role": "Goblin, Special",
+          "max": 1,
+          "cost": 65,
+          "stats": {
+            "MA": "6",
+            "ST": "2",
+            "AG": "3+",
+            "PA": "6+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Dodge",
+            "Right Stuff",
+            "Stunty",
+            "Swoop"
+          ],
+          "primary": [
+            "A"
+          ],
+          "secondary": [
+            "D",
+            "G",
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "goblin-5",
+          "name": "Fanatic",
+          "role": "Goblin, Special",
+          "max": 1,
+          "cost": 70,
+          "stats": {
+            "MA": "3",
+            "ST": "7",
+            "AG": "3+",
+            "PA": "-",
+            "AV": "8+"
+          },
+          "skills": [
+            "Ball & Chain",
+            "No Ball",
+            "Secret Weapon",
+            "Stunty"
+          ],
+          "primary": [
+            "D",
+            "S"
+          ],
+          "secondary": [
+            "A",
+            "G"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "goblin-6",
+          "name": "Pogoer",
+          "role": "Goblin, Special",
+          "max": 1,
+          "cost": 75,
+          "stats": {
+            "MA": "7",
+            "ST": "2",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Dodge",
+            "Pogo",
+            "Stunty"
+          ],
+          "primary": [
+            "A"
+          ],
+          "secondary": [
+            "D",
+            "G",
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "goblin-7",
+          "name": "Trained Troll",
+          "role": "Big Guy, Troll",
+          "max": 2,
+          "cost": 115,
+          "stats": {
+            "MA": "4",
+            "ST": "5",
+            "AG": "5+",
+            "PA": "5+",
+            "AV": "10+"
+          },
+          "skills": [
+            "Always Hungry",
+            "Mighty Blow",
+            "Projectile Vomit",
+            "Really Stupid",
+            "Regeneration",
+            "Throw Team-mate"
+          ],
+          "primary": [
+            "S"
+          ],
+          "secondary": [
+            "A",
+            "G",
+            "P"
+          ],
+          "bigGuy": false
+        }
+      ],
+      "rerollCost": 60,
+      "apothecary": true,
+      "leagues": [
+        "Badlands Brawl",
+        "Underworld Challenge"
+      ],
+      "specialRules": [
+        "Bribery and Corruption"
+      ],
+      "favouredOptions": [],
+      "maxBigGuys": null,
+      "source": "https://bloodbowlbase.ru/bb2025/teams/Goblin/"
+    },
+    {
+      "id": "halfling",
+      "name": "Halfling",
+      "tier": 6,
+      "positions": [
+        {
+          "id": "halfling-0",
+          "name": "Halfling Hopeful",
+          "role": "Lineman, Halfling",
+          "max": 16,
+          "cost": 30,
+          "stats": {
+            "MA": "5",
+            "ST": "2",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "7+"
+          },
+          "skills": [
+            "Dodge",
+            "Right Stuff",
+            "Stunty"
+          ],
+          "primary": [
+            "A"
+          ],
+          "secondary": [
+            "G",
+            "S",
+            "D"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "halfling-1",
+          "name": "Halfling Hefty",
+          "role": "Blocker, Halfling",
+          "max": 2,
+          "cost": 50,
+          "stats": {
+            "MA": "5",
+            "ST": "2",
+            "AG": "3+",
+            "PA": "3+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Dodge",
+            "Fend",
+            "Stunty"
+          ],
+          "primary": [
+            "A",
+            "P"
+          ],
+          "secondary": [
+            "G",
+            "S",
+            "D"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "halfling-2",
+          "name": "Halfling Catcher",
+          "role": "Catcher, Halfling",
+          "max": 2,
+          "cost": 55,
+          "stats": {
+            "MA": "5",
+            "ST": "2",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "7+"
+          },
+          "skills": [
+            "Catch",
+            "Dodge",
+            "Right Stuff",
+            "Sprint",
+            "Stunty"
+          ],
+          "primary": [
+            "A"
+          ],
+          "secondary": [
+            "G",
+            "S",
+            "D"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "halfling-3",
+          "name": "Athel Forest Treeman",
+          "role": "Big Guy, Treeman",
+          "max": 2,
+          "cost": 120,
+          "stats": {
+            "MA": "2",
+            "ST": "6",
+            "AG": "5+",
+            "PA": "5+",
+            "AV": "11+"
+          },
+          "skills": [
+            "Mighty Blow",
+            "Stand Firm",
+            "Strong Arm",
+            "Take Root",
+            "Thick Skull",
+            "Throw Team-mate",
+            "Timmm-ber!"
+          ],
+          "primary": [
+            "S"
+          ],
+          "secondary": [
+            "A",
+            "G",
+            "P",
+            "D"
+          ],
+          "bigGuy": false
+        }
+      ],
+      "rerollCost": 60,
+      "apothecary": true,
+      "leagues": [
+        "Halfling Thimble Cup",
+        "Woodland League"
+      ],
+      "specialRules": [],
+      "favouredOptions": [],
+      "maxBigGuys": null,
+      "source": "https://bloodbowlbase.ru/bb2025/teams/Halfling/"
+    },
+    {
+      "id": "khorne",
+      "name": "Khorne",
+      "tier": 6,
+      "positions": [
+        {
+          "id": "khorne-0",
+          "name": "Bloodborn Marauder",
+          "role": "Lineman, Human",
+          "max": 16,
+          "cost": 50,
+          "stats": {
+            "MA": "6",
+            "ST": "3",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Frenzy"
+          ],
+          "primary": [
+            "G",
+            "M"
+          ],
+          "secondary": [
+            "A",
+            "S",
+            "D"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "khorne-1",
+          "name": "Khorngor",
+          "role": "Runner, Beastman",
+          "max": 2,
+          "cost": 70,
+          "stats": {
+            "MA": "6",
+            "ST": "3",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Horns",
+            "Juggernaut",
+            "Jump Up",
+            "Thick Skull"
+          ],
+          "primary": [
+            "G",
+            "M",
+            "S"
+          ],
+          "secondary": [
+            "A",
+            "P",
+            "D"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "khorne-2",
+          "name": "Bloodseeker",
+          "role": "Blocker, Human",
+          "max": 4,
+          "cost": 105,
+          "stats": {
+            "MA": "5",
+            "ST": "4",
+            "AG": "4+",
+            "PA": "6+",
+            "AV": "10+"
+          },
+          "skills": [
+            "Frenzy"
+          ],
+          "primary": [
+            "G",
+            "M",
+            "S"
+          ],
+          "secondary": [
+            "A",
+            "D"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "khorne-3",
+          "name": "Bloodspawn",
+          "role": "Big Guy, Spawn",
+          "max": 1,
+          "cost": 160,
+          "stats": {
+            "MA": "5",
+            "ST": "5",
+            "AG": "4+",
+            "PA": "6+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Claws",
+            "Frenzy",
+            "Loner (4+)",
+            "Mighty Blow",
+            "Unchannelled Fury"
+          ],
+          "primary": [
+            "M",
+            "S"
+          ],
+          "secondary": [
+            "A",
+            "G"
+          ],
+          "bigGuy": false
+        }
+      ],
+      "rerollCost": 60,
+      "apothecary": true,
+      "leagues": [
+        "Chaos Clash"
+      ],
+      "specialRules": [
+        "Favoured of Khorne",
+        "Brawlin' Brutes"
+      ],
+      "favouredOptions": [],
+      "maxBigGuys": null,
+      "source": "https://bloodbowlbase.ru/bb2025/teams/Khorne/"
+    },
+    {
+      "id": "ogre",
+      "name": "Ogre",
+      "tier": 7,
+      "positions": [
+        {
+          "id": "ogre-0",
+          "name": "Gnoblar Lineman",
+          "role": "Gnoblar, Lineman",
+          "max": 16,
+          "cost": 15,
+          "stats": {
+            "MA": "5",
+            "ST": "1",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "6+"
+          },
+          "skills": [
+            "Dodge",
+            "Right Stuff",
+            "Sidestep",
+            "Stunty",
+            "Titchy"
+          ],
+          "primary": [
+            "A",
+            "D"
+          ],
+          "secondary": [
+            "G"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "ogre-1",
+          "name": "Ogre Blocker",
+          "role": "Big Guy, Blocker, Ogre",
+          "max": 5,
+          "cost": 140,
+          "stats": {
+            "MA": "5",
+            "ST": "5",
+            "AG": "4+",
+            "PA": "5+",
+            "AV": "10+"
+          },
+          "skills": [
+            "Bone Head",
+            "Mighty Blow",
+            "Thick Skull",
+            "Throw Team-mate"
+          ],
+          "primary": [
+            "S"
+          ],
+          "secondary": [
+            "A",
+            "D",
+            "G",
+            "P"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "ogre-2",
+          "name": "Ogre Runt Punter",
+          "role": "Big Guy, Ogre, Thrower",
+          "max": 1,
+          "cost": 145,
+          "stats": {
+            "MA": "5",
+            "ST": "5",
+            "AG": "4+",
+            "PA": "4+",
+            "AV": "10+"
+          },
+          "skills": [
+            "Bone Head",
+            "Kick Team-mate",
+            "Mighty Blow",
+            "Thick Skull"
+          ],
+          "primary": [
+            "P",
+            "S"
+          ],
+          "secondary": [
+            "A",
+            "D",
+            "G"
+          ],
+          "bigGuy": false
+        }
+      ],
+      "rerollCost": 70,
+      "apothecary": true,
+      "leagues": [
+        "Badlands Brawl",
+        "Worlds Edge Superleague"
+      ],
+      "specialRules": [
+        "Brawlin' Brutes",
+        "Low Cost Linemen"
+      ],
+      "favouredOptions": [],
+      "maxBigGuys": null,
+      "source": "https://bloodbowlbase.ru/bb2025/teams/Ogre/"
+    }
+  ],
+  "skills": [
+    {
+      "id": "catch",
+      "name": "Catch",
+      "category": "A",
+      "elite": false
+    },
+    {
+      "id": "defensive",
+      "name": "Defensive",
+      "category": "A",
+      "elite": false
+    },
+    {
+      "id": "diving-catch",
+      "name": "Diving Catch",
+      "category": "A",
+      "elite": false
+    },
+    {
+      "id": "diving-tackle",
+      "name": "Diving Tackle",
+      "category": "A",
+      "elite": false
+    },
+    {
+      "id": "dodge",
+      "name": "Dodge",
+      "category": "A",
+      "elite": true
+    },
+    {
+      "id": "hit-and-run",
+      "name": "Hit and Run",
+      "category": "A",
+      "elite": false
+    },
+    {
+      "id": "jump-up",
+      "name": "Jump Up",
+      "category": "A",
+      "elite": false
+    },
+    {
+      "id": "leap",
+      "name": "Leap",
+      "category": "A",
+      "elite": false
+    },
+    {
+      "id": "safe-pair-of-hands",
+      "name": "Safe Pair of Hands",
+      "category": "A",
+      "elite": false
+    },
+    {
+      "id": "sidestep",
+      "name": "Sidestep",
+      "category": "A",
+      "elite": false
+    },
+    {
+      "id": "sprint",
+      "name": "Sprint",
+      "category": "A",
+      "elite": false
+    },
+    {
+      "id": "sure-feet",
+      "name": "Sure Feet",
+      "category": "A",
+      "elite": false
+    },
+    {
+      "id": "dirty-player",
+      "name": "Dirty Player",
+      "category": "D",
+      "elite": false
+    },
+    {
+      "id": "eye-gouge",
+      "name": "Eye Gouge",
+      "category": "D",
+      "elite": false
+    },
+    {
+      "id": "fumblerooski",
+      "name": "Fumblerooski",
+      "category": "D",
+      "elite": false
+    },
+    {
+      "id": "lethal-flight",
+      "name": "Lethal Flight",
+      "category": "D",
+      "elite": false
+    },
+    {
+      "id": "lone-fouler",
+      "name": "Lone Fouler",
+      "category": "D",
+      "elite": false
+    },
+    {
+      "id": "pile-driver",
+      "name": "Pile Driver",
+      "category": "D",
+      "elite": false
+    },
+    {
+      "id": "put-the-boot-in",
+      "name": "Put the Boot in",
+      "category": "D",
+      "elite": false
+    },
+    {
+      "id": "quick-foul",
+      "name": "Quick Foul",
+      "category": "D",
+      "elite": false
+    },
+    {
+      "id": "saboteur",
+      "name": "Saboteur",
+      "category": "D",
+      "elite": false
+    },
+    {
+      "id": "shadowing",
+      "name": "Shadowing",
+      "category": "D",
+      "elite": false
+    },
+    {
+      "id": "sneaky-git",
+      "name": "Sneaky Git",
+      "category": "D",
+      "elite": false
+    },
+    {
+      "id": "violent-innovator",
+      "name": "Violent Innovator",
+      "category": "D",
+      "elite": false
+    },
+    {
+      "id": "block",
+      "name": "Block",
+      "category": "G",
+      "elite": true
+    },
+    {
+      "id": "dauntless",
+      "name": "Dauntless",
+      "category": "G",
+      "elite": false
+    },
+    {
+      "id": "fend",
+      "name": "Fend",
+      "category": "G",
+      "elite": false
+    },
+    {
+      "id": "kick",
+      "name": "Kick",
+      "category": "G",
+      "elite": false
+    },
+    {
+      "id": "pro",
+      "name": "Pro",
+      "category": "G",
+      "elite": false
+    },
+    {
+      "id": "steady-footing",
+      "name": "Steady Footing",
+      "category": "G",
+      "elite": false
+    },
+    {
+      "id": "strip-ball",
+      "name": "Strip Ball",
+      "category": "G",
+      "elite": false
+    },
+    {
+      "id": "sure-hands",
+      "name": "Sure Hands",
+      "category": "G",
+      "elite": false
+    },
+    {
+      "id": "tackle",
+      "name": "Tackle",
+      "category": "G",
+      "elite": false
+    },
+    {
+      "id": "taunt",
+      "name": "Taunt",
+      "category": "G",
+      "elite": false
+    },
+    {
+      "id": "wrestle",
+      "name": "Wrestle",
+      "category": "G",
+      "elite": false
+    },
+    {
+      "id": "big-hand",
+      "name": "Big Hand",
+      "category": "M",
+      "elite": false
+    },
+    {
+      "id": "claws",
+      "name": "Claws",
+      "category": "M",
+      "elite": false
+    },
+    {
+      "id": "extra-arms",
+      "name": "Extra Arms",
+      "category": "M",
+      "elite": false
+    },
+    {
+      "id": "horns",
+      "name": "Horns",
+      "category": "M",
+      "elite": false
+    },
+    {
+      "id": "iron-hard-skin",
+      "name": "Iron Hard Skin",
+      "category": "M",
+      "elite": false
+    },
+    {
+      "id": "monstrous-mouth",
+      "name": "Monstrous Mouth",
+      "category": "M",
+      "elite": false
+    },
+    {
+      "id": "prehensile-tail",
+      "name": "Prehensile Tail",
+      "category": "M",
+      "elite": false
+    },
+    {
+      "id": "tentacles",
+      "name": "Tentacles",
+      "category": "M",
+      "elite": false
+    },
+    {
+      "id": "two-heads",
+      "name": "Two Heads",
+      "category": "M",
+      "elite": false
+    },
+    {
+      "id": "very-long-legs",
+      "name": "Very Long Legs",
+      "category": "M",
+      "elite": false
+    },
+    {
+      "id": "accurate",
+      "name": "Accurate",
+      "category": "P",
+      "elite": false
+    },
+    {
+      "id": "cannoneer",
+      "name": "Cannoneer",
+      "category": "P",
+      "elite": false
+    },
+    {
+      "id": "cloud-burster",
+      "name": "Cloud Burster",
+      "category": "P",
+      "elite": false
+    },
+    {
+      "id": "dump-off",
+      "name": "Dump-off",
+      "category": "P",
+      "elite": false
+    },
+    {
+      "id": "give-and-go",
+      "name": "Give and Go",
+      "category": "P",
+      "elite": false
+    },
+    {
+      "id": "hail-mary-pass",
+      "name": "Hail Mary Pass",
+      "category": "P",
+      "elite": false
+    },
+    {
+      "id": "leader",
+      "name": "Leader",
+      "category": "P",
+      "elite": false
+    },
+    {
+      "id": "nerves-of-steel",
+      "name": "Nerves of Steel",
+      "category": "P",
+      "elite": false
+    },
+    {
+      "id": "on-the-ball",
+      "name": "On the Ball",
+      "category": "P",
+      "elite": false
+    },
+    {
+      "id": "pass",
+      "name": "Pass",
+      "category": "P",
+      "elite": false
+    },
+    {
+      "id": "punt",
+      "name": "Punt",
+      "category": "P",
+      "elite": false
+    },
+    {
+      "id": "safe-pass",
+      "name": "Safe Pass",
+      "category": "P",
+      "elite": false
+    },
+    {
+      "id": "arm-bar",
+      "name": "Arm Bar",
+      "category": "S",
+      "elite": false
+    },
+    {
+      "id": "brawler",
+      "name": "Brawler",
+      "category": "S",
+      "elite": false
+    },
+    {
+      "id": "break-tackle",
+      "name": "Break Tackle",
+      "category": "S",
+      "elite": false
+    },
+    {
+      "id": "bullseye",
+      "name": "Bullseye",
+      "category": "S",
+      "elite": false
+    },
+    {
+      "id": "grab",
+      "name": "Grab",
+      "category": "S",
+      "elite": false
+    },
+    {
+      "id": "guard",
+      "name": "Guard",
+      "category": "S",
+      "elite": true
+    },
+    {
+      "id": "juggernaut",
+      "name": "Juggernaut",
+      "category": "S",
+      "elite": false
+    },
+    {
+      "id": "mighty-blow",
+      "name": "Mighty Blow",
+      "category": "S",
+      "elite": true
+    },
+    {
+      "id": "multiple-block",
+      "name": "Multiple Block",
+      "category": "S",
+      "elite": false
+    },
+    {
+      "id": "stand-firm",
+      "name": "Stand Firm",
+      "category": "S",
+      "elite": false
+    },
+    {
+      "id": "strong-arm",
+      "name": "Strong Arm",
+      "category": "S",
+      "elite": false
+    },
+    {
+      "id": "thick-skull",
+      "name": "Thick Skull",
+      "category": "S",
+      "elite": false
+    }
+  ],
+  "stars": [
+    {
+      "id": "akhorne-the-squirrel",
+      "name": "Akhorne the Squirrel",
+      "group": "veteran",
+      "cost": 80,
+      "playsFor": [
+        "Any team"
+      ],
+      "members": [
+        {
+          "name": "Akhorne The Squirrel",
+          "role": "Blitzer, Squirrel",
+          "stats": {
+            "MA": "7",
+            "ST": "1",
+            "AG": "2+",
+            "PA": "-",
+            "AV": "6+"
+          },
+          "skills": [
+            "Claws",
+            "Dauntless",
+            "Dodge",
+            "Frenzy",
+            "Jump Up",
+            "Loner (4+)",
+            "No Ball",
+            "Sidestep",
+            "Stunty",
+            "Titchy"
+          ],
+          "specialRules": [
+            "Blind Rage"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Akhorne_The_Squirrel/"
+    },
+    {
+      "id": "anqi-panqi",
+      "name": "Anqi Panqi",
+      "group": "veteran",
+      "cost": 190,
+      "playsFor": [
+        "Lustrian Superleague"
+      ],
+      "members": [
+        {
+          "name": "Anqi Panqi",
+          "role": "Blocker, Lizardman",
+          "stats": {
+            "MA": "7",
+            "ST": "4",
+            "AG": "5+",
+            "PA": "6+",
+            "AV": "10+"
+          },
+          "skills": [
+            "Block",
+            "Grab",
+            "Loner (4+)",
+            "Stand Firm",
+            "Unsteady"
+          ],
+          "specialRules": [
+            "Savage Blow"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Anqi_Panqi/"
+    },
+    {
+      "id": "barik-farblast",
+      "name": "Barik Farblast",
+      "group": "veteran",
+      "cost": 80,
+      "playsFor": [
+        "Old World Classic",
+        "Worlds Edge Superleague"
+      ],
+      "members": [
+        {
+          "name": "Barik Farblast",
+          "role": "Dwarf, Thrower",
+          "stats": {
+            "MA": "6",
+            "ST": "3",
+            "AG": "4+",
+            "PA": "3+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Cannoneer",
+            "Hail Mary Pass",
+            "Loner (4+)",
+            "Pass",
+            "Secret Weapon",
+            "Sure Hands",
+            "Thick Skull"
+          ],
+          "specialRules": [
+            "Blast It!"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Barik_Farblast/"
+    },
+    {
+      "id": "bilerot-vomitflesh",
+      "name": "Bilerot Vomitflesh",
+      "group": "veteran",
+      "cost": 180,
+      "playsFor": [
+        "Favoured of Nurgle"
+      ],
+      "members": [
+        {
+          "name": "Bilerot Vomitflesh",
+          "role": "Blocker, Human",
+          "stats": {
+            "MA": "4",
+            "ST": "5",
+            "AG": "4+",
+            "PA": "6+",
+            "AV": "10+"
+          },
+          "skills": [
+            "Dirty Player",
+            "Disturbing Presence",
+            "Foul Appearance",
+            "Lone Fouler",
+            "Loner (4+)",
+            "Regeneration",
+            "Unsteady"
+          ],
+          "specialRules": [
+            "Putrid Regurgitation"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Bilerot_Vomitflesh/"
+    },
+    {
+      "id": "boa-kon-ssstriktr",
+      "name": "Boa Kon'ssstriktr",
+      "group": "veteran",
+      "cost": 180,
+      "playsFor": [
+        "Lustrian Superleague"
+      ],
+      "members": [
+        {
+          "name": "Boa Kon'ssstriktr",
+          "role": "Runner, Snakeman",
+          "stats": {
+            "MA": "6",
+            "ST": "3",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Dodge",
+            "Fend",
+            "Hypnotic Gaze",
+            "Loner (4+)",
+            "Prehensile Tail",
+            "Safe Pair of Hands",
+            "Sidestep"
+          ],
+          "specialRules": [
+            "Look Into My Eyes"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Boa_Kon%27ssstriktr/"
+    },
+    {
+      "id": "count-luthor-von-drakenborg",
+      "name": "Count Luthor von Drakenborg",
+      "group": "veteran",
+      "cost": 300,
+      "playsFor": [
+        "Sylvanian Spotlight"
+      ],
+      "members": [
+        {
+          "name": "Count Luthor von Drakenborg",
+          "role": "Blocker, Vampire",
+          "stats": {
+            "MA": "6",
+            "ST": "5",
+            "AG": "2+",
+            "PA": "3+",
+            "AV": "10+"
+          },
+          "skills": [
+            "Block",
+            "Hypnotic Gaze",
+            "Loner (4+)",
+            "Regeneration",
+            "Sidestep"
+          ],
+          "specialRules": [
+            "Star of the Show"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Count_Luthor_von_Drakenborg/"
+    },
+    {
+      "id": "captain-karina-von-riesz",
+      "name": "Cpt Karina von Riesz",
+      "group": "veteran",
+      "cost": 230,
+      "playsFor": [
+        "Sylvanian Spotlight"
+      ],
+      "members": [
+        {
+          "name": "Captain Karina von Riesz",
+          "role": "Runner, Vampire",
+          "stats": {
+            "MA": "7",
+            "ST": "4",
+            "AG": "2+",
+            "PA": "3+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Bloodlust (2+)",
+            "Dodge",
+            "Hypnotic Gaze",
+            "Jump Up",
+            "Loner (4+)",
+            "Regeneration"
+          ],
+          "specialRules": [
+            "Tasty Morsel"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Captain_Karina_von_Riesz/"
+    },
+    {
+      "id": "eldril-sidewinder",
+      "name": "Eldril Sidewinder",
+      "group": "veteran",
+      "cost": 220,
+      "playsFor": [
+        "Elven Kingdoms League"
+      ],
+      "members": [
+        {
+          "name": "Eldril Sidewinder",
+          "role": "Catcher, Elf",
+          "stats": {
+            "MA": "8",
+            "ST": "3",
+            "AG": "2+",
+            "PA": "3+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Catch",
+            "Dodge",
+            "Hypnotic Gaze",
+            "Loner (4+)",
+            "Nerves of Steel",
+            "On the Ball"
+          ],
+          "specialRules": [
+            "Mesmerising Dance"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Eldril_Sidewinder/"
+    },
+    {
+      "id": "fungus-the-loon",
+      "name": "Fungus the Loon",
+      "group": "veteran",
+      "cost": 80,
+      "playsFor": [
+        "Badlands Brawl",
+        "Underworld Challenge"
+      ],
+      "members": [
+        {
+          "name": "Fungus the Loon",
+          "role": "Goblin, Special",
+          "stats": {
+            "MA": "4",
+            "ST": "7",
+            "AG": "3+",
+            "PA": "-",
+            "AV": "8+"
+          },
+          "skills": [
+            "Ball & Chain",
+            "Loner (4+)",
+            "Mighty Blow",
+            "No Ball",
+            "Secret Weapon",
+            "Stunty"
+          ],
+          "specialRules": [
+            "Whirling Dervish"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Fungus_the_Loon/"
+    },
+    {
+      "id": "glart-smashrip",
+      "name": "Glart Smashrip",
+      "group": "veteran",
+      "cost": 175,
+      "playsFor": [
+        "Underworld Challenge"
+      ],
+      "members": [
+        {
+          "name": "Glart Smashrip",
+          "role": "Blocker, Skaven",
+          "stats": {
+            "MA": "5",
+            "ST": "4",
+            "AG": "4+",
+            "PA": "6+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Block",
+            "Claws",
+            "Grab",
+            "Juggernaut",
+            "Loner (4+)",
+            "Stand Firm"
+          ],
+          "specialRules": [
+            "Frenzied Rush"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Glart_Smashrip/"
+    },
+    {
+      "id": "gloriel-summerbloom",
+      "name": "Gloriel Summerbloom",
+      "group": "veteran",
+      "cost": 150,
+      "playsFor": [
+        "Elven Kingdoms League"
+      ],
+      "members": [
+        {
+          "name": "Gloriel Summerbloom",
+          "role": "Elf, Thrower",
+          "stats": {
+            "MA": "7",
+            "ST": "2",
+            "AG": "2+",
+            "PA": "2+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Accurate",
+            "Dodge",
+            "Loner (3+)",
+            "Pass",
+            "Sidestep",
+            "Sure Hands"
+          ],
+          "specialRules": [
+            "Shot to Nothing"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Gloriel_Summerbloom/"
+    },
+    {
+      "id": "glotl-stop",
+      "name": "Glotl Stop",
+      "group": "veteran",
+      "cost": 260,
+      "playsFor": [
+        "Lustrian Superleague"
+      ],
+      "members": [
+        {
+          "name": "Glotl Stop",
+          "role": "Big Guy, Lizardman",
+          "stats": {
+            "MA": "6",
+            "ST": "6",
+            "AG": "5+",
+            "PA": "6+",
+            "AV": "10+"
+          },
+          "skills": [
+            "Animal Savagery",
+            "Frenzy",
+            "Loner (4+)",
+            "Mighty Blow",
+            "Prehensile Tail",
+            "Stand Firm",
+            "Thick Skull"
+          ],
+          "specialRules": [
+            "Primal Savagery"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Glotl_Stop/"
+    },
+    {
+      "id": "grashnak-blackhoof",
+      "name": "Grashnak Blackhoof",
+      "group": "veteran",
+      "cost": 240,
+      "playsFor": [
+        "Chaos Clash"
+      ],
+      "members": [
+        {
+          "name": "Grashnak Blackhoof",
+          "role": "Big Guy, Minotaur",
+          "stats": {
+            "MA": "6",
+            "ST": "6",
+            "AG": "4+",
+            "PA": "6+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Frenzy",
+            "Horns",
+            "Loner (4+)",
+            "Mighty Blow",
+            "Thick Skull",
+            "Unchannelled Fury"
+          ],
+          "specialRules": [
+            "Gored by the Bull"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Grashnak_Blackhoof/"
+    },
+    {
+      "id": "gretchen-wachter",
+      "name": "Gretchen Wächter",
+      "group": "veteran",
+      "cost": 180,
+      "playsFor": [
+        "Sylvanian Spotlight"
+      ],
+      "members": [
+        {
+          "name": "Gretchen Wächter",
+          "role": "Special, Undead, Wraith",
+          "stats": {
+            "MA": "7",
+            "ST": "3",
+            "AG": "2+",
+            "PA": "-",
+            "AV": "9+"
+          },
+          "skills": [
+            "Disturbing Presence",
+            "Dodge",
+            "Foul Appearance",
+            "Jump Up",
+            "Loner (4+)",
+            "No Ball",
+            "Regeneration",
+            "Shadowing",
+            "Sidestep"
+          ],
+          "specialRules": [
+            "Incorporeal"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Gretchen_W%C3%A4chter/"
+    },
+    {
+      "id": "grim-ironjaw",
+      "name": "Grim Ironjaw",
+      "group": "veteran",
+      "cost": 190,
+      "playsFor": [
+        "Worlds Edge Superleague"
+      ],
+      "members": [
+        {
+          "name": "Grim Ironjaw",
+          "role": "Dwarf, Special",
+          "stats": {
+            "MA": "5",
+            "ST": "4",
+            "AG": "3+",
+            "PA": "6+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Block",
+            "Dauntless",
+            "Frenzy",
+            "Hatred (Big Guy)",
+            "Loner (4+)",
+            "Multiple Block",
+            "Thick Skull"
+          ],
+          "specialRules": [
+            "Slayer"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Grim_Ironjaw/"
+    },
+    {
+      "id": "grombrindal",
+      "name": "Grombrindal",
+      "group": "veteran",
+      "cost": 170,
+      "playsFor": [
+        "Halfling Thimble Cup",
+        "Old World Classic",
+        "Worlds Edge Superleague"
+      ],
+      "members": [
+        {
+          "name": "Grombrindal",
+          "role": "Blocker, Dwarf",
+          "stats": {
+            "MA": "5",
+            "ST": "3",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "10+"
+          },
+          "skills": [
+            "Block",
+            "Break Tackle",
+            "Dauntless",
+            "Loner (4+)",
+            "Mighty Blow",
+            "Stand Firm",
+            "Sure Feet",
+            "Thick Skull"
+          ],
+          "specialRules": [
+            "Wisdom of the White Dwarf"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Grombrindal/"
+    },
+    {
+      "id": "guffle-pusmaw",
+      "name": "Guffle Pusmaw",
+      "group": "veteran",
+      "cost": 150,
+      "playsFor": [
+        "Favoured of Nurgle"
+      ],
+      "members": [
+        {
+          "name": "Guffle Pusmaw",
+          "role": "Blocker, Human",
+          "stats": {
+            "MA": "5",
+            "ST": "4",
+            "AG": "4+",
+            "PA": "6+",
+            "AV": "10+"
+          },
+          "skills": [
+            "Foul Appearance",
+            "Loner (4+)",
+            "Monstrous Mouth",
+            "Nerves of Steel",
+            "On the Ball",
+            "Plague Ridden"
+          ],
+          "specialRules": [
+            "Quick Bite"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Guffle_Pusmaw/"
+    },
+    {
+      "id": "helmut-wulf",
+      "name": "Helmut Wulf",
+      "group": "veteran",
+      "cost": 140,
+      "playsFor": [
+        "Old World Classic"
+      ],
+      "members": [
+        {
+          "name": "Helmut Wulf",
+          "role": "Human, Special",
+          "stats": {
+            "MA": "6",
+            "ST": "3",
+            "AG": "3+",
+            "PA": "-",
+            "AV": "9+"
+          },
+          "skills": [
+            "Chainsaw",
+            "Loner (4+)",
+            "No Ball",
+            "Pro",
+            "Secret Weapon",
+            "Stand Firm"
+          ],
+          "specialRules": [
+            "Old Pro"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Helmut_Wulf/"
+    },
+    {
+      "id": "josef-bugman",
+      "name": "Josef Bugman",
+      "group": "veteran",
+      "cost": 180,
+      "playsFor": [
+        "Old World Classic",
+        "Worlds Edge Superleague"
+      ],
+      "members": [
+        {
+          "name": "Josef Bugman",
+          "role": "Blocker, Dwarf",
+          "stats": {
+            "MA": "5",
+            "ST": "3",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Block",
+            "Drunkard",
+            "Fend",
+            "Loner (3+)",
+            "Tackle",
+            "Taunt",
+            "Thick Skull"
+          ],
+          "specialRules": [
+            "Dwarfen Grit"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Josef_Bugman/"
+    },
+    {
+      "id": "karla-von-kill",
+      "name": "Karla von Kill",
+      "group": "veteran",
+      "cost": 210,
+      "playsFor": [
+        "Lustrian Superleague",
+        "Old World Classic"
+      ],
+      "members": [
+        {
+          "name": "Karla von Kill",
+          "role": "Blitzer, Human",
+          "stats": {
+            "MA": "6",
+            "ST": "4",
+            "AG": "3+",
+            "PA": "3+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Block",
+            "Dauntless",
+            "Dodge",
+            "Jump Up",
+            "Loner (4+)"
+          ],
+          "specialRules": [
+            "Indomitable"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Karla_von_Kill/"
+    },
+    {
+      "id": "kiroth-krakeneye",
+      "name": "Kiroth Krakeneye",
+      "group": "veteran",
+      "cost": 160,
+      "playsFor": [
+        "Elven Kingdoms League"
+      ],
+      "members": [
+        {
+          "name": "Kiroth Krakeneye",
+          "role": "Elf, Runner",
+          "stats": {
+            "MA": "7",
+            "ST": "3",
+            "AG": "2+",
+            "PA": "3+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Disturbing Presence",
+            "Foul Appearance",
+            "Loner (4+)",
+            "On the Ball",
+            "Tackle",
+            "Tentacles"
+          ],
+          "specialRules": [
+            "Black Ink"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Kiroth_Krakeneye/"
+    },
+    {
+      "id": "max-spleenripper",
+      "name": "Max Spleenripper",
+      "group": "veteran",
+      "cost": 130,
+      "playsFor": [
+        "Favoured of Khorne"
+      ],
+      "members": [
+        {
+          "name": "Max Spleenripper",
+          "role": "Human, Special",
+          "stats": {
+            "MA": "5",
+            "ST": "4",
+            "AG": "4+",
+            "PA": "-",
+            "AV": "9+"
+          },
+          "skills": [
+            "Chainsaw",
+            "Loner (4+)",
+            "No Ball",
+            "Secret Weapon"
+          ],
+          "specialRules": [
+            "Maximum Carnage"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Max_Spleenripper/"
+    },
+    {
+      "id": "nobbla-blackwart",
+      "name": "Nobbla Blackwart",
+      "group": "veteran",
+      "cost": 120,
+      "playsFor": [
+        "Badlands Brawl",
+        "Underworld Challenge"
+      ],
+      "members": [
+        {
+          "name": "Nobbla Blackwart",
+          "role": "Goblin, Special",
+          "stats": {
+            "MA": "6",
+            "ST": "2",
+            "AG": "3+",
+            "PA": "-",
+            "AV": "8+"
+          },
+          "skills": [
+            "Block",
+            "Chainsaw",
+            "Dodge",
+            "Loner (4+)",
+            "No Ball",
+            "Saboteur",
+            "Secret Weapon",
+            "Stunty"
+          ],
+          "specialRules": [
+            "Kick 'em While They're Down!"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Nobbla_Blackwart/"
+    },
+    {
+      "id": "puggy-baconbreath",
+      "name": "Puggy Baconbreath",
+      "group": "veteran",
+      "cost": 130,
+      "playsFor": [
+        "Halfling Thimble Cup",
+        "Old World Classic"
+      ],
+      "members": [
+        {
+          "name": "Puggy Baconbreath",
+          "role": "Blitzer, Halfling",
+          "stats": {
+            "MA": "5",
+            "ST": "3",
+            "AG": "3+",
+            "PA": "3+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Block",
+            "Dodge",
+            "Loner (3+)",
+            "Nerves of Steel",
+            "Right Stuff",
+            "Stunty"
+          ],
+          "specialRules": [
+            "Halfling Luck"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Puggy_Baconbreath/"
+    },
+    {
+      "id": "rashnak-backstabber",
+      "name": "Rashnak Backstabber",
+      "group": "veteran",
+      "cost": 130,
+      "playsFor": [
+        "Badlands Brawl"
+      ],
+      "members": [
+        {
+          "name": "Rashnak Backstabber",
+          "role": "Goblin, Special",
+          "stats": {
+            "MA": "7",
+            "ST": "3",
+            "AG": "3+",
+            "PA": "5+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Loner (4+)",
+            "Shadowing",
+            "Sidestep",
+            "Sneaky Git",
+            "Stab"
+          ],
+          "specialRules": [
+            "Toxin Connoisseur"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Rashnak_Backstabber/"
+    },
+    {
+      "id": "rodney-roachbait",
+      "name": "Rodney Roachbait",
+      "group": "veteran",
+      "cost": 70,
+      "playsFor": [
+        "Woodland League"
+      ],
+      "members": [
+        {
+          "name": "Rodney Roachbait",
+          "role": "Gnome, Special",
+          "stats": {
+            "MA": "6",
+            "ST": "2",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "7+"
+          },
+          "skills": [
+            "Catch",
+            "Diving Catch",
+            "Jump Up",
+            "Loner (4+)",
+            "On the Ball",
+            "Sidestep",
+            "Stunty",
+            "Wrestle"
+          ],
+          "specialRules": [
+            "Catch of the Day"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Rodney_Roachbait/"
+    },
+    {
+      "id": "rowana-forestfoot",
+      "name": "Rowana Forestfoot",
+      "group": "veteran",
+      "cost": 160,
+      "playsFor": [
+        "Woodland League"
+      ],
+      "members": [
+        {
+          "name": "Rowana Forestfoot",
+          "role": "Blocker, Gnome",
+          "stats": {
+            "MA": "6",
+            "ST": "3",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Dodge",
+            "Dump-off",
+            "Guard",
+            "Horns",
+            "Jump Up",
+            "Leap",
+            "Loner (4+)"
+          ],
+          "specialRules": [
+            "Bounding Leap"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Rowana_Forestfoot/"
+    },
+    {
+      "id": "rumbelow-sheepskin",
+      "name": "Rumbelow Sheepskin",
+      "group": "veteran",
+      "cost": 170,
+      "playsFor": [
+        "Halfling Thimble Cup"
+      ],
+      "members": [
+        {
+          "name": "Rumbelow Sheepskin",
+          "role": "Blitzer, Halfling",
+          "stats": {
+            "MA": "6",
+            "ST": "3",
+            "AG": "3+",
+            "PA": "5+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Block",
+            "Horns",
+            "Juggernaut",
+            "Loner (4+)",
+            "Tackle",
+            "Thick Skull"
+          ],
+          "specialRules": [
+            "Ram"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Rumbelow_Sheepskin/"
+    },
+    {
+      "id": "scrappa-sorehead",
+      "name": "Scrappa Sorehead",
+      "group": "veteran",
+      "cost": 120,
+      "playsFor": [
+        "Badlands Brawl",
+        "Underworld Challenge"
+      ],
+      "members": [
+        {
+          "name": "Scrappa Sorehead",
+          "role": "Goblin, Special",
+          "stats": {
+            "MA": "7",
+            "ST": "2",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Dirty Player",
+            "Dodge",
+            "Loner (4+)",
+            "Pogo",
+            "Right Stuff",
+            "Sprint",
+            "Stunty",
+            "Sure Feet"
+          ],
+          "specialRules": [
+            "Yoink!"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Scrappa_Sorehead/"
+    },
+    {
+      "id": "scyla-anfingrimm",
+      "name": "Scyla Anfingrimm",
+      "group": "veteran",
+      "cost": 200,
+      "playsFor": [
+        "Favoured of Khorne"
+      ],
+      "members": [
+        {
+          "name": "Scyla Anfingrimm",
+          "role": "Big Guy, Spawn",
+          "stats": {
+            "MA": "5",
+            "ST": "5",
+            "AG": "4+",
+            "PA": "6+",
+            "AV": "10+"
+          },
+          "skills": [
+            "Claws",
+            "Frenzy",
+            "Loner (4+)",
+            "Mighty Blow",
+            "Prehensile Tail",
+            "Thick Skull",
+            "Unchannelled Fury"
+          ],
+          "specialRules": [
+            "Fury of the Blood God"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Scyla_Anfingrimm/"
+    },
+    {
+      "id": "skrull-halfheight",
+      "name": "Skrull Halfheight",
+      "group": "veteran",
+      "cost": 150,
+      "playsFor": [
+        "Sylvanian Spotlight",
+        "Worlds Edge Superleague"
+      ],
+      "members": [
+        {
+          "name": "Skrull Halfheight",
+          "role": "Dwarf, Skeleton, Thrower, Undead",
+          "stats": {
+            "MA": "6",
+            "ST": "3",
+            "AG": "4+",
+            "PA": "3+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Accurate",
+            "Loner (4+)",
+            "Nerves of Steel",
+            "Pass",
+            "Regeneration",
+            "Sure Hands",
+            "Thick Skull"
+          ],
+          "specialRules": [
+            "Strong Passing Game"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Skrull_Halfheight/"
+    },
+    {
+      "id": "swiftvine-glimmershard",
+      "name": "Swiftvine Glimmershard",
+      "group": "veteran",
+      "cost": 110,
+      "playsFor": [
+        "Woodland League"
+      ],
+      "members": [
+        {
+          "name": "Swiftvine Glimmershard",
+          "role": "Special, Spite",
+          "stats": {
+            "MA": "7",
+            "ST": "2",
+            "AG": "3+",
+            "PA": "5+",
+            "AV": "7+"
+          },
+          "skills": [
+            "Disturbing Presence",
+            "Fend",
+            "Loner (4+)",
+            "Sidestep",
+            "Stab",
+            "Stunty"
+          ],
+          "specialRules": [
+            "Furious Outburst"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Swiftvine_Glimmershard/"
+    },
+    {
+      "id": "the-black-gobbo",
+      "name": "The Black Gobbo",
+      "group": "veteran",
+      "cost": 210,
+      "playsFor": [
+        "Badlands Brawl",
+        "Underworld Challenge"
+      ],
+      "members": [
+        {
+          "name": "The Black Gobbo",
+          "role": "Goblin, Special",
+          "stats": {
+            "MA": "6",
+            "ST": "2",
+            "AG": "3+",
+            "PA": "3+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Bombardier",
+            "Disturbing Presence",
+            "Dodge",
+            "Loner (3+)",
+            "Sidestep",
+            "Sneaky Git",
+            "Stab"
+          ],
+          "specialRules": [
+            "Sneakiest of the Lot"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/The_Black_Gobbo/"
+    },
+    {
+      "id": "the-mighty-zug",
+      "name": "The Mighty Zug",
+      "group": "veteran",
+      "cost": 220,
+      "playsFor": [
+        "Old World Classic",
+        "Worlds Edge Superleague"
+      ],
+      "members": [
+        {
+          "name": "The Mighty Zug",
+          "role": "Blocker, Human",
+          "stats": {
+            "MA": "5",
+            "ST": "5",
+            "AG": "4+",
+            "PA": "6+",
+            "AV": "10+"
+          },
+          "skills": [
+            "Block",
+            "Loner (4+)",
+            "Mighty Blow",
+            "Unsteady"
+          ],
+          "specialRules": [
+            "Crushing Blow"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/The_Mighty_Zug/"
+    },
+    {
+      "id": "thorsson-stoutmead",
+      "name": "Thorsson Stoutmead",
+      "group": "veteran",
+      "cost": 170,
+      "playsFor": [
+        "Old World Classic",
+        "Worlds Edge Superleague"
+      ],
+      "members": [
+        {
+          "name": "Thorsson Stoutmead",
+          "role": "Human, Lineman",
+          "stats": {
+            "MA": "6",
+            "ST": "3",
+            "AG": "4+",
+            "PA": "3+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Block",
+            "Drunkard",
+            "Loner (4+)",
+            "Thick Skull"
+          ],
+          "specialRules": [
+            "Beer Barrel Bash"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Thorsson_Stoutmead/"
+    },
+    {
+      "id": "varag-ghoul-chewer",
+      "name": "Varag Ghoul-Chewer",
+      "group": "veteran",
+      "cost": 260,
+      "playsFor": [
+        "Badlands Brawl"
+      ],
+      "members": [
+        {
+          "name": "Varag Ghoul-Chewer",
+          "role": "Blocker, Orc",
+          "stats": {
+            "MA": "6",
+            "ST": "5",
+            "AG": "3+",
+            "PA": "5+",
+            "AV": "10+"
+          },
+          "skills": [
+            "Block",
+            "Hatred (Undead)",
+            "Jump Up",
+            "Loner (4+)",
+            "Mighty Blow",
+            "Thick Skull",
+            "Unsteady"
+          ],
+          "specialRules": [
+            "Krump and Smash"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Varag_Ghoul-Chewer/"
+    },
+    {
+      "id": "wilhelm-chaney",
+      "name": "Wilhelm Chaney",
+      "group": "veteran",
+      "cost": 220,
+      "playsFor": [
+        "Sylvanian Spotlight"
+      ],
+      "members": [
+        {
+          "name": "Wilhelm Chaney",
+          "role": "Blitzer, Undead, Werewolf",
+          "stats": {
+            "MA": "8",
+            "ST": "4",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Catch",
+            "Claws",
+            "Frenzy",
+            "Loner (4+)",
+            "Regeneration",
+            "Wrestle"
+          ],
+          "specialRules": [
+            "Savage Mauling"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Wilhelm_Chaney/"
+    },
+    {
+      "id": "willow-rosebark",
+      "name": "Willow Rosebark",
+      "group": "veteran",
+      "cost": 160,
+      "playsFor": [
+        "Woodland League"
+      ],
+      "members": [
+        {
+          "name": "Willow Rosebark",
+          "role": "Blitzer, Dryad",
+          "stats": {
+            "MA": "6",
+            "ST": "4",
+            "AG": "3+",
+            "PA": "5+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Dauntless",
+            "Loner (4+)",
+            "Sidestep",
+            "Thick Skull"
+          ],
+          "specialRules": [
+            "Woodland Fury"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Willow_Rosebark/"
+    },
+    {
+      "id": "withergrasp-doubledrool",
+      "name": "Withergrasp Doubledrool",
+      "group": "veteran",
+      "cost": 170,
+      "playsFor": [
+        "Favoured of Nurgle"
+      ],
+      "members": [
+        {
+          "name": "Withergrasp Doubledrool",
+          "role": "Beastman, Blocker",
+          "stats": {
+            "MA": "6",
+            "ST": "3",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Foul Appearance",
+            "Loner (4+)",
+            "Prehensile Tail",
+            "Tackle",
+            "Tentacles",
+            "Two Heads",
+            "Wrestle"
+          ],
+          "specialRules": [
+            "Watch Out!"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Withergrasp_Doubledrool/"
+    },
+    {
+      "id": "zzharg-madeye",
+      "name": "Zzharg Madeye",
+      "group": "veteran",
+      "cost": 130,
+      "playsFor": [
+        "Favoured of Hashut"
+      ],
+      "members": [
+        {
+          "name": "Zzharg Madeye",
+          "role": "Dwarf, Special",
+          "stats": {
+            "MA": "4",
+            "ST": "4",
+            "AG": "4+",
+            "PA": "3+",
+            "AV": "10+"
+          },
+          "skills": [
+            "Cannoneer",
+            "Hail Mary Pass",
+            "Loner (4+)",
+            "Nerves of Steel",
+            "Secret Weapon",
+            "Thick Skull"
+          ],
+          "specialRules": [
+            "\"Blastin' Solves Everything\""
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Zzharg_Madeye/"
+    },
+    {
+      "id": "deeproot-strongbranch",
+      "name": "Deeproot Strongbranch",
+      "group": "legend",
+      "cost": 280,
+      "playsFor": [
+        "Woodland League"
+      ],
+      "members": [
+        {
+          "name": "Deeproot Strongbranch",
+          "role": "Big Guy, Treeman",
+          "stats": {
+            "MA": "2",
+            "ST": "7",
+            "AG": "5+",
+            "PA": "4+",
+            "AV": "11+"
+          },
+          "skills": [
+            "Block",
+            "Bullseye",
+            "Loner (4+)",
+            "Mighty Blow",
+            "Stand Firm",
+            "Strong Arm",
+            "Thick Skull",
+            "Throw Team-mate",
+            "Timmm-ber!"
+          ],
+          "specialRules": [
+            "Reliable"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Deeproot_Strongbranch/"
+    },
+    {
+      "id": "grak-and-crumbleberry",
+      "name": "Grak & Crumbleberry",
+      "group": "legend",
+      "cost": 250,
+      "playsFor": [
+        "Any Team"
+      ],
+      "members": [
+        {
+          "name": "Grak",
+          "role": "Big Guy, Ogre",
+          "stats": {
+            "MA": "5",
+            "ST": "5",
+            "AG": "4+",
+            "PA": "4+",
+            "AV": "10+"
+          },
+          "skills": [
+            "Bone Head",
+            "Kick Team-mate",
+            "Loner (4+)",
+            "Mighty Blow",
+            "Thick Skull"
+          ],
+          "specialRules": [
+            "I'll Carry You"
+          ]
+        },
+        {
+          "name": "Crumbleberry",
+          "role": "Halfling, Lineman",
+          "stats": {
+            "MA": "5",
+            "ST": "2",
+            "AG": "3+",
+            "PA": "5+",
+            "AV": "7+"
+          },
+          "skills": [
+            "Dodge",
+            "Lethal Flight",
+            "Loner (4+)",
+            "Right Stuff",
+            "Stunty",
+            "Sure Hands"
+          ],
+          "specialRules": [
+            "I'll Carry You"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Grak_and_Crumbleberry/"
+    },
+    {
+      "id": "ivar-eriksson",
+      "name": "Ivar Eriksson",
+      "group": "legend",
+      "cost": 215,
+      "playsFor": [
+        "Old World Classic"
+      ],
+      "members": [
+        {
+          "name": "Ivar Eriksson",
+          "role": "Blitzer, Human",
+          "stats": {
+            "MA": "6",
+            "ST": "4",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Block",
+            "Guard",
+            "Loner (4+)",
+            "Tackle"
+          ],
+          "specialRules": [
+            "Raiding Party"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Ivar_Eriksson/"
+    },
+    {
+      "id": "kreek-rustgouger",
+      "name": "Kreek Rustgouger",
+      "group": "legend",
+      "cost": 180,
+      "playsFor": [
+        "Underworld Challenge"
+      ],
+      "members": [
+        {
+          "name": "Kreek Rustgouger",
+          "role": "Big Guy, Skaven, Special",
+          "stats": {
+            "MA": "4",
+            "ST": "7",
+            "AG": "4+",
+            "PA": "-",
+            "AV": "10+"
+          },
+          "skills": [
+            "Ball & Chain",
+            "Loner (4+)",
+            "Mighty Blow",
+            "No Ball",
+            "Prehensile Tail",
+            "Secret Weapon"
+          ],
+          "specialRules": [
+            "I'll Be Back!"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Kreek_Rustgouger/"
+    },
+    {
+      "id": "lord-borak-the-despoiler",
+      "name": "Lord Borak the Despoiler",
+      "group": "legend",
+      "cost": 270,
+      "playsFor": [
+        "Chaos Clash"
+      ],
+      "members": [
+        {
+          "name": "Lord Borak the Despoiler",
+          "role": "Blocker, Human",
+          "stats": {
+            "MA": "5",
+            "ST": "5",
+            "AG": "3+",
+            "PA": "5+",
+            "AV": "10+"
+          },
+          "skills": [
+            "Block",
+            "Dirty Player",
+            "Leader",
+            "Loner (3+)",
+            "Mighty Blow",
+            "Put the Boot In",
+            "Sneaky Git"
+          ],
+          "specialRules": [
+            "Lord of Chaos"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Lord_Borak_the_Despoiler/"
+    },
+    {
+      "id": "the-swift-twins",
+      "name": "Lucien & Valen Swift",
+      "group": "legend",
+      "cost": 300,
+      "playsFor": [
+        "Elven Kingdoms League"
+      ],
+      "members": [
+        {
+          "name": "Lucien Swift",
+          "role": "Blitzer, Elf",
+          "stats": {
+            "MA": "7",
+            "ST": "3",
+            "AG": "2+",
+            "PA": "3+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Block",
+            "Loner (4+)",
+            "Mighty Blow",
+            "Tackle"
+          ],
+          "specialRules": [
+            "Working In Tandem"
+          ]
+        },
+        {
+          "name": "Valen Swift",
+          "role": "Elf, Thrower",
+          "stats": {
+            "MA": "7",
+            "ST": "3",
+            "AG": "2+",
+            "PA": "2+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Accurate",
+            "Loner (4+)",
+            "Nerves of Steel",
+            "Pass",
+            "Safe Pass",
+            "Sure Hands"
+          ],
+          "specialRules": [
+            "Working In Tandem"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/The_Swift_Twins/"
+    },
+    {
+      "id": "maple-highgrove",
+      "name": "Maple Highgrove",
+      "group": "legend",
+      "cost": 210,
+      "playsFor": [
+        "Woodland League"
+      ],
+      "members": [
+        {
+          "name": "Maple Highgrove",
+          "role": "Big Guy, Treeman",
+          "stats": {
+            "MA": "3",
+            "ST": "5",
+            "AG": "5+",
+            "PA": "5+",
+            "AV": "11+"
+          },
+          "skills": [
+            "Brawler",
+            "Grab",
+            "Loner (4+)",
+            "Mighty Blow",
+            "Stand Firm",
+            "Tentacles",
+            "Thick Skull"
+          ],
+          "specialRules": [
+            "Vicious Vines"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Maple_Highgrove/"
+    },
+    {
+      "id": "morg-n-thorg",
+      "name": "Morg 'n' Thorg",
+      "group": "legend",
+      "cost": 340,
+      "playsFor": [
+        "Any team except those from Sylvanian Spotlight"
+      ],
+      "members": [
+        {
+          "name": "Morg 'n' Thorg",
+          "role": "Big Guy, Ogre",
+          "stats": {
+            "MA": "6",
+            "ST": "6",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "11+"
+          },
+          "skills": [
+            "Block",
+            "Bullseye",
+            "Hatred (Undead)",
+            "Loner (4+)",
+            "Mighty Blow",
+            "Thick Skull",
+            "Throw Team-mate"
+          ],
+          "specialRules": [
+            "The Ballista"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Morg_%27n%27_Thorg/"
+    },
+    {
+      "id": "ripper-bolgrot",
+      "name": "Ripper Bolgrot",
+      "group": "legend",
+      "cost": 250,
+      "playsFor": [
+        "Badlands Brawl",
+        "Underworld Challenge"
+      ],
+      "members": [
+        {
+          "name": "Ripper Bolgrot",
+          "role": "Big Guy, Troll",
+          "stats": {
+            "MA": "5",
+            "ST": "6",
+            "AG": "5+",
+            "PA": "4+",
+            "AV": "10+"
+          },
+          "skills": [
+            "Bullseye",
+            "Grab",
+            "Loner (4+)",
+            "Mighty Blow",
+            "Regeneration",
+            "Throw Team-mate"
+          ],
+          "specialRules": [
+            "Thinking Man's Troll"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Ripper_Bolgrot/"
+    },
+    {
+      "id": "skitter-stab-stab",
+      "name": "Skitter Stab-Stab",
+      "group": "legend",
+      "cost": 170,
+      "playsFor": [
+        "Underworld Challenge"
+      ],
+      "members": [
+        {
+          "name": "Skitter Stab-Stab",
+          "role": "Runner, Skaven",
+          "stats": {
+            "MA": "9",
+            "ST": "2",
+            "AG": "2+",
+            "PA": "4+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Dodge",
+            "Loner (4+)",
+            "Prehensile Tail",
+            "Shadowing",
+            "Stab"
+          ],
+          "specialRules": [
+            "Master Assassin"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Skitter_Stab-stab/"
+    },
+    {
+      "id": "skrorg-snowpelt",
+      "name": "Skrorg Snowpelt",
+      "group": "legend",
+      "cost": 240,
+      "playsFor": [
+        "Old World Classic",
+        "Worlds Edge Superleague"
+      ],
+      "members": [
+        {
+          "name": "Skrorg Snowpelt",
+          "role": "Big Guy, Yhetee",
+          "stats": {
+            "MA": "5",
+            "ST": "5",
+            "AG": "4+",
+            "PA": "6+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Block",
+            "Claws",
+            "Disturbing Presence",
+            "Juggernaut",
+            "Loner (4+)",
+            "Mighty Blow"
+          ],
+          "specialRules": [
+            "Pump Up the Crowd"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Skrorg_Snowpelt/"
+    },
+    {
+      "id": "zolcath-the-zoat",
+      "name": "Zolcath the Zoat",
+      "group": "legend",
+      "cost": 220,
+      "playsFor": [
+        "Elven Kingdoms League",
+        "Lustrian Superleague"
+      ],
+      "members": [
+        {
+          "name": "Zolcath the Zoat",
+          "role": "Big Guy, Zoat",
+          "stats": {
+            "MA": "5",
+            "ST": "5",
+            "AG": "4+",
+            "PA": "5+",
+            "AV": "10+"
+          },
+          "skills": [
+            "Disturbing Presence",
+            "Juggernaut",
+            "Loner (4+)",
+            "Mighty Blow",
+            "Prehensile Tail",
+            "Regeneration",
+            "Sure Feet"
+          ],
+          "specialRules": [
+            "\"Excuse me, are you a Zoat?\""
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Zolcath_the_Zoat/"
+    }
+  ]
+}
