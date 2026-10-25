@@ -666,7 +666,7 @@
     {
       "id": "amazon",
       "name": "Amazon",
-      "tier": 2,
+      "tier": 1,
       "positions": [
         {
           "id": "amazon-0",
