@@ -33,6 +33,13 @@ describe('catalogue and tier budgets', () => {
     expect(calc.baseSkillBudget).toBe(expected.skillGold);
   });
 
+  it('assigns Amazon the tier 1 budgets', () => {
+    expect(getTeam('amazon').tier).toBe(1);
+    const calc = calculateRoster(createRoster('amazon'));
+    expect(calc.baseTeamBudget).toBe(1080);
+    expect(calc.baseSkillBudget).toBe(120);
+  });
+
   it('uses the requested star surcharges', () => {
     expect(starSurcharge(1, 'veteran')).toBe(50);
     expect(starSurcharge(5, 'veteran')).toBe(50);
@@ -43,12 +50,24 @@ describe('catalogue and tier budgets', () => {
 });
 
 describe('contracts', () => {
-  it('reproduces the Necromantic Horror example from the rule pack', () => {
+  it.each([['diomed', 40, 20], ['neproxy', 50, 30]] as const)(
+    'charges the updated hiring cost for %s', (coach, cost, skillGold) => {
+      const roster = createRoster('human');
+      const before = calculateRoster(roster);
+      roster.coaches = [coach];
+      const after = calculateRoster(roster);
+      expect(after.teamBudget).toBe(before.teamBudget - cost);
+      expect(after.skillBudget).toBe(before.skillBudget + skillGold);
+      expect(after.freeAssistants).toBe(1);
+    },
+  );
+
+  it('calculates the Necromantic Horror example with updated coach costs', () => {
     const roster = withPlayers('necromantic-horror', 'Zombie Lineman', 11);
     roster.sponsors = ['bugmans'];
     roster.coaches = ['br1ght', 'diomed'];
     const calc = calculateRoster(roster);
-    expect(calc.teamBudget).toBe(1090);
+    expect(calc.teamBudget).toBe(1080);
     expect(calc.skillBudget).toBe(220);
     expect(calc.freeCheerleaders).toBe(1);
     expect(calc.freeAssistants).toBe(2);

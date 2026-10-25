@@ -35,8 +35,8 @@ export const COACHES: Contract[] = [
   { id: 'br1ght', name: 'Br1ght', teamGold: -10, skillGold: 10, freebie: 'assistant' },
   { id: 'kolianxxxx', name: 'Kolianxxxx', teamGold: -15, skillGold: 10, freebie: 'assistant' },
   { id: 'azzik', name: 'Azzik', teamGold: -20, skillGold: 10, freebie: 'assistant' },
-  { id: 'diomed', name: 'Diomed', teamGold: -30, skillGold: 20, freebie: 'assistant' },
-  { id: 'neproxy', name: 'Neproxy', teamGold: -40, skillGold: 30, freebie: 'assistant' },
+  { id: 'diomed', name: 'Diomed', teamGold: -40, skillGold: 20, freebie: 'assistant' },
+  { id: 'neproxy', name: 'Neproxy', teamGold: -50, skillGold: 30, freebie: 'assistant' },
 ];
 
 export function tierRules(tier: number) {
