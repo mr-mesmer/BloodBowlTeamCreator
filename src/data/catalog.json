@@ -3650,7 +3650,7 @@
     {
       "id": "snotling",
       "name": "Snotling",
-      "tier": 5,
+      "tier": 3,
       "positions": [
         {
           "id": "snotling-0",
