@@ -1,0 +1,130 @@
+{
+  "version": 1,
+  "id": "recommended-necromantic-horror",
+  "name": "Necromantic Horror — Два Block Werewolves, четыре Guard и три реролла",
+  "coach": "",
+  "teamId": "necromantic-horror",
+  "league": "Sylvanian Spotlight",
+  "favoured": "",
+  "players": [
+    {
+      "id": "recommended-necromantic-horror-01",
+      "positionId": "necromantic-horror-4",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "block",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-necromantic-horror-02",
+      "positionId": "necromantic-horror-4",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "block",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-necromantic-horror-03",
+      "positionId": "necromantic-horror-3",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "guard",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-necromantic-horror-04",
+      "positionId": "necromantic-horror-3",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "guard",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-necromantic-horror-05",
+      "positionId": "necromantic-horror-2",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "guard",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-necromantic-horror-06",
+      "positionId": "necromantic-horror-2",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "guard",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-necromantic-horror-07",
+      "positionId": "necromantic-horror-1",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "sure-hands",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-necromantic-horror-08",
+      "positionId": "necromantic-horror-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-necromantic-horror-09",
+      "positionId": "necromantic-horror-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-necromantic-horror-10",
+      "positionId": "necromantic-horror-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-necromantic-horror-11",
+      "positionId": "necromantic-horror-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-necromantic-horror-12",
+      "positionId": "necromantic-horror-0",
+      "name": "",
+      "skills": []
+    }
+  ],
+  "stars": [],
+  "staff": {
+    "rerolls": 3,
+    "apothecary": 0,
+    "assistants": 0,
+    "cheerleaders": 0,
+    "fans": 0
+  },
+  "inducements": {},
+  "sponsors": [],
+  "coaches": [],
+  "updatedAt": "2026-11-01T00:00:00.000Z"
+}

@@ -1,0 +1,141 @@
+{
+  "version": 1,
+  "id": "recommended-elven-union",
+  "name": "Elven Union — Защищённые Catchers и два Dodge/Sidestep Blitzers",
+  "coach": "",
+  "teamId": "elven-union",
+  "league": "Elven Kingdoms League",
+  "favoured": "",
+  "players": [
+    {
+      "id": "recommended-elven-union-01",
+      "positionId": "elven-union-3",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "dodge",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-elven-union-02",
+      "positionId": "elven-union-3",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "dodge",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-elven-union-03",
+      "positionId": "elven-union-2",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "block",
+          "type": "primary"
+        },
+        {
+          "skillId": "dodge",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-elven-union-04",
+      "positionId": "elven-union-2",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "wrestle",
+          "type": "primary"
+        },
+        {
+          "skillId": "dodge",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-elven-union-05",
+      "positionId": "elven-union-1",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "leader",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-elven-union-06",
+      "positionId": "elven-union-0",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "wrestle",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-elven-union-07",
+      "positionId": "elven-union-0",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "wrestle",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-elven-union-08",
+      "positionId": "elven-union-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-elven-union-09",
+      "positionId": "elven-union-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-elven-union-10",
+      "positionId": "elven-union-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-elven-union-11",
+      "positionId": "elven-union-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-elven-union-12",
+      "positionId": "elven-union-0",
+      "name": "",
+      "skills": []
+    }
+  ],
+  "stars": [],
+  "staff": {
+    "rerolls": 2,
+    "apothecary": 1,
+    "assistants": 0,
+    "cheerleaders": 0,
+    "fans": 0
+  },
+  "inducements": {},
+  "sponsors": [],
+  "coaches": [
+    "br1ght",
+    "kolianxxxx"
+  ],
+  "updatedAt": "2026-11-01T00:00:00.000Z"
+}

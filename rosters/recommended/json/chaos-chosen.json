@@ -1,0 +1,134 @@
+{
+  "version": 1,
+  "id": "recommended-chaos-chosen",
+  "name": "Chaos Chosen — Четыре Block Warriors и Beastman для отбора",
+  "coach": "",
+  "teamId": "chaos-chosen",
+  "league": "Chaos Clash",
+  "favoured": "Undivided",
+  "players": [
+    {
+      "id": "recommended-chaos-chosen-01",
+      "positionId": "chaos-chosen-1",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "block",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-chaos-chosen-02",
+      "positionId": "chaos-chosen-1",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "block",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-chaos-chosen-03",
+      "positionId": "chaos-chosen-1",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "block",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-chaos-chosen-04",
+      "positionId": "chaos-chosen-1",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "block",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-chaos-chosen-05",
+      "positionId": "chaos-chosen-3",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "guard",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-chaos-chosen-06",
+      "positionId": "chaos-chosen-0",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "block",
+          "type": "primary"
+        },
+        {
+          "skillId": "tackle",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-chaos-chosen-07",
+      "positionId": "chaos-chosen-0",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "sure-hands",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-chaos-chosen-08",
+      "positionId": "chaos-chosen-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-chaos-chosen-09",
+      "positionId": "chaos-chosen-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-chaos-chosen-10",
+      "positionId": "chaos-chosen-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-chaos-chosen-11",
+      "positionId": "chaos-chosen-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-chaos-chosen-12",
+      "positionId": "chaos-chosen-0",
+      "name": "",
+      "skills": []
+    }
+  ],
+  "stars": [],
+  "staff": {
+    "rerolls": 3,
+    "apothecary": 1,
+    "assistants": 1,
+    "cheerleaders": 0,
+    "fans": 0
+  },
+  "inducements": {},
+  "sponsors": [],
+  "coaches": [],
+  "updatedAt": "2026-11-01T00:00:00.000Z"
+}

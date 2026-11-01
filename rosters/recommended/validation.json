@@ -1,0 +1,2608 @@
+{
+  "date": "2026-11-01",
+  "edition": "BB2025",
+  "flowingFunds": 0,
+  "rulePack": {
+    "minPlayers": 11,
+    "maxPlayers": 16,
+    "maxSecondary": 3,
+    "maxStacks": 3,
+    "stackSurcharge": 10,
+    "primaryCost": 20,
+    "secondaryCost": 40,
+    "eliteSurcharge": 10,
+    "tiers": [
+      {
+        "tier": 1,
+        "teamBudget": 1080,
+        "skillGold": 120
+      },
+      {
+        "tier": 2,
+        "teamBudget": 1080,
+        "skillGold": 150
+      },
+      {
+        "tier": 3,
+        "teamBudget": 1100,
+        "skillGold": 170
+      },
+      {
+        "tier": 4,
+        "teamBudget": 1120,
+        "skillGold": 200
+      },
+      {
+        "tier": 5,
+        "teamBudget": 1140,
+        "skillGold": 230
+      },
+      {
+        "tier": 6,
+        "teamBudget": 1160,
+        "skillGold": 260
+      },
+      {
+        "tier": 7,
+        "teamBudget": 1180,
+        "skillGold": 290
+      }
+    ]
+  },
+  "tierTeams": {
+    "1": [
+      "old-world-alliance",
+      "orc",
+      "wood-elf",
+      "amazon"
+    ],
+    "2": [
+      "skaven",
+      "underworld-denizens"
+    ],
+    "3": [
+      "dark-elf",
+      "high-elf",
+      "human",
+      "lizardmen",
+      "shambling-undead",
+      "vampire",
+      "snotling"
+    ],
+    "4": [
+      "necromantic-horror",
+      "norse",
+      "nurgle",
+      "tomb-kings"
+    ],
+    "5": [
+      "chaos-chosen",
+      "chaos-dwarf",
+      "dwarf",
+      "elven-union",
+      "imperial-nobility",
+      "slann"
+    ],
+    "6": [
+      "black-orc",
+      "bretonnian",
+      "chaos-renegades",
+      "gnome",
+      "goblin",
+      "halfling",
+      "khorne"
+    ],
+    "7": [
+      "ogre"
+    ]
+  },
+  "sponsors": [
+    {
+      "id": "bugmans",
+      "name": "Bugman’s Brewery",
+      "teamGold": 10,
+      "skillGold": -10,
+      "freebie": ""
+    },
+    {
+      "id": "nuln",
+      "name": "Nuln Gunnery School",
+      "teamGold": 10,
+      "skillGold": -15,
+      "freebie": ""
+    },
+    {
+      "id": "zoo",
+      "name": "Imperial Zoo of Altdorf",
+      "teamGold": 10,
+      "skillGold": -20,
+      "freebie": ""
+    },
+    {
+      "id": "mootland",
+      "name": "Mootland Farms",
+      "teamGold": 20,
+      "skillGold": -30,
+      "freebie": ""
+    },
+    {
+      "id": "karaz",
+      "name": "Karaz-a-Karak Guild of Engineers",
+      "teamGold": 30,
+      "skillGold": -40,
+      "freebie": ""
+    }
+  ],
+  "coaches": [
+    {
+      "id": "br1ght",
+      "name": "Br1ght",
+      "teamGold": -10,
+      "skillGold": 10,
+      "freebie": ""
+    },
+    {
+      "id": "kolianxxxx",
+      "name": "Kolianxxxx",
+      "teamGold": -15,
+      "skillGold": 10,
+      "freebie": ""
+    },
+    {
+      "id": "azzik",
+      "name": "Azzik",
+      "teamGold": -20,
+      "skillGold": 10,
+      "freebie": ""
+    },
+    {
+      "id": "diomed",
+      "name": "Diomed",
+      "teamGold": -40,
+      "skillGold": 20,
+      "freebie": ""
+    },
+    {
+      "id": "neproxy",
+      "name": "Neproxy",
+      "teamGold": -50,
+      "skillGold": 30,
+      "freebie": ""
+    }
+  ],
+  "inputs": {
+    "catalogSha256": "638d5be7ea09a04552e83160fde653f6df21b1eb8bca7abda7fb606960b66d08",
+    "choicesSha256": "64eb4c59011c3fb978da05e5ef5f058acba4caa83a3e97fc9cffbe083941717b"
+  },
+  "allValid": true,
+  "count": 31,
+  "rosters": [
+    {
+      "teamId": "old-world-alliance",
+      "teamName": "Old World Alliance",
+      "tier": 1,
+      "valid": true,
+      "baseTeamBudget": 1080,
+      "baseSkillBudget": 120,
+      "teamBudget": 1055,
+      "skillBudget": 140,
+      "playersCost": 865,
+      "starsCost": 0,
+      "staffCost": 190,
+      "inducementsCost": 0,
+      "teamCost": 1055,
+      "advancementCost": 140,
+      "starSurcharge": 0,
+      "skillCost": 140,
+      "teamRemaining": 0,
+      "skillRemaining": 0,
+      "playerCount": 12,
+      "regularPlayerCount": 12,
+      "starMemberCount": 0,
+      "secondaryCount": 0,
+      "stackCount": 0,
+      "freeAssistants": 0,
+      "freeCheerleaders": 0,
+      "insignificantCount": 0,
+      "nonInsignificantCount": 12,
+      "regularBigGuyCount": 1,
+      "maxBigGuys": 1,
+      "positions": [
+        {
+          "id": "old-world-alliance-0",
+          "count": 4,
+          "max": 16
+        },
+        {
+          "id": "old-world-alliance-1",
+          "count": 0,
+          "max": 3
+        },
+        {
+          "id": "old-world-alliance-2",
+          "count": 1,
+          "max": 1
+        },
+        {
+          "id": "old-world-alliance-3",
+          "count": 3,
+          "max": 3
+        },
+        {
+          "id": "old-world-alliance-4",
+          "count": 1,
+          "max": 1
+        },
+        {
+          "id": "old-world-alliance-5",
+          "count": 0,
+          "max": 1
+        },
+        {
+          "id": "old-world-alliance-6",
+          "count": 1,
+          "max": 1
+        },
+        {
+          "id": "old-world-alliance-7",
+          "count": 1,
+          "max": 1
+        },
+        {
+          "id": "old-world-alliance-8",
+          "count": 0,
+          "max": 1
+        },
+        {
+          "id": "old-world-alliance-9",
+          "count": 0,
+          "max": 1
+        },
+        {
+          "id": "old-world-alliance-10",
+          "count": 1,
+          "max": 1
+        }
+      ],
+      "checks": {
+        "tierMatchesUserText": true,
+        "independentBudgets": true,
+        "skillAccessAndElite": true,
+        "noDuplicateSkills": true,
+        "onlyPrimaryStacks": true,
+        "maxThreeSecondary": true,
+        "maxThreeStacks": true,
+        "noStatIncreases": true,
+        "positionalLimits": true,
+        "sharedBigGuyLimits": true,
+        "elevenToSixteenPlayers": true,
+        "insignificant": true,
+        "starWhitelist": true,
+        "starLeagueAndGroup": true,
+        "starSkillRestrictions": true,
+        "staffAndInducements": true,
+        "uniqueContracts": true
+      }
+    },
+    {
+      "teamId": "orc",
+      "teamName": "Orc",
+      "tier": 1,
+      "valid": true,
+      "baseTeamBudget": 1080,
+      "baseSkillBudget": 120,
+      "teamBudget": 1010,
+      "skillBudget": 160,
+      "playersCost": 840,
+      "starsCost": 0,
+      "staffCost": 170,
+      "inducementsCost": 0,
+      "teamCost": 1010,
+      "advancementCost": 160,
+      "starSurcharge": 0,
+      "skillCost": 160,
+      "teamRemaining": 0,
+      "skillRemaining": 0,
+      "playerCount": 12,
+      "regularPlayerCount": 12,
+      "starMemberCount": 0,
+      "secondaryCount": 0,
+      "stackCount": 0,
+      "freeAssistants": 0,
+      "freeCheerleaders": 0,
+      "insignificantCount": 0,
+      "nonInsignificantCount": 12,
+      "regularBigGuyCount": 1,
+      "maxBigGuys": null,
+      "positions": [
+        {
+          "id": "orc-0",
+          "count": 5,
+          "max": 16
+        },
+        {
+          "id": "orc-1",
+          "count": 1,
+          "max": 4
+        },
+        {
+          "id": "orc-2",
+          "count": 1,
+          "max": 2
+        },
+        {
+          "id": "orc-3",
+          "count": 2,
+          "max": 2
+        },
+        {
+          "id": "orc-4",
+          "count": 2,
+          "max": 2
+        },
+        {
+          "id": "orc-5",
+          "count": 1,
+          "max": 1
+        }
+      ],
+      "checks": {
+        "tierMatchesUserText": true,
+        "independentBudgets": true,
+        "skillAccessAndElite": true,
+        "noDuplicateSkills": true,
+        "onlyPrimaryStacks": true,
+        "maxThreeSecondary": true,
+        "maxThreeStacks": true,
+        "noStatIncreases": true,
+        "positionalLimits": true,
+        "sharedBigGuyLimits": true,
+        "elevenToSixteenPlayers": true,
+        "insignificant": true,
+        "starWhitelist": true,
+        "starLeagueAndGroup": true,
+        "starSkillRestrictions": true,
+        "staffAndInducements": true,
+        "uniqueContracts": true
+      }
+    },
+    {
+      "teamId": "wood-elf",
+      "teamName": "Wood Elf",
+      "tier": 1,
+      "valid": true,
+      "baseTeamBudget": 1080,
+      "baseSkillBudget": 120,
+      "teamBudget": 1070,
+      "skillBudget": 130,
+      "playersCost": 915,
+      "starsCost": 0,
+      "staffCost": 150,
+      "inducementsCost": 0,
+      "teamCost": 1065,
+      "advancementCost": 130,
+      "starSurcharge": 0,
+      "skillCost": 130,
+      "teamRemaining": 5,
+      "skillRemaining": 0,
+      "playerCount": 11,
+      "regularPlayerCount": 11,
+      "starMemberCount": 0,
+      "secondaryCount": 0,
+      "stackCount": 0,
+      "freeAssistants": 0,
+      "freeCheerleaders": 0,
+      "insignificantCount": 0,
+      "nonInsignificantCount": 11,
+      "regularBigGuyCount": 0,
+      "maxBigGuys": null,
+      "positions": [
+        {
+          "id": "wood-elf-0",
+          "count": 6,
+          "max": 16
+        },
+        {
+          "id": "wood-elf-1",
+          "count": 1,
+          "max": 2
+        },
+        {
+          "id": "wood-elf-2",
+          "count": 2,
+          "max": 2
+        },
+        {
+          "id": "wood-elf-3",
+          "count": 2,
+          "max": 2
+        },
+        {
+          "id": "wood-elf-4",
+          "count": 0,
+          "max": 1
+        }
+      ],
+      "checks": {
+        "tierMatchesUserText": true,
+        "independentBudgets": true,
+        "skillAccessAndElite": true,
+        "noDuplicateSkills": true,
+        "onlyPrimaryStacks": true,
+        "maxThreeSecondary": true,
+        "maxThreeStacks": true,
+        "noStatIncreases": true,
+        "positionalLimits": true,
+        "sharedBigGuyLimits": true,
+        "elevenToSixteenPlayers": true,
+        "insignificant": true,
+        "starWhitelist": true,
+        "starLeagueAndGroup": true,
+        "starSkillRestrictions": true,
+        "staffAndInducements": true,
+        "uniqueContracts": true
+      }
+    },
+    {
+      "teamId": "amazon",
+      "teamName": "Amazon",
+      "tier": 1,
+      "valid": true,
+      "baseTeamBudget": 1080,
+      "baseSkillBudget": 120,
+      "teamBudget": 1005,
+      "skillBudget": 170,
+      "playersCost": 830,
+      "starsCost": 0,
+      "staffCost": 170,
+      "inducementsCost": 0,
+      "teamCost": 1000,
+      "advancementCost": 170,
+      "starSurcharge": 0,
+      "skillCost": 170,
+      "teamRemaining": 5,
+      "skillRemaining": 0,
+      "playerCount": 12,
+      "regularPlayerCount": 12,
+      "starMemberCount": 0,
+      "secondaryCount": 0,
+      "stackCount": 1,
+      "freeAssistants": 0,
+      "freeCheerleaders": 0,
+      "insignificantCount": 0,
+      "nonInsignificantCount": 12,
+      "regularBigGuyCount": 0,
+      "maxBigGuys": null,
+      "positions": [
+        {
+          "id": "amazon-0",
+          "count": 7,
+          "max": 16
+        },
+        {
+          "id": "amazon-1",
+          "count": 1,
+          "max": 2
+        },
+        {
+          "id": "amazon-2",
+          "count": 2,
+          "max": 2
+        },
+        {
+          "id": "amazon-3",
+          "count": 2,
+          "max": 2
+        }
+      ],
+      "checks": {
+        "tierMatchesUserText": true,
+        "independentBudgets": true,
+        "skillAccessAndElite": true,
+        "noDuplicateSkills": true,
+        "onlyPrimaryStacks": true,
+        "maxThreeSecondary": true,
+        "maxThreeStacks": true,
+        "noStatIncreases": true,
+        "positionalLimits": true,
+        "sharedBigGuyLimits": true,
+        "elevenToSixteenPlayers": true,
+        "insignificant": true,
+        "starWhitelist": true,
+        "starLeagueAndGroup": true,
+        "starSkillRestrictions": true,
+        "staffAndInducements": true,
+        "uniqueContracts": true
+      }
+    },
+    {
+      "teamId": "skaven",
+      "teamName": "Skaven",
+      "tier": 2,
+      "valid": true,
+      "baseTeamBudget": 1080,
+      "baseSkillBudget": 150,
+      "teamBudget": 1030,
+      "skillBudget": 180,
+      "playersCost": 880,
+      "starsCost": 0,
+      "staffCost": 150,
+      "inducementsCost": 0,
+      "teamCost": 1030,
+      "advancementCost": 180,
+      "starSurcharge": 0,
+      "skillCost": 180,
+      "teamRemaining": 0,
+      "skillRemaining": 0,
+      "playerCount": 12,
+      "regularPlayerCount": 12,
+      "starMemberCount": 0,
+      "secondaryCount": 0,
+      "stackCount": 0,
+      "freeAssistants": 0,
+      "freeCheerleaders": 0,
+      "insignificantCount": 0,
+      "nonInsignificantCount": 12,
+      "regularBigGuyCount": 1,
+      "maxBigGuys": null,
+      "positions": [
+        {
+          "id": "skaven-0",
+          "count": 6,
+          "max": 16
+        },
+        {
+          "id": "skaven-1",
+          "count": 1,
+          "max": 2
+        },
+        {
+          "id": "skaven-2",
+          "count": 2,
+          "max": 2
+        },
+        {
+          "id": "skaven-3",
+          "count": 2,
+          "max": 2
+        },
+        {
+          "id": "skaven-4",
+          "count": 1,
+          "max": 1
+        }
+      ],
+      "checks": {
+        "tierMatchesUserText": true,
+        "independentBudgets": true,
+        "skillAccessAndElite": true,
+        "noDuplicateSkills": true,
+        "onlyPrimaryStacks": true,
+        "maxThreeSecondary": true,
+        "maxThreeStacks": true,
+        "noStatIncreases": true,
+        "positionalLimits": true,
+        "sharedBigGuyLimits": true,
+        "elevenToSixteenPlayers": true,
+        "insignificant": true,
+        "starWhitelist": true,
+        "starLeagueAndGroup": true,
+        "starSkillRestrictions": true,
+        "staffAndInducements": true,
+        "uniqueContracts": true
+      }
+    },
+    {
+      "teamId": "underworld-denizens",
+      "teamName": "Underworld Denizens",
+      "tier": 2,
+      "valid": true,
+      "baseTeamBudget": 1080,
+      "baseSkillBudget": 150,
+      "teamBudget": 1005,
+      "skillBudget": 200,
+      "playersCost": 765,
+      "starsCost": 0,
+      "staffCost": 190,
+      "inducementsCost": 50,
+      "teamCost": 1005,
+      "advancementCost": 200,
+      "starSurcharge": 0,
+      "skillCost": 200,
+      "teamRemaining": 0,
+      "skillRemaining": 0,
+      "playerCount": 16,
+      "regularPlayerCount": 16,
+      "starMemberCount": 0,
+      "secondaryCount": 0,
+      "stackCount": 1,
+      "freeAssistants": 0,
+      "freeCheerleaders": 0,
+      "insignificantCount": 6,
+      "nonInsignificantCount": 10,
+      "regularBigGuyCount": 1,
+      "maxBigGuys": 1,
+      "positions": [
+        {
+          "id": "underworld-denizens-0",
+          "count": 3,
+          "max": 16
+        },
+        {
+          "id": "underworld-denizens-1",
+          "count": 6,
+          "max": 6
+        },
+        {
+          "id": "underworld-denizens-2",
+          "count": 3,
+          "max": 3
+        },
+        {
+          "id": "underworld-denizens-3",
+          "count": 1,
+          "max": 1
+        },
+        {
+          "id": "underworld-denizens-4",
+          "count": 1,
+          "max": 1
+        },
+        {
+          "id": "underworld-denizens-5",
+          "count": 1,
+          "max": 1
+        },
+        {
+          "id": "underworld-denizens-6",
+          "count": 0,
+          "max": 1
+        },
+        {
+          "id": "underworld-denizens-7",
+          "count": 1,
+          "max": 1
+        }
+      ],
+      "checks": {
+        "tierMatchesUserText": true,
+        "independentBudgets": true,
+        "skillAccessAndElite": true,
+        "noDuplicateSkills": true,
+        "onlyPrimaryStacks": true,
+        "maxThreeSecondary": true,
+        "maxThreeStacks": true,
+        "noStatIncreases": true,
+        "positionalLimits": true,
+        "sharedBigGuyLimits": true,
+        "elevenToSixteenPlayers": true,
+        "insignificant": true,
+        "starWhitelist": true,
+        "starLeagueAndGroup": true,
+        "starSkillRestrictions": true,
+        "staffAndInducements": true,
+        "uniqueContracts": true
+      }
+    },
+    {
+      "teamId": "dark-elf",
+      "teamName": "Dark Elf",
+      "tier": 3,
+      "valid": true,
+      "baseTeamBudget": 1100,
+      "baseSkillBudget": 170,
+      "teamBudget": 1075,
+      "skillBudget": 190,
+      "playersCost": 925,
+      "starsCost": 0,
+      "staffCost": 150,
+      "inducementsCost": 0,
+      "teamCost": 1075,
+      "advancementCost": 190,
+      "starSurcharge": 0,
+      "skillCost": 190,
+      "teamRemaining": 0,
+      "skillRemaining": 0,
+      "playerCount": 11,
+      "regularPlayerCount": 11,
+      "starMemberCount": 0,
+      "secondaryCount": 0,
+      "stackCount": 0,
+      "freeAssistants": 0,
+      "freeCheerleaders": 0,
+      "insignificantCount": 0,
+      "nonInsignificantCount": 11,
+      "regularBigGuyCount": 0,
+      "maxBigGuys": null,
+      "positions": [
+        {
+          "id": "dark-elf-0",
+          "count": 5,
+          "max": 16
+        },
+        {
+          "id": "dark-elf-1",
+          "count": 1,
+          "max": 2
+        },
+        {
+          "id": "dark-elf-2",
+          "count": 1,
+          "max": 2
+        },
+        {
+          "id": "dark-elf-3",
+          "count": 2,
+          "max": 2
+        },
+        {
+          "id": "dark-elf-4",
+          "count": 2,
+          "max": 2
+        }
+      ],
+      "checks": {
+        "tierMatchesUserText": true,
+        "independentBudgets": true,
+        "skillAccessAndElite": true,
+        "noDuplicateSkills": true,
+        "onlyPrimaryStacks": true,
+        "maxThreeSecondary": true,
+        "maxThreeStacks": true,
+        "noStatIncreases": true,
+        "positionalLimits": true,
+        "sharedBigGuyLimits": true,
+        "elevenToSixteenPlayers": true,
+        "insignificant": true,
+        "starWhitelist": true,
+        "starLeagueAndGroup": true,
+        "starSkillRestrictions": true,
+        "staffAndInducements": true,
+        "uniqueContracts": true
+      }
+    },
+    {
+      "teamId": "high-elf",
+      "teamName": "High Elf",
+      "tier": 3,
+      "valid": true,
+      "baseTeamBudget": 1100,
+      "baseSkillBudget": 170,
+      "teamBudget": 1075,
+      "skillBudget": 190,
+      "playersCost": 920,
+      "starsCost": 0,
+      "staffCost": 150,
+      "inducementsCost": 0,
+      "teamCost": 1070,
+      "advancementCost": 190,
+      "starSurcharge": 0,
+      "skillCost": 190,
+      "teamRemaining": 5,
+      "skillRemaining": 0,
+      "playerCount": 11,
+      "regularPlayerCount": 11,
+      "starMemberCount": 0,
+      "secondaryCount": 0,
+      "stackCount": 1,
+      "freeAssistants": 0,
+      "freeCheerleaders": 0,
+      "insignificantCount": 0,
+      "nonInsignificantCount": 11,
+      "regularBigGuyCount": 0,
+      "maxBigGuys": null,
+      "positions": [
+        {
+          "id": "high-elf-0",
+          "count": 6,
+          "max": 16
+        },
+        {
+          "id": "high-elf-1",
+          "count": 1,
+          "max": 2
+        },
+        {
+          "id": "high-elf-2",
+          "count": 2,
+          "max": 2
+        },
+        {
+          "id": "high-elf-3",
+          "count": 2,
+          "max": 2
+        }
+      ],
+      "checks": {
+        "tierMatchesUserText": true,
+        "independentBudgets": true,
+        "skillAccessAndElite": true,
+        "noDuplicateSkills": true,
+        "onlyPrimaryStacks": true,
+        "maxThreeSecondary": true,
+        "maxThreeStacks": true,
+        "noStatIncreases": true,
+        "positionalLimits": true,
+        "sharedBigGuyLimits": true,
+        "elevenToSixteenPlayers": true,
+        "insignificant": true,
+        "starWhitelist": true,
+        "starLeagueAndGroup": true,
+        "starSkillRestrictions": true,
+        "staffAndInducements": true,
+        "uniqueContracts": true
+      }
+    },
+    {
+      "teamId": "human",
+      "teamName": "Human",
+      "tier": 3,
+      "valid": true,
+      "baseTeamBudget": 1100,
+      "baseSkillBudget": 170,
+      "teamBudget": 1025,
+      "skillBudget": 220,
+      "playersCost": 865,
+      "starsCost": 0,
+      "staffCost": 160,
+      "inducementsCost": 0,
+      "teamCost": 1025,
+      "advancementCost": 220,
+      "starSurcharge": 0,
+      "skillCost": 220,
+      "teamRemaining": 0,
+      "skillRemaining": 0,
+      "playerCount": 13,
+      "regularPlayerCount": 13,
+      "starMemberCount": 0,
+      "secondaryCount": 1,
+      "stackCount": 0,
+      "freeAssistants": 0,
+      "freeCheerleaders": 0,
+      "insignificantCount": 0,
+      "nonInsignificantCount": 13,
+      "regularBigGuyCount": 1,
+      "maxBigGuys": null,
+      "positions": [
+        {
+          "id": "human-0",
+          "count": 6,
+          "max": 16
+        },
+        {
+          "id": "human-1",
+          "count": 1,
+          "max": 3
+        },
+        {
+          "id": "human-2",
+          "count": 2,
+          "max": 2
+        },
+        {
+          "id": "human-3",
+          "count": 1,
+          "max": 2
+        },
+        {
+          "id": "human-4",
+          "count": 2,
+          "max": 2
+        },
+        {
+          "id": "human-5",
+          "count": 1,
+          "max": 1
+        }
+      ],
+      "checks": {
+        "tierMatchesUserText": true,
+        "independentBudgets": true,
+        "skillAccessAndElite": true,
+        "noDuplicateSkills": true,
+        "onlyPrimaryStacks": true,
+        "maxThreeSecondary": true,
+        "maxThreeStacks": true,
+        "noStatIncreases": true,
+        "positionalLimits": true,
+        "sharedBigGuyLimits": true,
+        "elevenToSixteenPlayers": true,
+        "insignificant": true,
+        "starWhitelist": true,
+        "starLeagueAndGroup": true,
+        "starSkillRestrictions": true,
+        "staffAndInducements": true,
+        "uniqueContracts": true
+      }
+    },
+    {
+      "teamId": "lizardmen",
+      "teamName": "Lizardmen",
+      "tier": 3,
+      "valid": true,
+      "baseTeamBudget": 1100,
+      "baseSkillBudget": 170,
+      "teamBudget": 1075,
+      "skillBudget": 190,
+      "playersCost": 930,
+      "starsCost": 0,
+      "staffCost": 140,
+      "inducementsCost": 0,
+      "teamCost": 1070,
+      "advancementCost": 190,
+      "starSurcharge": 0,
+      "skillCost": 190,
+      "teamRemaining": 5,
+      "skillRemaining": 0,
+      "playerCount": 11,
+      "regularPlayerCount": 11,
+      "starMemberCount": 0,
+      "secondaryCount": 0,
+      "stackCount": 0,
+      "freeAssistants": 0,
+      "freeCheerleaders": 0,
+      "insignificantCount": 0,
+      "nonInsignificantCount": 11,
+      "regularBigGuyCount": 1,
+      "maxBigGuys": null,
+      "positions": [
+        {
+          "id": "lizardmen-0",
+          "count": 3,
+          "max": 16
+        },
+        {
+          "id": "lizardmen-1",
+          "count": 1,
+          "max": 2
+        },
+        {
+          "id": "lizardmen-2",
+          "count": 6,
+          "max": 6
+        },
+        {
+          "id": "lizardmen-3",
+          "count": 1,
+          "max": 1
+        }
+      ],
+      "checks": {
+        "tierMatchesUserText": true,
+        "independentBudgets": true,
+        "skillAccessAndElite": true,
+        "noDuplicateSkills": true,
+        "onlyPrimaryStacks": true,
+        "maxThreeSecondary": true,
+        "maxThreeStacks": true,
+        "noStatIncreases": true,
+        "positionalLimits": true,
+        "sharedBigGuyLimits": true,
+        "elevenToSixteenPlayers": true,
+        "insignificant": true,
+        "starWhitelist": true,
+        "starLeagueAndGroup": true,
+        "starSkillRestrictions": true,
+        "staffAndInducements": true,
+        "uniqueContracts": true
+      }
+    },
+    {
+      "teamId": "shambling-undead",
+      "teamName": "Shambling Undead",
+      "tier": 3,
+      "valid": true,
+      "baseTeamBudget": 1100,
+      "baseSkillBudget": 170,
+      "teamBudget": 1090,
+      "skillBudget": 180,
+      "playersCost": 870,
+      "starsCost": 0,
+      "staffCost": 220,
+      "inducementsCost": 0,
+      "teamCost": 1090,
+      "advancementCost": 180,
+      "starSurcharge": 0,
+      "skillCost": 180,
+      "teamRemaining": 0,
+      "skillRemaining": 0,
+      "playerCount": 13,
+      "regularPlayerCount": 13,
+      "starMemberCount": 0,
+      "secondaryCount": 0,
+      "stackCount": 0,
+      "freeAssistants": 0,
+      "freeCheerleaders": 0,
+      "insignificantCount": 0,
+      "nonInsignificantCount": 13,
+      "regularBigGuyCount": 2,
+      "maxBigGuys": null,
+      "positions": [
+        {
+          "id": "shambling-undead-0",
+          "count": 0,
+          "max": 16
+        },
+        {
+          "id": "shambling-undead-1",
+          "count": 7,
+          "max": 16
+        },
+        {
+          "id": "shambling-undead-2",
+          "count": 2,
+          "max": 2
+        },
+        {
+          "id": "shambling-undead-3",
+          "count": 2,
+          "max": 2
+        },
+        {
+          "id": "shambling-undead-4",
+          "count": 2,
+          "max": 2
+        }
+      ],
+      "checks": {
+        "tierMatchesUserText": true,
+        "independentBudgets": true,
+        "skillAccessAndElite": true,
+        "noDuplicateSkills": true,
+        "onlyPrimaryStacks": true,
+        "maxThreeSecondary": true,
+        "maxThreeStacks": true,
+        "noStatIncreases": true,
+        "positionalLimits": true,
+        "sharedBigGuyLimits": true,
+        "elevenToSixteenPlayers": true,
+        "insignificant": true,
+        "starWhitelist": true,
+        "starLeagueAndGroup": true,
+        "starSkillRestrictions": true,
+        "staffAndInducements": true,
+        "uniqueContracts": true
+      }
+    },
+    {
+      "teamId": "vampire",
+      "teamName": "Vampire",
+      "tier": 3,
+      "valid": true,
+      "baseTeamBudget": 1100,
+      "baseSkillBudget": 170,
+      "teamBudget": 1100,
+      "skillBudget": 170,
+      "playersCost": 920,
+      "starsCost": 0,
+      "staffCost": 180,
+      "inducementsCost": 0,
+      "teamCost": 1100,
+      "advancementCost": 170,
+      "starSurcharge": 0,
+      "skillCost": 170,
+      "teamRemaining": 0,
+      "skillRemaining": 0,
+      "playerCount": 13,
+      "regularPlayerCount": 13,
+      "starMemberCount": 0,
+      "secondaryCount": 0,
+      "stackCount": 0,
+      "freeAssistants": 0,
+      "freeCheerleaders": 0,
+      "insignificantCount": 0,
+      "nonInsignificantCount": 13,
+      "regularBigGuyCount": 0,
+      "maxBigGuys": null,
+      "positions": [
+        {
+          "id": "vampire-0",
+          "count": 7,
+          "max": 16
+        },
+        {
+          "id": "vampire-1",
+          "count": 2,
+          "max": 2
+        },
+        {
+          "id": "vampire-2",
+          "count": 2,
+          "max": 2
+        },
+        {
+          "id": "vampire-3",
+          "count": 2,
+          "max": 2
+        },
+        {
+          "id": "vampire-4",
+          "count": 0,
+          "max": 1
+        }
+      ],
+      "checks": {
+        "tierMatchesUserText": true,
+        "independentBudgets": true,
+        "skillAccessAndElite": true,
+        "noDuplicateSkills": true,
+        "onlyPrimaryStacks": true,
+        "maxThreeSecondary": true,
+        "maxThreeStacks": true,
+        "noStatIncreases": true,
+        "positionalLimits": true,
+        "sharedBigGuyLimits": true,
+        "elevenToSixteenPlayers": true,
+        "insignificant": true,
+        "starWhitelist": true,
+        "starLeagueAndGroup": true,
+        "starSkillRestrictions": true,
+        "staffAndInducements": true,
+        "uniqueContracts": true
+      }
+    },
+    {
+      "teamId": "snotling",
+      "teamName": "Snotling",
+      "tier": 3,
+      "valid": true,
+      "baseTeamBudget": 1100,
+      "baseSkillBudget": 170,
+      "teamBudget": 1090,
+      "skillBudget": 180,
+      "playersCost": 600,
+      "starsCost": 0,
+      "staffCost": 210,
+      "inducementsCost": 275,
+      "teamCost": 1085,
+      "advancementCost": 180,
+      "starSurcharge": 0,
+      "skillCost": 180,
+      "teamRemaining": 5,
+      "skillRemaining": 0,
+      "playerCount": 14,
+      "regularPlayerCount": 14,
+      "starMemberCount": 0,
+      "secondaryCount": 2,
+      "stackCount": 0,
+      "freeAssistants": 0,
+      "freeCheerleaders": 0,
+      "insignificantCount": 6,
+      "nonInsignificantCount": 8,
+      "regularBigGuyCount": 4,
+      "maxBigGuys": null,
+      "positions": [
+        {
+          "id": "snotling-0",
+          "count": 6,
+          "max": 16
+        },
+        {
+          "id": "snotling-1",
+          "count": 2,
+          "max": 2
+        },
+        {
+          "id": "snotling-2",
+          "count": 2,
+          "max": 2
+        },
+        {
+          "id": "snotling-3",
+          "count": 0,
+          "max": 2
+        },
+        {
+          "id": "snotling-4",
+          "count": 2,
+          "max": 2
+        },
+        {
+          "id": "snotling-5",
+          "count": 2,
+          "max": 2
+        }
+      ],
+      "checks": {
+        "tierMatchesUserText": true,
+        "independentBudgets": true,
+        "skillAccessAndElite": true,
+        "noDuplicateSkills": true,
+        "onlyPrimaryStacks": true,
+        "maxThreeSecondary": true,
+        "maxThreeStacks": true,
+        "noStatIncreases": true,
+        "positionalLimits": true,
+        "sharedBigGuyLimits": true,
+        "elevenToSixteenPlayers": true,
+        "insignificant": true,
+        "starWhitelist": true,
+        "starLeagueAndGroup": true,
+        "starSkillRestrictions": true,
+        "staffAndInducements": true,
+        "uniqueContracts": true
+      }
+    },
+    {
+      "teamId": "necromantic-horror",
+      "teamName": "Necromantic Horror",
+      "tier": 4,
+      "valid": true,
+      "baseTeamBudget": 1120,
+      "baseSkillBudget": 200,
+      "teamBudget": 1120,
+      "skillBudget": 200,
+      "playersCost": 905,
+      "starsCost": 0,
+      "staffCost": 210,
+      "inducementsCost": 0,
+      "teamCost": 1115,
+      "advancementCost": 200,
+      "starSurcharge": 0,
+      "skillCost": 200,
+      "teamRemaining": 5,
+      "skillRemaining": 0,
+      "playerCount": 12,
+      "regularPlayerCount": 12,
+      "starMemberCount": 0,
+      "secondaryCount": 0,
+      "stackCount": 0,
+      "freeAssistants": 0,
+      "freeCheerleaders": 0,
+      "insignificantCount": 0,
+      "nonInsignificantCount": 12,
+      "regularBigGuyCount": 0,
+      "maxBigGuys": null,
+      "positions": [
+        {
+          "id": "necromantic-horror-0",
+          "count": 5,
+          "max": 16
+        },
+        {
+          "id": "necromantic-horror-1",
+          "count": 1,
+          "max": 2
+        },
+        {
+          "id": "necromantic-horror-2",
+          "count": 2,
+          "max": 2
+        },
+        {
+          "id": "necromantic-horror-3",
+          "count": 2,
+          "max": 2
+        },
+        {
+          "id": "necromantic-horror-4",
+          "count": 2,
+          "max": 2
+        }
+      ],
+      "checks": {
+        "tierMatchesUserText": true,
+        "independentBudgets": true,
+        "skillAccessAndElite": true,
+        "noDuplicateSkills": true,
+        "onlyPrimaryStacks": true,
+        "maxThreeSecondary": true,
+        "maxThreeStacks": true,
+        "noStatIncreases": true,
+        "positionalLimits": true,
+        "sharedBigGuyLimits": true,
+        "elevenToSixteenPlayers": true,
+        "insignificant": true,
+        "starWhitelist": true,
+        "starLeagueAndGroup": true,
+        "starSkillRestrictions": true,
+        "staffAndInducements": true,
+        "uniqueContracts": true
+      }
+    },
+    {
+      "teamId": "norse",
+      "teamName": "Norse",
+      "tier": 4,
+      "valid": true,
+      "baseTeamBudget": 1120,
+      "baseSkillBudget": 200,
+      "teamBudget": 1130,
+      "skillBudget": 190,
+      "playersCost": 870,
+      "starsCost": 0,
+      "staffCost": 230,
+      "inducementsCost": 25,
+      "teamCost": 1125,
+      "advancementCost": 190,
+      "starSurcharge": 0,
+      "skillCost": 190,
+      "teamRemaining": 5,
+      "skillRemaining": 0,
+      "playerCount": 13,
+      "regularPlayerCount": 13,
+      "starMemberCount": 0,
+      "secondaryCount": 0,
+      "stackCount": 0,
+      "freeAssistants": 0,
+      "freeCheerleaders": 0,
+      "insignificantCount": 0,
+      "nonInsignificantCount": 13,
+      "regularBigGuyCount": 0,
+      "maxBigGuys": null,
+      "positions": [
+        {
+          "id": "norse-0",
+          "count": 5,
+          "max": 16
+        },
+        {
+          "id": "norse-1",
+          "count": 2,
+          "max": 2
+        },
+        {
+          "id": "norse-2",
+          "count": 2,
+          "max": 2
+        },
+        {
+          "id": "norse-3",
+          "count": 2,
+          "max": 2
+        },
+        {
+          "id": "norse-4",
+          "count": 2,
+          "max": 2
+        },
+        {
+          "id": "norse-5",
+          "count": 0,
+          "max": 1
+        }
+      ],
+      "checks": {
+        "tierMatchesUserText": true,
+        "independentBudgets": true,
+        "skillAccessAndElite": true,
+        "noDuplicateSkills": true,
+        "onlyPrimaryStacks": true,
+        "maxThreeSecondary": true,
+        "maxThreeStacks": true,
+        "noStatIncreases": true,
+        "positionalLimits": true,
+        "sharedBigGuyLimits": true,
+        "elevenToSixteenPlayers": true,
+        "insignificant": true,
+        "starWhitelist": true,
+        "starLeagueAndGroup": true,
+        "starSkillRestrictions": true,
+        "staffAndInducements": true,
+        "uniqueContracts": true
+      }
+    },
+    {
+      "teamId": "nurgle",
+      "teamName": "Nurgle",
+      "tier": 4,
+      "valid": true,
+      "baseTeamBudget": 1120,
+      "baseSkillBudget": 200,
+      "teamBudget": 1120,
+      "skillBudget": 200,
+      "playersCost": 920,
+      "starsCost": 0,
+      "staffCost": 200,
+      "inducementsCost": 0,
+      "teamCost": 1120,
+      "advancementCost": 200,
+      "starSurcharge": 0,
+      "skillCost": 200,
+      "teamRemaining": 0,
+      "skillRemaining": 0,
+      "playerCount": 12,
+      "regularPlayerCount": 12,
+      "starMemberCount": 0,
+      "secondaryCount": 0,
+      "stackCount": 0,
+      "freeAssistants": 0,
+      "freeCheerleaders": 0,
+      "insignificantCount": 0,
+      "nonInsignificantCount": 12,
+      "regularBigGuyCount": 1,
+      "maxBigGuys": null,
+      "positions": [
+        {
+          "id": "nurgle-0",
+          "count": 5,
+          "max": 16
+        },
+        {
+          "id": "nurgle-1",
+          "count": 2,
+          "max": 2
+        },
+        {
+          "id": "nurgle-2",
+          "count": 4,
+          "max": 4
+        },
+        {
+          "id": "nurgle-3",
+          "count": 1,
+          "max": 1
+        }
+      ],
+      "checks": {
+        "tierMatchesUserText": true,
+        "independentBudgets": true,
+        "skillAccessAndElite": true,
+        "noDuplicateSkills": true,
+        "onlyPrimaryStacks": true,
+        "maxThreeSecondary": true,
+        "maxThreeStacks": true,
+        "noStatIncreases": true,
+        "positionalLimits": true,
+        "sharedBigGuyLimits": true,
+        "elevenToSixteenPlayers": true,
+        "insignificant": true,
+        "starWhitelist": true,
+        "starLeagueAndGroup": true,
+        "starSkillRestrictions": true,
+        "staffAndInducements": true,
+        "uniqueContracts": true
+      }
+    },
+    {
+      "teamId": "tomb-kings",
+      "teamName": "Tomb Kings",
+      "tier": 4,
+      "valid": true,
+      "baseTeamBudget": 1120,
+      "baseSkillBudget": 200,
+      "teamBudget": 1070,
+      "skillBudget": 230,
+      "playersCost": 935,
+      "starsCost": 0,
+      "staffCost": 130,
+      "inducementsCost": 0,
+      "teamCost": 1065,
+      "advancementCost": 230,
+      "starSurcharge": 0,
+      "skillCost": 230,
+      "teamRemaining": 5,
+      "skillRemaining": 0,
+      "playerCount": 13,
+      "regularPlayerCount": 13,
+      "starMemberCount": 0,
+      "secondaryCount": 2,
+      "stackCount": 0,
+      "freeAssistants": 0,
+      "freeCheerleaders": 0,
+      "insignificantCount": 0,
+      "nonInsignificantCount": 13,
+      "regularBigGuyCount": 4,
+      "maxBigGuys": null,
+      "positions": [
+        {
+          "id": "tomb-kings-0",
+          "count": 6,
+          "max": 16
+        },
+        {
+          "id": "tomb-kings-1",
+          "count": 1,
+          "max": 2
+        },
+        {
+          "id": "tomb-kings-2",
+          "count": 2,
+          "max": 2
+        },
+        {
+          "id": "tomb-kings-3",
+          "count": 4,
+          "max": 4
+        }
+      ],
+      "checks": {
+        "tierMatchesUserText": true,
+        "independentBudgets": true,
+        "skillAccessAndElite": true,
+        "noDuplicateSkills": true,
+        "onlyPrimaryStacks": true,
+        "maxThreeSecondary": true,
+        "maxThreeStacks": true,
+        "noStatIncreases": true,
+        "positionalLimits": true,
+        "sharedBigGuyLimits": true,
+        "elevenToSixteenPlayers": true,
+        "insignificant": true,
+        "starWhitelist": true,
+        "starLeagueAndGroup": true,
+        "starSkillRestrictions": true,
+        "staffAndInducements": true,
+        "uniqueContracts": true
+      }
+    },
+    {
+      "teamId": "chaos-chosen",
+      "teamName": "Chaos Chosen",
+      "tier": 5,
+      "valid": true,
+      "baseTeamBudget": 1140,
+      "baseSkillBudget": 230,
+      "teamBudget": 1140,
+      "skillBudget": 230,
+      "playersCost": 925,
+      "starsCost": 0,
+      "staffCost": 210,
+      "inducementsCost": 0,
+      "teamCost": 1135,
+      "advancementCost": 230,
+      "starSurcharge": 0,
+      "skillCost": 230,
+      "teamRemaining": 5,
+      "skillRemaining": 0,
+      "playerCount": 12,
+      "regularPlayerCount": 12,
+      "starMemberCount": 0,
+      "secondaryCount": 0,
+      "stackCount": 1,
+      "freeAssistants": 0,
+      "freeCheerleaders": 0,
+      "insignificantCount": 0,
+      "nonInsignificantCount": 12,
+      "regularBigGuyCount": 1,
+      "maxBigGuys": 1,
+      "positions": [
+        {
+          "id": "chaos-chosen-0",
+          "count": 7,
+          "max": 16
+        },
+        {
+          "id": "chaos-chosen-1",
+          "count": 4,
+          "max": 4
+        },
+        {
+          "id": "chaos-chosen-2",
+          "count": 0,
+          "max": 1
+        },
+        {
+          "id": "chaos-chosen-3",
+          "count": 1,
+          "max": 1
+        },
+        {
+          "id": "chaos-chosen-4",
+          "count": 0,
+          "max": 1
+        }
+      ],
+      "checks": {
+        "tierMatchesUserText": true,
+        "independentBudgets": true,
+        "skillAccessAndElite": true,
+        "noDuplicateSkills": true,
+        "onlyPrimaryStacks": true,
+        "maxThreeSecondary": true,
+        "maxThreeStacks": true,
+        "noStatIncreases": true,
+        "positionalLimits": true,
+        "sharedBigGuyLimits": true,
+        "elevenToSixteenPlayers": true,
+        "insignificant": true,
+        "starWhitelist": true,
+        "starLeagueAndGroup": true,
+        "starSkillRestrictions": true,
+        "staffAndInducements": true,
+        "uniqueContracts": true
+      }
+    },
+    {
+      "teamId": "chaos-dwarf",
+      "teamName": "Chaos Dwarf",
+      "tier": 5,
+      "valid": true,
+      "baseTeamBudget": 1140,
+      "baseSkillBudget": 230,
+      "teamBudget": 1130,
+      "skillBudget": 240,
+      "playersCost": 860,
+      "starsCost": 0,
+      "staffCost": 270,
+      "inducementsCost": 0,
+      "teamCost": 1130,
+      "advancementCost": 240,
+      "starSurcharge": 0,
+      "skillCost": 240,
+      "teamRemaining": 0,
+      "skillRemaining": 0,
+      "playerCount": 12,
+      "regularPlayerCount": 12,
+      "starMemberCount": 0,
+      "secondaryCount": 0,
+      "stackCount": 1,
+      "freeAssistants": 0,
+      "freeCheerleaders": 0,
+      "insignificantCount": 0,
+      "nonInsignificantCount": 12,
+      "regularBigGuyCount": 0,
+      "maxBigGuys": null,
+      "positions": [
+        {
+          "id": "chaos-dwarf-0",
+          "count": 4,
+          "max": 16
+        },
+        {
+          "id": "chaos-dwarf-1",
+          "count": 0,
+          "max": 2
+        },
+        {
+          "id": "chaos-dwarf-2",
+          "count": 4,
+          "max": 4
+        },
+        {
+          "id": "chaos-dwarf-3",
+          "count": 2,
+          "max": 2
+        },
+        {
+          "id": "chaos-dwarf-4",
+          "count": 2,
+          "max": 2
+        },
+        {
+          "id": "chaos-dwarf-5",
+          "count": 0,
+          "max": 1
+        }
+      ],
+      "checks": {
+        "tierMatchesUserText": true,
+        "independentBudgets": true,
+        "skillAccessAndElite": true,
+        "noDuplicateSkills": true,
+        "onlyPrimaryStacks": true,
+        "maxThreeSecondary": true,
+        "maxThreeStacks": true,
+        "noStatIncreases": true,
+        "positionalLimits": true,
+        "sharedBigGuyLimits": true,
+        "elevenToSixteenPlayers": true,
+        "insignificant": true,
+        "starWhitelist": true,
+        "starLeagueAndGroup": true,
+        "starSkillRestrictions": true,
+        "staffAndInducements": true,
+        "uniqueContracts": true
+      }
+    },
+    {
+      "teamId": "dwarf",
+      "teamName": "Dwarf",
+      "tier": 5,
+      "valid": true,
+      "baseTeamBudget": 1140,
+      "baseSkillBudget": 230,
+      "teamBudget": 1150,
+      "skillBudget": 220,
+      "playersCost": 970,
+      "starsCost": 0,
+      "staffCost": 180,
+      "inducementsCost": 0,
+      "teamCost": 1150,
+      "advancementCost": 220,
+      "starSurcharge": 0,
+      "skillCost": 220,
+      "teamRemaining": 0,
+      "skillRemaining": 0,
+      "playerCount": 12,
+      "regularPlayerCount": 12,
+      "starMemberCount": 0,
+      "secondaryCount": 1,
+      "stackCount": 0,
+      "freeAssistants": 0,
+      "freeCheerleaders": 0,
+      "insignificantCount": 0,
+      "nonInsignificantCount": 12,
+      "regularBigGuyCount": 0,
+      "maxBigGuys": null,
+      "positions": [
+        {
+          "id": "dwarf-0",
+          "count": 6,
+          "max": 16
+        },
+        {
+          "id": "dwarf-1",
+          "count": 2,
+          "max": 2
+        },
+        {
+          "id": "dwarf-2",
+          "count": 2,
+          "max": 2
+        },
+        {
+          "id": "dwarf-3",
+          "count": 2,
+          "max": 2
+        },
+        {
+          "id": "dwarf-4",
+          "count": 0,
+          "max": 1
+        }
+      ],
+      "checks": {
+        "tierMatchesUserText": true,
+        "independentBudgets": true,
+        "skillAccessAndElite": true,
+        "noDuplicateSkills": true,
+        "onlyPrimaryStacks": true,
+        "maxThreeSecondary": true,
+        "maxThreeStacks": true,
+        "noStatIncreases": true,
+        "positionalLimits": true,
+        "sharedBigGuyLimits": true,
+        "elevenToSixteenPlayers": true,
+        "insignificant": true,
+        "starWhitelist": true,
+        "starLeagueAndGroup": true,
+        "starSkillRestrictions": true,
+        "staffAndInducements": true,
+        "uniqueContracts": true
+      }
+    },
+    {
+      "teamId": "elven-union",
+      "teamName": "Elven Union",
+      "tier": 5,
+      "valid": true,
+      "baseTeamBudget": 1140,
+      "baseSkillBudget": 230,
+      "teamBudget": 1115,
+      "skillBudget": 250,
+      "playersCost": 960,
+      "starsCost": 0,
+      "staffCost": 150,
+      "inducementsCost": 0,
+      "teamCost": 1110,
+      "advancementCost": 250,
+      "starSurcharge": 0,
+      "skillCost": 250,
+      "teamRemaining": 5,
+      "skillRemaining": 0,
+      "playerCount": 12,
+      "regularPlayerCount": 12,
+      "starMemberCount": 0,
+      "secondaryCount": 0,
+      "stackCount": 2,
+      "freeAssistants": 0,
+      "freeCheerleaders": 0,
+      "insignificantCount": 0,
+      "nonInsignificantCount": 12,
+      "regularBigGuyCount": 0,
+      "maxBigGuys": null,
+      "positions": [
+        {
+          "id": "elven-union-0",
+          "count": 7,
+          "max": 16
+        },
+        {
+          "id": "elven-union-1",
+          "count": 1,
+          "max": 2
+        },
+        {
+          "id": "elven-union-2",
+          "count": 2,
+          "max": 2
+        },
+        {
+          "id": "elven-union-3",
+          "count": 2,
+          "max": 2
+        }
+      ],
+      "checks": {
+        "tierMatchesUserText": true,
+        "independentBudgets": true,
+        "skillAccessAndElite": true,
+        "noDuplicateSkills": true,
+        "onlyPrimaryStacks": true,
+        "maxThreeSecondary": true,
+        "maxThreeStacks": true,
+        "noStatIncreases": true,
+        "positionalLimits": true,
+        "sharedBigGuyLimits": true,
+        "elevenToSixteenPlayers": true,
+        "insignificant": true,
+        "starWhitelist": true,
+        "starLeagueAndGroup": true,
+        "starSkillRestrictions": true,
+        "staffAndInducements": true,
+        "uniqueContracts": true
+      }
+    },
+    {
+      "teamId": "imperial-nobility",
+      "teamName": "Imperial Nobility",
+      "tier": 5,
+      "valid": true,
+      "baseTeamBudget": 1140,
+      "baseSkillBudget": 230,
+      "teamBudget": 1115,
+      "skillBudget": 250,
+      "playersCost": 915,
+      "starsCost": 0,
+      "staffCost": 170,
+      "inducementsCost": 25,
+      "teamCost": 1110,
+      "advancementCost": 250,
+      "starSurcharge": 0,
+      "skillCost": 250,
+      "teamRemaining": 5,
+      "skillRemaining": 0,
+      "playerCount": 12,
+      "regularPlayerCount": 12,
+      "starMemberCount": 0,
+      "secondaryCount": 1,
+      "stackCount": 1,
+      "freeAssistants": 0,
+      "freeCheerleaders": 0,
+      "insignificantCount": 0,
+      "nonInsignificantCount": 12,
+      "regularBigGuyCount": 1,
+      "maxBigGuys": null,
+      "positions": [
+        {
+          "id": "imperial-nobility-0",
+          "count": 4,
+          "max": 16
+        },
+        {
+          "id": "imperial-nobility-1",
+          "count": 1,
+          "max": 2
+        },
+        {
+          "id": "imperial-nobility-2",
+          "count": 4,
+          "max": 4
+        },
+        {
+          "id": "imperial-nobility-3",
+          "count": 2,
+          "max": 2
+        },
+        {
+          "id": "imperial-nobility-4",
+          "count": 1,
+          "max": 1
+        }
+      ],
+      "checks": {
+        "tierMatchesUserText": true,
+        "independentBudgets": true,
+        "skillAccessAndElite": true,
+        "noDuplicateSkills": true,
+        "onlyPrimaryStacks": true,
+        "maxThreeSecondary": true,
+        "maxThreeStacks": true,
+        "noStatIncreases": true,
+        "positionalLimits": true,
+        "sharedBigGuyLimits": true,
+        "elevenToSixteenPlayers": true,
+        "insignificant": true,
+        "starWhitelist": true,
+        "starLeagueAndGroup": true,
+        "starSkillRestrictions": true,
+        "staffAndInducements": true,
+        "uniqueContracts": true
+      }
+    },
+    {
+      "teamId": "slann",
+      "teamName": "Slann",
+      "tier": 5,
+      "valid": true,
+      "baseTeamBudget": 1140,
+      "baseSkillBudget": 230,
+      "teamBudget": 1130,
+      "skillBudget": 240,
+      "playersCost": 920,
+      "starsCost": 0,
+      "staffCost": 210,
+      "inducementsCost": 0,
+      "teamCost": 1130,
+      "advancementCost": 240,
+      "starSurcharge": 0,
+      "skillCost": 240,
+      "teamRemaining": 0,
+      "skillRemaining": 0,
+      "playerCount": 12,
+      "regularPlayerCount": 12,
+      "starMemberCount": 0,
+      "secondaryCount": 1,
+      "stackCount": 1,
+      "freeAssistants": 0,
+      "freeCheerleaders": 0,
+      "insignificantCount": 0,
+      "nonInsignificantCount": 12,
+      "regularBigGuyCount": 1,
+      "maxBigGuys": null,
+      "positions": [
+        {
+          "id": "slann-0",
+          "count": 7,
+          "max": 16
+        },
+        {
+          "id": "slann-1",
+          "count": 2,
+          "max": 2
+        },
+        {
+          "id": "slann-2",
+          "count": 2,
+          "max": 2
+        },
+        {
+          "id": "slann-3",
+          "count": 1,
+          "max": 1
+        }
+      ],
+      "checks": {
+        "tierMatchesUserText": true,
+        "independentBudgets": true,
+        "skillAccessAndElite": true,
+        "noDuplicateSkills": true,
+        "onlyPrimaryStacks": true,
+        "maxThreeSecondary": true,
+        "maxThreeStacks": true,
+        "noStatIncreases": true,
+        "positionalLimits": true,
+        "sharedBigGuyLimits": true,
+        "elevenToSixteenPlayers": true,
+        "insignificant": true,
+        "starWhitelist": true,
+        "starLeagueAndGroup": true,
+        "starSkillRestrictions": true,
+        "staffAndInducements": true,
+        "uniqueContracts": true
+      }
+    },
+    {
+      "teamId": "black-orc",
+      "teamName": "Black Orc",
+      "tier": 6,
+      "valid": true,
+      "baseTeamBudget": 1160,
+      "baseSkillBudget": 260,
+      "teamBudget": 1160,
+      "skillBudget": 260,
+      "playersCost": 880,
+      "starsCost": 0,
+      "staffCost": 230,
+      "inducementsCost": 50,
+      "teamCost": 1160,
+      "advancementCost": 260,
+      "starSurcharge": 0,
+      "skillCost": 260,
+      "teamRemaining": 0,
+      "skillRemaining": 0,
+      "playerCount": 12,
+      "regularPlayerCount": 12,
+      "starMemberCount": 0,
+      "secondaryCount": 0,
+      "stackCount": 1,
+      "freeAssistants": 0,
+      "freeCheerleaders": 0,
+      "insignificantCount": 0,
+      "nonInsignificantCount": 12,
+      "regularBigGuyCount": 1,
+      "maxBigGuys": null,
+      "positions": [
+        {
+          "id": "black-orc-0",
+          "count": 5,
+          "max": 16
+        },
+        {
+          "id": "black-orc-1",
+          "count": 6,
+          "max": 6
+        },
+        {
+          "id": "black-orc-2",
+          "count": 1,
+          "max": 1
+        }
+      ],
+      "checks": {
+        "tierMatchesUserText": true,
+        "independentBudgets": true,
+        "skillAccessAndElite": true,
+        "noDuplicateSkills": true,
+        "onlyPrimaryStacks": true,
+        "maxThreeSecondary": true,
+        "maxThreeStacks": true,
+        "noStatIncreases": true,
+        "positionalLimits": true,
+        "sharedBigGuyLimits": true,
+        "elevenToSixteenPlayers": true,
+        "insignificant": true,
+        "starWhitelist": true,
+        "starLeagueAndGroup": true,
+        "starSkillRestrictions": true,
+        "staffAndInducements": true,
+        "uniqueContracts": true
+      }
+    },
+    {
+      "teamId": "bretonnian",
+      "teamName": "Bretonnian",
+      "tier": 6,
+      "valid": true,
+      "baseTeamBudget": 1160,
+      "baseSkillBudget": 260,
+      "teamBudget": 1090,
+      "skillBudget": 300,
+      "playersCost": 870,
+      "starsCost": 0,
+      "staffCost": 170,
+      "inducementsCost": 50,
+      "teamCost": 1090,
+      "advancementCost": 300,
+      "starSurcharge": 0,
+      "skillCost": 300,
+      "teamRemaining": 0,
+      "skillRemaining": 0,
+      "playerCount": 13,
+      "regularPlayerCount": 13,
+      "starMemberCount": 0,
+      "secondaryCount": 0,
+      "stackCount": 3,
+      "freeAssistants": 0,
+      "freeCheerleaders": 0,
+      "insignificantCount": 0,
+      "nonInsignificantCount": 13,
+      "regularBigGuyCount": 0,
+      "maxBigGuys": null,
+      "positions": [
+        {
+          "id": "bretonnian-0",
+          "count": 7,
+          "max": 16
+        },
+        {
+          "id": "bretonnian-1",
+          "count": 2,
+          "max": 2
+        },
+        {
+          "id": "bretonnian-2",
+          "count": 2,
+          "max": 2
+        },
+        {
+          "id": "bretonnian-3",
+          "count": 2,
+          "max": 2
+        }
+      ],
+      "checks": {
+        "tierMatchesUserText": true,
+        "independentBudgets": true,
+        "skillAccessAndElite": true,
+        "noDuplicateSkills": true,
+        "onlyPrimaryStacks": true,
+        "maxThreeSecondary": true,
+        "maxThreeStacks": true,
+        "noStatIncreases": true,
+        "positionalLimits": true,
+        "sharedBigGuyLimits": true,
+        "elevenToSixteenPlayers": true,
+        "insignificant": true,
+        "starWhitelist": true,
+        "starLeagueAndGroup": true,
+        "starSkillRestrictions": true,
+        "staffAndInducements": true,
+        "uniqueContracts": true
+      }
+    },
+    {
+      "teamId": "chaos-renegades",
+      "teamName": "Chaos Renegades",
+      "tier": 6,
+      "valid": true,
+      "baseTeamBudget": 1160,
+      "baseSkillBudget": 260,
+      "teamBudget": 1135,
+      "skillBudget": 280,
+      "playersCost": 935,
+      "starsCost": 0,
+      "staffCost": 200,
+      "inducementsCost": 0,
+      "teamCost": 1135,
+      "advancementCost": 280,
+      "starSurcharge": 0,
+      "skillCost": 280,
+      "teamRemaining": 0,
+      "skillRemaining": 0,
+      "playerCount": 13,
+      "regularPlayerCount": 13,
+      "starMemberCount": 0,
+      "secondaryCount": 2,
+      "stackCount": 1,
+      "freeAssistants": 0,
+      "freeCheerleaders": 0,
+      "insignificantCount": 0,
+      "nonInsignificantCount": 13,
+      "regularBigGuyCount": 3,
+      "maxBigGuys": 3,
+      "positions": [
+        {
+          "id": "chaos-renegades-0",
+          "count": 5,
+          "max": 16
+        },
+        {
+          "id": "chaos-renegades-1",
+          "count": 1,
+          "max": 1
+        },
+        {
+          "id": "chaos-renegades-2",
+          "count": 1,
+          "max": 1
+        },
+        {
+          "id": "chaos-renegades-3",
+          "count": 1,
+          "max": 1
+        },
+        {
+          "id": "chaos-renegades-4",
+          "count": 1,
+          "max": 1
+        },
+        {
+          "id": "chaos-renegades-5",
+          "count": 1,
+          "max": 1
+        },
+        {
+          "id": "chaos-renegades-6",
+          "count": 1,
+          "max": 1
+        },
+        {
+          "id": "chaos-renegades-7",
+          "count": 1,
+          "max": 1
+        },
+        {
+          "id": "chaos-renegades-8",
+          "count": 1,
+          "max": 1
+        },
+        {
+          "id": "chaos-renegades-9",
+          "count": 0,
+          "max": 1
+        }
+      ],
+      "checks": {
+        "tierMatchesUserText": true,
+        "independentBudgets": true,
+        "skillAccessAndElite": true,
+        "noDuplicateSkills": true,
+        "onlyPrimaryStacks": true,
+        "maxThreeSecondary": true,
+        "maxThreeStacks": true,
+        "noStatIncreases": true,
+        "positionalLimits": true,
+        "sharedBigGuyLimits": true,
+        "elevenToSixteenPlayers": true,
+        "insignificant": true,
+        "starWhitelist": true,
+        "starLeagueAndGroup": true,
+        "starSkillRestrictions": true,
+        "staffAndInducements": true,
+        "uniqueContracts": true
+      }
+    },
+    {
+      "teamId": "gnome",
+      "teamName": "Gnome",
+      "tier": 6,
+      "valid": true,
+      "baseTeamBudget": 1160,
+      "baseSkillBudget": 260,
+      "teamBudget": 1085,
+      "skillBudget": 310,
+      "playersCost": 830,
+      "starsCost": 0,
+      "staffCost": 250,
+      "inducementsCost": 0,
+      "teamCost": 1080,
+      "advancementCost": 310,
+      "starSurcharge": 0,
+      "skillCost": 310,
+      "teamRemaining": 5,
+      "skillRemaining": 0,
+      "playerCount": 15,
+      "regularPlayerCount": 15,
+      "starMemberCount": 0,
+      "secondaryCount": 2,
+      "stackCount": 0,
+      "freeAssistants": 0,
+      "freeCheerleaders": 0,
+      "insignificantCount": 0,
+      "nonInsignificantCount": 15,
+      "regularBigGuyCount": 2,
+      "maxBigGuys": null,
+      "positions": [
+        {
+          "id": "gnome-0",
+          "count": 7,
+          "max": 16
+        },
+        {
+          "id": "gnome-1",
+          "count": 2,
+          "max": 2
+        },
+        {
+          "id": "gnome-2",
+          "count": 2,
+          "max": 2
+        },
+        {
+          "id": "gnome-3",
+          "count": 2,
+          "max": 2
+        },
+        {
+          "id": "gnome-4",
+          "count": 2,
+          "max": 2
+        }
+      ],
+      "checks": {
+        "tierMatchesUserText": true,
+        "independentBudgets": true,
+        "skillAccessAndElite": true,
+        "noDuplicateSkills": true,
+        "onlyPrimaryStacks": true,
+        "maxThreeSecondary": true,
+        "maxThreeStacks": true,
+        "noStatIncreases": true,
+        "positionalLimits": true,
+        "sharedBigGuyLimits": true,
+        "elevenToSixteenPlayers": true,
+        "insignificant": true,
+        "starWhitelist": true,
+        "starLeagueAndGroup": true,
+        "starSkillRestrictions": true,
+        "staffAndInducements": true,
+        "uniqueContracts": true
+      }
+    },
+    {
+      "teamId": "goblin",
+      "teamName": "Goblin",
+      "tier": 6,
+      "valid": true,
+      "baseTeamBudget": 1160,
+      "baseSkillBudget": 260,
+      "teamBudget": 1135,
+      "skillBudget": 280,
+      "playersCost": 715,
+      "starsCost": 250,
+      "staffCost": 120,
+      "inducementsCost": 50,
+      "teamCost": 1135,
+      "advancementCost": 200,
+      "starSurcharge": 80,
+      "skillCost": 280,
+      "teamRemaining": 0,
+      "skillRemaining": 0,
+      "playerCount": 14,
+      "regularPlayerCount": 13,
+      "starMemberCount": 1,
+      "secondaryCount": 3,
+      "stackCount": 0,
+      "freeAssistants": 0,
+      "freeCheerleaders": 0,
+      "insignificantCount": 0,
+      "nonInsignificantCount": 14,
+      "regularBigGuyCount": 2,
+      "maxBigGuys": null,
+      "positions": [
+        {
+          "id": "goblin-0",
+          "count": 8,
+          "max": 16
+        },
+        {
+          "id": "goblin-1",
+          "count": 1,
+          "max": 1
+        },
+        {
+          "id": "goblin-2",
+          "count": 0,
+          "max": 1
+        },
+        {
+          "id": "goblin-3",
+          "count": 1,
+          "max": 1
+        },
+        {
+          "id": "goblin-4",
+          "count": 1,
+          "max": 1
+        },
+        {
+          "id": "goblin-5",
+          "count": 0,
+          "max": 1
+        },
+        {
+          "id": "goblin-6",
+          "count": 0,
+          "max": 1
+        },
+        {
+          "id": "goblin-7",
+          "count": 2,
+          "max": 2
+        }
+      ],
+      "checks": {
+        "tierMatchesUserText": true,
+        "independentBudgets": true,
+        "skillAccessAndElite": true,
+        "noDuplicateSkills": true,
+        "onlyPrimaryStacks": true,
+        "maxThreeSecondary": true,
+        "maxThreeStacks": true,
+        "noStatIncreases": true,
+        "positionalLimits": true,
+        "sharedBigGuyLimits": true,
+        "elevenToSixteenPlayers": true,
+        "insignificant": true,
+        "starWhitelist": true,
+        "starLeagueAndGroup": true,
+        "starSkillRestrictions": true,
+        "staffAndInducements": true,
+        "uniqueContracts": true
+      }
+    },
+    {
+      "teamId": "halfling",
+      "teamName": "Halfling",
+      "tier": 6,
+      "valid": true,
+      "baseTeamBudget": 1160,
+      "baseSkillBudget": 260,
+      "teamBudget": 1160,
+      "skillBudget": 260,
+      "playersCost": 640,
+      "starsCost": 280,
+      "staffCost": 140,
+      "inducementsCost": 100,
+      "teamCost": 1160,
+      "advancementCost": 180,
+      "starSurcharge": 80,
+      "skillCost": 260,
+      "teamRemaining": 0,
+      "skillRemaining": 0,
+      "playerCount": 14,
+      "regularPlayerCount": 13,
+      "starMemberCount": 1,
+      "secondaryCount": 1,
+      "stackCount": 0,
+      "freeAssistants": 0,
+      "freeCheerleaders": 0,
+      "insignificantCount": 0,
+      "nonInsignificantCount": 14,
+      "regularBigGuyCount": 2,
+      "maxBigGuys": null,
+      "positions": [
+        {
+          "id": "halfling-0",
+          "count": 8,
+          "max": 16
+        },
+        {
+          "id": "halfling-1",
+          "count": 1,
+          "max": 2
+        },
+        {
+          "id": "halfling-2",
+          "count": 2,
+          "max": 2
+        },
+        {
+          "id": "halfling-3",
+          "count": 2,
+          "max": 2
+        }
+      ],
+      "checks": {
+        "tierMatchesUserText": true,
+        "independentBudgets": true,
+        "skillAccessAndElite": true,
+        "noDuplicateSkills": true,
+        "onlyPrimaryStacks": true,
+        "maxThreeSecondary": true,
+        "maxThreeStacks": true,
+        "noStatIncreases": true,
+        "positionalLimits": true,
+        "sharedBigGuyLimits": true,
+        "elevenToSixteenPlayers": true,
+        "insignificant": true,
+        "starWhitelist": true,
+        "starLeagueAndGroup": true,
+        "starSkillRestrictions": true,
+        "staffAndInducements": true,
+        "uniqueContracts": true
+      }
+    },
+    {
+      "teamId": "khorne",
+      "teamName": "Khorne",
+      "tier": 6,
+      "valid": true,
+      "baseTeamBudget": 1160,
+      "baseSkillBudget": 260,
+      "teamBudget": 1160,
+      "skillBudget": 260,
+      "playersCost": 970,
+      "starsCost": 0,
+      "staffCost": 190,
+      "inducementsCost": 0,
+      "teamCost": 1160,
+      "advancementCost": 260,
+      "starSurcharge": 0,
+      "skillCost": 260,
+      "teamRemaining": 0,
+      "skillRemaining": 0,
+      "playerCount": 12,
+      "regularPlayerCount": 12,
+      "starMemberCount": 0,
+      "secondaryCount": 1,
+      "stackCount": 1,
+      "freeAssistants": 0,
+      "freeCheerleaders": 0,
+      "insignificantCount": 0,
+      "nonInsignificantCount": 12,
+      "regularBigGuyCount": 1,
+      "maxBigGuys": null,
+      "positions": [
+        {
+          "id": "khorne-0",
+          "count": 5,
+          "max": 16
+        },
+        {
+          "id": "khorne-1",
+          "count": 2,
+          "max": 2
+        },
+        {
+          "id": "khorne-2",
+          "count": 4,
+          "max": 4
+        },
+        {
+          "id": "khorne-3",
+          "count": 1,
+          "max": 1
+        }
+      ],
+      "checks": {
+        "tierMatchesUserText": true,
+        "independentBudgets": true,
+        "skillAccessAndElite": true,
+        "noDuplicateSkills": true,
+        "onlyPrimaryStacks": true,
+        "maxThreeSecondary": true,
+        "maxThreeStacks": true,
+        "noStatIncreases": true,
+        "positionalLimits": true,
+        "sharedBigGuyLimits": true,
+        "elevenToSixteenPlayers": true,
+        "insignificant": true,
+        "starWhitelist": true,
+        "starLeagueAndGroup": true,
+        "starSkillRestrictions": true,
+        "staffAndInducements": true,
+        "uniqueContracts": true
+      }
+    },
+    {
+      "teamId": "ogre",
+      "teamName": "Ogre",
+      "tier": 7,
+      "valid": true,
+      "baseTeamBudget": 1180,
+      "baseSkillBudget": 290,
+      "teamBudget": 1180,
+      "skillBudget": 290,
+      "playersCost": 700,
+      "starsCost": 340,
+      "staffCost": 140,
+      "inducementsCost": 0,
+      "teamCost": 1180,
+      "advancementCost": 210,
+      "starSurcharge": 80,
+      "skillCost": 290,
+      "teamRemaining": 0,
+      "skillRemaining": 0,
+      "playerCount": 14,
+      "regularPlayerCount": 13,
+      "starMemberCount": 1,
+      "secondaryCount": 3,
+      "stackCount": 0,
+      "freeAssistants": 0,
+      "freeCheerleaders": 0,
+      "insignificantCount": 0,
+      "nonInsignificantCount": 14,
+      "regularBigGuyCount": 4,
+      "maxBigGuys": null,
+      "positions": [
+        {
+          "id": "ogre-0",
+          "count": 9,
+          "max": 16
+        },
+        {
+          "id": "ogre-1",
+          "count": 3,
+          "max": 5
+        },
+        {
+          "id": "ogre-2",
+          "count": 1,
+          "max": 1
+        }
+      ],
+      "checks": {
+        "tierMatchesUserText": true,
+        "independentBudgets": true,
+        "skillAccessAndElite": true,
+        "noDuplicateSkills": true,
+        "onlyPrimaryStacks": true,
+        "maxThreeSecondary": true,
+        "maxThreeStacks": true,
+        "noStatIncreases": true,
+        "positionalLimits": true,
+        "sharedBigGuyLimits": true,
+        "elevenToSixteenPlayers": true,
+        "insignificant": true,
+        "starWhitelist": true,
+        "starLeagueAndGroup": true,
+        "starSkillRestrictions": true,
+        "staffAndInducements": true,
+        "uniqueContracts": true
+      }
+    }
+  ]
+}

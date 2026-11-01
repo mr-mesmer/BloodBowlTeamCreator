@@ -1,0 +1,143 @@
+{
+  "version": 1,
+  "id": "recommended-halfling",
+  "name": "Halfling — Deeproot, два Trees, Chef и 14 игроков",
+  "coach": "",
+  "teamId": "halfling",
+  "league": "Woodland League",
+  "favoured": "",
+  "players": [
+    {
+      "id": "recommended-halfling-01",
+      "positionId": "halfling-3",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "block",
+          "type": "secondary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-halfling-02",
+      "positionId": "halfling-3",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "guard",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-halfling-03",
+      "positionId": "halfling-2",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "sure-feet",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-halfling-04",
+      "positionId": "halfling-2",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "sure-feet",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-halfling-05",
+      "positionId": "halfling-1",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "leader",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-halfling-06",
+      "positionId": "halfling-0",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "diving-tackle",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-halfling-07",
+      "positionId": "halfling-0",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "diving-tackle",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-halfling-08",
+      "positionId": "halfling-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-halfling-09",
+      "positionId": "halfling-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-halfling-10",
+      "positionId": "halfling-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-halfling-11",
+      "positionId": "halfling-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-halfling-12",
+      "positionId": "halfling-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-halfling-13",
+      "positionId": "halfling-0",
+      "name": "",
+      "skills": []
+    }
+  ],
+  "stars": [
+    {
+      "id": "recommended-halfling-star-1",
+      "starId": "deeproot-strongbranch"
+    }
+  ],
+  "staff": {
+    "rerolls": 2,
+    "apothecary": 0,
+    "assistants": 1,
+    "cheerleaders": 1,
+    "fans": 0
+  },
+  "inducements": {
+    "chef": 1
+  },
+  "sponsors": [],
+  "coaches": [],
+  "updatedAt": "2026-11-01T00:00:00.000Z"
+}

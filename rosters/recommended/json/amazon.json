@@ -1,0 +1,128 @@
+{
+  "version": 1,
+  "id": "recommended-amazon",
+  "name": "Amazon — Две Block Jaguars и одна Guard-опора",
+  "coach": "",
+  "teamId": "amazon",
+  "league": "Lustrian Superleague",
+  "favoured": "",
+  "players": [
+    {
+      "id": "recommended-amazon-01",
+      "positionId": "amazon-3",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "block",
+          "type": "primary"
+        },
+        {
+          "skillId": "guard",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-amazon-02",
+      "positionId": "amazon-3",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "block",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-amazon-03",
+      "positionId": "amazon-2",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "block",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-amazon-04",
+      "positionId": "amazon-2",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "wrestle",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-amazon-05",
+      "positionId": "amazon-1",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "leader",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-amazon-06",
+      "positionId": "amazon-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-amazon-07",
+      "positionId": "amazon-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-amazon-08",
+      "positionId": "amazon-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-amazon-09",
+      "positionId": "amazon-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-amazon-10",
+      "positionId": "amazon-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-amazon-11",
+      "positionId": "amazon-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-amazon-12",
+      "positionId": "amazon-0",
+      "name": "",
+      "skills": []
+    }
+  ],
+  "stars": [],
+  "staff": {
+    "rerolls": 2,
+    "apothecary": 1,
+    "assistants": 0,
+    "cheerleaders": 0,
+    "fans": 0
+  },
+  "inducements": {},
+  "sponsors": [],
+  "coaches": [
+    "br1ght",
+    "kolianxxxx",
+    "neproxy"
+  ],
+  "updatedAt": "2026-11-01T00:00:00.000Z"
+}

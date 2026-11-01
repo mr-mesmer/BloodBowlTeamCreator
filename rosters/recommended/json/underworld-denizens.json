@@ -1,0 +1,169 @@
+{
+  "version": 1,
+  "id": "recommended-underworld-denizens",
+  "name": "Underworld Denizens — Полная скамейка, мутации и один план на фолы",
+  "coach": "",
+  "teamId": "underworld-denizens",
+  "league": "Underworld Challenge",
+  "favoured": "",
+  "players": [
+    {
+      "id": "recommended-underworld-denizens-01",
+      "positionId": "underworld-denizens-7",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "juggernaut",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-underworld-denizens-02",
+      "positionId": "underworld-denizens-5",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "mighty-blow",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-underworld-denizens-03",
+      "positionId": "underworld-denizens-4",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "two-heads",
+          "type": "primary"
+        },
+        {
+          "skillId": "sidestep",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-underworld-denizens-04",
+      "positionId": "underworld-denizens-3",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "leader",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-underworld-denizens-05",
+      "positionId": "underworld-denizens-2",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "dirty-player",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-underworld-denizens-06",
+      "positionId": "underworld-denizens-2",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "wrestle",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-underworld-denizens-07",
+      "positionId": "underworld-denizens-2",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "wrestle",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-underworld-denizens-08",
+      "positionId": "underworld-denizens-0",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "diving-tackle",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-underworld-denizens-09",
+      "positionId": "underworld-denizens-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-underworld-denizens-10",
+      "positionId": "underworld-denizens-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-underworld-denizens-11",
+      "positionId": "underworld-denizens-1",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-underworld-denizens-12",
+      "positionId": "underworld-denizens-1",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-underworld-denizens-13",
+      "positionId": "underworld-denizens-1",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-underworld-denizens-14",
+      "positionId": "underworld-denizens-1",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-underworld-denizens-15",
+      "positionId": "underworld-denizens-1",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-underworld-denizens-16",
+      "positionId": "underworld-denizens-1",
+      "name": "",
+      "skills": []
+    }
+  ],
+  "stars": [],
+  "staff": {
+    "rerolls": 2,
+    "apothecary": 1,
+    "assistants": 0,
+    "cheerleaders": 0,
+    "fans": 0
+  },
+  "inducements": {
+    "bribes": 1
+  },
+  "sponsors": [],
+  "coaches": [
+    "br1ght",
+    "kolianxxxx",
+    "neproxy"
+  ],
+  "updatedAt": "2026-11-01T00:00:00.000Z"
+}

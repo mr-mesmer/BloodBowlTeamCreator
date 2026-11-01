@@ -1,0 +1,162 @@
+{
+  "version": 1,
+  "id": "recommended-gnome",
+  "name": "Gnome — Два Block Trees и семь новых Dodge",
+  "coach": "",
+  "teamId": "gnome",
+  "league": "Woodland League",
+  "favoured": "",
+  "players": [
+    {
+      "id": "recommended-gnome-01",
+      "positionId": "gnome-4",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "block",
+          "type": "secondary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-gnome-02",
+      "positionId": "gnome-4",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "block",
+          "type": "secondary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-gnome-03",
+      "positionId": "gnome-3",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "dodge",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-gnome-04",
+      "positionId": "gnome-3",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "dodge",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-gnome-05",
+      "positionId": "gnome-2",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "dodge",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-gnome-06",
+      "positionId": "gnome-2",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "dodge",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-gnome-07",
+      "positionId": "gnome-1",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-gnome-08",
+      "positionId": "gnome-1",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-gnome-09",
+      "positionId": "gnome-0",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "dodge",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-gnome-10",
+      "positionId": "gnome-0",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "dodge",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-gnome-11",
+      "positionId": "gnome-0",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "dodge",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-gnome-12",
+      "positionId": "gnome-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-gnome-13",
+      "positionId": "gnome-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-gnome-14",
+      "positionId": "gnome-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-gnome-15",
+      "positionId": "gnome-0",
+      "name": "",
+      "skills": []
+    }
+  ],
+  "stars": [],
+  "staff": {
+    "rerolls": 4,
+    "apothecary": 1,
+    "assistants": 0,
+    "cheerleaders": 0,
+    "fans": 0
+  },
+  "inducements": {},
+  "sponsors": [],
+  "coaches": [
+    "br1ght",
+    "kolianxxxx",
+    "neproxy"
+  ],
+  "updatedAt": "2026-11-01T00:00:00.000Z"
+}

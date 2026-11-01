@@ -1,0 +1,130 @@
+{
+  "version": 1,
+  "id": "recommended-nurgle",
+  "name": "Nurgle — Четыре Block Bloaters и Guard Rotspawn",
+  "coach": "",
+  "teamId": "nurgle",
+  "league": "Chaos Clash",
+  "favoured": "",
+  "players": [
+    {
+      "id": "recommended-nurgle-01",
+      "positionId": "nurgle-3",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "guard",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-nurgle-02",
+      "positionId": "nurgle-2",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "block",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-nurgle-03",
+      "positionId": "nurgle-2",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "block",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-nurgle-04",
+      "positionId": "nurgle-2",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "block",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-nurgle-05",
+      "positionId": "nurgle-2",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "block",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-nurgle-06",
+      "positionId": "nurgle-1",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "block",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-nurgle-07",
+      "positionId": "nurgle-1",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "wrestle",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-nurgle-08",
+      "positionId": "nurgle-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-nurgle-09",
+      "positionId": "nurgle-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-nurgle-10",
+      "positionId": "nurgle-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-nurgle-11",
+      "positionId": "nurgle-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-nurgle-12",
+      "positionId": "nurgle-0",
+      "name": "",
+      "skills": []
+    }
+  ],
+  "stars": [],
+  "staff": {
+    "rerolls": 3,
+    "apothecary": 0,
+    "assistants": 1,
+    "cheerleaders": 1,
+    "fans": 0
+  },
+  "inducements": {},
+  "sponsors": [],
+  "coaches": [],
+  "updatedAt": "2026-11-01T00:00:00.000Z"
+}

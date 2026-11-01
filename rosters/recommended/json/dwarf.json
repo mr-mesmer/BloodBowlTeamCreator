@@ -1,0 +1,132 @@
+{
+  "version": 1,
+  "id": "recommended-dwarf",
+  "name": "Dwarf — Четыре Guard, ударный Slayer и Leader Runner",
+  "coach": "",
+  "teamId": "dwarf",
+  "league": "Worlds Edge Superleague",
+  "favoured": "",
+  "players": [
+    {
+      "id": "recommended-dwarf-01",
+      "positionId": "dwarf-2",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "guard",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-dwarf-02",
+      "positionId": "dwarf-2",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "guard",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-dwarf-03",
+      "positionId": "dwarf-3",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "mighty-blow",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-dwarf-04",
+      "positionId": "dwarf-3",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "guard",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-dwarf-05",
+      "positionId": "dwarf-1",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "block",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-dwarf-06",
+      "positionId": "dwarf-1",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "leader",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-dwarf-07",
+      "positionId": "dwarf-0",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "guard",
+          "type": "secondary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-dwarf-08",
+      "positionId": "dwarf-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-dwarf-09",
+      "positionId": "dwarf-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-dwarf-10",
+      "positionId": "dwarf-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-dwarf-11",
+      "positionId": "dwarf-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-dwarf-12",
+      "positionId": "dwarf-0",
+      "name": "",
+      "skills": []
+    }
+  ],
+  "stars": [],
+  "staff": {
+    "rerolls": 2,
+    "apothecary": 1,
+    "assistants": 1,
+    "cheerleaders": 0,
+    "fans": 0
+  },
+  "inducements": {},
+  "sponsors": [
+    "bugmans"
+  ],
+  "coaches": [],
+  "updatedAt": "2026-11-01T00:00:00.000Z"
+}

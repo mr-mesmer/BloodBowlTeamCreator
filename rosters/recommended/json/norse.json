@@ -1,0 +1,140 @@
+{
+  "version": 1,
+  "id": "recommended-norse",
+  "name": "Norse — Block Ulfs, две Valkyries и длинная скамейка",
+  "coach": "",
+  "teamId": "norse",
+  "league": "Chaos Clash",
+  "favoured": "",
+  "players": [
+    {
+      "id": "recommended-norse-01",
+      "positionId": "norse-4",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "block",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-norse-02",
+      "positionId": "norse-4",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "block",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-norse-03",
+      "positionId": "norse-2",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "guard",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-norse-04",
+      "positionId": "norse-2",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "mighty-blow",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-norse-05",
+      "positionId": "norse-3",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "block",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-norse-06",
+      "positionId": "norse-3",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "wrestle",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-norse-07",
+      "positionId": "norse-0",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "tackle",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-norse-08",
+      "positionId": "norse-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-norse-09",
+      "positionId": "norse-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-norse-10",
+      "positionId": "norse-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-norse-11",
+      "positionId": "norse-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-norse-12",
+      "positionId": "norse-1",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-norse-13",
+      "positionId": "norse-1",
+      "name": "",
+      "skills": []
+    }
+  ],
+  "stars": [],
+  "staff": {
+    "rerolls": 3,
+    "apothecary": 1,
+    "assistants": 0,
+    "cheerleaders": 0,
+    "fans": 0
+  },
+  "inducements": {
+    "mascot": 1
+  },
+  "sponsors": [
+    "bugmans"
+  ],
+  "coaches": [],
+  "updatedAt": "2026-11-01T00:00:00.000Z"
+}

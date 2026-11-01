@@ -22,9 +22,9 @@ meta = json.loads(META.read_text()) if META.exists() else {}
 TIER_NAMES = {
     1: ['Amazon', 'Old World Alliance', 'Orc', 'Wood Elf'],
     2: ['Skaven', 'Underworld Denizens'],
-    3: ['Dark Elf', 'High Elf', 'Human', 'Lizardmen', 'Shambling Undead', 'Vampire'],
+    3: ['Dark Elf', 'High Elf', 'Human', 'Lizardmen', 'Shambling Undead', 'Vampire', 'Snotling'],
     4: ['Necromantic Horror', 'Norse', 'Nurgle', 'Tomb Kings'],
-    5: ['Chaos Chosen', 'Chaos Dwarf', 'Dwarf', 'Elven Union', 'Imperial Nobility', 'Slann', 'Snotling'],
+    5: ['Chaos Chosen', 'Chaos Dwarf', 'Dwarf', 'Elven Union', 'Imperial Nobility', 'Slann'],
     6: ['Black Orc', 'Bretonnian', 'Chaos Renegades', 'Gnome', 'Goblin', 'Halfling', 'Khorne'],
     7: ['Ogre'],
 }
@@ -144,20 +144,20 @@ if not any(t['name'] == 'Slann' for t in teams):
         ('Slann Lineman', 'Lineman, Lizardman', 16, 60, ['6','3','3+','4+','9+'], ['Pogo'], ['G'], ['A','S']),
         ('Slann Catcher', 'Catcher, Lizardman', 2, 80, ['7','2','2+','3+','8+'], ['Diving Catch','On the Ball','Pogo','Very Long Legs'], ['A','G'], ['P','S']),
         ('Slann Blitzer', 'Blitzer, Lizardman', 2, 100, ['7','3','3+','4+','9+'], ['Diving Tackle','Hit and Run','Jump Up','Pogo'], ['A','G','S'], ['P']),
-        ('Kroxigor', 'Big Guy, Lizardman', 1, 140, ['6','5','5+','-','10+'], ['Bone Head','Loner (4+)','Mighty Blow','Prehensile Tail','Thick Skull'], ['S'], ['A','G']),
+        ('Kroxigor', 'Big Guy, Lizardman', 1, 140, ['6','5','5+','6+','10+'], ['Bone Head','Loner (4+)','Mighty Blow','Prehensile Tail','Thick Skull'], ['S'], ['A','G']),
     ]
     positions = []
     for index, (name, role, maximum, price, stats, base, primary, secondary) in enumerate(slann_positions):
         positions.append({
             'id': f'slann-{index}', 'name': name, 'role': role, 'max': maximum,
             'cost': price, 'stats': dict(zip(['MA','ST','AG','PA','AV'], stats)),
-            'skills': base, 'primary': primary, 'secondary': secondary, 'bigGuy': False,
+            'skills': base, 'primary': primary, 'secondary': secondary, 'bigGuy': 'Big Guy' in role,
         })
     teams.append({
         'id': 'slann', 'name': 'Slann', 'tier': 5, 'positions': positions,
         'rerollCost': 50, 'apothecary': True, 'leagues': ['Lustrian Superleague'],
         'specialRules': [], 'favouredOptions': [], 'maxBigGuys': None,
-        'source': 'https://dadidimerda.it/teams.php?ruleset=bb25',
+        'source': 'https://www.thenaf.net/wp-content/uploads/2026/01/NAF-Regulations-for-Tournaments-2026.pdf',
     })
 
 source_stars = {s['name']: s for s in rosters['stars']}

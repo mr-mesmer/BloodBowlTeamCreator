@@ -1,0 +1,141 @@
+{
+  "version": 1,
+  "id": "recommended-goblin",
+  "name": "Goblin — Ripper, два Block Trolls и 14 игроков",
+  "coach": "",
+  "teamId": "goblin",
+  "league": "Badlands Brawl",
+  "favoured": "",
+  "players": [
+    {
+      "id": "recommended-goblin-01",
+      "positionId": "goblin-7",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "block",
+          "type": "secondary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-goblin-02",
+      "positionId": "goblin-7",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "block",
+          "type": "secondary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-goblin-03",
+      "positionId": "goblin-4",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "sure-feet",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-goblin-04",
+      "positionId": "goblin-3",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "quick-foul",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-goblin-05",
+      "positionId": "goblin-1",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "lone-fouler",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-goblin-06",
+      "positionId": "goblin-0",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "sure-hands",
+          "type": "secondary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-goblin-07",
+      "positionId": "goblin-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-goblin-08",
+      "positionId": "goblin-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-goblin-09",
+      "positionId": "goblin-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-goblin-10",
+      "positionId": "goblin-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-goblin-11",
+      "positionId": "goblin-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-goblin-12",
+      "positionId": "goblin-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-goblin-13",
+      "positionId": "goblin-0",
+      "name": "",
+      "skills": []
+    }
+  ],
+  "stars": [
+    {
+      "id": "recommended-goblin-star-1",
+      "starId": "ripper-bolgrot"
+    }
+  ],
+  "staff": {
+    "rerolls": 2,
+    "apothecary": 0,
+    "assistants": 0,
+    "cheerleaders": 0,
+    "fans": 0
+  },
+  "inducements": {
+    "bribes": 1
+  },
+  "sponsors": [],
+  "coaches": [
+    "br1ght",
+    "kolianxxxx"
+  ],
+  "updatedAt": "2026-11-01T00:00:00.000Z"
+}

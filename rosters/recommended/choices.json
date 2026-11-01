@@ -1,0 +1,2281 @@
+{
+  "date": "2026-11-01",
+  "edition": "BB2025",
+  "entries": [
+    {
+      "teamId": "old-world-alliance",
+      "title": "Дерево, дварфийская линия и подвижная ударная пара",
+      "league": "Old World Classic",
+      "favoured": "",
+      "groups": [
+        {
+          "positionId": "old-world-alliance-10",
+          "count": 1,
+          "skills": [
+            "guard"
+          ]
+        },
+        {
+          "positionId": "old-world-alliance-7",
+          "count": 1,
+          "skills": [
+            "guard"
+          ]
+        },
+        {
+          "positionId": "old-world-alliance-6",
+          "count": 1,
+          "skills": [
+            "mighty-blow"
+          ]
+        },
+        {
+          "positionId": "old-world-alliance-3",
+          "count": 3,
+          "skills": []
+        },
+        {
+          "positionId": "old-world-alliance-2",
+          "count": 1,
+          "skills": [
+            "block"
+          ]
+        },
+        {
+          "positionId": "old-world-alliance-4",
+          "count": 1,
+          "skills": [
+            "leader"
+          ]
+        },
+        {
+          "positionId": "old-world-alliance-0",
+          "count": 4,
+          "skills": []
+        }
+      ],
+      "stars": [],
+      "staff": {
+        "rerolls": 2,
+        "apothecary": 1,
+        "assistants": 0,
+        "cheerleaders": 0,
+        "fans": 0
+      },
+      "inducements": {},
+      "sponsors": [],
+      "coaches": [
+        "br1ght",
+        "kolianxxxx"
+      ],
+      "captain": null,
+      "reference": "https://github.com/asantolaria/bloodbowl-my-rosters/blob/0fde8fb5c58bb1584fcf006e5149f99252bde1e4/rosters/eurobowl-2026/eurobowl-26-alianza-viejo-mundo-tier1.md",
+      "analysis": {
+        "priority": "Сохранить оба хороших блитцера, трёх дварфов с Block/Defensive и ST6-опору. Навыки должны одновременно дать силовые поддержки, надёжного носителя и третью командную переброску через Leader.",
+        "plan": "Дерево и дварфы держат центр, не гоняясь за уходящими игроками. Dwarf Blitzer с Guard поддерживает выходы из контакта; Human Blitzer с Mighty Blow и базовым Tackle делает основной блиц. Catcher с Block — носитель и быстрый финишер. Thrower подбирает мяч и сохраняет Leader; 12 игроков и аптекарь страхуют потери.",
+        "tradeoff": "Нет Troll Slayer и запасного Halfling: дополнительные роли уступают месту полноценной линии и аптекарю. Именитые тренеры превращают ровно 25k Team Budget в 20k Skill Gold. Дерево может укорениться, поэтому подвижный Guard оставлен и на Dwarf Blitzer.",
+        "comparison": "Сохранён турнирный каркас с деревом, двумя блитцерами и Leader. Вместо навыка одному линейному куплен второй Guard на дерево; перерасчёт сделан без Flowing Funds."
+      }
+    },
+    {
+      "teamId": "orc",
+      "title": "Два Block Big Un, два Guard и капитан",
+      "league": "Badlands Brawl",
+      "favoured": "",
+      "groups": [
+        {
+          "positionId": "orc-4",
+          "count": 2,
+          "skills": [
+            "block"
+          ]
+        },
+        {
+          "positionId": "orc-5",
+          "count": 1,
+          "skills": [
+            "guard"
+          ]
+        },
+        {
+          "positionId": "orc-3",
+          "count": 1,
+          "skills": [
+            "guard"
+          ]
+        },
+        {
+          "positionId": "orc-3",
+          "count": 1,
+          "skills": [
+            "tackle"
+          ]
+        },
+        {
+          "positionId": "orc-2",
+          "count": 1,
+          "skills": [
+            "leader"
+          ]
+        },
+        {
+          "positionId": "orc-0",
+          "count": 5,
+          "skills": []
+        },
+        {
+          "positionId": "orc-1",
+          "count": 1,
+          "skills": []
+        }
+      ],
+      "stars": [],
+      "staff": {
+        "rerolls": 2,
+        "apothecary": 1,
+        "assistants": 0,
+        "cheerleaders": 0,
+        "fans": 0
+      },
+      "inducements": {},
+      "sponsors": [],
+      "coaches": [
+        "azzik",
+        "neproxy"
+      ],
+      "captain": 1,
+      "reference": "https://github.com/asantolaria/bloodbowl-my-rosters/blob/0fde8fb5c58bb1584fcf006e5149f99252bde1e4/rosters/eurobowl-2026/eurobowl-26-orcos-tier1.md",
+      "analysis": {
+        "priority": "Дать Block обоим Big Un, сохранить Troll и оба Blitzers, а недостаток подвижности компенсировать правильными поддержками и Tackle. Goblin нужен как аварийный забивающий и цель Throw Team-mate.",
+        "plan": "Капитан — первый Big Un с Block: бесплатный Pro помогает его частым блокам с базовым Mighty Blow. Troll и один Blitzer получают Guard; второй Blitzer с Tackle охотится за Dodge. Игра — контролируемое продвижение клетки, а не погони по ширине. Thrower с Leader даёт третий реролл при двух купленных. Запасной орк и аптекарь сохраняют численность.",
+        "tradeoff": "Второй Thrower заменён обычным орком. Azzik и Neproxy забирают 70k Team Budget и дают 40k Skill Gold: это осознанная замена лишнего денежного запаса дополнительными навыками. У команды не четыре Blitzers и не четыре Big Un — использованы именно лимиты BB2025.",
+        "comparison": "От образца взяты Block на Big Un, Guard на Troll и Leader. Добавлен Guard блитцеру и явно назначен капитан; один Thrower заменён Lineman."
+      }
+    },
+    {
+      "teamId": "wood-elf",
+      "title": "Два Wardancers, быстрые принимающие и Leader",
+      "league": "Elven Kingdoms League",
+      "favoured": "",
+      "groups": [
+        {
+          "positionId": "wood-elf-3",
+          "count": 1,
+          "skills": [
+            "tackle"
+          ]
+        },
+        {
+          "positionId": "wood-elf-3",
+          "count": 1,
+          "skills": [
+            "strip-ball"
+          ]
+        },
+        {
+          "positionId": "wood-elf-2",
+          "count": 1,
+          "skills": [
+            "block"
+          ]
+        },
+        {
+          "positionId": "wood-elf-2",
+          "count": 1,
+          "skills": []
+        },
+        {
+          "positionId": "wood-elf-1",
+          "count": 1,
+          "skills": [
+            "leader"
+          ]
+        },
+        {
+          "positionId": "wood-elf-0",
+          "count": 2,
+          "skills": [
+            "wrestle"
+          ]
+        },
+        {
+          "positionId": "wood-elf-0",
+          "count": 4,
+          "skills": []
+        }
+      ],
+      "stars": [],
+      "staff": {
+        "rerolls": 2,
+        "apothecary": 1,
+        "assistants": 0,
+        "cheerleaders": 0,
+        "fans": 0
+      },
+      "inducements": {},
+      "sponsors": [],
+      "coaches": [
+        "br1ght"
+      ],
+      "captain": null,
+      "reference": "https://github.com/asantolaria/bloodbowl-my-rosters/blob/0fde8fb5c58bb1584fcf006e5149f99252bde1e4/rosters/eurobowl-2026/eurobowl-26-elfos-silvanos-tier1.md",
+      "analysis": {
+        "priority": "В первую очередь сохранить двух Wardancers и их разные инструменты отбора: Tackle против Dodge и Strip Ball против носителей без Sure Hands. Затем обеспечить три доступных реролла и аптекаря.",
+        "plan": "Не разменивать эльфов в контактной драке: защищаться экранами и вынуждать соперника раскрыть мяч. Wardancers получают роли отбора, Catcher с Block — роль основного носителя. Два линейных с Wrestle дают вторую линию отбора, если ключевой блиц недоступен. Второй Catcher остаётся угрозой на противоположном фланге.",
+        "tradeoff": "Всего 11 игроков и нет Treeman: бюджет уходит в двух Catchers, Thrower с Leader и аптекаря. Это сознательно хрупкий, но функционально полный ростер. Br1ght добавляет нужные 10k Skill Gold; оставшиеся 5k не перебрасываются в другой бюджет.",
+        "comparison": "Сохранён каркас образца без дерева. Block перенесён с линейного на Catcher вместо Side Step; оба навыка линейных — Wrestle. Цены и навыки оплачены заново по вашему паку."
+      }
+    },
+    {
+      "teamId": "amazon",
+      "title": "Две Block Jaguars и одна Guard-опора",
+      "league": "Lustrian Superleague",
+      "favoured": "",
+      "groups": [
+        {
+          "positionId": "amazon-3",
+          "count": 1,
+          "skills": [
+            "block",
+            "guard"
+          ]
+        },
+        {
+          "positionId": "amazon-3",
+          "count": 1,
+          "skills": [
+            "block"
+          ]
+        },
+        {
+          "positionId": "amazon-2",
+          "count": 1,
+          "skills": [
+            "block"
+          ]
+        },
+        {
+          "positionId": "amazon-2",
+          "count": 1,
+          "skills": [
+            "wrestle"
+          ]
+        },
+        {
+          "positionId": "amazon-1",
+          "count": 1,
+          "skills": [
+            "leader"
+          ]
+        },
+        {
+          "positionId": "amazon-0",
+          "count": 7,
+          "skills": []
+        }
+      ],
+      "stars": [],
+      "staff": {
+        "rerolls": 2,
+        "apothecary": 1,
+        "assistants": 0,
+        "cheerleaders": 0,
+        "fans": 0
+      },
+      "inducements": {},
+      "sponsors": [],
+      "coaches": [
+        "br1ght",
+        "kolianxxxx",
+        "neproxy"
+      ],
+      "captain": null,
+      "reference": "https://github.com/asantolaria/bloodbowl-my-rosters/blob/0fde8fb5c58bb1584fcf006e5149f99252bde1e4/rosters/eurobowl-2026/eurobowl-26-amazonas-tier2.md",
+      "analysis": {
+        "priority": "Сделать обеих Jaguars надёжными ST4-игроками с Block/Dodge, но не оставлять команду вообще без Guard. Нужны отдельный ударный Piranha и Wrestle-игрок для отбора у Block-носителей.",
+        "plan": "Первая Jaguar с Block/Guard — центральная опора, вторая с Block — силовой носитель или независимый угрожающий игрок. Piranha с Block делает безопасные удары, Piranha с Wrestle ищет мяч. Пользоваться Hit and Run для выхода из ненужного контакта. Leader на Python сохраняет три реролла при двух купленных.",
+        "tradeoff": "12, а не 13 игроков; зато сохранён аптекарь и куплен дорогой стак на Jaguar. Три тренера конвертируют 75k Team Budget в 50k Skill Gold. При большом количестве Tackle нельзя рассчитывать, что один базовый Dodge защитит линейных.",
+        "comparison": "У турнирного образца взяты все ключевые позиции и Leader. В вашем тире 1 нужен новый расчёт: скамейка уменьшена на одну Eagle Warrior, одна Jaguar получила легальный стак Block/Guard."
+      }
+    },
+    {
+      "teamId": "skaven",
+      "title": "Rat Ogre, две Gutter Runners и мобильные Blitzers",
+      "league": "Underworld Challenge",
+      "favoured": "",
+      "groups": [
+        {
+          "positionId": "skaven-4",
+          "count": 1,
+          "skills": [
+            "juggernaut"
+          ]
+        },
+        {
+          "positionId": "skaven-3",
+          "count": 1,
+          "skills": [
+            "guard"
+          ]
+        },
+        {
+          "positionId": "skaven-3",
+          "count": 1,
+          "skills": [
+            "break-tackle"
+          ]
+        },
+        {
+          "positionId": "skaven-2",
+          "count": 1,
+          "skills": [
+            "block"
+          ]
+        },
+        {
+          "positionId": "skaven-2",
+          "count": 1,
+          "skills": [
+            "wrestle"
+          ]
+        },
+        {
+          "positionId": "skaven-1",
+          "count": 1,
+          "skills": [
+            "leader"
+          ]
+        },
+        {
+          "positionId": "skaven-0",
+          "count": 1,
+          "skills": [
+            "kick"
+          ]
+        },
+        {
+          "positionId": "skaven-0",
+          "count": 1,
+          "skills": [
+            "wrestle"
+          ]
+        },
+        {
+          "positionId": "skaven-0",
+          "count": 4,
+          "skills": []
+        }
+      ],
+      "stars": [],
+      "staff": {
+        "rerolls": 2,
+        "apothecary": 1,
+        "assistants": 0,
+        "cheerleaders": 0,
+        "fans": 0
+      },
+      "inducements": {},
+      "sponsors": [],
+      "coaches": [
+        "neproxy"
+      ],
+      "captain": null,
+      "reference": "https://github.com/asantolaria/bloodbowl-my-rosters/blob/0fde8fb5c58bb1584fcf006e5149f99252bde1e4/rosters/eurobowl-2026/eurobowl-26-skavens-tier2.md",
+      "analysis": {
+        "priority": "Сохранить обеих Gutter Runners и обоих быстрых Blitzers. Команде нужны надёжный блиц Rat Ogre, мобильная поддержка, инструмент отбора и защита ключевых игроков.",
+        "plan": "Rat Ogre с Juggernaut создаёт угрозу и вытеснения; не кормить его дорогими игроками при Animal Savagery. Blitzer с Break Tackle использует MA8 и базовый Strip Ball, второй с Guard подготавливает силовую поддержку. Одна Gutter Runner с Block носит мяч, вторая с Wrestle страхует отбор. Kick помогает растянуть соперника; Thrower с Leader обеспечивает третий реролл.",
+        "tradeoff": "Нет звезды: обычный Thrower, аптекарь и распределённые навыки полезнее её двойной цены в этом варианте. Состав из 12 игроков не предназначен для бездумных разменов. У Gutter Runners лимит 0–2, не старые 0–4.",
+        "comparison": "Сохранены Rat Ogre и быстрые Blitzers, но добавлен Thrower с Leader вместо ставки только на купленные рероллы. Два разных навыка Gutter Runners и Kick — собственная адаптация к смешанному полю."
+      }
+    },
+    {
+      "teamId": "underworld-denizens",
+      "title": "Полная скамейка, мутации и один план на фолы",
+      "league": "Underworld Challenge",
+      "favoured": "",
+      "groups": [
+        {
+          "positionId": "underworld-denizens-7",
+          "count": 1,
+          "skills": [
+            "juggernaut"
+          ]
+        },
+        {
+          "positionId": "underworld-denizens-5",
+          "count": 1,
+          "skills": [
+            "mighty-blow"
+          ]
+        },
+        {
+          "positionId": "underworld-denizens-4",
+          "count": 1,
+          "skills": [
+            "two-heads",
+            "sidestep"
+          ]
+        },
+        {
+          "positionId": "underworld-denizens-3",
+          "count": 1,
+          "skills": [
+            "leader"
+          ]
+        },
+        {
+          "positionId": "underworld-denizens-2",
+          "count": 1,
+          "skills": [
+            "dirty-player"
+          ]
+        },
+        {
+          "positionId": "underworld-denizens-2",
+          "count": 2,
+          "skills": [
+            "wrestle"
+          ]
+        },
+        {
+          "positionId": "underworld-denizens-0",
+          "count": 1,
+          "skills": [
+            "diving-tackle"
+          ]
+        },
+        {
+          "positionId": "underworld-denizens-0",
+          "count": 2,
+          "skills": []
+        },
+        {
+          "positionId": "underworld-denizens-1",
+          "count": 6,
+          "skills": []
+        }
+      ],
+      "stars": [],
+      "staff": {
+        "rerolls": 2,
+        "apothecary": 1,
+        "assistants": 0,
+        "cheerleaders": 0,
+        "fans": 0
+      },
+      "inducements": {
+        "bribes": 1
+      },
+      "sponsors": [],
+      "coaches": [
+        "br1ght",
+        "kolianxxxx",
+        "neproxy"
+      ],
+      "captain": null,
+      "reference": "https://github.com/asantolaria/bloodbowl-my-rosters/blob/0fde8fb5c58bb1584fcf006e5149f99252bde1e4/rosters/eurobowl-2026/eurobowl-26-habitantes-inframundo-tier2.md",
+      "analysis": {
+        "priority": "Сохранить весь Skaven-блок и одного Big Guy; обеспечить замену для потерь и Animal Savagery. Gutter Runner должен уметь уходить из плотной обороны, а фолы — иметь отдельного исполнителя и Bribe.",
+        "plan": "Rat Ogre с Juggernaut вскрывает контакт, Blitzer с Mighty Blow и базовым Strip Ball даёт вторую ударную угрозу. Two Heads/Sidestep на Gutter Runner помогают манёвру и подготовке одноходовок. Clanrat с Dirty Player делает выгодные фолы; два Wrestle Clanrats защищают мяч и связывают Block-игроков. Goblin с Diving Tackle осложняет выход соперника. Thrower даёт Leader.",
+        "tradeoff": "Выбраны 16 игроков, аптекарь и одна взятка, а не звезда или второй набор поощрений. Шесть Snotlings не нарушают Insignificant: без этого Trait десять игроков. Troll и Rat Ogre одновременно не наняты — общий лимит Big Guys равен одному.",
+        "comparison": "От образца взяты Rat Ogre, скиллованный Gutter Runner и Dirty Player. Состав доведён до 16, соотношение Goblins/Snotlings пересобрано; вместо дорогого судьи выбран аптекарь."
+      }
+    },
+    {
+      "teamId": "dark-elf",
+      "title": "Два Blitzers, две Witches и мобильный Assassin",
+      "league": "Elven Kingdoms League",
+      "favoured": "",
+      "groups": [
+        {
+          "positionId": "dark-elf-3",
+          "count": 2,
+          "skills": [
+            "dodge"
+          ]
+        },
+        {
+          "positionId": "dark-elf-4",
+          "count": 1,
+          "skills": [
+            "block"
+          ]
+        },
+        {
+          "positionId": "dark-elf-4",
+          "count": 1,
+          "skills": [
+            "wrestle"
+          ]
+        },
+        {
+          "positionId": "dark-elf-1",
+          "count": 1,
+          "skills": [
+            "leader"
+          ]
+        },
+        {
+          "positionId": "dark-elf-2",
+          "count": 1,
+          "skills": [
+            "dodge"
+          ]
+        },
+        {
+          "positionId": "dark-elf-0",
+          "count": 1,
+          "skills": [
+            "dodge"
+          ]
+        },
+        {
+          "positionId": "dark-elf-0",
+          "count": 4,
+          "skills": []
+        }
+      ],
+      "stars": [],
+      "staff": {
+        "rerolls": 2,
+        "apothecary": 1,
+        "assistants": 0,
+        "cheerleaders": 0,
+        "fans": 0
+      },
+      "inducements": {},
+      "sponsors": [],
+      "coaches": [
+        "br1ght",
+        "kolianxxxx"
+      ],
+      "captain": null,
+      "reference": "https://github.com/asantolaria/bloodbowl-my-rosters/blob/0fde8fb5c58bb1584fcf006e5149f99252bde1e4/rosters/eurobowl-2026/eurobowl-26-elfos-oscuros-tier3.md",
+      "analysis": {
+        "priority": "После ограничения Blitzers до двух нужны оба, две Witches с разными навыками и источник третьего реролла. Assassin выбран как дополнительный инструмент против лёгкой брони, а не как замена нормальному блицу.",
+        "plan": "Blitzers с Dodge формируют устойчивые углы экрана. Witch с Block — безопасный ударный игрок, Witch с Wrestle — инструмент отбора и игры у бровки. Assassin с Dodge использует Stab и обновлённый Hit and Run, когда это выгоднее обычного блока. Runner с Leader остаётся под защитой. Линейный с Dodge — запасной подвижный носитель или угол экрана.",
+        "tradeoff": "11 игроков и аптекарь вместо глубокой скамейки. Нет Guard и Mighty Blow: их Secondary-цена здесь слишком высока относительно нужных базовых навыков. Сначала сохранять позиции, затем искать выгодные Stab, а не наоборот.",
+        "comparison": "Сохранены шесть позиционных игроков из образца. Одна Witch получила Block вместо Wrestle, а один линейный — Dodge; два дешёвых тренера доводят Skill Gold до 190k."
+      }
+    },
+    {
+      "teamId": "high-elf",
+      "title": "Четыре Dodge-позиционала и White Lion для отбора",
+      "league": "Elven Kingdoms League",
+      "favoured": "",
+      "groups": [
+        {
+          "positionId": "high-elf-2",
+          "count": 2,
+          "skills": [
+            "dodge"
+          ]
+        },
+        {
+          "positionId": "high-elf-3",
+          "count": 1,
+          "skills": [
+            "dodge",
+            "tackle"
+          ]
+        },
+        {
+          "positionId": "high-elf-3",
+          "count": 1,
+          "skills": [
+            "dodge"
+          ]
+        },
+        {
+          "positionId": "high-elf-1",
+          "count": 1,
+          "skills": [
+            "leader"
+          ]
+        },
+        {
+          "positionId": "high-elf-0",
+          "count": 1,
+          "skills": [
+            "wrestle"
+          ]
+        },
+        {
+          "positionId": "high-elf-0",
+          "count": 5,
+          "skills": []
+        }
+      ],
+      "stars": [],
+      "staff": {
+        "rerolls": 2,
+        "apothecary": 1,
+        "assistants": 0,
+        "cheerleaders": 0,
+        "fans": 0
+      },
+      "inducements": {},
+      "sponsors": [],
+      "coaches": [
+        "br1ght",
+        "kolianxxxx"
+      ],
+      "captain": null,
+      "reference": "https://github.com/asantolaria/bloodbowl-my-rosters/blob/0fde8fb5c58bb1584fcf006e5149f99252bde1e4/rosters/eurobowl-2026/eurobowl-26-altos-elfos-tier3.md",
+      "analysis": {
+        "priority": "Использовать именно новый ростер High Elves с Dragon Princes и White Lions. Четыре ключевых игрока должны получить Dodge; одному White Lion с базовым Wrestle нужен Tackle.",
+        "plan": "Dragon Princes с Block/Dodge — основные носители и финишеры. White Lion с Dodge/Tackle и базовыми Wrestle/Claws — инструмент отбора и угрозы дорогой броне; второй White Lion страхует. Phoenix Warrior с Leader обеспечивает третий реролл и возможность паса, но пасовать каждый ход не требуется. Wrestle Lineman даёт дополнительный дешёвый инструмент защиты.",
+        "tradeoff": "11 игроков с аптекарем; два тренера покупают необходимые 20k Skill Gold. Нет дорогого Guard Secondary: отбор строится на мобильности и Wrestle/Tackle, а не на силовой драке всей линией.",
+        "comparison": "Сохранён современный турнирный каркас и стак Dodge/Tackle на White Lion. Он заново вписан в независимые бюджеты вашего пака без Flowing Funds и без дополнительного сайдлайн-стафа."
+      }
+    },
+    {
+      "teamId": "human",
+      "title": "Ogre с Block, два Blitzers и полноценная скамейка",
+      "league": "Old World Classic",
+      "favoured": "",
+      "groups": [
+        {
+          "positionId": "human-5",
+          "count": 1,
+          "skills": [
+            "block"
+          ]
+        },
+        {
+          "positionId": "human-4",
+          "count": 1,
+          "skills": [
+            "mighty-blow"
+          ]
+        },
+        {
+          "positionId": "human-4",
+          "count": 1,
+          "skills": [
+            "guard"
+          ]
+        },
+        {
+          "positionId": "human-2",
+          "count": 1,
+          "skills": [
+            "block"
+          ]
+        },
+        {
+          "positionId": "human-2",
+          "count": 1,
+          "skills": [
+            "wrestle"
+          ]
+        },
+        {
+          "positionId": "human-3",
+          "count": 1,
+          "skills": [
+            "leader"
+          ]
+        },
+        {
+          "positionId": "human-0",
+          "count": 1,
+          "skills": [
+            "kick"
+          ]
+        },
+        {
+          "positionId": "human-0",
+          "count": 1,
+          "skills": [
+            "wrestle"
+          ]
+        },
+        {
+          "positionId": "human-0",
+          "count": 4,
+          "skills": []
+        },
+        {
+          "positionId": "human-1",
+          "count": 1,
+          "skills": []
+        }
+      ],
+      "stars": [],
+      "staff": {
+        "rerolls": 2,
+        "apothecary": 1,
+        "assistants": 1,
+        "cheerleaders": 0,
+        "fans": 0
+      },
+      "inducements": {},
+      "sponsors": [],
+      "coaches": [
+        "br1ght",
+        "kolianxxxx",
+        "neproxy"
+      ],
+      "captain": 2,
+      "reference": "https://github.com/asantolaria/bloodbowl-my-rosters/blob/0fde8fb5c58bb1584fcf006e5149f99252bde1e4/rosters/eurobowl-2026/eurobowl-26-humanos-tier3.md",
+      "analysis": {
+        "priority": "Скомпенсировать уменьшение числа Blitzers качеством двух оставшихся. Нужны устойчивый Ogre, Guard, ударный капитан, отдельные Catchers для мяча и отбора, 13 игроков и аптекарь.",
+        "plan": "Капитан — Blitzer с Mighty Blow и базовым Block/Tackle: бесплатный Pro используется на активном ударном игроке. Второй Blitzer с Guard помогает Ogre и открывает коридоры. Catcher с Block носит мяч, Catcher с Wrestle угрожает отбором. Thrower с Leader сохраняет три реролла. Halfling — дешёвый резерв и возможность аварийного Throw Team-mate.",
+        "tradeoff": "Нет звезды: сильнее укомплектованы обычные роли и скамейка. Secondary Block на Ogre стоит именно 50k, не 40k. Купленный помощник — обычный сайдлайн-стаф за 10k, а не бесплатная награда за контракт.",
+        "comparison": "Сохранён ростер BB2025 с двумя Blitzers и двумя ST3 Catchers. Собственная адаптация добавляет Block Ogre, Kick, Wrestle линейному и явное назначение капитана при 13 игроках."
+      }
+    },
+    {
+      "teamId": "lizardmen",
+      "title": "Все семь силовых игроков и Chameleon Leader",
+      "league": "Lustrian Superleague",
+      "favoured": "",
+      "groups": [
+        {
+          "positionId": "lizardmen-2",
+          "count": 5,
+          "skills": [
+            "block"
+          ]
+        },
+        {
+          "positionId": "lizardmen-2",
+          "count": 1,
+          "skills": [
+            "wrestle"
+          ]
+        },
+        {
+          "positionId": "lizardmen-3",
+          "count": 1,
+          "skills": []
+        },
+        {
+          "positionId": "lizardmen-1",
+          "count": 1,
+          "skills": [
+            "leader"
+          ]
+        },
+        {
+          "positionId": "lizardmen-0",
+          "count": 3,
+          "skills": []
+        }
+      ],
+      "stars": [],
+      "staff": {
+        "rerolls": 2,
+        "apothecary": 0,
+        "assistants": 0,
+        "cheerleaders": 0,
+        "fans": 0
+      },
+      "inducements": {},
+      "sponsors": [],
+      "coaches": [
+        "br1ght",
+        "kolianxxxx"
+      ],
+      "captain": null,
+      "reference": "https://github.com/asantolaria/bloodbowl-my-rosters/blob/0fde8fb5c58bb1584fcf006e5149f99252bde1e4/rosters/eurobowl-2026/eurobowl-26-hombres-lagarto-tier3.md",
+      "analysis": {
+        "priority": "Не срезать шестого Saurus ради удобного бюджета: нужны все шесть и Kroxigor. Как можно больше Saurus должны получить Block; отдельно нужен третий реролл.",
+        "plan": "Пять Block Saurus держат силовой фронт и освобождают Skinks. Шестой с Wrestle — страховка против Block-носителей. Kroxigor прежде всего держит пространство и Prehensile Tail, а не обязан активироваться каждый ход. Chameleon с Leader обеспечивает третий реролл и использует On the Ball; мяч прятать за силовым экраном, а не подставлять Skinks.",
+        "tradeoff": "Самый жёсткий компромисс подборки: 11 игроков без аптекаря. Нельзя одновременно оплатить Kroxigor, шесть Saurus, аптекаря и этот набор навыков в ваших двух бюджетах. Выбраны полнота силового ядра и Leader; это не ростер для бесконтрольного контакта Skinks.",
+        "comparison": "В образце использовались аптекарь и Flowing Funds. Здесь аптекарь снят, один Skink заменён Chameleon с Leader, а вместо дополнительного Frenzy выбран пятый Block."
+      }
+    },
+    {
+      "teamId": "shambling-undead",
+      "title": "Две Guard Mummies, два Wights и два Block Ghouls",
+      "league": "Sylvanian Spotlight",
+      "favoured": "",
+      "groups": [
+        {
+          "positionId": "shambling-undead-4",
+          "count": 2,
+          "skills": [
+            "guard"
+          ]
+        },
+        {
+          "positionId": "shambling-undead-3",
+          "count": 1,
+          "skills": [
+            "mighty-blow"
+          ]
+        },
+        {
+          "positionId": "shambling-undead-3",
+          "count": 1,
+          "skills": [
+            "guard"
+          ]
+        },
+        {
+          "positionId": "shambling-undead-2",
+          "count": 2,
+          "skills": [
+            "block"
+          ]
+        },
+        {
+          "positionId": "shambling-undead-1",
+          "count": 7,
+          "skills": []
+        }
+      ],
+      "stars": [],
+      "staff": {
+        "rerolls": 3,
+        "apothecary": 0,
+        "assistants": 1,
+        "cheerleaders": 0,
+        "fans": 0
+      },
+      "inducements": {},
+      "sponsors": [],
+      "coaches": [
+        "br1ght"
+      ],
+      "captain": null,
+      "reference": "https://github.com/asantolaria/bloodbowl-my-rosters/blob/0fde8fb5c58bb1584fcf006e5149f99252bde1e4/rosters/eurobowl-2026/eurobowl-26-no-muertos-tier3.md",
+      "analysis": {
+        "priority": "Дать две устойчивые силовые опоры, сохранить обоих подвижных носителей с Regeneration и иметь достаточно Zombies для линии и потерь. Wights уже имеют Tackle — не покупать его повторно.",
+        "plan": "Mummies с Guard и Wight с Guard формируют центр, второй Wight с Mighty Blow делает основной блиц по подходящей цели. Оба Ghouls с Block/Dodge могут переносить мяч и меняться ролями после потерь. Семь Zombies позволяют ставить дешёвую линию, защищать дорогих игроков и не экономить каждый фол любой ценой.",
+        "tradeoff": "Нет Block Secondary на Mummies и нет звезды: три Guard и два защищённых Ghouls важнее одного дорогого улучшения. У команды 13 игроков и три купленных реролла; Apothecary недоступен, Regeneration не заменяет скамейку против KO.",
+        "comparison": "Сохранены Guard Mummies и разные навыки Wights. Вместо четвёртого реролла из образца взят дополнительный Zombie, а оба Ghouls получили Block вместо Wrestle."
+      }
+    },
+    {
+      "teamId": "vampire",
+      "title": "Шесть Vampires, семь Thralls и четыре реролла с Leader",
+      "league": "Sylvanian Spotlight",
+      "favoured": "",
+      "groups": [
+        {
+          "positionId": "vampire-3",
+          "count": 2,
+          "skills": [
+            "block"
+          ]
+        },
+        {
+          "positionId": "vampire-2",
+          "count": 1,
+          "skills": [
+            "block"
+          ]
+        },
+        {
+          "positionId": "vampire-2",
+          "count": 1,
+          "skills": [
+            "leader"
+          ]
+        },
+        {
+          "positionId": "vampire-1",
+          "count": 2,
+          "skills": [
+            "dodge"
+          ]
+        },
+        {
+          "positionId": "vampire-0",
+          "count": 7,
+          "skills": []
+        }
+      ],
+      "stars": [],
+      "staff": {
+        "rerolls": 3,
+        "apothecary": 0,
+        "assistants": 0,
+        "cheerleaders": 0,
+        "fans": 0
+      },
+      "inducements": {},
+      "sponsors": [],
+      "coaches": [],
+      "captain": null,
+      "reference": "https://github.com/asantolaria/bloodbowl-my-rosters/blob/0fde8fb5c58bb1584fcf006e5149f99252bde1e4/rosters/eurobowl-2026/eurobowl-26-vampiros-tier3.md",
+      "analysis": {
+        "priority": "Обеспечить питание, рероллы и надёжные блоки, а не добавлять ещё один источник нестабильности. Использовать два ST4 Throwers, два ST4 Blitzers и двух MA8 Runners без Vargheist.",
+        "plan": "Оба Blitzers с Block и один Thrower с Block делают безопасные силовые действия; второй Thrower сохраняет Leader. Runners с Dodge — быстрые носители и финишеры. Thralls сопровождают Vampires для Bloodlust и не должны расходоваться на бессмысленные блоки. Hypnotic Gaze готовит ключевой проход или отбор; в BB2025 это не старый почти автоматический бросок через AG2+.",
+        "tradeoff": "Нет аптекаря, Vargheist, Guard и стаков. Семь Thralls и три купленных реролла плюс Leader предпочтены более дорогим комбинациям. Шесть Vampires требуют дисциплины активаций; обоих Bloodlust 3+ Blitzers не надо активировать только потому, что они есть.",
+        "comparison": "Сохранён турнирный каркас из шести Vampires. Вместо дополнительных атакующих навыков Blitzers и навыка Thrall куплен Block обоим Blitzers: приоритет — управляемость в незнакомом смешанном поле."
+      }
+    },
+    {
+      "teamId": "snotling",
+      "title": "Четыре Big Guys, Block Trolls и Riotous Rookies",
+      "league": "Underworld Challenge",
+      "favoured": "",
+      "groups": [
+        {
+          "positionId": "snotling-5",
+          "count": 2,
+          "skills": [
+            "block"
+          ]
+        },
+        {
+          "positionId": "snotling-4",
+          "count": 2,
+          "skills": [
+            "guard"
+          ]
+        },
+        {
+          "positionId": "snotling-1",
+          "count": 2,
+          "skills": []
+        },
+        {
+          "positionId": "snotling-2",
+          "count": 1,
+          "skills": [
+            "sure-feet"
+          ]
+        },
+        {
+          "positionId": "snotling-2",
+          "count": 1,
+          "skills": []
+        },
+        {
+          "positionId": "snotling-0",
+          "count": 6,
+          "skills": []
+        }
+      ],
+      "stars": [],
+      "staff": {
+        "rerolls": 3,
+        "apothecary": 0,
+        "assistants": 0,
+        "cheerleaders": 0,
+        "fans": 0
+      },
+      "inducements": {
+        "riotous": 1,
+        "bribes": 2,
+        "mascot": 1
+      },
+      "sponsors": [],
+      "coaches": [
+        "br1ght"
+      ],
+      "captain": null,
+      "reference": "https://github.com/asantolaria/bloodbowl-my-rosters/blob/0fde8fb5c58bb1584fcf006e5149f99252bde1e4/rosters/eurobowl-2026/eurobowl-26-snotlings-tier5.md",
+      "analysis": {
+        "priority": "Собрать работоспособную команду именно в вашем тире 3. Двум Trolls нужны надёжные блоки, Pump Wagons — поддержка, маленьким игрокам — численное восполнение. Проверить Insignificant отдельно от общего числа игроков.",
+        "plan": "Два Block Trolls держат линию, два Guard Pump Wagons подготавливают блоки и при выгодной возможности используют базовый Dirty Player. Pump Wagons в BB2025 не имеют Secret Weapon — взятки не нужно тратить на их автоматическое удаление в конце драйва. Riotous Rookies дают временный резерв; две Bribes поддерживают план на фолы. Stilty Runna с Sure Feet — основной финишер, второй страхует его.",
+        "tradeoff": "Звёзды сознательно не наняты: в тире 3 они запретили бы оба Secondary Block и забрали Skill Gold. В заявке 14 постоянных игроков, из них шесть Insignificant и восемь без него; временные Rookies не используются для достижения минимума 11. Mascot — дополнительная условная возможность, не гарантированный четвёртый реролл.",
+        "comparison": "Образец EuroBowl рассчитан на тир 5 и другой объём золота. Здесь он не скопирован: выбран более короткий постоянный состав, два Secondary Block и два Guard, сохранив четыре Big Guys, Rookies и взятки."
+      }
+    },
+    {
+      "teamId": "necromantic-horror",
+      "title": "Два Block Werewolves, четыре Guard и три реролла",
+      "league": "Sylvanian Spotlight",
+      "favoured": "",
+      "groups": [
+        {
+          "positionId": "necromantic-horror-4",
+          "count": 2,
+          "skills": [
+            "block"
+          ]
+        },
+        {
+          "positionId": "necromantic-horror-3",
+          "count": 2,
+          "skills": [
+            "guard"
+          ]
+        },
+        {
+          "positionId": "necromantic-horror-2",
+          "count": 2,
+          "skills": [
+            "guard"
+          ]
+        },
+        {
+          "positionId": "necromantic-horror-1",
+          "count": 1,
+          "skills": [
+            "sure-hands"
+          ]
+        },
+        {
+          "positionId": "necromantic-horror-0",
+          "count": 5,
+          "skills": []
+        }
+      ],
+      "stars": [],
+      "staff": {
+        "rerolls": 3,
+        "apothecary": 0,
+        "assistants": 0,
+        "cheerleaders": 0,
+        "fans": 0
+      },
+      "inducements": {},
+      "sponsors": [],
+      "coaches": [],
+      "captain": null,
+      "reference": "https://github.com/asantolaria/bloodbowl-my-rosters/blob/0fde8fb5c58bb1584fcf006e5149f99252bde1e4/rosters/eurobowl-2026/eurobowl-26-nigromantes-tier4.md",
+      "analysis": {
+        "priority": "Обязательно сохранить обоих Werewolves, обоих Flesh Golems и обоих Wraiths. Нужны безопасный Frenzy и силовой контроль Stand Firm/Sidestep, но два купленных реролла слишком ограничивают выбранный план.",
+        "plan": "Werewolves с Block делают ключевые блицы и создают угрозу у бровки. Guard на Golems и Wraiths удерживает фронт; Wraiths с No Ball не считаются запасными носителями. Единственный Ghoul с Sure Hands — основной подборщик и носитель. Пять Zombies закрывают линию и дают один резерв; Werewolves остаются запасными носителями, если Ghoul выбывает.",
+        "tradeoff": "Второй Ghoul заменён Zombie, и скамейка сокращена относительно 13-игрового варианта: это оплачивает третий настоящий реролл. Единственного Ghoul нельзя без нужды подставлять. Нет звезды или дорогого Secondary Mighty Blow на Werewolf.",
+        "comparison": "Сохранены четыре Guard и два Block Werewolves. Вместо 13 игроков, двух Ghouls и двух рероллов выбраны 12 игроков, один Ghoul с Sure Hands и три реролла."
+      }
+    },
+    {
+      "teamId": "norse",
+      "title": "Block Ulfs, две Valkyries и длинная скамейка",
+      "league": "Chaos Clash",
+      "favoured": "",
+      "groups": [
+        {
+          "positionId": "norse-4",
+          "count": 2,
+          "skills": [
+            "block"
+          ]
+        },
+        {
+          "positionId": "norse-2",
+          "count": 1,
+          "skills": [
+            "guard"
+          ]
+        },
+        {
+          "positionId": "norse-2",
+          "count": 1,
+          "skills": [
+            "mighty-blow"
+          ]
+        },
+        {
+          "positionId": "norse-3",
+          "count": 1,
+          "skills": [
+            "block"
+          ]
+        },
+        {
+          "positionId": "norse-3",
+          "count": 1,
+          "skills": [
+            "wrestle"
+          ]
+        },
+        {
+          "positionId": "norse-0",
+          "count": 1,
+          "skills": [
+            "tackle"
+          ]
+        },
+        {
+          "positionId": "norse-0",
+          "count": 4,
+          "skills": []
+        },
+        {
+          "positionId": "norse-1",
+          "count": 2,
+          "skills": []
+        }
+      ],
+      "stars": [],
+      "staff": {
+        "rerolls": 3,
+        "apothecary": 1,
+        "assistants": 0,
+        "cheerleaders": 0,
+        "fans": 0
+      },
+      "inducements": {
+        "mascot": 1
+      },
+      "sponsors": [
+        "bugmans"
+      ],
+      "coaches": [],
+      "captain": null,
+      "reference": "https://github.com/asantolaria/bloodbowl-my-rosters/blob/0fde8fb5c58bb1584fcf006e5149f99252bde1e4/rosters/eurobowl-2026/eurobowl-26-nordicos-tier4.md",
+      "analysis": {
+        "priority": "Сделать Ulfwereners безопасными, использовать уже имеющийся Block линейных и защитить численность команды с низкой бронёй. Нужны носитель, отдельный отборщик и хотя бы один Guard.",
+        "plan": "Ulfs с Block давят силой и Frenzy. Berserker с Mighty Blow делает основной удар, Berserker с Guard помогает выбирать безопасные Frenzy-блоки. Valkyrie с Block носит мяч, Valkyrie с Wrestle и базовым Strip Ball отбирает. Raider с Tackle нужен против Dodge. Beer Boars поддерживают команду, но не могут носить мяч: у них No Ball.",
+        "tradeoff": "Нет Yhetee: 13 игроков, аптекарь и три купленных реролла надёжнее дорогого Big Guy при той же задаче. Bugman’s переводит неиспользуемые 10k Skill Gold в Team Budget, чтобы поместился Mascot. Mascot не включён в число гарантированных рероллов.",
+        "comparison": "Сохранён каркас без Yhetee с двумя Boars. Ulfs получают Block, а не Guard; Guard перенесён на Berserker, добавлен Tackle Raider. Нет дорогого Secondary Guard линейному."
+      }
+    },
+    {
+      "teamId": "nurgle",
+      "title": "Четыре Block Bloaters и Guard Rotspawn",
+      "league": "Chaos Clash",
+      "favoured": "",
+      "groups": [
+        {
+          "positionId": "nurgle-3",
+          "count": 1,
+          "skills": [
+            "guard"
+          ]
+        },
+        {
+          "positionId": "nurgle-2",
+          "count": 4,
+          "skills": [
+            "block"
+          ]
+        },
+        {
+          "positionId": "nurgle-1",
+          "count": 1,
+          "skills": [
+            "block"
+          ]
+        },
+        {
+          "positionId": "nurgle-1",
+          "count": 1,
+          "skills": [
+            "wrestle"
+          ]
+        },
+        {
+          "positionId": "nurgle-0",
+          "count": 5,
+          "skills": []
+        }
+      ],
+      "stars": [],
+      "staff": {
+        "rerolls": 3,
+        "apothecary": 0,
+        "assistants": 1,
+        "cheerleaders": 1,
+        "fans": 0
+      },
+      "inducements": {},
+      "sponsors": [],
+      "coaches": [],
+      "captain": null,
+      "reference": "https://github.com/asantolaria/bloodbowl-my-rosters/blob/0fde8fb5c58bb1584fcf006e5149f99252bde1e4/rosters/eurobowl-2026/eurobowl-26-nurgle-tier4.md",
+      "analysis": {
+        "priority": "Сначала сделать надёжными всех четырёх Bloaters с базовыми Stand Firm/Foul Appearance. Команде нужны оба Pestigors: нельзя рассчитывать на старый лимит четыре. Rotspawn нужен прежде всего как контроль пространства.",
+        "plan": "Block Bloaters удерживают медленно продвигающийся фронт; Rotspawn с Guard/Tentacles усложняет обход и поддерживает блоки. Pestigor с Block — основной носитель, Pestigor с Wrestle — отборщик с Horns. Держать их в пределах безопасной поддержки, не растягивая линию Rotters. На свободном мяче пользоваться Secure the Ball, когда выполнены условия действия.",
+        "tradeoff": "Нет звезды, дорогого стака Block/Sure Hands или врача: 12 игроков и три реролла оставлены приоритетом. Под давлением подбор мяча остаётся слабостью, особенно если выбывает Block Pestigor. Помощник и чирлидер куплены на последние 20k обычного бюджета.",
+        "comparison": "Сохранены 12 игроков, четыре Block Bloaters, Guard Rotspawn и разные навыки Pestigors. Wrestle на Rotter снят, а 20k обычного бюджета вложены в помощника и чирлидера; Flowing Funds не используются."
+      }
+    },
+    {
+      "teamId": "tomb-kings",
+      "title": "Два Block и два Guard Tomb Guardians",
+      "league": "Sylvanian Spotlight",
+      "favoured": "",
+      "groups": [
+        {
+          "positionId": "tomb-kings-3",
+          "count": 2,
+          "skills": [
+            "block"
+          ]
+        },
+        {
+          "positionId": "tomb-kings-3",
+          "count": 2,
+          "skills": [
+            "guard"
+          ]
+        },
+        {
+          "positionId": "tomb-kings-2",
+          "count": 1,
+          "skills": [
+            "mighty-blow"
+          ]
+        },
+        {
+          "positionId": "tomb-kings-2",
+          "count": 1,
+          "skills": [
+            "tackle"
+          ]
+        },
+        {
+          "positionId": "tomb-kings-1",
+          "count": 1,
+          "skills": [
+            "leader"
+          ]
+        },
+        {
+          "positionId": "tomb-kings-0",
+          "count": 6,
+          "skills": []
+        }
+      ],
+      "stars": [],
+      "staff": {
+        "rerolls": 2,
+        "apothecary": 0,
+        "assistants": 1,
+        "cheerleaders": 0,
+        "fans": 0
+      },
+      "inducements": {},
+      "sponsors": [],
+      "coaches": [
+        "neproxy"
+      ],
+      "captain": null,
+      "reference": "https://github.com/asantolaria/bloodbowl-my-rosters/blob/0fde8fb5c58bb1584fcf006e5149f99252bde1e4/rosters/eurobowl-2026/eurobowl-26-reyes-funerarios-tier4.md",
+      "analysis": {
+        "priority": "Полностью использовать четыре ST5 Tomb Guardians, но вложиться не только в поддержки: два Secondary Block делают их опасными и в чужой ход. Нужны подвижные Blitzers для Tackle/Mighty Blow и надёжный источник третьего реролла.",
+        "plan": "Два Guardians с Block принимают ключевые силовые столкновения; два с Guard помогают выигрывать локальные драки. Brawler остаётся базовым инструментом у Guardians без Block, но не работает на Blitz Action. Blitzer с Tackle работает по Dodge, второй с Mighty Blow — по подходящей броне. Thrower с Sure Hands и добавленным Leader занимается мячом; шесть Skeletons дают два запасных игрока.",
+        "tradeoff": "Один Thrower, а не два; два купленных реролла плюс Leader вместо трёх купленных. Второго подвижного подборщика нет, поэтому Thrower необходимо беречь. Два Secondary стоят по 50k с Elite-надбавкой; ни один из них не объединён со вторым навыком на том же Guardian.",
+        "comparison": "Вместо трёх Guard и Mighty Blow на Guardians взяты два Block Secondary и два Guard. Один Thrower заменён Skeleton, а Leader и тренер Neproxy позволяют сохранить 13 игроков и три доступных реролла."
+      }
+    },
+    {
+      "teamId": "chaos-chosen",
+      "title": "Четыре Block Warriors и Beastman для отбора",
+      "league": "Chaos Clash",
+      "favoured": "Undivided",
+      "groups": [
+        {
+          "positionId": "chaos-chosen-1",
+          "count": 4,
+          "skills": [
+            "block"
+          ]
+        },
+        {
+          "positionId": "chaos-chosen-3",
+          "count": 1,
+          "skills": [
+            "guard"
+          ]
+        },
+        {
+          "positionId": "chaos-chosen-0",
+          "count": 1,
+          "skills": [
+            "block",
+            "tackle"
+          ]
+        },
+        {
+          "positionId": "chaos-chosen-0",
+          "count": 1,
+          "skills": [
+            "sure-hands"
+          ]
+        },
+        {
+          "positionId": "chaos-chosen-0",
+          "count": 5,
+          "skills": []
+        }
+      ],
+      "stars": [],
+      "staff": {
+        "rerolls": 3,
+        "apothecary": 1,
+        "assistants": 1,
+        "cheerleaders": 0,
+        "fans": 0
+      },
+      "inducements": {},
+      "sponsors": [],
+      "coaches": [],
+      "captain": null,
+      "reference": "https://github.com/asantolaria/bloodbowl-my-rosters/blob/0fde8fb5c58bb1584fcf006e5149f99252bde1e4/rosters/eurobowl-2026/eurobowl-26-elegidos-del-caos-tier5.md",
+      "analysis": {
+        "priority": "Не разбавлять бюджет случайными мутациями: всем четырём Chaos Chosen нужен Block. Оставшиеся ресурсы должны дать силовую поддержку, Block/Tackle-блиц с Horns и отдельный подбор мяча.",
+        "plan": "Четыре Block Warriors и Guard Ogre держат фронт. Beastman с Block/Tackle — основной мобильный охотник за Dodge, используя базовый Horns. Beastman с Sure Hands подбирает и носит мяч под защитой. Остальные Beastmen держат экран, дают ассисты и выполняют только выгодные вспомогательные действия.",
+        "tradeoff": "Без звезды и без дорогостоящего ударного Big Guy: выбран более управляемый Ogre, 12 игроков, три реролла и аптекарь. Стак куплен только ключевому Beastman. Guard у обычного Beastman был бы Secondary, поэтому не выдан ему по ошибочной цене Primary.",
+        "comparison": "Сохранён турнирный каркас с Ogre и четырьмя Block Warriors. Разрозненные навыки Beastmen заменены двумя чёткими ролями — Block/Tackle и Sure Hands."
+      }
+    },
+    {
+      "teamId": "chaos-dwarf",
+      "title": "Два Block Bull Centaurs и четыре Guard",
+      "league": "Badlands Brawl",
+      "favoured": "",
+      "groups": [
+        {
+          "positionId": "chaos-dwarf-4",
+          "count": 2,
+          "skills": [
+            "block"
+          ]
+        },
+        {
+          "positionId": "chaos-dwarf-2",
+          "count": 3,
+          "skills": [
+            "guard"
+          ]
+        },
+        {
+          "positionId": "chaos-dwarf-2",
+          "count": 1,
+          "skills": [
+            "mighty-blow",
+            "tackle"
+          ]
+        },
+        {
+          "positionId": "chaos-dwarf-3",
+          "count": 1,
+          "skills": [
+            "guard"
+          ]
+        },
+        {
+          "positionId": "chaos-dwarf-3",
+          "count": 1,
+          "skills": []
+        },
+        {
+          "positionId": "chaos-dwarf-0",
+          "count": 4,
+          "skills": []
+        }
+      ],
+      "stars": [],
+      "staff": {
+        "rerolls": 3,
+        "apothecary": 1,
+        "assistants": 1,
+        "cheerleaders": 0,
+        "fans": 0
+      },
+      "inducements": {},
+      "sponsors": [],
+      "coaches": [
+        "br1ght"
+      ],
+      "captain": null,
+      "reference": "https://github.com/asantolaria/bloodbowl-my-rosters/blob/0fde8fb5c58bb1584fcf006e5149f99252bde1e4/rosters/eurobowl-2026/eurobowl-26-enanos-del-caos-tier5.md",
+      "analysis": {
+        "priority": "Использовать реальный ростер BB2025: четыре обычных Blockers и два Flamesmiths, а не шесть старых Blockers. Сделать безопасными обоих Bull Centaurs и отдельно оплатить Tackle, которого у обычных Blockers больше нет в базовом профиле.",
+        "plan": "Три Guard Blockers и Guard Flamesmith создают локальный перевес. Blocker с Mighty Blow/Tackle — основной удаляющий игрок против Dodge. Bull Centaurs с Block несут силовую и позиционную нагрузку; мяч сначала подбирает Hobgoblin либо используется безопасный Secure the Ball. Не превращать каждую атаку в рискованную передачу на AG4+ Centaur.",
+        "tradeoff": "Нет Minotaur: его цена переведена в 12 игроков, третий купленный реролл и аптекаря. Hobgoblins имеют Primary Devious, а не General — Sure Hands им бесплатно как Primary не выдан. Один Flamesmith остаётся без добавленного навыка, сохраняя базовый Brawler.",
+        "comparison": "Отказ от Minotaur и стаков Break Tackle/Wrestle на Centaurs в пользу Block, дополнительных Hobgoblins и третьего реролла. Tackle явно собран в стак с Mighty Blow на Blocker."
+      }
+    },
+    {
+      "teamId": "dwarf",
+      "title": "Четыре Guard, ударный Slayer и Leader Runner",
+      "league": "Worlds Edge Superleague",
+      "favoured": "",
+      "groups": [
+        {
+          "positionId": "dwarf-2",
+          "count": 2,
+          "skills": [
+            "guard"
+          ]
+        },
+        {
+          "positionId": "dwarf-3",
+          "count": 1,
+          "skills": [
+            "mighty-blow"
+          ]
+        },
+        {
+          "positionId": "dwarf-3",
+          "count": 1,
+          "skills": [
+            "guard"
+          ]
+        },
+        {
+          "positionId": "dwarf-1",
+          "count": 1,
+          "skills": [
+            "block"
+          ]
+        },
+        {
+          "positionId": "dwarf-1",
+          "count": 1,
+          "skills": [
+            "leader"
+          ]
+        },
+        {
+          "positionId": "dwarf-0",
+          "count": 1,
+          "skills": [
+            "guard"
+          ]
+        },
+        {
+          "positionId": "dwarf-0",
+          "count": 5,
+          "skills": []
+        }
+      ],
+      "stars": [],
+      "staff": {
+        "rerolls": 2,
+        "apothecary": 1,
+        "assistants": 1,
+        "cheerleaders": 0,
+        "fans": 0
+      },
+      "inducements": {},
+      "sponsors": [
+        "bugmans"
+      ],
+      "coaches": [],
+      "captain": null,
+      "reference": "https://github.com/asantolaria/bloodbowl-my-rosters/blob/0fde8fb5c58bb1584fcf006e5149f99252bde1e4/rosters/eurobowl-2026/eurobowl-26-enanos-tier5.md",
+      "analysis": {
+        "priority": "Помнить, что Guard у Dwarf Lineman теперь Secondary. Сохранить оба Blitzers с Tackle/Diving Tackle, обоих Slayers и двух Runners; не отдавать всё золото в Deathroller.",
+        "plan": "Два Guard Blitzers, Guard Slayer и Guard Lineman создают силовую сеть. Slayer с Mighty Blow — основной ударный игрок; Frenzy требует заранее проверять второй блок. Runner с Block носит мяч, второй с Leader остаётся защищённым источником третьего реролла. Defensive линейных помогает в позиционной борьбе, но не делает их быстрыми.",
+        "tradeoff": "12 игроков, аптекарь и три доступных реролла предпочтены Deathroller с взяткой. Только один Guard Lineman: он стоит 50k, а не 30k. Bugman’s превращает последние 10k Skill Gold в 10k на обычного помощника, не создавая бесплатного стафа.",
+        "comparison": "Практически сохранён проверяемый каркас опубликованного образца. Изменение под ваш пак — контракт Bugman’s и оплаченный помощник вместо опоры на Flowing Funds."
+      }
+    },
+    {
+      "teamId": "elven-union",
+      "title": "Защищённые Catchers и два Dodge/Sidestep Blitzers",
+      "league": "Elven Kingdoms League",
+      "favoured": "",
+      "groups": [
+        {
+          "positionId": "elven-union-3",
+          "count": 2,
+          "skills": [
+            "dodge"
+          ]
+        },
+        {
+          "positionId": "elven-union-2",
+          "count": 1,
+          "skills": [
+            "block",
+            "dodge"
+          ]
+        },
+        {
+          "positionId": "elven-union-2",
+          "count": 1,
+          "skills": [
+            "wrestle",
+            "dodge"
+          ]
+        },
+        {
+          "positionId": "elven-union-1",
+          "count": 1,
+          "skills": [
+            "leader"
+          ]
+        },
+        {
+          "positionId": "elven-union-0",
+          "count": 2,
+          "skills": [
+            "wrestle"
+          ]
+        },
+        {
+          "positionId": "elven-union-0",
+          "count": 5,
+          "skills": []
+        }
+      ],
+      "stars": [],
+      "staff": {
+        "rerolls": 2,
+        "apothecary": 1,
+        "assistants": 0,
+        "cheerleaders": 0,
+        "fans": 0
+      },
+      "inducements": {},
+      "sponsors": [],
+      "coaches": [
+        "br1ght",
+        "kolianxxxx"
+      ],
+      "captain": null,
+      "reference": "https://github.com/asantolaria/bloodbowl-my-rosters/blob/0fde8fb5c58bb1584fcf006e5149f99252bde1e4/rosters/eurobowl-2026/eurobowl-26-union-elfica-tier5.md",
+      "analysis": {
+        "priority": "Не пытаться собрать старые четыре Catchers: в BB2025 их два, и обоих нужно защищать. Их высокая цена оправдывается только при чётких ролях и достаточном числе игроков.",
+        "plan": "Один Catcher с Block/Dodge — основной носитель, второй с Wrestle/Dodge — быстрый отборщик и запасной финишер. Blitzers с Block/Dodge/Sidestep держат углы и неудобные маркеры. Thrower с Leader сохраняет третий реролл и пасовую угрозу. Два Wrestle Linemen дают дешёвые точки контакта и дополнительный отбор.",
+        "tradeoff": "Нет Guard Secondary и нет дорогой звезды: 12 игроков, аптекарь и два защищённых Catchers важнее. Стак разрешён на двух Catchers и оплачен полностью, включая две доплаты по 10k. Даже с Dodge нельзя играть всей линией в постоянном контакте.",
+        "comparison": "Из образца сохранены оба Blitzers, оба Catchers и Leader. Вместо других стаков и улучшений линейных выбраны Block/Dodge и Wrestle/Dodge на Catchers — приоритет сохранения двух ключевых позиционалов."
+      }
+    },
+    {
+      "teamId": "imperial-nobility",
+      "title": "Четыре Guard и два специализированных Noble Blitzers",
+      "league": "Old World Classic",
+      "favoured": "",
+      "groups": [
+        {
+          "positionId": "imperial-nobility-4",
+          "count": 1,
+          "skills": [
+            "guard"
+          ]
+        },
+        {
+          "positionId": "imperial-nobility-3",
+          "count": 1,
+          "skills": [
+            "dodge",
+            "tackle"
+          ]
+        },
+        {
+          "positionId": "imperial-nobility-3",
+          "count": 1,
+          "skills": [
+            "mighty-blow"
+          ]
+        },
+        {
+          "positionId": "imperial-nobility-2",
+          "count": 3,
+          "skills": [
+            "guard"
+          ]
+        },
+        {
+          "positionId": "imperial-nobility-2",
+          "count": 1,
+          "skills": []
+        },
+        {
+          "positionId": "imperial-nobility-1",
+          "count": 1,
+          "skills": [
+            "leader"
+          ]
+        },
+        {
+          "positionId": "imperial-nobility-0",
+          "count": 4,
+          "skills": []
+        }
+      ],
+      "stars": [],
+      "staff": {
+        "rerolls": 2,
+        "apothecary": 1,
+        "assistants": 0,
+        "cheerleaders": 0,
+        "fans": 0
+      },
+      "inducements": {
+        "mascot": 1
+      },
+      "sponsors": [],
+      "coaches": [
+        "br1ght",
+        "kolianxxxx"
+      ],
+      "captain": null,
+      "reference": "https://github.com/asantolaria/bloodbowl-my-rosters/blob/0fde8fb5c58bb1584fcf006e5149f99252bde1e4/rosters/eurobowl-2026/eurobowl-26-nobleza-imperial-tier5.md",
+      "analysis": {
+        "priority": "Использовать базовые Wrestle/Stand Firm Bodyguards, но не забыть о самостоятельной угрозе мячом и удалением. Нужны мобильный Block/Dodge/Tackle-игрок, ударный Blitzer и Leader на Thrower.",
+        "plan": "Три Guard Bodyguards и Guard Ogre удерживают пространство. Четвёртый Bodyguard уже полезен с базовыми Wrestle/Stand Firm без дополнительного навыка. Noble Blitzer с Dodge/Tackle отбирает у Dodge-носителей и может нести мяч; второй с Mighty Blow использует базовые Block/Pro для ударов. Thrower с Leader обеспечивает третий реролл. Fend Retainers защищают ширину.",
+        "tradeoff": "Один Bodyguard оставлен без Guard ради навыков Blitzers. Mighty Blow на Noble — Secondary Elite за 50k: Strength не является его Primary-доступом. 12 игроков и аптекарь сохранены; Mascot не считается гарантированным четвёртым рероллом.",
+        "comparison": "Вместо пяти Guard, дополнительного купленного реролла и другой специализации Noble выбран набор из четырёх Guard, Block/Dodge/Tackle и Mighty Blow. Это собственная адаптация под ваш Skill Gold и разрешённые стаки."
+      }
+    },
+    {
+      "teamId": "slann",
+      "title": "Два Blitzers, мобильный Guard Catcher и Pogo-отборщик",
+      "league": "Lustrian Superleague",
+      "favoured": "",
+      "groups": [
+        {
+          "positionId": "slann-3",
+          "count": 1,
+          "skills": [
+            "guard"
+          ]
+        },
+        {
+          "positionId": "slann-2",
+          "count": 2,
+          "skills": [
+            "block"
+          ]
+        },
+        {
+          "positionId": "slann-1",
+          "count": 1,
+          "skills": [
+            "dodge"
+          ]
+        },
+        {
+          "positionId": "slann-1",
+          "count": 1,
+          "skills": [
+            "guard"
+          ]
+        },
+        {
+          "positionId": "slann-0",
+          "count": 1,
+          "skills": [
+            "wrestle",
+            "strip-ball"
+          ]
+        },
+        {
+          "positionId": "slann-0",
+          "count": 1,
+          "skills": [
+            "wrestle"
+          ]
+        },
+        {
+          "positionId": "slann-0",
+          "count": 5,
+          "skills": []
+        }
+      ],
+      "stars": [],
+      "staff": {
+        "rerolls": 3,
+        "apothecary": 1,
+        "assistants": 1,
+        "cheerleaders": 0,
+        "fans": 0
+      },
+      "inducements": {},
+      "sponsors": [],
+      "coaches": [
+        "br1ght"
+      ],
+      "captain": null,
+      "reference": "https://github.com/asantolaria/bloodbowl-my-rosters/blob/0fde8fb5c58bb1584fcf006e5149f99252bde1e4/rosters/eurobowl-2026/eurobowl-26-slann-tier4.md",
+      "analysis": {
+        "priority": "Использовать обновлённый NAF Slann, разрешённый вашим паком. Нужны безопасные силовые действия, мобильная поддержка Guard и хотя бы один игрок, который действительно опасен мячу при входе в клетку.",
+        "plan": "Blitzers с Block и базовыми Diving Tackle/Jump Up/Hit and Run держат центральные позиции. Guard Catcher приносит поддержку в труднодоступные места с помощью Pogo; Catcher с Dodge носит мяч. Lineman с Wrestle/Strip Ball — целевой отборщик, второй Wrestle Lineman страхует. Guard Kroxigor контролирует пространство, а не обязан бросать Bone Head каждый ход.",
+        "tradeoff": "12 игроков, три купленных реролла и аптекарь вместо более дешёвого каркаса без Blitzers. Guard на Catcher стоит 50k как Secondary и не объединён со вторым навыком. Leap не добавлен игрокам с Pogo. У Kroxigor исправлен PA на 6+ по BB2025/NAF; на бюджет это не влияет.",
+        "comparison": "Образец строился вокруг Kroxigor, двух Catchers и множества Linemen без Blitzers и аптекаря. В вашем тире 5 выбраны два современных Blitzers, меньшая скамейка и аптекарь, сохранив Guard Catcher и Wrestle/Strip Ball."
+      }
+    },
+    {
+      "teamId": "black-orc",
+      "title": "Шесть Black Orcs, четыре Guard и взятка",
+      "league": "Badlands Brawl",
+      "favoured": "",
+      "groups": [
+        {
+          "positionId": "black-orc-1",
+          "count": 1,
+          "skills": [
+            "block",
+            "tackle"
+          ]
+        },
+        {
+          "positionId": "black-orc-1",
+          "count": 3,
+          "skills": [
+            "guard"
+          ]
+        },
+        {
+          "positionId": "black-orc-1",
+          "count": 2,
+          "skills": [
+            "mighty-blow"
+          ]
+        },
+        {
+          "positionId": "black-orc-2",
+          "count": 1,
+          "skills": [
+            "guard"
+          ]
+        },
+        {
+          "positionId": "black-orc-0",
+          "count": 1,
+          "skills": [
+            "dirty-player"
+          ]
+        },
+        {
+          "positionId": "black-orc-0",
+          "count": 4,
+          "skills": []
+        }
+      ],
+      "stars": [],
+      "staff": {
+        "rerolls": 3,
+        "apothecary": 1,
+        "assistants": 0,
+        "cheerleaders": 0,
+        "fans": 0
+      },
+      "inducements": {
+        "bribes": 1
+      },
+      "sponsors": [],
+      "coaches": [],
+      "captain": null,
+      "reference": "https://github.com/asantolaria/bloodbowl-my-rosters/blob/0fde8fb5c58bb1584fcf006e5149f99252bde1e4/rosters/eurobowl-2026/eurobowl-26-orcos-negros-tier6.md",
+      "analysis": {
+        "priority": "Сохранить все шесть Black Orcs и Troll, использовать Grab для позиционного контроля и выгодных фолов. Нужен один настоящий Block/Tackle-блицер, а не Tackle на игроке, который остаётся ненадёжным на Blitz Action.",
+        "plan": "Три Guard Black Orcs и Guard Troll готовят локальный перевес, два Mighty Blow Black Orcs используют безопасные обычные блоки с базовым Brawler. Black Orc с Block/Tackle делает ключевой блиц. Dirty Player Goblin использует подготовленные Grab цели под Bribe; остальные Goblins переносят мяч и закрывают свободные клетки. Для свободного мяча применять Secure the Ball при выполнении условий.",
+        "tradeoff": "12 игроков, три реролла, аптекарь и Bribe; нет звезды и прокачанного носителя. У Goblins нет Sure Hands, поэтому против Strip Ball нужна особенно аккуратная клетка. Brawler не объявляется заменой Block на блице — это разные ситуации по правилам BB2025.",
+        "comparison": "Вместо четвёртого реролла и спринтерского Goblin-стака из образца взяты Bribe, Dirty Player и Block/Tackle Black Orc. Основной силовой каркас и аптекарь сохранены."
+      }
+    },
+    {
+      "teamId": "bretonnian",
+      "title": "Два Blodge Catchers, ударный Grail и Wrestle-линия",
+      "league": "Old World Classic",
+      "favoured": "",
+      "groups": [
+        {
+          "positionId": "bretonnian-3",
+          "count": 1,
+          "skills": [
+            "guard",
+            "mighty-blow"
+          ]
+        },
+        {
+          "positionId": "bretonnian-3",
+          "count": 1,
+          "skills": [
+            "guard"
+          ]
+        },
+        {
+          "positionId": "bretonnian-1",
+          "count": 2,
+          "skills": [
+            "block",
+            "dodge"
+          ]
+        },
+        {
+          "positionId": "bretonnian-2",
+          "count": 1,
+          "skills": [
+            "leader"
+          ]
+        },
+        {
+          "positionId": "bretonnian-2",
+          "count": 1,
+          "skills": []
+        },
+        {
+          "positionId": "bretonnian-0",
+          "count": 1,
+          "skills": [
+            "tackle"
+          ]
+        },
+        {
+          "positionId": "bretonnian-0",
+          "count": 1,
+          "skills": [
+            "kick"
+          ]
+        },
+        {
+          "positionId": "bretonnian-0",
+          "count": 5,
+          "skills": []
+        }
+      ],
+      "stars": [],
+      "staff": {
+        "rerolls": 2,
+        "apothecary": 1,
+        "assistants": 0,
+        "cheerleaders": 0,
+        "fans": 0
+      },
+      "inducements": {
+        "kegs": 1
+      },
+      "sponsors": [],
+      "coaches": [
+        "azzik",
+        "neproxy"
+      ],
+      "captain": null,
+      "reference": "https://github.com/asantolaria/bloodbowl-my-rosters/blob/0fde8fb5c58bb1584fcf006e5149f99252bde1e4/rosters/eurobowl-2026/eurobowl-26-bretonia-tier6.md",
+      "analysis": {
+        "priority": "Воспользоваться тем, что Squires уже имеют Wrestle: не покупать им массово Block. Оба Catchers должны стать устойчивыми носителями, Grail Knights — давать поддержки и хотя бы одну качественную ударную роль.",
+        "plan": "Оба Catchers с Block/Dodge — основные носители и финишеры. Grail с Guard/Mighty Blow и базовыми Block/Dauntless даёт ударную угрозу; второй Grail с Guard поддерживает. Thrower с Leader обеспечивает третий реролл. Squire с Tackle и базовым Wrestle — отборщик против Block/Dodge, Kick Squire помогает растянуть соперника. Keg и аптекарь помогают возвращать численность.",
+        "tradeoff": "Использован весь лимит трёх Primary-стаков: один Grail и два Catchers. Два купленных реролла плюс Leader, а не четыре условно гарантированных. Второй Thrower без прокачки страхует мяч и передачи; 13 игроков и Keg выбраны вместо лишнего дорогого навыка линейному.",
+        "comparison": "Сохранены все шесть Knights и два Block/Dodge Catchers. Сняты второстепенные улучшения Squires/Throwers и третий купленный реролл; добавлены Leader, Keg, Tackle/Kick и ударный стак Grail."
+      }
+    },
+    {
+      "teamId": "chaos-renegades",
+      "title": "Три Big Guys, Blodge Dark Elf и 13 игроков",
+      "league": "Chaos Clash",
+      "favoured": "Undivided",
+      "groups": [
+        {
+          "positionId": "chaos-renegades-8",
+          "count": 1,
+          "skills": [
+            "block"
+          ]
+        },
+        {
+          "positionId": "chaos-renegades-7",
+          "count": 1,
+          "skills": [
+            "block"
+          ]
+        },
+        {
+          "positionId": "chaos-renegades-6",
+          "count": 1,
+          "skills": [
+            "guard"
+          ]
+        },
+        {
+          "positionId": "chaos-renegades-4",
+          "count": 1,
+          "skills": [
+            "block",
+            "dodge"
+          ]
+        },
+        {
+          "positionId": "chaos-renegades-5",
+          "count": 1,
+          "skills": [
+            "leader"
+          ]
+        },
+        {
+          "positionId": "chaos-renegades-2",
+          "count": 1,
+          "skills": []
+        },
+        {
+          "positionId": "chaos-renegades-3",
+          "count": 1,
+          "skills": [
+            "wrestle"
+          ]
+        },
+        {
+          "positionId": "chaos-renegades-1",
+          "count": 1,
+          "skills": []
+        },
+        {
+          "positionId": "chaos-renegades-0",
+          "count": 1,
+          "skills": [
+            "dirty-player"
+          ]
+        },
+        {
+          "positionId": "chaos-renegades-0",
+          "count": 1,
+          "skills": [
+            "wrestle"
+          ]
+        },
+        {
+          "positionId": "chaos-renegades-0",
+          "count": 3,
+          "skills": []
+        }
+      ],
+      "stars": [],
+      "staff": {
+        "rerolls": 2,
+        "apothecary": 1,
+        "assistants": 1,
+        "cheerleaders": 0,
+        "fans": 0
+      },
+      "inducements": {},
+      "sponsors": [],
+      "coaches": [
+        "br1ght",
+        "kolianxxxx"
+      ],
+      "captain": null,
+      "reference": "https://github.com/asantolaria/bloodbowl-my-rosters/blob/0fde8fb5c58bb1584fcf006e5149f99252bde1e4/rosters/eurobowl-2026/eurobowl-26-renegados-del-caos-tier6.md",
+      "analysis": {
+        "priority": "Собрать три взаимодополняющих Big Guys, снизить число опасных блоков без Block и защитить единственного AG2+ Dark Elf. Нужны Thrower для Leader и достаточное количество дешёвых сопровождающих.",
+        "plan": "Rat Ogre и Ogre с Block дают два силовых инструмента, Troll с Guard помогает без необходимости постоянно активироваться. Dark Elf с Block/Dodge — основной носитель. Thrower с Sure Hands/Leader страхует подбор и третий реролл, но при передаче между расами необходимо учитывать Animosity. Skaven с Wrestle угрожает отбором; Dirty Player Human выполняет только выгодные фолы.",
+        "tradeoff": "Нет Minotaur и Lord Borak: выбраны три обычных Big Guys, два Secondary Block и защищённый собственный носитель без звёздной доплаты. 13 игроков и аптекарь сохраняют состав. Rat Ogre по-прежнему требует дешёвого сопровождающего для Animal Savagery; Block не отменяет этот Trait.",
+        "comparison": "Сохранены те же 13 игроков, Blodge Dark Elf и Leader. Guard Ogre заменён на Secondary Block, Block Skaven — на Wrestle, а один из двух Wrestle Humans — на Dirty Player. Это адаптация навыков, а не замена состава звездой."
+      }
+    },
+    {
+      "teamId": "gnome",
+      "title": "Два Block Trees и семь новых Dodge",
+      "league": "Woodland League",
+      "favoured": "",
+      "groups": [
+        {
+          "positionId": "gnome-4",
+          "count": 2,
+          "skills": [
+            "block"
+          ]
+        },
+        {
+          "positionId": "gnome-3",
+          "count": 2,
+          "skills": [
+            "dodge"
+          ]
+        },
+        {
+          "positionId": "gnome-2",
+          "count": 2,
+          "skills": [
+            "dodge"
+          ]
+        },
+        {
+          "positionId": "gnome-1",
+          "count": 2,
+          "skills": []
+        },
+        {
+          "positionId": "gnome-0",
+          "count": 3,
+          "skills": [
+            "dodge"
+          ]
+        },
+        {
+          "positionId": "gnome-0",
+          "count": 4,
+          "skills": []
+        }
+      ],
+      "stars": [],
+      "staff": {
+        "rerolls": 4,
+        "apothecary": 1,
+        "assistants": 0,
+        "cheerleaders": 0,
+        "fans": 0
+      },
+      "inducements": {},
+      "sponsors": [],
+      "coaches": [
+        "br1ght",
+        "kolianxxxx",
+        "neproxy"
+      ],
+      "captain": null,
+      "reference": "https://github.com/asantolaria/bloodbowl-my-rosters/blob/0fde8fb5c58bb1584fcf006e5149f99252bde1e4/rosters/eurobowl-2026/eurobowl-26-gnomos-tier6.md",
+      "analysis": {
+        "priority": "Снизить нестабильность обычных Gnomes, а не тратить почти весь ресурс на одну легенду. Нужны два надёжных дерева, Dodge обоим Beastmasters и Illusionists, достаточно замен и рероллов.",
+        "plan": "Block Trees принимают линию и делают основные силовые блоки. Beastmasters сохраняют базовый Guard/Wrestle и получают Dodge, чтобы оставаться мобильными поддержками. Illusionists с Dodge/Wrestle/Trickster неудобны в контакте; три Dodge Linemen поддерживают мобильную часть состава. Foxes — быстрые финишеры, но My Ball запрещает им добровольно передать мяч: заранее выбирать маршрут владения.",
+        "tradeoff": "Без Deeproot: его 280k и 80k Skill Gold оставили бы меньше рероллов и Dodge. Здесь 15 игроков, аптекарь, четыре настоящих реролла, два Secondary Block и семь Primary Dodge. Нет Bullseye: этот вариант делает ставку на наземный контроль, а не максимальную точность одноходовки.",
+        "comparison": "Сохранены 15 игроков и широкая выдача Dodge. Пятый реролл и дополнительные трюковые навыки образца заменены двумя Secondary Block на Trees; все семь Dodge сохранены благодаря контрактам."
+      }
+    },
+    {
+      "teamId": "goblin",
+      "title": "Ripper, два Block Trolls и 14 игроков",
+      "league": "Badlands Brawl",
+      "favoured": "",
+      "groups": [
+        {
+          "positionId": "goblin-7",
+          "count": 2,
+          "skills": [
+            "block"
+          ]
+        },
+        {
+          "positionId": "goblin-4",
+          "count": 1,
+          "skills": [
+            "sure-feet"
+          ]
+        },
+        {
+          "positionId": "goblin-3",
+          "count": 1,
+          "skills": [
+            "quick-foul"
+          ]
+        },
+        {
+          "positionId": "goblin-1",
+          "count": 1,
+          "skills": [
+            "lone-fouler"
+          ]
+        },
+        {
+          "positionId": "goblin-0",
+          "count": 1,
+          "skills": [
+            "sure-hands"
+          ]
+        },
+        {
+          "positionId": "goblin-0",
+          "count": 7,
+          "skills": []
+        }
+      ],
+      "stars": [
+        "ripper-bolgrot"
+      ],
+      "staff": {
+        "rerolls": 2,
+        "apothecary": 0,
+        "assistants": 0,
+        "cheerleaders": 0,
+        "fans": 0
+      },
+      "inducements": {
+        "bribes": 1
+      },
+      "sponsors": [],
+      "coaches": [
+        "br1ght",
+        "kolianxxxx"
+      ],
+      "captain": null,
+      "reference": "https://github.com/asantolaria/bloodbowl-my-rosters/blob/0fde8fb5c58bb1584fcf006e5149f99252bde1e4/rosters/eurobowl-2026/eurobowl-26-goblins-tier6.md",
+      "analysis": {
+        "priority": "Использовать разрешённого Ripper как надёжный ST6-центр без Really Stupid. Вместо всех Secret Weapons сразу сохранить настоящую скамейку, два Block Trolls, нормального носителя и одну взятку.",
+        "plan": "Ripper контролирует центр и выполняет важные Throw Team-mate; его личный переброс не является общекомандным ресурсом. Два Trained Trolls с Block удерживают силовую линию. Goblin с Sure Hands — носитель, Doom Diver с Sure Feet — вариант аварийного гола через бросок. ’Ooligan с Quick Foul использует базовый Dirty Player и может уйти после фола; Looney с Lone Fouler — отдельный инструмент против выгодной цели.",
+        "tradeoff": "Только два купленных реролла, нет аптекаря, Fanatic, Bomma и Pogoer. Это цена трёх постоянных силовых игроков и 14 мест в заявке. Три Secondary уже заняты двумя Block и одним Sure Hands. Bribe одна: не рассчитывать автоматически сохранять Looney через любой короткий драйв.",
+        "comparison": "Вместо оружейного образца без звезды выбрана собственная Ripper-сборка: меньше Secret Weapons и рероллов, но стабильнее силовой центр и план Throw Team-mate. Двойная цена легенды полностью включена: 250k Team Budget и 80k Skill Gold."
+      }
+    },
+    {
+      "teamId": "halfling",
+      "title": "Deeproot, два Trees, Chef и 14 игроков",
+      "league": "Woodland League",
+      "favoured": "",
+      "groups": [
+        {
+          "positionId": "halfling-3",
+          "count": 1,
+          "skills": [
+            "block"
+          ]
+        },
+        {
+          "positionId": "halfling-3",
+          "count": 1,
+          "skills": [
+            "guard"
+          ]
+        },
+        {
+          "positionId": "halfling-2",
+          "count": 2,
+          "skills": [
+            "sure-feet"
+          ]
+        },
+        {
+          "positionId": "halfling-1",
+          "count": 1,
+          "skills": [
+            "leader"
+          ]
+        },
+        {
+          "positionId": "halfling-0",
+          "count": 2,
+          "skills": [
+            "diving-tackle"
+          ]
+        },
+        {
+          "positionId": "halfling-0",
+          "count": 6,
+          "skills": []
+        }
+      ],
+      "stars": [
+        "deeproot-strongbranch"
+      ],
+      "staff": {
+        "rerolls": 2,
+        "apothecary": 0,
+        "assistants": 1,
+        "cheerleaders": 1,
+        "fans": 0
+      },
+      "inducements": {
+        "chef": 1
+      },
+      "sponsors": [],
+      "coaches": [],
+      "captain": null,
+      "reference": "https://github.com/asantolaria/bloodbowl-my-rosters/blob/0fde8fb5c58bb1584fcf006e5149f99252bde1e4/rosters/eurobowl-2026/eurobowl-26-halflings-tier6.md",
+      "analysis": {
+        "priority": "Взять разрешённого Deeproot, не потеряв оба обычных дерева, Chef и резерв. Выбрать именно Woodland League для его найма. Нужны стабильный базовый запас рероллов и отдельные финишеры.",
+        "plan": "Deeproot с базовым Block/ST7 и обычное дерево с добавленным Block принимают ключевые силовые действия; второе дерево с Guard помогает позиционно. Catchers с Sure Feet — наземные и бросаемые финишеры. Hefty с Leader дополняет два купленных реролла, а Chef даёт переменную поддержку. Diving Tackle Hopefuls мешают обходу и ставят сопернику неприятные дополнительные условия выхода.",
+        "tradeoff": "Нет аптекаря и второго Hefty; 14 игроков и Chef сохранены. Chef не гарантирует ни одного украденного реролла, поэтому ростер не строится на единственной купленной переброске. У деревьев нельзя смешивать Block Secondary со вторым Primary: здесь у каждого ровно один добавленный навык.",
+        "comparison": "Вместо двух Veterans из образца выбрана одна Legend Deeproot; лига переключена на Woodland. Теперь куплены два реролла вместо одного при сохранении Leader; Block Tree допустим по вашему исключению для тиров 5–7 со звёздами."
+      }
+    },
+    {
+      "teamId": "khorne",
+      "title": "Четыре Block Bloodseekers и Khorngor Leader",
+      "league": "Chaos Clash",
+      "favoured": "",
+      "groups": [
+        {
+          "positionId": "khorne-2",
+          "count": 4,
+          "skills": [
+            "block"
+          ]
+        },
+        {
+          "positionId": "khorne-3",
+          "count": 1,
+          "skills": [
+            "juggernaut"
+          ]
+        },
+        {
+          "positionId": "khorne-1",
+          "count": 1,
+          "skills": [
+            "block",
+            "tackle"
+          ]
+        },
+        {
+          "positionId": "khorne-1",
+          "count": 1,
+          "skills": [
+            "leader"
+          ]
+        },
+        {
+          "positionId": "khorne-0",
+          "count": 1,
+          "skills": [
+            "wrestle"
+          ]
+        },
+        {
+          "positionId": "khorne-0",
+          "count": 4,
+          "skills": []
+        }
+      ],
+      "stars": [],
+      "staff": {
+        "rerolls": 2,
+        "apothecary": 1,
+        "assistants": 1,
+        "cheerleaders": 1,
+        "fans": 0
+      },
+      "inducements": {},
+      "sponsors": [],
+      "coaches": [],
+      "captain": null,
+      "reference": "https://github.com/asantolaria/bloodbowl-my-rosters/blob/0fde8fb5c58bb1584fcf006e5149f99252bde1e4/rosters/eurobowl-2026/eurobowl-26-khorne-tier6.md",
+      "analysis": {
+        "priority": "Сначала обезопасить всех четырёх Bloodseekers с Frenzy. Нужны надёжный отборщик с Tackle, понятная роль Bloodspawn и третий реролл без отказа от скамейки.",
+        "plan": "Bloodseekers с Block делают основной силовой фронт. Khorngor с Block/Tackle и базовым Horns — главный охотник за носителями; Bloodspawn с Juggernaut — отдельная угроза блицем против подходящей цели. Второй Khorngor с Leader держится в защищённом тылу и может носить мяч. Wrestle Marauder страхует отбор; оставшиеся Marauders поддерживают Frenzy-блоки, а не пытаются все одновременно драться без Block.",
+        "tradeoff": "12 игроков, аптекарь и два купленных реролла плюс Leader. Leader на Khorngor — Secondary Passing за 40k, а не Primary за 20k. Нет Scyla или Lord Borak: дополнительные расходы звезды отняли бы безопасность Bloodseekers и качество своего отборщика.",
+        "comparison": "Сохранены Bloodspawn и все четыре Block Bloodseekers. Вместо 11 игроков и трёх купленных рероллов выбраны 12 игроков и два купленных реролла плюс Khorngor Leader; ключевой стак Block/Tackle сохранён."
+      }
+    },
+    {
+      "teamId": "ogre",
+      "title": "Morg, три Block Ogres и Runt Punter Leader",
+      "league": "Badlands Brawl",
+      "favoured": "",
+      "groups": [
+        {
+          "positionId": "ogre-1",
+          "count": 3,
+          "skills": [
+            "block"
+          ]
+        },
+        {
+          "positionId": "ogre-2",
+          "count": 1,
+          "skills": [
+            "leader"
+          ]
+        },
+        {
+          "positionId": "ogre-0",
+          "count": 2,
+          "skills": [
+            "diving-tackle"
+          ]
+        },
+        {
+          "positionId": "ogre-0",
+          "count": 7,
+          "skills": []
+        }
+      ],
+      "stars": [
+        "morg-n-thorg"
+      ],
+      "staff": {
+        "rerolls": 2,
+        "apothecary": 0,
+        "assistants": 0,
+        "cheerleaders": 0,
+        "fans": 0
+      },
+      "inducements": {},
+      "sponsors": [],
+      "coaches": [],
+      "captain": null,
+      "reference": "https://github.com/asantolaria/bloodbowl-my-rosters/blob/0fde8fb5c58bb1584fcf006e5149f99252bde1e4/rosters/eurobowl-2026/eurobowl-26-ogros-tier7.md",
+      "analysis": {
+        "priority": "Использовать разрешённого Morg для решения главной проблемы команды — нестабильности ключевых действий. Сохранить три собственных Block Ogres, Punter с Leader и достаточно Gnoblars для экранов, потерь и бросков.",
+        "plan": "Morg — главный мобильный ударный игрок и бросающий: у него нет Bone Head, но есть Loner, поэтому это не источник бесплатных общекомандных перебросов. Три обычных Block Ogres дают устойчивую силовую линию. Punter с Leader обеспечивает третий реролл и запасной план Kick Team-mate. Два Diving Tackle Gnoblars мешают выходам; остальных использовать для экранов, поддержки и осмысленных фолов.",
+        "tradeoff": "Пять силовых игроков включая Morg, а не шесть обычных Ogres; два купленных реролла плюс Leader вместо трёх плюс Leader в образце. Нет аптекаря. Все три Secondary заняты Block, 80k Skill Gold ушли на легенду. Bone Head остаётся у четырёх обычных Ogres: не активировать их без цели.",
+        "comparison": "Образец рассчитан на шесть обычных Ogres и три купленных реролла плюс Leader. В вашем паке разрешён Morg: два обычных Ogres и один купленный реролл заменены им и дополнительным Gnoblar. Сохранены 14 игроков и три Secondary Block."
+      }
+    }
+  ]
+}

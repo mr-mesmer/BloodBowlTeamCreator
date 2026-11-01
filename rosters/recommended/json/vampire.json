@@ -1,0 +1,131 @@
+{
+  "version": 1,
+  "id": "recommended-vampire",
+  "name": "Vampire — Шесть Vampires, семь Thralls и четыре реролла с Leader",
+  "coach": "",
+  "teamId": "vampire",
+  "league": "Sylvanian Spotlight",
+  "favoured": "",
+  "players": [
+    {
+      "id": "recommended-vampire-01",
+      "positionId": "vampire-3",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "block",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-vampire-02",
+      "positionId": "vampire-3",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "block",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-vampire-03",
+      "positionId": "vampire-2",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "block",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-vampire-04",
+      "positionId": "vampire-2",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "leader",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-vampire-05",
+      "positionId": "vampire-1",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "dodge",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-vampire-06",
+      "positionId": "vampire-1",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "dodge",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-vampire-07",
+      "positionId": "vampire-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-vampire-08",
+      "positionId": "vampire-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-vampire-09",
+      "positionId": "vampire-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-vampire-10",
+      "positionId": "vampire-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-vampire-11",
+      "positionId": "vampire-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-vampire-12",
+      "positionId": "vampire-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-vampire-13",
+      "positionId": "vampire-0",
+      "name": "",
+      "skills": []
+    }
+  ],
+  "stars": [],
+  "staff": {
+    "rerolls": 3,
+    "apothecary": 0,
+    "assistants": 0,
+    "cheerleaders": 0,
+    "fans": 0
+  },
+  "inducements": {},
+  "sponsors": [],
+  "coaches": [],
+  "updatedAt": "2026-11-01T00:00:00.000Z"
+}

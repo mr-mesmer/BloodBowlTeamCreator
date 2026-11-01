@@ -58,7 +58,7 @@ describe('contracts', () => {
       const after = calculateRoster(roster);
       expect(after.teamBudget).toBe(before.teamBudget - cost);
       expect(after.skillBudget).toBe(before.skillBudget + skillGold);
-      expect(after.freeAssistants).toBe(1);
+      expect(after.freeAssistants).toBe(0);
     },
   );
 
@@ -69,16 +69,18 @@ describe('contracts', () => {
     const calc = calculateRoster(roster);
     expect(calc.teamBudget).toBe(1080);
     expect(calc.skillBudget).toBe(220);
-    expect(calc.freeCheerleaders).toBe(1);
-    expect(calc.freeAssistants).toBe(2);
+    expect(calc.freeCheerleaders).toBe(0);
+    expect(calc.freeAssistants).toBe(0);
   });
 
-  it('does not charge Team Budget for contract freebies', () => {
+  it('does not add staff or charge extra Team Budget for contracts', () => {
     const roster = withPlayers('human', 'Human Lineman', 11);
     const before = calculateRoster(roster).teamCost;
     roster.sponsors = ['bugmans'];
     roster.coaches = ['br1ght'];
     expect(calculateRoster(roster).teamCost).toBe(before);
+    expect(calculateRoster(roster).freeAssistants).toBe(0);
+    expect(calculateRoster(roster).freeCheerleaders).toBe(0);
   });
 });
 
