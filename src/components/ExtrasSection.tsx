@@ -61,7 +61,6 @@ export function ExtrasSection({ roster, calc, onStaff, onInducement, onToggleCon
                 return (
                   <button key={item.id} className={`contract-row ${active ? 'selected' : ''}`} onClick={() => onToggleContract(type, item.id)} aria-pressed={active}>
                     <span className="contract-check">{active && <Check size={13} />}</span>
-                    <span className="contract-copy"><strong>{item.name}</strong><small>+1 {item.freebie === 'assistant' ? 'assistant coach' : 'cheerleader'}</small></span>
                     <span className="contract-effects"><b className={item.teamGold >= 0 ? 'positive' : 'negative'}>{item.teamGold >= 0 ? '+' : '−'}{Math.abs(item.teamGold)} TB</b><b className={item.skillGold >= 0 ? 'positive' : 'negative'}>{item.skillGold >= 0 ? '+' : '−'}{Math.abs(item.skillGold)} SG</b></span>
                   </button>
                 );
