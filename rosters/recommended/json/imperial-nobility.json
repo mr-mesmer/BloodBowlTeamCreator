@@ -1,0 +1,139 @@
+{
+  "version": 1,
+  "id": "recommended-imperial-nobility",
+  "name": "Imperial Nobility — Четыре Guard и два специализированных Noble Blitzers",
+  "coach": "",
+  "teamId": "imperial-nobility",
+  "league": "Old World Classic",
+  "favoured": "",
+  "players": [
+    {
+      "id": "recommended-imperial-nobility-01",
+      "positionId": "imperial-nobility-4",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "guard",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-imperial-nobility-02",
+      "positionId": "imperial-nobility-3",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "dodge",
+          "type": "primary"
+        },
+        {
+          "skillId": "tackle",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-imperial-nobility-03",
+      "positionId": "imperial-nobility-3",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "mighty-blow",
+          "type": "secondary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-imperial-nobility-04",
+      "positionId": "imperial-nobility-2",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "guard",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-imperial-nobility-05",
+      "positionId": "imperial-nobility-2",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "guard",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-imperial-nobility-06",
+      "positionId": "imperial-nobility-2",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "guard",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-imperial-nobility-07",
+      "positionId": "imperial-nobility-2",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-imperial-nobility-08",
+      "positionId": "imperial-nobility-1",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "leader",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-imperial-nobility-09",
+      "positionId": "imperial-nobility-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-imperial-nobility-10",
+      "positionId": "imperial-nobility-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-imperial-nobility-11",
+      "positionId": "imperial-nobility-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-imperial-nobility-12",
+      "positionId": "imperial-nobility-0",
+      "name": "",
+      "skills": []
+    }
+  ],
+  "stars": [],
+  "staff": {
+    "rerolls": 2,
+    "apothecary": 1,
+    "assistants": 0,
+    "cheerleaders": 0,
+    "fans": 0
+  },
+  "inducements": {
+    "mascot": 1
+  },
+  "sponsors": [],
+  "coaches": [
+    "br1ght",
+    "kolianxxxx"
+  ],
+  "updatedAt": "2026-11-01T00:00:00.000Z"
+}

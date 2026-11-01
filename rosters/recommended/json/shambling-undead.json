@@ -1,0 +1,133 @@
+{
+  "version": 1,
+  "id": "recommended-shambling-undead",
+  "name": "Shambling Undead — Две Guard Mummies, два Wights и два Block Ghouls",
+  "coach": "",
+  "teamId": "shambling-undead",
+  "league": "Sylvanian Spotlight",
+  "favoured": "",
+  "players": [
+    {
+      "id": "recommended-shambling-undead-01",
+      "positionId": "shambling-undead-4",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "guard",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-shambling-undead-02",
+      "positionId": "shambling-undead-4",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "guard",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-shambling-undead-03",
+      "positionId": "shambling-undead-3",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "mighty-blow",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-shambling-undead-04",
+      "positionId": "shambling-undead-3",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "guard",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-shambling-undead-05",
+      "positionId": "shambling-undead-2",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "block",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-shambling-undead-06",
+      "positionId": "shambling-undead-2",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "block",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-shambling-undead-07",
+      "positionId": "shambling-undead-1",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-shambling-undead-08",
+      "positionId": "shambling-undead-1",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-shambling-undead-09",
+      "positionId": "shambling-undead-1",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-shambling-undead-10",
+      "positionId": "shambling-undead-1",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-shambling-undead-11",
+      "positionId": "shambling-undead-1",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-shambling-undead-12",
+      "positionId": "shambling-undead-1",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-shambling-undead-13",
+      "positionId": "shambling-undead-1",
+      "name": "",
+      "skills": []
+    }
+  ],
+  "stars": [],
+  "staff": {
+    "rerolls": 3,
+    "apothecary": 0,
+    "assistants": 1,
+    "cheerleaders": 0,
+    "fans": 0
+  },
+  "inducements": {},
+  "sponsors": [],
+  "coaches": [
+    "br1ght"
+  ],
+  "updatedAt": "2026-11-01T00:00:00.000Z"
+}

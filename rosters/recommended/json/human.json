@@ -1,0 +1,145 @@
+{
+  "version": 1,
+  "id": "recommended-human",
+  "name": "Human — Ogre с Block, два Blitzers и полноценная скамейка",
+  "coach": "",
+  "teamId": "human",
+  "league": "Old World Classic",
+  "favoured": "",
+  "players": [
+    {
+      "id": "recommended-human-01",
+      "positionId": "human-5",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "block",
+          "type": "secondary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-human-02",
+      "positionId": "human-4",
+      "name": "Team Captain — Pro бесплатно",
+      "skills": [
+        {
+          "skillId": "mighty-blow",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-human-03",
+      "positionId": "human-4",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "guard",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-human-04",
+      "positionId": "human-2",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "block",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-human-05",
+      "positionId": "human-2",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "wrestle",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-human-06",
+      "positionId": "human-3",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "leader",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-human-07",
+      "positionId": "human-0",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "kick",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-human-08",
+      "positionId": "human-0",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "wrestle",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-human-09",
+      "positionId": "human-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-human-10",
+      "positionId": "human-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-human-11",
+      "positionId": "human-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-human-12",
+      "positionId": "human-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-human-13",
+      "positionId": "human-1",
+      "name": "",
+      "skills": []
+    }
+  ],
+  "stars": [],
+  "staff": {
+    "rerolls": 2,
+    "apothecary": 1,
+    "assistants": 1,
+    "cheerleaders": 0,
+    "fans": 0
+  },
+  "inducements": {},
+  "sponsors": [],
+  "coaches": [
+    "br1ght",
+    "kolianxxxx",
+    "neproxy"
+  ],
+  "updatedAt": "2026-11-01T00:00:00.000Z"
+}

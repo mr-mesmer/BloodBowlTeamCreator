@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "id": "recommended-lizardmen",
+  "name": "Lizardmen — Все семь силовых игроков и Chameleon Leader",
+  "coach": "",
+  "teamId": "lizardmen",
+  "league": "Lustrian Superleague",
+  "favoured": "",
+  "players": [
+    {
+      "id": "recommended-lizardmen-01",
+      "positionId": "lizardmen-2",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "block",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-lizardmen-02",
+      "positionId": "lizardmen-2",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "block",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-lizardmen-03",
+      "positionId": "lizardmen-2",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "block",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-lizardmen-04",
+      "positionId": "lizardmen-2",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "block",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-lizardmen-05",
+      "positionId": "lizardmen-2",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "block",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-lizardmen-06",
+      "positionId": "lizardmen-2",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "wrestle",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-lizardmen-07",
+      "positionId": "lizardmen-3",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-lizardmen-08",
+      "positionId": "lizardmen-1",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "leader",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-lizardmen-09",
+      "positionId": "lizardmen-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-lizardmen-10",
+      "positionId": "lizardmen-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-lizardmen-11",
+      "positionId": "lizardmen-0",
+      "name": "",
+      "skills": []
+    }
+  ],
+  "stars": [],
+  "staff": {
+    "rerolls": 2,
+    "apothecary": 0,
+    "assistants": 0,
+    "cheerleaders": 0,
+    "fans": 0
+  },
+  "inducements": {},
+  "sponsors": [],
+  "coaches": [
+    "br1ght",
+    "kolianxxxx"
+  ],
+  "updatedAt": "2026-11-01T00:00:00.000Z"
+}

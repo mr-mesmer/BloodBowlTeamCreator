@@ -1,0 +1,136 @@
+{
+  "version": 1,
+  "id": "recommended-chaos-dwarf",
+  "name": "Chaos Dwarf — Два Block Bull Centaurs и четыре Guard",
+  "coach": "",
+  "teamId": "chaos-dwarf",
+  "league": "Badlands Brawl",
+  "favoured": "",
+  "players": [
+    {
+      "id": "recommended-chaos-dwarf-01",
+      "positionId": "chaos-dwarf-4",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "block",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-chaos-dwarf-02",
+      "positionId": "chaos-dwarf-4",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "block",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-chaos-dwarf-03",
+      "positionId": "chaos-dwarf-2",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "guard",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-chaos-dwarf-04",
+      "positionId": "chaos-dwarf-2",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "guard",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-chaos-dwarf-05",
+      "positionId": "chaos-dwarf-2",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "guard",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-chaos-dwarf-06",
+      "positionId": "chaos-dwarf-2",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "mighty-blow",
+          "type": "primary"
+        },
+        {
+          "skillId": "tackle",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-chaos-dwarf-07",
+      "positionId": "chaos-dwarf-3",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "guard",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-chaos-dwarf-08",
+      "positionId": "chaos-dwarf-3",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-chaos-dwarf-09",
+      "positionId": "chaos-dwarf-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-chaos-dwarf-10",
+      "positionId": "chaos-dwarf-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-chaos-dwarf-11",
+      "positionId": "chaos-dwarf-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-chaos-dwarf-12",
+      "positionId": "chaos-dwarf-0",
+      "name": "",
+      "skills": []
+    }
+  ],
+  "stars": [],
+  "staff": {
+    "rerolls": 3,
+    "apothecary": 1,
+    "assistants": 1,
+    "cheerleaders": 0,
+    "fans": 0
+  },
+  "inducements": {},
+  "sponsors": [],
+  "coaches": [
+    "br1ght"
+  ],
+  "updatedAt": "2026-11-01T00:00:00.000Z"
+}

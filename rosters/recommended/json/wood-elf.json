@@ -1,0 +1,121 @@
+{
+  "version": 1,
+  "id": "recommended-wood-elf",
+  "name": "Wood Elf — Два Wardancers, быстрые принимающие и Leader",
+  "coach": "",
+  "teamId": "wood-elf",
+  "league": "Elven Kingdoms League",
+  "favoured": "",
+  "players": [
+    {
+      "id": "recommended-wood-elf-01",
+      "positionId": "wood-elf-3",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "tackle",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-wood-elf-02",
+      "positionId": "wood-elf-3",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "strip-ball",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-wood-elf-03",
+      "positionId": "wood-elf-2",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "block",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-wood-elf-04",
+      "positionId": "wood-elf-2",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-wood-elf-05",
+      "positionId": "wood-elf-1",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "leader",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-wood-elf-06",
+      "positionId": "wood-elf-0",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "wrestle",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-wood-elf-07",
+      "positionId": "wood-elf-0",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "wrestle",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-wood-elf-08",
+      "positionId": "wood-elf-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-wood-elf-09",
+      "positionId": "wood-elf-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-wood-elf-10",
+      "positionId": "wood-elf-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-wood-elf-11",
+      "positionId": "wood-elf-0",
+      "name": "",
+      "skills": []
+    }
+  ],
+  "stars": [],
+  "staff": {
+    "rerolls": 2,
+    "apothecary": 1,
+    "assistants": 0,
+    "cheerleaders": 0,
+    "fans": 0
+  },
+  "inducements": {},
+  "sponsors": [],
+  "coaches": [
+    "br1ght"
+  ],
+  "updatedAt": "2026-11-01T00:00:00.000Z"
+}

@@ -1,0 +1,123 @@
+{
+  "version": 1,
+  "id": "recommended-old-world-alliance",
+  "name": "Old World Alliance — Дерево, дварфийская линия и подвижная ударная пара",
+  "coach": "",
+  "teamId": "old-world-alliance",
+  "league": "Old World Classic",
+  "favoured": "",
+  "players": [
+    {
+      "id": "recommended-old-world-alliance-01",
+      "positionId": "old-world-alliance-10",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "guard",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-old-world-alliance-02",
+      "positionId": "old-world-alliance-7",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "guard",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-old-world-alliance-03",
+      "positionId": "old-world-alliance-6",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "mighty-blow",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-old-world-alliance-04",
+      "positionId": "old-world-alliance-3",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-old-world-alliance-05",
+      "positionId": "old-world-alliance-3",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-old-world-alliance-06",
+      "positionId": "old-world-alliance-3",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-old-world-alliance-07",
+      "positionId": "old-world-alliance-2",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "block",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-old-world-alliance-08",
+      "positionId": "old-world-alliance-4",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "leader",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-old-world-alliance-09",
+      "positionId": "old-world-alliance-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-old-world-alliance-10",
+      "positionId": "old-world-alliance-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-old-world-alliance-11",
+      "positionId": "old-world-alliance-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-old-world-alliance-12",
+      "positionId": "old-world-alliance-0",
+      "name": "",
+      "skills": []
+    }
+  ],
+  "stars": [],
+  "staff": {
+    "rerolls": 2,
+    "apothecary": 1,
+    "assistants": 0,
+    "cheerleaders": 0,
+    "fans": 0
+  },
+  "inducements": {},
+  "sponsors": [],
+  "coaches": [
+    "br1ght",
+    "kolianxxxx"
+  ],
+  "updatedAt": "2026-11-01T00:00:00.000Z"
+}

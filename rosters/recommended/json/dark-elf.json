@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "id": "recommended-dark-elf",
+  "name": "Dark Elf — Два Blitzers, две Witches и мобильный Assassin",
+  "coach": "",
+  "teamId": "dark-elf",
+  "league": "Elven Kingdoms League",
+  "favoured": "",
+  "players": [
+    {
+      "id": "recommended-dark-elf-01",
+      "positionId": "dark-elf-3",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "dodge",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-dark-elf-02",
+      "positionId": "dark-elf-3",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "dodge",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-dark-elf-03",
+      "positionId": "dark-elf-4",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "block",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-dark-elf-04",
+      "positionId": "dark-elf-4",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "wrestle",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-dark-elf-05",
+      "positionId": "dark-elf-1",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "leader",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-dark-elf-06",
+      "positionId": "dark-elf-2",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "dodge",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-dark-elf-07",
+      "positionId": "dark-elf-0",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "dodge",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-dark-elf-08",
+      "positionId": "dark-elf-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-dark-elf-09",
+      "positionId": "dark-elf-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-dark-elf-10",
+      "positionId": "dark-elf-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-dark-elf-11",
+      "positionId": "dark-elf-0",
+      "name": "",
+      "skills": []
+    }
+  ],
+  "stars": [],
+  "staff": {
+    "rerolls": 2,
+    "apothecary": 1,
+    "assistants": 0,
+    "cheerleaders": 0,
+    "fans": 0
+  },
+  "inducements": {},
+  "sponsors": [],
+  "coaches": [
+    "br1ght",
+    "kolianxxxx"
+  ],
+  "updatedAt": "2026-11-01T00:00:00.000Z"
+}

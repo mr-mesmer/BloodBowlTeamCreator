@@ -1,0 +1,128 @@
+{
+  "version": 1,
+  "id": "recommended-orc",
+  "name": "Orc — Два Block Big Un, два Guard и капитан",
+  "coach": "",
+  "teamId": "orc",
+  "league": "Badlands Brawl",
+  "favoured": "",
+  "players": [
+    {
+      "id": "recommended-orc-01",
+      "positionId": "orc-4",
+      "name": "Team Captain — Pro бесплатно",
+      "skills": [
+        {
+          "skillId": "block",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-orc-02",
+      "positionId": "orc-4",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "block",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-orc-03",
+      "positionId": "orc-5",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "guard",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-orc-04",
+      "positionId": "orc-3",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "guard",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-orc-05",
+      "positionId": "orc-3",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "tackle",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-orc-06",
+      "positionId": "orc-2",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "leader",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-orc-07",
+      "positionId": "orc-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-orc-08",
+      "positionId": "orc-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-orc-09",
+      "positionId": "orc-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-orc-10",
+      "positionId": "orc-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-orc-11",
+      "positionId": "orc-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-orc-12",
+      "positionId": "orc-1",
+      "name": "",
+      "skills": []
+    }
+  ],
+  "stars": [],
+  "staff": {
+    "rerolls": 2,
+    "apothecary": 1,
+    "assistants": 0,
+    "cheerleaders": 0,
+    "fans": 0
+  },
+  "inducements": {},
+  "sponsors": [],
+  "coaches": [
+    "azzik",
+    "neproxy"
+  ],
+  "updatedAt": "2026-11-01T00:00:00.000Z"
+}

@@ -1,0 +1,141 @@
+{
+  "version": 1,
+  "id": "recommended-black-orc",
+  "name": "Black Orc — Шесть Black Orcs, четыре Guard и взятка",
+  "coach": "",
+  "teamId": "black-orc",
+  "league": "Badlands Brawl",
+  "favoured": "",
+  "players": [
+    {
+      "id": "recommended-black-orc-01",
+      "positionId": "black-orc-1",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "block",
+          "type": "primary"
+        },
+        {
+          "skillId": "tackle",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-black-orc-02",
+      "positionId": "black-orc-1",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "guard",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-black-orc-03",
+      "positionId": "black-orc-1",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "guard",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-black-orc-04",
+      "positionId": "black-orc-1",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "guard",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-black-orc-05",
+      "positionId": "black-orc-1",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "mighty-blow",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-black-orc-06",
+      "positionId": "black-orc-1",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "mighty-blow",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-black-orc-07",
+      "positionId": "black-orc-2",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "guard",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-black-orc-08",
+      "positionId": "black-orc-0",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "dirty-player",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-black-orc-09",
+      "positionId": "black-orc-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-black-orc-10",
+      "positionId": "black-orc-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-black-orc-11",
+      "positionId": "black-orc-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-black-orc-12",
+      "positionId": "black-orc-0",
+      "name": "",
+      "skills": []
+    }
+  ],
+  "stars": [],
+  "staff": {
+    "rerolls": 3,
+    "apothecary": 1,
+    "assistants": 0,
+    "cheerleaders": 0,
+    "fans": 0
+  },
+  "inducements": {
+    "bribes": 1
+  },
+  "sponsors": [],
+  "coaches": [],
+  "updatedAt": "2026-11-01T00:00:00.000Z"
+}

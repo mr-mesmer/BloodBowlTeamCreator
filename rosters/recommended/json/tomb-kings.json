@@ -1,0 +1,138 @@
+{
+  "version": 1,
+  "id": "recommended-tomb-kings",
+  "name": "Tomb Kings — Два Block и два Guard Tomb Guardians",
+  "coach": "",
+  "teamId": "tomb-kings",
+  "league": "Sylvanian Spotlight",
+  "favoured": "",
+  "players": [
+    {
+      "id": "recommended-tomb-kings-01",
+      "positionId": "tomb-kings-3",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "block",
+          "type": "secondary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-tomb-kings-02",
+      "positionId": "tomb-kings-3",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "block",
+          "type": "secondary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-tomb-kings-03",
+      "positionId": "tomb-kings-3",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "guard",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-tomb-kings-04",
+      "positionId": "tomb-kings-3",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "guard",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-tomb-kings-05",
+      "positionId": "tomb-kings-2",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "mighty-blow",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-tomb-kings-06",
+      "positionId": "tomb-kings-2",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "tackle",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-tomb-kings-07",
+      "positionId": "tomb-kings-1",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "leader",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-tomb-kings-08",
+      "positionId": "tomb-kings-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-tomb-kings-09",
+      "positionId": "tomb-kings-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-tomb-kings-10",
+      "positionId": "tomb-kings-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-tomb-kings-11",
+      "positionId": "tomb-kings-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-tomb-kings-12",
+      "positionId": "tomb-kings-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-tomb-kings-13",
+      "positionId": "tomb-kings-0",
+      "name": "",
+      "skills": []
+    }
+  ],
+  "stars": [],
+  "staff": {
+    "rerolls": 2,
+    "apothecary": 0,
+    "assistants": 1,
+    "cheerleaders": 0,
+    "fans": 0
+  },
+  "inducements": {},
+  "sponsors": [],
+  "coaches": [
+    "neproxy"
+  ],
+  "updatedAt": "2026-11-01T00:00:00.000Z"
+}

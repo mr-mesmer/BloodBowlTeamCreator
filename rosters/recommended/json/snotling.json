@@ -1,0 +1,138 @@
+{
+  "version": 1,
+  "id": "recommended-snotling",
+  "name": "Snotling — Четыре Big Guys, Block Trolls и Riotous Rookies",
+  "coach": "",
+  "teamId": "snotling",
+  "league": "Underworld Challenge",
+  "favoured": "",
+  "players": [
+    {
+      "id": "recommended-snotling-01",
+      "positionId": "snotling-5",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "block",
+          "type": "secondary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-snotling-02",
+      "positionId": "snotling-5",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "block",
+          "type": "secondary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-snotling-03",
+      "positionId": "snotling-4",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "guard",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-snotling-04",
+      "positionId": "snotling-4",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "guard",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-snotling-05",
+      "positionId": "snotling-1",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-snotling-06",
+      "positionId": "snotling-1",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-snotling-07",
+      "positionId": "snotling-2",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "sure-feet",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-snotling-08",
+      "positionId": "snotling-2",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-snotling-09",
+      "positionId": "snotling-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-snotling-10",
+      "positionId": "snotling-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-snotling-11",
+      "positionId": "snotling-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-snotling-12",
+      "positionId": "snotling-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-snotling-13",
+      "positionId": "snotling-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-snotling-14",
+      "positionId": "snotling-0",
+      "name": "",
+      "skills": []
+    }
+  ],
+  "stars": [],
+  "staff": {
+    "rerolls": 3,
+    "apothecary": 0,
+    "assistants": 0,
+    "cheerleaders": 0,
+    "fans": 0
+  },
+  "inducements": {
+    "riotous": 1,
+    "bribes": 2,
+    "mascot": 1
+  },
+  "sponsors": [],
+  "coaches": [
+    "br1ght"
+  ],
+  "updatedAt": "2026-11-01T00:00:00.000Z"
+}

@@ -3617,7 +3617,7 @@
             "MA": "6",
             "ST": "5",
             "AG": "5+",
-            "PA": "-",
+            "PA": "6+",
             "AV": "10+"
           },
           "skills": [
@@ -3634,7 +3634,7 @@
             "A",
             "G"
           ],
-          "bigGuy": false
+          "bigGuy": true
         }
       ],
       "rerollCost": 50,
@@ -3645,7 +3645,7 @@
       "specialRules": [],
       "favouredOptions": [],
       "maxBigGuys": null,
-      "source": "https://dadidimerda.it/teams.php?ruleset=bb25"
+      "source": "https://www.thenaf.net/wp-content/uploads/2026/01/NAF-Regulations-for-Tournaments-2026.pdf"
     },
     {
       "id": "snotling",

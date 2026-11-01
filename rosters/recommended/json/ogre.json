@@ -1,0 +1,136 @@
+{
+  "version": 1,
+  "id": "recommended-ogre",
+  "name": "Ogre — Morg, три Block Ogres и Runt Punter Leader",
+  "coach": "",
+  "teamId": "ogre",
+  "league": "Badlands Brawl",
+  "favoured": "",
+  "players": [
+    {
+      "id": "recommended-ogre-01",
+      "positionId": "ogre-1",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "block",
+          "type": "secondary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-ogre-02",
+      "positionId": "ogre-1",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "block",
+          "type": "secondary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-ogre-03",
+      "positionId": "ogre-1",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "block",
+          "type": "secondary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-ogre-04",
+      "positionId": "ogre-2",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "leader",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-ogre-05",
+      "positionId": "ogre-0",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "diving-tackle",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-ogre-06",
+      "positionId": "ogre-0",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "diving-tackle",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-ogre-07",
+      "positionId": "ogre-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-ogre-08",
+      "positionId": "ogre-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-ogre-09",
+      "positionId": "ogre-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-ogre-10",
+      "positionId": "ogre-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-ogre-11",
+      "positionId": "ogre-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-ogre-12",
+      "positionId": "ogre-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-ogre-13",
+      "positionId": "ogre-0",
+      "name": "",
+      "skills": []
+    }
+  ],
+  "stars": [
+    {
+      "id": "recommended-ogre-star-1",
+      "starId": "morg-n-thorg"
+    }
+  ],
+  "staff": {
+    "rerolls": 2,
+    "apothecary": 0,
+    "assistants": 0,
+    "cheerleaders": 0,
+    "fans": 0
+  },
+  "inducements": {},
+  "sponsors": [],
+  "coaches": [],
+  "updatedAt": "2026-11-01T00:00:00.000Z"
+}

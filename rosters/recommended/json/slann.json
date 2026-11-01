@@ -1,0 +1,136 @@
+{
+  "version": 1,
+  "id": "recommended-slann",
+  "name": "Slann — Два Blitzers, мобильный Guard Catcher и Pogo-отборщик",
+  "coach": "",
+  "teamId": "slann",
+  "league": "Lustrian Superleague",
+  "favoured": "",
+  "players": [
+    {
+      "id": "recommended-slann-01",
+      "positionId": "slann-3",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "guard",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-slann-02",
+      "positionId": "slann-2",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "block",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-slann-03",
+      "positionId": "slann-2",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "block",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-slann-04",
+      "positionId": "slann-1",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "dodge",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-slann-05",
+      "positionId": "slann-1",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "guard",
+          "type": "secondary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-slann-06",
+      "positionId": "slann-0",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "wrestle",
+          "type": "primary"
+        },
+        {
+          "skillId": "strip-ball",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-slann-07",
+      "positionId": "slann-0",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "wrestle",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-slann-08",
+      "positionId": "slann-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-slann-09",
+      "positionId": "slann-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-slann-10",
+      "positionId": "slann-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-slann-11",
+      "positionId": "slann-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-slann-12",
+      "positionId": "slann-0",
+      "name": "",
+      "skills": []
+    }
+  ],
+  "stars": [],
+  "staff": {
+    "rerolls": 3,
+    "apothecary": 1,
+    "assistants": 1,
+    "cheerleaders": 0,
+    "fans": 0
+  },
+  "inducements": {},
+  "sponsors": [],
+  "coaches": [
+    "br1ght"
+  ],
+  "updatedAt": "2026-11-01T00:00:00.000Z"
+}

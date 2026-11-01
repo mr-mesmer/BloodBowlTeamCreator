@@ -1,0 +1,148 @@
+{
+  "version": 1,
+  "id": "recommended-chaos-renegades",
+  "name": "Chaos Renegades — Три Big Guys, Blodge Dark Elf и 13 игроков",
+  "coach": "",
+  "teamId": "chaos-renegades",
+  "league": "Chaos Clash",
+  "favoured": "Undivided",
+  "players": [
+    {
+      "id": "recommended-chaos-renegades-01",
+      "positionId": "chaos-renegades-8",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "block",
+          "type": "secondary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-chaos-renegades-02",
+      "positionId": "chaos-renegades-7",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "block",
+          "type": "secondary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-chaos-renegades-03",
+      "positionId": "chaos-renegades-6",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "guard",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-chaos-renegades-04",
+      "positionId": "chaos-renegades-4",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "block",
+          "type": "primary"
+        },
+        {
+          "skillId": "dodge",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-chaos-renegades-05",
+      "positionId": "chaos-renegades-5",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "leader",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-chaos-renegades-06",
+      "positionId": "chaos-renegades-2",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-chaos-renegades-07",
+      "positionId": "chaos-renegades-3",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "wrestle",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-chaos-renegades-08",
+      "positionId": "chaos-renegades-1",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-chaos-renegades-09",
+      "positionId": "chaos-renegades-0",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "dirty-player",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-chaos-renegades-10",
+      "positionId": "chaos-renegades-0",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "wrestle",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-chaos-renegades-11",
+      "positionId": "chaos-renegades-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-chaos-renegades-12",
+      "positionId": "chaos-renegades-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-chaos-renegades-13",
+      "positionId": "chaos-renegades-0",
+      "name": "",
+      "skills": []
+    }
+  ],
+  "stars": [],
+  "staff": {
+    "rerolls": 2,
+    "apothecary": 1,
+    "assistants": 1,
+    "cheerleaders": 0,
+    "fans": 0
+  },
+  "inducements": {},
+  "sponsors": [],
+  "coaches": [
+    "br1ght",
+    "kolianxxxx"
+  ],
+  "updatedAt": "2026-11-01T00:00:00.000Z"
+}

@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "id": "recommended-high-elf",
+  "name": "High Elf — Четыре Dodge-позиционала и White Lion для отбора",
+  "coach": "",
+  "teamId": "high-elf",
+  "league": "Elven Kingdoms League",
+  "favoured": "",
+  "players": [
+    {
+      "id": "recommended-high-elf-01",
+      "positionId": "high-elf-2",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "dodge",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-high-elf-02",
+      "positionId": "high-elf-2",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "dodge",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-high-elf-03",
+      "positionId": "high-elf-3",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "dodge",
+          "type": "primary"
+        },
+        {
+          "skillId": "tackle",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-high-elf-04",
+      "positionId": "high-elf-3",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "dodge",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-high-elf-05",
+      "positionId": "high-elf-1",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "leader",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-high-elf-06",
+      "positionId": "high-elf-0",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "wrestle",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-high-elf-07",
+      "positionId": "high-elf-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-high-elf-08",
+      "positionId": "high-elf-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-high-elf-09",
+      "positionId": "high-elf-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-high-elf-10",
+      "positionId": "high-elf-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-high-elf-11",
+      "positionId": "high-elf-0",
+      "name": "",
+      "skills": []
+    }
+  ],
+  "stars": [],
+  "staff": {
+    "rerolls": 2,
+    "apothecary": 1,
+    "assistants": 0,
+    "cheerleaders": 0,
+    "fans": 0
+  },
+  "inducements": {},
+  "sponsors": [],
+  "coaches": [
+    "br1ght",
+    "kolianxxxx"
+  ],
+  "updatedAt": "2026-11-01T00:00:00.000Z"
+}

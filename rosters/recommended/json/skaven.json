@@ -1,0 +1,137 @@
+{
+  "version": 1,
+  "id": "recommended-skaven",
+  "name": "Skaven — Rat Ogre, две Gutter Runners и мобильные Blitzers",
+  "coach": "",
+  "teamId": "skaven",
+  "league": "Underworld Challenge",
+  "favoured": "",
+  "players": [
+    {
+      "id": "recommended-skaven-01",
+      "positionId": "skaven-4",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "juggernaut",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-skaven-02",
+      "positionId": "skaven-3",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "guard",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-skaven-03",
+      "positionId": "skaven-3",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "break-tackle",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-skaven-04",
+      "positionId": "skaven-2",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "block",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-skaven-05",
+      "positionId": "skaven-2",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "wrestle",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-skaven-06",
+      "positionId": "skaven-1",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "leader",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-skaven-07",
+      "positionId": "skaven-0",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "kick",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-skaven-08",
+      "positionId": "skaven-0",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "wrestle",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-skaven-09",
+      "positionId": "skaven-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-skaven-10",
+      "positionId": "skaven-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-skaven-11",
+      "positionId": "skaven-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-skaven-12",
+      "positionId": "skaven-0",
+      "name": "",
+      "skills": []
+    }
+  ],
+  "stars": [],
+  "staff": {
+    "rerolls": 2,
+    "apothecary": 1,
+    "assistants": 0,
+    "cheerleaders": 0,
+    "fans": 0
+  },
+  "inducements": {},
+  "sponsors": [],
+  "coaches": [
+    "neproxy"
+  ],
+  "updatedAt": "2026-11-01T00:00:00.000Z"
+}

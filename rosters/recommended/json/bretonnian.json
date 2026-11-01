@@ -1,0 +1,153 @@
+{
+  "version": 1,
+  "id": "recommended-bretonnian",
+  "name": "Bretonnian — Два Blodge Catchers, ударный Grail и Wrestle-линия",
+  "coach": "",
+  "teamId": "bretonnian",
+  "league": "Old World Classic",
+  "favoured": "",
+  "players": [
+    {
+      "id": "recommended-bretonnian-01",
+      "positionId": "bretonnian-3",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "guard",
+          "type": "primary"
+        },
+        {
+          "skillId": "mighty-blow",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-bretonnian-02",
+      "positionId": "bretonnian-3",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "guard",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-bretonnian-03",
+      "positionId": "bretonnian-1",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "block",
+          "type": "primary"
+        },
+        {
+          "skillId": "dodge",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-bretonnian-04",
+      "positionId": "bretonnian-1",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "block",
+          "type": "primary"
+        },
+        {
+          "skillId": "dodge",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-bretonnian-05",
+      "positionId": "bretonnian-2",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "leader",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-bretonnian-06",
+      "positionId": "bretonnian-2",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-bretonnian-07",
+      "positionId": "bretonnian-0",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "tackle",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-bretonnian-08",
+      "positionId": "bretonnian-0",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "kick",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-bretonnian-09",
+      "positionId": "bretonnian-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-bretonnian-10",
+      "positionId": "bretonnian-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-bretonnian-11",
+      "positionId": "bretonnian-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-bretonnian-12",
+      "positionId": "bretonnian-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-bretonnian-13",
+      "positionId": "bretonnian-0",
+      "name": "",
+      "skills": []
+    }
+  ],
+  "stars": [],
+  "staff": {
+    "rerolls": 2,
+    "apothecary": 1,
+    "assistants": 0,
+    "cheerleaders": 0,
+    "fans": 0
+  },
+  "inducements": {
+    "kegs": 1
+  },
+  "sponsors": [],
+  "coaches": [
+    "azzik",
+    "neproxy"
+  ],
+  "updatedAt": "2026-11-01T00:00:00.000Z"
+}
