@@ -24,19 +24,19 @@ export const RULE_PACK = {
 } as const;
 
 export const SPONSORS: Contract[] = [
-  { id: 'bugmans', name: 'Bugman’s Brewery', teamGold: 10, skillGold: -10, freebie: 'cheerleader' },
-  { id: 'nuln', name: 'Nuln Gunnery School', teamGold: 10, skillGold: -15, freebie: 'cheerleader' },
-  { id: 'zoo', name: 'Imperial Zoo of Altdorf', teamGold: 10, skillGold: -20, freebie: 'cheerleader' },
-  { id: 'mootland', name: 'Mootland Farms', teamGold: 20, skillGold: -30, freebie: 'cheerleader' },
-  { id: 'karaz', name: 'Karaz-a-Karak Guild of Engineers', teamGold: 30, skillGold: -40, freebie: 'cheerleader' },
+  { id: 'bugmans', name: 'Bugman’s Brewery', teamGold: 10, skillGold: -10, freebie: '' },
+  { id: 'nuln', name: 'Nuln Gunnery School', teamGold: 10, skillGold: -15, freebie: '' },
+  { id: 'zoo', name: 'Imperial Zoo of Altdorf', teamGold: 10, skillGold: -20, freebie: '' },
+  { id: 'mootland', name: 'Mootland Farms', teamGold: 20, skillGold: -30, freebie: '' },
+  { id: 'karaz', name: 'Karaz-a-Karak Guild of Engineers', teamGold: 30, skillGold: -40, freebie: '' },
 ];
 
 export const COACHES: Contract[] = [
-  { id: 'br1ght', name: 'Br1ght', teamGold: -10, skillGold: 10, freebie: 'assistant' },
-  { id: 'kolianxxxx', name: 'Kolianxxxx', teamGold: -15, skillGold: 10, freebie: 'assistant' },
-  { id: 'azzik', name: 'Azzik', teamGold: -20, skillGold: 10, freebie: 'assistant' },
-  { id: 'diomed', name: 'Diomed', teamGold: -40, skillGold: 20, freebie: 'assistant' },
-  { id: 'neproxy', name: 'Neproxy', teamGold: -50, skillGold: 30, freebie: 'assistant' },
+  { id: 'br1ght', name: 'Br1ght', teamGold: -10, skillGold: 10, freebie: '' },
+  { id: 'kolianxxxx', name: 'Kolianxxxx', teamGold: -15, skillGold: 10, freebie: '' },
+  { id: 'azzik', name: 'Azzik', teamGold: -20, skillGold: 10, freebie: '' },
+  { id: 'diomed', name: 'Diomed', teamGold: -40, skillGold: 20, freebie: '' },
+  { id: 'neproxy', name: 'Neproxy', teamGold: -50, skillGold: 30, freebie: '' },
 ];
 
 export function tierRules(tier: number) {
