@@ -116,7 +116,7 @@ export interface Contract {
   name: string;
   teamGold: number;
   skillGold: number;
-  freebie: 'cheerleader' | 'assistant';
+  freebie: 'cheerleader' | 'assistant' | '';
 }
 
 export interface Inducement {
