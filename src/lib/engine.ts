@@ -52,8 +52,8 @@ export function calculateRoster(roster: RosterState): RosterCalculations {
   const coachSkill = selectedCoaches.reduce((sum, item) => sum + item.skillGold, 0);
   const teamBudget = tier.teamBudget + sponsorTeam + coachTeam;
   const skillBudget = tier.skillGold + sponsorSkill + coachSkill;
-  const freeCheerleaders = selectedSponsors.length;
-  const freeAssistants = selectedCoaches.length;
+  const freeCheerleaders = 0;
+  const freeAssistants = 0;
 
   let playersCost = 0;
   let advancementCost = 0;
