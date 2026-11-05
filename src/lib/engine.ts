@@ -67,7 +67,7 @@ export function calculateRoster(roster: RosterState): RosterCalculations {
   for (const player of roster.players) {
     const position = getPosition(team, player.positionId);
     if (!position) {
-      errors.push(message(`position-${player.id}`, 'В ростере есть позиция из другой команды или устаревшего набора данных.'));
+      errors.push(message(`position-${player.id}`, 'The roster contains a position from another team or an outdated data set.'));
       continue;
     }
     playersCost += position.cost;
@@ -80,10 +80,10 @@ export function calculateRoster(roster: RosterState): RosterCalculations {
     if (player.skills.some((added) => added.type === 'secondary')) secondaryCount += 1;
     if (player.skills.length > 1) stackCount += 1;
     if (player.skills.length > 2) {
-      errors.push(message(`skill-count-${player.id}`, `${position.name}: не более двух добавленных навыков.`));
+      errors.push(message(`skill-count-${player.id}`, `${position.name}: no more than two added skills.`));
     }
     if (player.skills.length > 1 && player.skills.some((added) => added.type === 'secondary')) {
-      errors.push(message(`stack-type-${player.id}`, `${position.name}: стак разрешён только из двух Primary навыков.`));
+      errors.push(message(`stack-type-${player.id}`, `${position.name}: a stack may only consist of two Primary skills.`));
     }
 
     const baseSkills = new Set(position.skills.map(normalizeBaseSkill));
@@ -91,16 +91,16 @@ export function calculateRoster(roster: RosterState): RosterCalculations {
     for (const added of player.skills) {
       const skill = getSkill(added.skillId);
       if (!skill) {
-        errors.push(message(`skill-unknown-${player.id}-${added.skillId}`, `${position.name}: неизвестный навык.`));
+        errors.push(message(`skill-unknown-${player.id}-${added.skillId}`, `${position.name}: unknown skill.`));
         continue;
       }
       const access = added.type === 'primary' ? position.primary : position.secondary;
       if (!access.includes(skill.category)) {
-        errors.push(message(`skill-access-${player.id}-${added.skillId}`, `${position.name}: ${skill.name} недоступен как ${added.type === 'primary' ? 'Primary' : 'Secondary'}.`));
+        errors.push(message(`skill-access-${player.id}-${added.skillId}`, `${position.name}: ${skill.name} is not available as ${added.type === 'primary' ? 'Primary' : 'Secondary'}.`));
       }
       const normalized = normalizeName(skill.name);
       if (baseSkills.has(normalized) || addedNames.has(normalized)) {
-        errors.push(message(`skill-duplicate-${player.id}-${added.skillId}`, `${position.name}: навык ${skill.name} добавлен повторно или уже есть у игрока.`));
+        errors.push(message(`skill-duplicate-${player.id}-${added.skillId}`, `${position.name}: skill ${skill.name} was added twice or the player already has it.`));
       }
       addedNames.add(normalized);
     }
@@ -109,11 +109,11 @@ export function calculateRoster(roster: RosterState): RosterCalculations {
   for (const position of team.positions) {
     const count = positionCounts.get(position.id) ?? 0;
     if (count > position.max) {
-      errors.push(message(`limit-${position.id}`, `${position.name}: выбрано ${count}, разрешено не более ${position.max}.`));
+      errors.push(message(`limit-${position.id}`, `${position.name}: ${count} selected, maximum ${position.max} allowed.`));
     }
   }
   if (team.maxBigGuys !== null && bigGuyCount > team.maxBigGuys) {
-    errors.push(message('big-guys', `Big Guys: выбрано ${bigGuyCount}, разрешено не более ${team.maxBigGuys}.`));
+    errors.push(message('big-guys', `Big Guys: ${bigGuyCount} selected, maximum ${team.maxBigGuys} allowed.`));
   }
 
   let starsCost = 0;
@@ -124,7 +124,7 @@ export function calculateRoster(roster: RosterState): RosterCalculations {
   for (const hire of roster.stars) {
     const star = getStar(hire.starId);
     if (!star) {
-      errors.push(message(`star-unknown-${hire.id}`, 'В ростере есть неизвестный или запрещённый звёздный игрок.'));
+      errors.push(message(`star-unknown-${hire.id}`, 'The roster contains an unknown or banned star player.'));
       continue;
     }
     starsCost += star.cost;
@@ -132,11 +132,11 @@ export function calculateRoster(roster: RosterState): RosterCalculations {
     starMemberCount += star.members.length;
     starGroups.add(star.group);
     if (hiredStarIds.has(star.id)) {
-      errors.push(message(`star-duplicate-${star.id}`, `${star.name}: одну и ту же звезду нельзя нанять дважды.`));
+      errors.push(message(`star-duplicate-${star.id}`, `${star.name}: the same star cannot be hired twice.`));
     }
     hiredStarIds.add(star.id);
     if (!isStarEligible(star, team, roster)) {
-      errors.push(message(`star-access-${hire.id}`, `${star.name} недоступен для выбранной лиги/спецправила.`));
+      errors.push(message(`star-access-${hire.id}`, `${star.name} is not available for the selected league or special rule.`));
     }
     for (const member of star.members) {
       const isInsignificant = member.skills.some((skill) => normalizeName(skill) === 'insignificant');
@@ -144,42 +144,42 @@ export function calculateRoster(roster: RosterState): RosterCalculations {
     }
   }
   if (starGroups.size > 1) {
-    errors.push(message('star-mix', 'Нельзя одновременно нанимать Ветеранов и Легенду.'));
+    errors.push(message('star-mix', 'Veterans and a Legend cannot be hired at the same time.'));
   }
   const veteranCount = roster.stars.filter((hire) => getStar(hire.starId)?.group === 'veteran').length;
   const legendCount = roster.stars.filter((hire) => getStar(hire.starId)?.group === 'legend').length;
-  if (veteranCount > 2) errors.push(message('star-veterans', 'Можно нанять не более двух Ветеранов.'));
-  if (legendCount > 1) errors.push(message('star-legend', 'Можно нанять только одну Легенду.'));
+  if (veteranCount > 2) errors.push(message('star-veterans', 'No more than two Veterans may be hired.'));
+  if (legendCount > 1) errors.push(message('star-legend', 'Only one Legend may be hired.'));
   if (roster.stars.length > 0 && team.tier <= 4 && (secondaryCount > 0 || stackCount > 0)) {
-    errors.push(message('star-skills', 'Команды 1–4 тиров со звёздными игроками не могут брать Secondary навыки и стаки.'));
+    errors.push(message('star-skills', 'Tier 1–4 teams with star players cannot take Secondary skills or stacks.'));
   }
 
   const playerCount = roster.players.length + starMemberCount;
   if (playerCount < RULE_PACK.minPlayers) {
-    errors.push(message('min-players', `Нужно ещё ${RULE_PACK.minPlayers - playerCount} игрок(ов): минимум ${RULE_PACK.minPlayers}, включая звёзд.`));
+    errors.push(message('min-players', `${RULE_PACK.minPlayers - playerCount} more player(s) needed: minimum ${RULE_PACK.minPlayers}, stars included.`));
   }
   if (playerCount > RULE_PACK.maxPlayers) {
-    errors.push(message('max-players', `В ростере ${playerCount} игроков, разрешено не более ${RULE_PACK.maxPlayers}.`));
+    errors.push(message('max-players', `The roster has ${playerCount} players; no more than ${RULE_PACK.maxPlayers} allowed.`));
   }
   if (insignificant > nonInsignificant) {
-    errors.push(message('insignificant', 'Игроков с Insignificant не может быть больше, чем игроков без этого Trait.'));
+    errors.push(message('insignificant', 'There cannot be more players with Insignificant than players without this Trait.'));
   }
   if (secondaryCount > RULE_PACK.maxSecondary) {
-    errors.push(message('secondary-limit', `Secondary навыки у ${secondaryCount} игроков; разрешено не более ${RULE_PACK.maxSecondary}.`));
+    errors.push(message('secondary-limit', `${secondaryCount} player(s) have Secondary skills; no more than ${RULE_PACK.maxSecondary} allowed.`));
   }
   if (stackCount > RULE_PACK.maxStacks) {
-    errors.push(message('stack-limit', `Стаки у ${stackCount} игроков; разрешено не более ${RULE_PACK.maxStacks}.`));
+    errors.push(message('stack-limit', `${stackCount} player(s) have stacks; no more than ${RULE_PACK.maxStacks} allowed.`));
   }
 
   const staff = roster.staff;
   const staffCost = staff.rerolls * team.rerollCost + staff.apothecary * 50 +
     staff.assistants * 10 + staff.cheerleaders * 10 + staff.fans * 5;
-  if (staff.rerolls < 0 || staff.rerolls > 8) errors.push(message('rerolls', 'Team re-rolls: допустимо от 0 до 8.'));
-  if (!team.apothecary && staff.apothecary > 0) errors.push(message('apothecary-access', 'Эта команда не может нанимать Apothecary.'));
-  if (staff.apothecary < 0 || staff.apothecary > 1) errors.push(message('apothecary-limit', 'Apothecary: допустимо от 0 до 1.'));
-  if (staff.assistants + freeAssistants > 6 || staff.assistants < 0) errors.push(message('assistants', 'Assistant coaches, включая бесплатных от тренеров: не более 6.'));
-  if (staff.cheerleaders + freeCheerleaders > 6 || staff.cheerleaders < 0) errors.push(message('cheerleaders', 'Cheerleaders, включая бесплатных от спонсоров: не более 6.'));
-  if (staff.fans < 0 || staff.fans > 3) errors.push(message('fans', 'Dedicated fans: допустимо от 0 до 3.'));
+  if (staff.rerolls < 0 || staff.rerolls > 8) errors.push(message('rerolls', 'Team re-rolls: must be between 0 and 8.'));
+  if (!team.apothecary && staff.apothecary > 0) errors.push(message('apothecary-access', 'This team cannot hire an Apothecary.'));
+  if (staff.apothecary < 0 || staff.apothecary > 1) errors.push(message('apothecary-limit', 'Apothecary: must be between 0 and 1.'));
+  if (staff.assistants + freeAssistants > 6 || staff.assistants < 0) errors.push(message('assistants', 'Assistant coaches, including free ones: no more than 6.'));
+  if (staff.cheerleaders + freeCheerleaders > 6 || staff.cheerleaders < 0) errors.push(message('cheerleaders', 'Cheerleaders, including free ones: no more than 6.'));
+  if (staff.fans < 0 || staff.fans > 3) errors.push(message('fans', 'Dedicated fans: must be between 0 and 3.'));
 
   const inducements = getInducements(team);
   let inducementsCost = 0;
@@ -187,22 +187,22 @@ export function calculateRoster(roster: RosterState): RosterCalculations {
     const quantity = roster.inducements[item.id] ?? 0;
     inducementsCost += quantity * item.cost;
     if (quantity < 0 || quantity > item.max) {
-      errors.push(message(`inducement-${item.id}`, `${item.name}: допустимо от 0 до ${item.max}.`));
+      errors.push(message(`inducement-${item.id}`, `${item.name}: must be between 0 and ${item.max}.`));
     }
   }
   for (const [id, quantity] of Object.entries(roster.inducements)) {
     if (quantity > 0 && !inducements.some((item) => item.id === id)) {
-      errors.push(message(`inducement-access-${id}`, 'В ростере есть поощрение, недоступное этой команде.'));
+      errors.push(message(`inducement-access-${id}`, 'The roster contains an inducement this team cannot take.'));
     }
   }
 
   const skillCost = advancementCost + starSurchargeTotal;
   const teamCost = playersCost + starsCost + staffCost + inducementsCost;
   if (teamCost > teamBudget) {
-    errors.push(message('team-budget', `Team Budget превышен на ${teamCost - teamBudget}k.`));
+    errors.push(message('team-budget', `Team Budget exceeded by ${teamCost - teamBudget}k.`));
   }
   if (skillCost > skillBudget) {
-    errors.push(message('skill-budget', `Skill Gold превышен на ${skillCost - skillBudget}k.`));
+    errors.push(message('skill-budget', `Skill Gold exceeded by ${skillCost - skillBudget}k.`));
   }
 
   return {

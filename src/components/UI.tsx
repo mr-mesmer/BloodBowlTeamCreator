@@ -22,7 +22,7 @@ export function Modal({ title, children, onClose, wide = false }: {
       <section className={`modal ${wide ? 'modal-wide' : ''}`} role="dialog" aria-modal="true" aria-label={title}>
         <header className="modal-header">
           <h2>{title}</h2>
-          <button className="icon-button" onClick={onClose} aria-label="Закрыть"><X size={20} /></button>
+          <button className="icon-button" onClick={onClose} aria-label="Close"><X size={20} /></button>
         </header>
         <div className="modal-body">{children}</div>
       </section>
@@ -40,9 +40,9 @@ export function Stepper({ value, onChange, min = 0, max, label, disabled = false
 }) {
   return (
     <div className="stepper" aria-label={label}>
-      <button type="button" onClick={() => onChange(Math.max(min, value - 1))} disabled={disabled || value <= min} aria-label={`Уменьшить: ${label}`}><Minus size={14} /></button>
+      <button type="button" onClick={() => onChange(Math.max(min, value - 1))} disabled={disabled || value <= min} aria-label={`Decrease: ${label}`}><Minus size={14} /></button>
       <output aria-live="polite">{value}</output>
-      <button type="button" onClick={() => onChange(Math.min(max, value + 1))} disabled={disabled || value >= max} aria-label={`Увеличить: ${label}`}><Plus size={14} /></button>
+      <button type="button" onClick={() => onChange(Math.min(max, value + 1))} disabled={disabled || value >= max} aria-label={`Increase: ${label}`}><Plus size={14} /></button>
     </div>
   );
 }

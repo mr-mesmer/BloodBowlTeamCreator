@@ -23,9 +23,9 @@ export function RosterTable({ roster, team, playerCount, onAdd, onRemove, onRemo
   return (
     <section className="card roster-card">
       <div className="card-header roster-heading">
-        <div><h2>Игроки <span className={`count-badge ${playerCount >= 11 && playerCount <= 16 ? 'ok' : ''}`}>{playerCount} / 16</span></h2></div>
+        <div><h2>Players <span className={`count-badge ${playerCount >= 11 && playerCount <= 16 ? 'ok' : ''}`}>{playerCount} / 16</span></h2></div>
         <button className="button button-primary" onClick={() => setAddOpen((value) => !value)} aria-expanded={addOpen}>
-          <Plus size={17} /> Добавить игрока <ChevronDown size={15} className={addOpen ? 'rotate' : ''} />
+          <Plus size={17} /> Add player <ChevronDown size={15} className={addOpen ? 'rotate' : ''} />
         </button>
       </div>
 
@@ -53,13 +53,13 @@ export function RosterTable({ roster, team, playerCount, onAdd, onRemove, onRemo
       {roster.players.length === 0 && roster.stars.length === 0 ? (
         <div className="empty-roster">
           <span className="empty-icon"><UserPlus size={25} /></span>
-          <div><strong>Ростер пока пуст</strong><p>Добавьте минимум 11 игроков.</p></div>
+          <div><strong>Roster is empty</strong><p>Add at least 11 players.</p></div>
         </div>
       ) : (
         <div className="table-scroll">
           <table className="roster-table">
             <thead><tr>
-              <th>#</th><th>Игрок / позиция</th><th>MA</th><th>ST</th><th>AG</th><th>PA</th><th>AV</th><th>Навыки</th><th className="align-right">Цена</th><th aria-label="Действия" />
+              <th>#</th><th>Player / position</th><th>MA</th><th>ST</th><th>AG</th><th>PA</th><th>AV</th><th>Skills</th><th className="align-right">Cost</th><th aria-label="Actions" />
             </tr></thead>
             <tbody>
               {roster.players.map((player, index) => {
@@ -70,8 +70,8 @@ export function RosterTable({ roster, team, playerCount, onAdd, onRemove, onRemo
                   <tr key={player.id}>
                     <td className="row-number">{String(index + 1).padStart(2, '0')}</td>
                     <td className="player-cell">
-                      <input className="player-name-input" value={player.name} onChange={(event) => onName(player.id, event.target.value)} placeholder="Имя игрока" aria-label={`Имя игрока ${index + 1}`} />
-                      <select value={player.positionId} onChange={(event) => onPosition(player.id, event.target.value)} aria-label={`Позиция игрока ${index + 1}`}>
+                      <input className="player-name-input" value={player.name} onChange={(event) => onName(player.id, event.target.value)} placeholder="Player name" aria-label={`Player name ${index + 1}`} />
+                      <select value={player.positionId} onChange={(event) => onPosition(player.id, event.target.value)} aria-label={`Player position ${index + 1}`}>
                         {team.positions.map((option) => <option key={option.id} value={option.id}>{option.name} · {option.cost}k</option>)}
                       </select>
                     </td>
@@ -84,10 +84,10 @@ export function RosterTable({ roster, team, playerCount, onAdd, onRemove, onRemo
                           return skill ? <span key={added.skillId} className={`skill-pill ${added.type}`} title={`${added.type === 'primary' ? 'Primary' : 'Secondary'}${skill.elite ? ' · Elite' : ''}`}>{skill.name}{skill.elite && <i>É</i>}</span> : null;
                         })}
                       </div>}
-                      <button className="skill-add-button" onClick={() => onSkills(player.id)}><WandSparkles size={13} />{player.skills.length ? 'Изменить' : 'Навык'}{advancement > 0 && <span>+{advancement}k</span>}</button>
+                      <button className="skill-add-button" onClick={() => onSkills(player.id)}><WandSparkles size={13} />{player.skills.length ? 'Edit' : 'Skill'}{advancement > 0 && <span>+{advancement}k</span>}</button>
                     </td>
                     <td className="cost-cell">{position.cost}k</td>
-                    <td><button className="row-action" onClick={() => onRemove(player.id)} aria-label={`Удалить игрока ${index + 1}`}><Trash2 size={16} /></button></td>
+                    <td><button className="row-action" onClick={() => onRemove(player.id)} aria-label={`Remove player ${index + 1}`}><Trash2 size={16} /></button></td>
                   </tr>
                 );
               })}
@@ -102,12 +102,12 @@ export function RosterTable({ roster, team, playerCount, onAdd, onRemove, onRemo
                     <td className="row-number">{String(previousPlayers + memberIndex + 1).padStart(2, '0')}</td>
                     <td className="player-cell">
                       <div className="star-player-name"><Star size={13} fill="currentColor" />{member.name}</div>
-                      <div className="star-player-subtitle">{star.name} · {star.group === 'veteran' ? 'Ветеран' : 'Легенда'}</div>
+                      <div className="star-player-subtitle">{star.name} · {star.group === 'veteran' ? 'Veteran' : 'Legend'}</div>
                     </td>
                     {(['MA', 'ST', 'AG', 'PA', 'AV'] as const).map((stat) => <td key={stat} className="stat-cell">{member.stats[stat]}</td>)}
                     <td className="skills-cell"><div className="base-skills">{member.skills.join(' · ')}</div>{member.specialRules.length > 0 && <div className="special-rule-line"><Shield size={11} />{member.specialRules.join(' · ')}</div>}</td>
-                    <td className="cost-cell">{memberIndex === 0 ? `${star.cost}k` : 'в паре'}</td>
-                    <td>{memberIndex === 0 && <button className="row-action" onClick={() => onRemoveStar(hire.id)} aria-label={`Удалить ${star.name}`}><Trash2 size={16} /></button>}</td>
+                    <td className="cost-cell">{memberIndex === 0 ? `${star.cost}k` : 'paired'}</td>
+                    <td>{memberIndex === 0 && <button className="row-action" onClick={() => onRemoveStar(hire.id)} aria-label={`Remove ${star.name}`}><Trash2 size={16} /></button>}</td>
                   </tr>
                 ));
               })}

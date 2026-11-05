@@ -25,7 +25,7 @@ export const RULE_PACK = {
 
 export const SPONSORS: Contract[] = [
   { id: 'bugmans', name: 'Bugman’s Brewery', teamGold: 10, skillGold: -10, freebie: '' },
-  { id: 'nuln', name: 'Nuln Gunnery School', teamGold: 10, skillGold: -15, freebie: '' },
+  { id: 'nuln', name: 'Nuln Gunnery School', teamGold: 10, skillGold: -10, freebie: '' },
   { id: 'zoo', name: 'Imperial Zoo of Altdorf', teamGold: 10, skillGold: -20, freebie: '' },
   { id: 'mootland', name: 'Mootland Farms', teamGold: 20, skillGold: -30, freebie: '' },
   { id: 'karaz', name: 'Karaz-a-Karak Guild of Engineers', teamGold: 30, skillGold: -40, freebie: '' },
@@ -54,7 +54,7 @@ export function getInducements(team: Team): Inducement[] {
   const items: Inducement[] = [
     { id: 'kegs', name: 'Blitzer’s Best Kegs', cost: 50, max: 2 },
     { id: 'bribes', name: 'Bribes', cost: bribery ? 50 : 100, max: bribery ? 6 : 3, note: bribery ? 'Bribery and Corruption' : undefined },
-    { id: 'chef', name: 'Halfling Master Chef', cost: team.id === 'halfling' ? 100 : 300, max: 1, note: team.id === 'halfling' ? 'Скидка Halfling' : undefined },
+    { id: 'chef', name: 'Halfling Master Chef', cost: team.id === 'halfling' ? 100 : 300, max: 1, note: team.id === 'halfling' ? 'Halfling discount' : undefined },
   ];
   if (masters) items.push({ id: 'mortuary', name: 'Mortuary Assistant', cost: 100, max: 1 });
   if (team.id === 'nurgle') items.push({ id: 'plague', name: 'Plague Doctor', cost: 100, max: 1 });

@@ -15,7 +15,7 @@ export function createRoster(teamId = 'human'): RosterState {
   return {
     version: 1,
     id: uid('roster'),
-    name: 'Новый ростер',
+    name: 'New roster',
     coach: '',
     teamId: team.id,
     league: team.leagues[0] ?? '',
@@ -39,7 +39,7 @@ export function touch<T extends RosterState>(roster: T): T {
 }
 
 export function sanitizeRoster(input: unknown): RosterState {
-  if (!input || typeof input !== 'object') throw new Error('Файл не содержит ростер.');
+  if (!input || typeof input !== 'object') throw new Error('The file does not contain a roster.');
   const raw = input as Partial<RosterState>;
   const base = createRoster(typeof raw.teamId === 'string' ? raw.teamId : 'human');
   const team = getTeam(base.teamId);

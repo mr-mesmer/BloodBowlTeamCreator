@@ -8,12 +8,12 @@ export const k = (value: number) => `${value}k`;
 export function rosterToText(roster: RosterState) {
   const calc = calculateRoster(roster);
   const lines: string[] = [
-    (roster.name || 'Без названия').toUpperCase(),
+    (roster.name || 'Untitled').toUpperCase(),
     `${calc.team.name} · Tier ${calc.team.tier} · ${roster.league}`,
-    roster.coach ? `Тренер: ${roster.coach}` : '',
-    `Игроков: ${calc.playerCount} · Team Budget: ${calc.teamCost}/${calc.teamBudget}k · Skill Gold: ${calc.skillCost}/${calc.skillBudget}k`,
+    roster.coach ? `Coach: ${roster.coach}` : '',
+    `Players: ${calc.playerCount} · Team Budget: ${calc.teamCost}/${calc.teamBudget}k · Skill Gold: ${calc.skillCost}/${calc.skillBudget}k`,
     '',
-    'ИГРОКИ',
+    'PLAYERS',
   ];
   roster.players.forEach((player, index) => {
     const position = getPosition(calc.team, player.positionId);
@@ -23,27 +23,27 @@ export function rosterToText(roster: RosterState) {
       return skill ? `${skill.name} (${item.type === 'primary' ? 'P' : 'S'}${skill.elite ? ', Elite' : ''})` : '';
     }).filter(Boolean).join(', ');
     lines.push(`${index + 1}. ${player.name || '—'} · ${position.name} · ${position.cost}k`);
-    lines.push(`   ${position.skills.join(', ') || 'Нет базовых навыков'}${added ? ` + ${added}` : ''}`);
+    lines.push(`   ${position.skills.join(', ') || 'No base skills'}${added ? ` + ${added}` : ''}`);
   });
   if (roster.stars.length) {
-    lines.push('', 'ЗВЁЗДНЫЕ ИГРОКИ');
+    lines.push('', 'STAR PLAYERS');
     roster.stars.forEach((hire) => {
       const star = getStar(hire.starId);
-      if (star) lines.push(`★ ${star.name} · ${star.group === 'veteran' ? 'Ветеран' : 'Легенда'} · ${star.cost}k + ${starSurcharge(calc.team.tier, star.group)}k SG`);
+      if (star) lines.push(`★ ${star.name} · ${star.group === 'veteran' ? 'Veteran' : 'Legend'} · ${star.cost}k + ${starSurcharge(calc.team.tier, star.group)}k SG`);
     });
   }
-  lines.push('', 'САЙДЛАЙН');
+  lines.push('', 'SIDELINE');
   lines.push(`Re-rolls: ${roster.staff.rerolls}; Apothecary: ${roster.staff.apothecary}; Assistant coaches: ${roster.staff.assistants}+${calc.freeAssistants}; Cheerleaders: ${roster.staff.cheerleaders}+${calc.freeCheerleaders}; Dedicated fans: ${roster.staff.fans}`);
   const selectedInducements = getInducements(calc.team).filter((item) => (roster.inducements[item.id] ?? 0) > 0);
   if (selectedInducements.length) {
-    lines.push('', 'ПООЩРЕНИЯ');
+    lines.push('', 'INDUCEMENTS');
     selectedInducements.forEach((item) => lines.push(`${item.name} ×${roster.inducements[item.id]}`));
   }
   const sponsors = SPONSORS.filter((item) => roster.sponsors.includes(item.id));
   const coaches = COACHES.filter((item) => roster.coaches.includes(item.id));
-  if (sponsors.length) lines.push('', `Спонсоры: ${sponsors.map((item) => item.name).join(', ')}`);
-  if (coaches.length) lines.push(`Именитые тренеры: ${coaches.map((item) => item.name).join(', ')}`);
-  lines.push('', calc.valid ? '✓ Ростер соответствует правилам' : `Ошибки: ${calc.errors.map((error) => error.text).join(' | ')}`);
+  if (sponsors.length) lines.push('', `Sponsors: ${sponsors.map((item) => item.name).join(', ')}`);
+  if (coaches.length) lines.push(`Star Coaches: ${coaches.map((item) => item.name).join(', ')}`);
+  lines.push('', calc.valid ? '✓ Roster is legal' : `Errors: ${calc.errors.map((error) => error.text).join(' | ')}`);
   return lines.filter((line, index) => line !== '' || lines[index - 1] !== '').join('\n');
 }
 

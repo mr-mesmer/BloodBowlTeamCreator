@@ -49,14 +49,14 @@ export default function App() {
 
   const changeTeam = (teamId: string) => {
     if (teamId === roster.teamId) return;
-    if (hasDraft && !window.confirm('Сменить ростер? Игроки, навыки и покупки будут очищены.')) return;
+    if (hasDraft && !window.confirm('Switch roster? Players, skills and purchases will be cleared.')) return;
     const fresh = createRoster(teamId);
     setRoster({ ...fresh, id: roster.id, name: roster.name, coach: roster.coach });
     setSkillPlayerId(null);
   };
 
   const newRoster = () => {
-    if (hasDraft && !window.confirm('Начать новый пустой ростер?')) return;
+    if (hasDraft && !window.confirm('Start a new empty roster?')) return;
     setRoster(createRoster());
     setSkillPlayerId(null);
   };
@@ -68,15 +68,15 @@ export default function App() {
     <div className="app-shell">
       <header className="app-header no-print">
         <div className="brand"><Logo /><span><strong>DUGOUT</strong><small>ROSTER BUILDER</small></span></div>
-        <span className="autosave-note">Автосохранение</span>
+        <span className="autosave-note">Autosave</span>
         <div className="header-actions">
-          <button className="button button-ghost" onClick={newRoster}><Plus size={16} /><span>Новый ростер</span></button>
+          <button className="button button-ghost" onClick={newRoster}><Plus size={16} /><span>New roster</span></button>
           <div className="export-wrap" ref={exportRef}>
-            <button className="button button-dark" onClick={() => setExportOpen((value) => !value)} aria-expanded={exportOpen}><Download size={16} /><span>Экспорт</span><ChevronDown size={14} /></button>
+            <button className="button button-dark" onClick={() => setExportOpen((value) => !value)} aria-expanded={exportOpen}><Download size={16} /><span>Export</span><ChevronDown size={14} /></button>
             {exportOpen && <div className="export-menu">
-              <button onClick={() => { window.print(); setExportOpen(false); }}><Printer size={17} /><span><strong>Печать / PDF</strong></span></button>
-              <button onClick={() => { downloadJson(roster); setExportOpen(false); }}><FileJson size={17} /><span><strong>Ростер .json</strong></span></button>
-              <button onClick={() => { downloadText(roster); setExportOpen(false); }}><FileText size={17} /><span><strong>Текст .txt</strong></span></button>
+              <button onClick={() => { window.print(); setExportOpen(false); }}><Printer size={17} /><span><strong>Print / PDF</strong></span></button>
+              <button onClick={() => { downloadJson(roster); setExportOpen(false); }}><FileJson size={17} /><span><strong>Roster .json</strong></span></button>
+              <button onClick={() => { downloadText(roster); setExportOpen(false); }}><FileText size={17} /><span><strong>Text .txt</strong></span></button>
             </div>}
           </div>
         </div>
@@ -86,12 +86,12 @@ export default function App() {
         <section className="setup-card card">
           <div className="team-selector-block">
             <span className="tier-shield"><small>TIER</small>{team.tier}</span>
-            <div><label htmlFor="team-select">Ростер</label><select id="team-select" className="team-select" value={roster.teamId} onChange={(event) => changeTeam(event.target.value)}>{Array.from({ length: 7 }, (_, index) => index + 1).map((tier) => <optgroup key={tier} label={`Tier ${tier}`}>{catalog.teams.filter((item) => item.tier === tier).map((item) => <option key={item.id} value={item.id}>{item.name}</option>)}</optgroup>)}</select></div>
+            <div><label htmlFor="team-select">Roster</label><select id="team-select" className="team-select" value={roster.teamId} onChange={(event) => changeTeam(event.target.value)}>{Array.from({ length: 7 }, (_, index) => index + 1).map((tier) => <optgroup key={tier} label={`Tier ${tier}`}>{catalog.teams.filter((item) => item.tier === tier).map((item) => <option key={item.id} value={item.id}>{item.name}</option>)}</optgroup>)}</select></div>
           </div>
           <div className="setup-fields">
-            <label className="field"><span>Название команды</span><input value={roster.name} maxLength={100} onChange={(event) => update((current) => ({ ...current, name: event.target.value }))} placeholder="Без названия" /></label>
-            <label className="field"><span>Тренер</span><input value={roster.coach} maxLength={100} onChange={(event) => update((current) => ({ ...current, coach: event.target.value }))} placeholder="Необязательно" /></label>
-            <label className="field"><span>Лига</span><select value={roster.league} onChange={(event) => update((current) => ({ ...current, league: event.target.value }))} disabled={team.leagues.length <= 1}>{team.leagues.map((league) => <option key={league}>{league}</option>)}</select></label>
+            <label className="field"><span>Team name</span><input value={roster.name} maxLength={100} onChange={(event) => update((current) => ({ ...current, name: event.target.value }))} placeholder="Untitled" /></label>
+            <label className="field"><span>Coach</span><input value={roster.coach} maxLength={100} onChange={(event) => update((current) => ({ ...current, coach: event.target.value }))} placeholder="Optional" /></label>
+            <label className="field"><span>League</span><select value={roster.league} onChange={(event) => update((current) => ({ ...current, league: event.target.value }))} disabled={team.leagues.length <= 1}>{team.leagues.map((league) => <option key={league}>{league}</option>)}</select></label>
             {team.favouredOptions.length > 0 && <label className="field"><span>Favoured of…</span><select value={roster.favoured} onChange={(event) => update((current) => ({ ...current, favoured: event.target.value }))}>{team.favouredOptions.map((option) => <option key={option} value={option}>{option}</option>)}</select></label>}
           </div>
         </section>
