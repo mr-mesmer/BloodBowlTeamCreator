@@ -55,7 +55,7 @@ def contract(id_: str, name: str, team: int, skill: int) -> dict[str, Any]:
 
 SPONSORS = [
     contract('bugmans', 'Bugman’s Brewery', 10, -10),
-    contract('nuln', 'Nuln Gunnery School', 10, -15),
+    contract('nuln', 'Nuln Gunnery School', 10, -10),
     contract('zoo', 'Imperial Zoo of Altdorf', 10, -20),
     contract('mootland', 'Mootland Farms', 20, -30),
     contract('karaz', 'Karaz-a-Karak Guild of Engineers', 30, -40),
@@ -166,7 +166,7 @@ def expand(entry: dict[str, Any], team: dict[str, Any], skills: dict[str, Any], 
                 'positionId': position['id'],
                 # RosterState has no captain field; preserve nomination visibly
                 # without pretending that free Pro is a paid advancement.
-                'name': 'Team Captain — Pro бесплатно' if number == entry['captain'] else '',
+                'name': 'Team Captain — Pro for free' if number == entry['captain'] else '',
                 'skills': [s.copy() for s in added],
             })
     require(entry['captain'] is None or 1 <= entry['captain'] <= len(players), 'Неверный номер капитана')
@@ -349,7 +349,7 @@ def render_team(index: int, entry: dict[str, Any], roster: dict[str, Any], calc:
         cursor += count
     lines.extend(['', f"**Игроки и звёзды:** {calc['playersCost']}k + {calc['starsCost']}k = {calc['playersCost'] + calc['starsCost']}k Team Budget.", ''])
     if entry['captain'] is not None:
-        lines.extend([f"**Team Captain — №{entry['captain']}: Pro бесплатно**, не покупаемый навык и не стак; назначение сохранено в имени игрока в JSON.", ''])
+        lines.extend([f"**Team Captain — №{entry['captain']}: Pro for free**, не покупаемый навык и не стак; назначение сохранено в имени игрока в JSON.", ''])
     lines.append(f"**Рероллы:** {roster['staff']['rerolls']} купленных × {team['rerollCost']}k = {roster['staff']['rerolls'] * team['rerollCost']}k.")
     leader_count = sum(s['skillId'] == 'leader' for p in roster['players'] for s in p['skills'])
     leader_count += sum(any(normalize(s) == 'leader' for s in member['skills']) for hire in roster['stars'] for member in stars[hire['starId']]['members'])

@@ -13,7 +13,7 @@ export function ExtrasSection({ roster, calc, onStaff, onInducement, onToggleCon
   onInducement: (id: string, value: number) => void;
   onToggleContract: (type: 'sponsors' | 'coaches', id: string) => void;
 }) {
-  const [tab, setTab] = useState<Tab>('staff');
+  const [tab, setTab] = useState<Tab>('contracts');
   const staffRows = [
     { key: 'rerolls' as const, name: 'Team re-rolls', cost: calc.team.rerollCost, max: 8, free: 0 },
     ...(calc.team.apothecary ? [{ key: 'apothecary' as const, name: 'Apothecary', cost: 50, max: 1, free: 0 }] : []),
@@ -26,17 +26,17 @@ export function ExtrasSection({ roster, calc, onStaff, onInducement, onToggleCon
 
   return (
     <section className="card extras-card">
-      <div className="extras-tabs" role="tablist" aria-label="Дополнительные покупки">
-        <button className={tab === 'staff' ? 'active' : ''} onClick={() => setTab('staff')} role="tab">Стаф{calc.staffCost > 0 && <span>{calc.staffCost}k</span>}</button>
-        <button className={tab === 'inducements' ? 'active' : ''} onClick={() => setTab('inducements')} role="tab">Поощрения{inducementCount > 0 && <span>{inducementCount}</span>}</button>
-        <button className={tab === 'contracts' ? 'active' : ''} onClick={() => setTab('contracts')} role="tab">Контракты{contractCount > 0 && <span>{contractCount}</span>}</button>
+      <div className="extras-tabs" role="tablist" aria-label="Additional purchases">
+        <button className={tab === 'contracts' ? 'active' : ''} onClick={() => setTab('contracts')} role="tab">Contracts{contractCount > 0 && <span>{contractCount}</span>}</button>
+        <button className={tab === 'inducements' ? 'active' : ''} onClick={() => setTab('inducements')} role="tab">Inducements{inducementCount > 0 && <span>{inducementCount}</span>}</button>
+        <button className={tab === 'staff' ? 'active' : ''} onClick={() => setTab('staff')} role="tab">Staff{calc.staffCost > 0 && <span>{calc.staffCost}k</span>}</button>
       </div>
 
       {tab !== 'contracts' ? (
         <div className="purchase-list extras-list">
           {tab === 'staff' ? staffRows.map((row) => (
             <div className="purchase-row" key={row.key}>
-              <div className="purchase-copy"><strong>{row.name}</strong><small>{row.cost}k{row.free > 0 && <em>+{row.free} бесплатно</em>}</small></div>
+              <div className="purchase-copy"><strong>{row.name}</strong><small>{row.cost}k{row.free > 0 && <em>+{row.free} free</em>}</small></div>
               <Stepper label={row.name} value={roster.staff[row.key]} max={row.max} onChange={(value) => onStaff(row.key, value)} />
               <span className="purchase-total">{roster.staff[row.key] * row.cost}k</span>
             </div>
@@ -44,7 +44,7 @@ export function ExtrasSection({ roster, calc, onStaff, onInducement, onToggleCon
             const value = roster.inducements[item.id] ?? 0;
             return (
               <div className="purchase-row" key={item.id}>
-                <div className="purchase-copy"><strong>{item.name}</strong><small>{item.cost}k · до {item.max}{item.note && <em>{item.note}</em>}</small></div>
+                <div className="purchase-copy"><strong>{item.name}</strong><small>{item.cost}k · up to {item.max}{item.note && <em>{item.note}</em>}</small></div>
                 <Stepper label={item.name} value={value} max={item.max} onChange={(next) => onInducement(item.id, next)} />
                 <span className="purchase-total">{value * item.cost}k</span>
               </div>
@@ -53,7 +53,7 @@ export function ExtrasSection({ roster, calc, onStaff, onInducement, onToggleCon
         </div>
       ) : (
         <div className="extras-contracts">
-          {([['sponsors', 'Спонсоры', SPONSORS], ['coaches', 'Именитые тренеры', COACHES]] as const).map(([type, title, items]) => (
+          {([['sponsors', 'Sponsors', SPONSORS], ['coaches', 'Star Coaches', COACHES]] as const).map(([type, title, items]) => (
             <div key={type}>
               <h3>{title}</h3>
               {items.map((item) => {

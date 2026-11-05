@@ -104,7 +104,7 @@ describe('recommended tournament roster collection', () => {
     const position = getPosition(getTeam(id), player.positionId)!;
     expect(position.role).not.toContain('Big Guy');
     expect(player.name).toContain('Team Captain');
-    expect(player.name).toContain('Pro бесплатно');
+    expect(player.name).toContain('Pro for free');
     expect(player.skills.some((skill) => skill.skillId === 'pro')).toBe(false);
     expect(calculateRoster(roster).stackCount).toBe(0);
   });

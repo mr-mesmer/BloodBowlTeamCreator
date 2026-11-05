@@ -50,7 +50,7 @@ export function SkillModal({ player, position, roster, calc, onSave, onClose }: 
     const normalizedQuery = normalizeName(query);
     const skills = catalog.skills.filter((skill) => access.includes(skill.category) &&
       (!normalizedQuery || normalizeName(skill.name).includes(normalizedQuery)));
-    if (!skills.length) return <div className="skill-empty">Навыки не найдены. Попробуйте изменить запрос.</div>;
+    if (!skills.length) return <div className="skill-empty">No skills found. Try a different query.</div>;
     return skills.map((skill) => {
       const isSelected = selectedIds.has(skill.id);
       const isBase = baseSkills.has(normalizeName(skill.name));
@@ -59,7 +59,7 @@ export function SkillModal({ player, position, roster, calc, onSave, onClose }: 
       return (
         <button key={`${type}-${skill.id}`} className={`skill-option ${isSelected ? 'selected' : ''}`} disabled={!enabled} onClick={() => toggle(skill.id, type)}>
           <span className={`category-dot category-${skill.category.toLowerCase()}`}>{skill.category}</span>
-          <span className="skill-option-copy"><strong>{skill.name}{skill.elite && <em title="Elite: +10k">ELITE</em>}</strong><small>{CATEGORY_NAMES[skill.category]} · {type === 'primary' ? 'Primary' : 'Secondary'}{isBase ? ' · уже есть' : ''}</small></span>
+          <span className="skill-option-copy"><strong>{skill.name}{skill.elite && <em title="Elite: +10k">ELITE</em>}</strong><small>{CATEGORY_NAMES[skill.category]} · {type === 'primary' ? 'Primary' : 'Secondary'}{isBase ? ' · already known' : ''}</small></span>
           <span className="skill-option-cost">{isSelected ? <Check size={17} /> : `${cost}k`}</span>
         </button>
       );
@@ -71,30 +71,30 @@ export function SkillModal({ player, position, roster, calc, onSave, onClose }: 
       <div className="skill-modal-summary">
         <div><span>Primary</span><strong>{position.primary.join(' · ') || '—'}</strong></div>
         <div><span>Secondary</span><strong>{position.secondary.join(' · ') || '—'}</strong></div>
-        <div><span>Стоимость</span><strong>{prospectiveCost}k</strong></div>
+        <div><span>Cost</span><strong>{prospectiveCost}k</strong></div>
       </div>
 
       <div className={`selected-skills ${selected.length === 0 ? 'empty' : ''}`}>
-        {selected.length === 0 ? <span>Выберите один навык или стак из двух Primary.</span> : selected.map((added, index) => {
+        {selected.length === 0 ? <span>Select one skill or a stack of two Primary skills.</span> : selected.map((added, index) => {
           const skill = catalog.skills.find((item) => item.id === added.skillId)!;
-          return <button key={added.skillId} onClick={() => toggle(added.skillId, added.type)} title="Убрать навык"><span>{index + 1}</span>{skill.name}<small>{added.type === 'primary' ? 'P' : 'S'}{skill.elite ? ' · Elite' : ''}</small><X size={14} /></button>;
+          return <button key={added.skillId} onClick={() => toggle(added.skillId, added.type)} title="Remove skill"><span>{index + 1}</span>{skill.name}<small>{added.type === 'primary' ? 'P' : 'S'}{skill.elite ? ' · Elite' : ''}</small><X size={14} /></button>;
         })}
-        {selected.length === 2 && <span className="stack-note"><Sparkles size={14} /> Стак: +{RULE_PACK.stackSurcharge}k</span>}
+        {selected.length === 2 && <span className="stack-note"><Sparkles size={14} /> Stack: +{RULE_PACK.stackSurcharge}k</span>}
       </div>
 
-      {restrictedByStars && <div className="inline-alert warning">У команды 1–4 тира со звёздами Secondary навыки и стаки запрещены.</div>}
+      {restrictedByStars && <div className="inline-alert warning">Tier 1–4 teams with stars may not take Secondary skills or stacks.</div>}
 
       <div className="skill-toolbar">
         <div className="segmented-control">
           <button className={tab === 'primary' ? 'active' : ''} onClick={() => setTab('primary')}>Primary <span>{position.primary.join('')}</span></button>
           <button className={tab === 'secondary' ? 'active' : ''} onClick={() => setTab('secondary')}>Secondary <span>{position.secondary.join('')}</span></button>
         </div>
-        <label className="search-field"><Search size={16} /><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Найти навык" /></label>
+        <label className="search-field"><Search size={16} /><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search skills" /></label>
       </div>
       <div className="skill-options-grid">{renderSkills(tab)}</div>
       <div className="skill-modal-footer">
-        <div className="skill-limits"><span>Secondary: <b>{calc.secondaryCount}/{RULE_PACK.maxSecondary}</b></span><span>Стаки: <b>{calc.stackCount}/{RULE_PACK.maxStacks}</b></span><span>Elite: <b>+10k</b></span></div>
-        <div className="modal-actions"><button className="button button-ghost" onClick={onClose}>Отмена</button><button className="button button-primary" onClick={() => { onSave(player.id, selected); onClose(); }}>Сохранить · {prospectiveCost}k</button></div>
+        <div className="skill-limits"><span>Secondary: <b>{calc.secondaryCount}/{RULE_PACK.maxSecondary}</b></span><span>Stacks: <b>{calc.stackCount}/{RULE_PACK.maxStacks}</b></span><span>Elite: <b>+10k</b></span></div>
+        <div className="modal-actions"><button className="button button-ghost" onClick={onClose}>Cancel</button><button className="button button-primary" onClick={() => { onSave(player.id, selected); onClose(); }}>Save · {prospectiveCost}k</button></div>
       </div>
     </Modal>
   );
