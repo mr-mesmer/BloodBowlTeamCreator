@@ -51,12 +51,12 @@
   },
   "tierTeams": {
     "1": [
-      "old-world-alliance",
       "orc",
       "wood-elf",
       "amazon"
     ],
     "2": [
+      "old-world-alliance",
       "skaven",
       "underworld-denizens"
     ],
@@ -73,13 +73,13 @@
       "necromantic-horror",
       "norse",
       "nurgle",
-      "tomb-kings"
+      "tomb-kings",
+      "elven-union"
     ],
     "5": [
       "chaos-chosen",
       "chaos-dwarf",
       "dwarf",
-      "elven-union",
       "imperial-nobility",
       "slann"
     ],
@@ -171,8 +171,8 @@
     }
   ],
   "inputs": {
-    "catalogSha256": "638d5be7ea09a04552e83160fde653f6df21b1eb8bca7abda7fb606960b66d08",
-    "choicesSha256": "64eb4c59011c3fb978da05e5ef5f058acba4caa83a3e97fc9cffbe083941717b"
+    "catalogSha256": "3870390f38636221827d90b8c171462b33b851a23de2d23ec955f982f12c1b47",
+    "choicesSha256": "d2261e54a40a39bd312ab7b962c98c186b8afb56a6e7bd9f97b52c68c18bac59"
   },
   "allValid": true,
   "count": 31,
@@ -180,12 +180,12 @@
     {
       "teamId": "old-world-alliance",
       "teamName": "Old World Alliance",
-      "tier": 1,
+      "tier": 2,
       "valid": true,
       "baseTeamBudget": 1080,
-      "baseSkillBudget": 120,
+      "baseSkillBudget": 150,
       "teamBudget": 1055,
-      "skillBudget": 140,
+      "skillBudget": 170,
       "playersCost": 865,
       "starsCost": 0,
       "staffCost": 190,
@@ -195,7 +195,7 @@
       "starSurcharge": 0,
       "skillCost": 140,
       "teamRemaining": 0,
-      "skillRemaining": 0,
+      "skillRemaining": 30,
       "playerCount": 12,
       "regularPlayerCount": 12,
       "starMemberCount": 0,
@@ -1765,21 +1765,21 @@
     {
       "teamId": "elven-union",
       "teamName": "Elven Union",
-      "tier": 5,
+      "tier": 4,
       "valid": true,
-      "baseTeamBudget": 1140,
-      "baseSkillBudget": 230,
-      "teamBudget": 1115,
-      "skillBudget": 250,
+      "baseTeamBudget": 1120,
+      "baseSkillBudget": 200,
+      "teamBudget": 1110,
+      "skillBudget": 210,
       "playersCost": 960,
       "starsCost": 0,
       "staffCost": 150,
       "inducementsCost": 0,
       "teamCost": 1110,
-      "advancementCost": 250,
+      "advancementCost": 210,
       "starSurcharge": 0,
-      "skillCost": 250,
-      "teamRemaining": 5,
+      "skillCost": 210,
+      "teamRemaining": 0,
       "skillRemaining": 0,
       "playerCount": 12,
       "regularPlayerCount": 12,

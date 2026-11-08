@@ -74,23 +74,13 @@
       "id": "recommended-elven-union-06",
       "positionId": "elven-union-0",
       "name": "",
-      "skills": [
-        {
-          "skillId": "wrestle",
-          "type": "primary"
-        }
-      ]
+      "skills": []
     },
     {
       "id": "recommended-elven-union-07",
       "positionId": "elven-union-0",
       "name": "",
-      "skills": [
-        {
-          "skillId": "wrestle",
-          "type": "primary"
-        }
-      ]
+      "skills": []
     },
     {
       "id": "recommended-elven-union-08",
@@ -134,8 +124,7 @@
   "inducements": {},
   "sponsors": [],
   "coaches": [
-    "br1ght",
-    "kolianxxxx"
+    "br1ght"
   ],
   "updatedAt": "2026-11-01T00:00:00.000Z"
 }
