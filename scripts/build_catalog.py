@@ -20,11 +20,11 @@ skill_source = json.loads((SOURCE / 'skills.json').read_text())['skills']
 meta = json.loads(META.read_text()) if META.exists() else {}
 
 TIER_NAMES = {
-    1: ['Amazon', 'Old World Alliance', 'Orc', 'Wood Elf'],
-    2: ['Skaven', 'Underworld Denizens'],
+    1: ['Amazon', 'Orc', 'Wood Elf'],
+    2: ['Old World Alliance', 'Skaven', 'Underworld Denizens'],
     3: ['Dark Elf', 'High Elf', 'Human', 'Lizardmen', 'Shambling Undead', 'Vampire', 'Snotling'],
-    4: ['Necromantic Horror', 'Norse', 'Nurgle', 'Tomb Kings'],
-    5: ['Chaos Chosen', 'Chaos Dwarf', 'Dwarf', 'Elven Union', 'Imperial Nobility', 'Slann'],
+    4: ['Elven Union', 'Necromantic Horror', 'Norse', 'Nurgle', 'Tomb Kings'],
+    5: ['Chaos Chosen', 'Chaos Dwarf', 'Dwarf', 'Imperial Nobility', 'Slann'],
     6: ['Black Orc', 'Bretonnian', 'Chaos Renegades', 'Gnome', 'Goblin', 'Halfling', 'Khorne'],
     7: ['Ogre'],
 }

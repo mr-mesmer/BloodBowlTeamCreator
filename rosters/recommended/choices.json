@@ -1494,9 +1494,7 @@
         {
           "positionId": "elven-union-0",
           "count": 2,
-          "skills": [
-            "wrestle"
-          ]
+          "skills": []
         },
         {
           "positionId": "elven-union-0",
@@ -1515,15 +1513,14 @@
       "inducements": {},
       "sponsors": [],
       "coaches": [
-        "br1ght",
-        "kolianxxxx"
+        "br1ght"
       ],
       "captain": null,
       "reference": "https://github.com/asantolaria/bloodbowl-my-rosters/blob/0fde8fb5c58bb1584fcf006e5149f99252bde1e4/rosters/eurobowl-2026/eurobowl-26-union-elfica-tier5.md",
       "analysis": {
         "priority": "Не пытаться собрать старые четыре Catchers: в BB2025 их два, и обоих нужно защищать. Их высокая цена оправдывается только при чётких ролях и достаточном числе игроков.",
-        "plan": "Один Catcher с Block/Dodge — основной носитель, второй с Wrestle/Dodge — быстрый отборщик и запасной финишер. Blitzers с Block/Dodge/Sidestep держат углы и неудобные маркеры. Thrower с Leader сохраняет третий реролл и пасовую угрозу. Два Wrestle Linemen дают дешёвые точки контакта и дополнительный отбор.",
-        "tradeoff": "Нет Guard Secondary и нет дорогой звезды: 12 игроков, аптекарь и два защищённых Catchers важнее. Стак разрешён на двух Catchers и оплачен полностью, включая две доплаты по 10k. Даже с Dodge нельзя играть всей линией в постоянном контакте.",
+        "plan": "Один Catcher с Block/Dodge — основной носитель, второй с Wrestle/Dodge — быстрый отборщик и запасной финишер. Blitzers с Block/Dodge/Sidestep держат углы и неудобные маркеры. Thrower с Leader сохраняет третий реролл и пасовую угрозу. Линейные игроки без дополнительных навыков обеспечивают численность и дешёвые точки контакта.",
+        "tradeoff": "В бюджете тира 4 нет улучшений линейных игроков, Guard Secondary и дорогой звезды: 12 игроков, аптекарь и два защищённых Catchers важнее. Стак разрешён на двух Catchers и оплачен полностью, включая две доплаты по 10k. Даже с Dodge нельзя играть всей линией в постоянном контакте.",
         "comparison": "Из образца сохранены оба Blitzers, оба Catchers и Leader. Вместо других стаков и улучшений линейных выбраны Block/Dodge и Wrestle/Dodge на Catchers — приоритет сохранения двух ключевых позиционалов."
       }
     },

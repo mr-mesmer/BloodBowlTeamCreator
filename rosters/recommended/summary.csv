@@ -1,5 +1,5 @@
 team,tier,players,bought_rerolls,leader,apothecary,stars,team_spent_k,team_budget_k,skill_spent_k,skill_budget_k,secondary,stacks
-Old World Alliance,1,12,2,1,1,,1055,1055,140,140,0,0
+Old World Alliance,2,12,2,1,1,,1055,1055,140,170,0,0
 Orc,1,12,2,1,1,,1010,1010,160,160,0,0
 Wood Elf,1,11,2,1,1,,1065,1070,130,130,0,0
 Amazon,1,12,2,1,1,,1000,1005,170,170,0,1
@@ -19,7 +19,7 @@ Tomb Kings,4,13,2,1,0,,1065,1070,230,230,2,0
 Chaos Chosen,5,12,3,0,1,,1135,1140,230,230,0,1
 Chaos Dwarf,5,12,3,0,1,,1130,1130,240,240,0,1
 Dwarf,5,12,2,1,1,,1150,1150,220,220,1,0
-Elven Union,5,12,2,1,1,,1110,1115,250,250,0,2
+Elven Union,4,12,2,1,1,,1110,1110,210,210,0,2
 Imperial Nobility,5,12,2,1,1,,1110,1115,250,250,1,1
 Slann,5,12,3,0,1,,1130,1130,240,240,1,1
 Black Orc,6,12,3,0,1,,1160,1160,260,260,0,1

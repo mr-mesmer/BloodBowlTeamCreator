@@ -36,11 +36,11 @@ const errors = (roster: RosterState) => calculateRoster(roster).errors.map((erro
 
 // Pinned to the user's text, not catalogue-derived tiers that could silently drift.
 const tierTeams = {
-  1: ['old-world-alliance', 'orc', 'wood-elf', 'amazon'],
-  2: ['skaven', 'underworld-denizens'],
+  1: ['orc', 'wood-elf', 'amazon'],
+  2: ['old-world-alliance', 'skaven', 'underworld-denizens'],
   3: ['dark-elf', 'high-elf', 'human', 'lizardmen', 'shambling-undead', 'vampire', 'snotling'],
-  4: ['necromantic-horror', 'norse', 'nurgle', 'tomb-kings'],
-  5: ['chaos-chosen', 'chaos-dwarf', 'dwarf', 'elven-union', 'imperial-nobility', 'slann'],
+  4: ['necromantic-horror', 'norse', 'nurgle', 'tomb-kings', 'elven-union'],
+  5: ['chaos-chosen', 'chaos-dwarf', 'dwarf', 'imperial-nobility', 'slann'],
   6: ['black-orc', 'bretonnian', 'chaos-renegades', 'gnome', 'goblin', 'halfling', 'khorne'],
   7: ['ogre'],
 };

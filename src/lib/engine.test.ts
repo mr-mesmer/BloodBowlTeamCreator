@@ -40,6 +40,13 @@ describe('catalogue and tier budgets', () => {
     expect(calc.baseSkillBudget).toBe(120);
   });
 
+  it('assigns Old World Alliance the tier 2 budgets', () => {
+    expect(getTeam('old-world-alliance').tier).toBe(2);
+    const calc = calculateRoster(createRoster('old-world-alliance'));
+    expect(calc.baseTeamBudget).toBe(1080);
+    expect(calc.baseSkillBudget).toBe(150);
+  });
+
   it('uses the requested star surcharges', () => {
     expect(starSurcharge(1, 'veteran')).toBe(50);
     expect(starSurcharge(5, 'veteran')).toBe(50);
