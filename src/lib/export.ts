@@ -1,3 +1,4 @@
+import { starGroupLabel } from './rules';
 import { getPosition, getSkill, getStar } from './catalog';
 import { calculateRoster } from './engine';
 import { COACHES, SPONSORS, getInducements, starSurcharge } from './rules';
@@ -29,7 +30,7 @@ export function rosterToText(roster: RosterState) {
     lines.push('', 'STAR PLAYERS');
     roster.stars.forEach((hire) => {
       const star = getStar(hire.starId);
-      if (star) lines.push(`★ ${star.name} · ${star.group === 'veteran' ? 'Veteran' : 'Legend'} · ${star.cost}k + ${starSurcharge(calc.team.tier, star.group)}k SG`);
+      if (star) lines.push(`★ ${star.name} · ${starGroupLabel(star.group)} · ${star.cost}k + ${starSurcharge(calc.team.tier, star.group)}k SG`);
     });
   }
   lines.push('', 'SIDELINE');

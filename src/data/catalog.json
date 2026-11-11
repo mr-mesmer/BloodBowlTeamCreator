@@ -5607,44 +5607,6 @@
   ],
   "stars": [
     {
-      "id": "akhorne-the-squirrel",
-      "name": "Akhorne the Squirrel",
-      "group": "veteran",
-      "cost": 80,
-      "playsFor": [
-        "Any team"
-      ],
-      "members": [
-        {
-          "name": "Akhorne The Squirrel",
-          "role": "Blitzer, Squirrel",
-          "stats": {
-            "MA": "7",
-            "ST": "1",
-            "AG": "2+",
-            "PA": "-",
-            "AV": "6+"
-          },
-          "skills": [
-            "Claws",
-            "Dauntless",
-            "Dodge",
-            "Frenzy",
-            "Jump Up",
-            "Loner (4+)",
-            "No Ball",
-            "Sidestep",
-            "Stunty",
-            "Titchy"
-          ],
-          "specialRules": [
-            "Blind Rage"
-          ]
-        }
-      ],
-      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Akhorne_The_Squirrel/"
-    },
-    {
       "id": "anqi-panqi",
       "name": "Anqi Panqi",
       "group": "veteran",
@@ -5676,42 +5638,6 @@
         }
       ],
       "source": "https://bloodbowlbase.ru/bb2025/starplayers/Anqi_Panqi/"
-    },
-    {
-      "id": "barik-farblast",
-      "name": "Barik Farblast",
-      "group": "veteran",
-      "cost": 80,
-      "playsFor": [
-        "Old World Classic",
-        "Worlds Edge Superleague"
-      ],
-      "members": [
-        {
-          "name": "Barik Farblast",
-          "role": "Dwarf, Thrower",
-          "stats": {
-            "MA": "6",
-            "ST": "3",
-            "AG": "4+",
-            "PA": "3+",
-            "AV": "9+"
-          },
-          "skills": [
-            "Cannoneer",
-            "Hail Mary Pass",
-            "Loner (4+)",
-            "Pass",
-            "Secret Weapon",
-            "Sure Hands",
-            "Thick Skull"
-          ],
-          "specialRules": [
-            "Blast It!"
-          ]
-        }
-      ],
-      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Barik_Farblast/"
     },
     {
       "id": "bilerot-vomitflesh",
@@ -5784,6 +5710,40 @@
       "source": "https://bloodbowlbase.ru/bb2025/starplayers/Boa_Kon%27ssstriktr/"
     },
     {
+      "id": "captain-karina-von-riesz",
+      "name": "Cpt Karina von Riesz",
+      "group": "veteran",
+      "cost": 230,
+      "playsFor": [
+        "Sylvanian Spotlight"
+      ],
+      "members": [
+        {
+          "name": "Captain Karina von Riesz",
+          "role": "Runner, Vampire",
+          "stats": {
+            "MA": "7",
+            "ST": "4",
+            "AG": "2+",
+            "PA": "3+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Bloodlust (2+)",
+            "Dodge",
+            "Hypnotic Gaze",
+            "Jump Up",
+            "Loner (4+)",
+            "Regeneration"
+          ],
+          "specialRules": [
+            "Tasty Morsel"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Captain_Karina_von_Riesz/"
+    },
+    {
       "id": "count-luthor-von-drakenborg",
       "name": "Count Luthor von Drakenborg",
       "group": "veteran",
@@ -5817,38 +5777,99 @@
       "source": "https://bloodbowlbase.ru/bb2025/starplayers/Count_Luthor_von_Drakenborg/"
     },
     {
-      "id": "captain-karina-von-riesz",
-      "name": "Cpt Karina von Riesz",
+      "id": "deeproot-strongbranch",
+      "name": "Deeproot Strongbranch",
       "group": "veteran",
-      "cost": 230,
+      "cost": 280,
       "playsFor": [
-        "Sylvanian Spotlight"
+        "Woodland League"
       ],
       "members": [
         {
-          "name": "Captain Karina von Riesz",
-          "role": "Runner, Vampire",
+          "name": "Deeproot Strongbranch",
+          "role": "Big Guy, Treeman",
           "stats": {
-            "MA": "7",
-            "ST": "4",
-            "AG": "2+",
-            "PA": "3+",
-            "AV": "9+"
+            "MA": "2",
+            "ST": "7",
+            "AG": "5+",
+            "PA": "4+",
+            "AV": "11+"
           },
           "skills": [
-            "Bloodlust (2+)",
-            "Dodge",
-            "Hypnotic Gaze",
-            "Jump Up",
+            "Block",
+            "Bullseye",
             "Loner (4+)",
-            "Regeneration"
+            "Mighty Blow",
+            "Stand Firm",
+            "Strong Arm",
+            "Thick Skull",
+            "Throw Team-mate",
+            "Timmm-ber!"
           ],
           "specialRules": [
-            "Tasty Morsel"
+            "Reliable"
           ]
         }
       ],
-      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Captain_Karina_von_Riesz/"
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Deeproot_Strongbranch/"
+    },
+    {
+      "id": "dribl-and-drull",
+      "name": "Dribl and Drull",
+      "group": "veteran",
+      "cost": 230,
+      "playsFor": [
+        "Lustrian Superleague"
+      ],
+      "members": [
+        {
+          "name": "Dribl and Drull",
+          "role": "Skink, Special",
+          "stats": {
+            "MA": "8",
+            "ST": "2",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Dirty Player",
+            "Dodge",
+            "Loner (4+)",
+            "Quick Foul",
+            "Sidestep",
+            "Sneaky Git",
+            "Stunty"
+          ],
+          "specialRules": [
+            "A Sneaky Pair"
+          ]
+        },
+        {
+          "name": "Dribl and Drull",
+          "role": "Skink, Special",
+          "stats": {
+            "MA": "8",
+            "ST": "2",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Dirty Player",
+            "Dodge",
+            "Loner (4+)",
+            "Quick Foul",
+            "Sidestep",
+            "Sneaky Git",
+            "Stunty"
+          ],
+          "specialRules": [
+            "A Sneaky Pair"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Dribl_and_Drull/"
     },
     {
       "id": "eldril-sidewinder",
@@ -5885,41 +5906,6 @@
       "source": "https://bloodbowlbase.ru/bb2025/starplayers/Eldril_Sidewinder/"
     },
     {
-      "id": "fungus-the-loon",
-      "name": "Fungus the Loon",
-      "group": "veteran",
-      "cost": 80,
-      "playsFor": [
-        "Badlands Brawl",
-        "Underworld Challenge"
-      ],
-      "members": [
-        {
-          "name": "Fungus the Loon",
-          "role": "Goblin, Special",
-          "stats": {
-            "MA": "4",
-            "ST": "7",
-            "AG": "3+",
-            "PA": "-",
-            "AV": "8+"
-          },
-          "skills": [
-            "Ball & Chain",
-            "Loner (4+)",
-            "Mighty Blow",
-            "No Ball",
-            "Secret Weapon",
-            "Stunty"
-          ],
-          "specialRules": [
-            "Whirling Dervish"
-          ]
-        }
-      ],
-      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Fungus_the_Loon/"
-    },
-    {
       "id": "glart-smashrip",
       "name": "Glart Smashrip",
       "group": "veteran",
@@ -5952,40 +5938,6 @@
         }
       ],
       "source": "https://bloodbowlbase.ru/bb2025/starplayers/Glart_Smashrip/"
-    },
-    {
-      "id": "gloriel-summerbloom",
-      "name": "Gloriel Summerbloom",
-      "group": "veteran",
-      "cost": 150,
-      "playsFor": [
-        "Elven Kingdoms League"
-      ],
-      "members": [
-        {
-          "name": "Gloriel Summerbloom",
-          "role": "Elf, Thrower",
-          "stats": {
-            "MA": "7",
-            "ST": "2",
-            "AG": "2+",
-            "PA": "2+",
-            "AV": "8+"
-          },
-          "skills": [
-            "Accurate",
-            "Dodge",
-            "Loner (3+)",
-            "Pass",
-            "Sidestep",
-            "Sure Hands"
-          ],
-          "specialRules": [
-            "Shot to Nothing"
-          ]
-        }
-      ],
-      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Gloriel_Summerbloom/"
     },
     {
       "id": "glotl-stop",
@@ -6023,110 +5975,59 @@
       "source": "https://bloodbowlbase.ru/bb2025/starplayers/Glotl_Stop/"
     },
     {
-      "id": "grashnak-blackhoof",
-      "name": "Grashnak Blackhoof",
+      "id": "grak-and-crumbleberry",
+      "name": "Grak & Crumbleberry",
       "group": "veteran",
-      "cost": 240,
+      "cost": 250,
       "playsFor": [
-        "Chaos Clash"
+        "Any Team"
       ],
       "members": [
         {
-          "name": "Grashnak Blackhoof",
-          "role": "Big Guy, Minotaur",
-          "stats": {
-            "MA": "6",
-            "ST": "6",
-            "AG": "4+",
-            "PA": "6+",
-            "AV": "9+"
-          },
-          "skills": [
-            "Frenzy",
-            "Horns",
-            "Loner (4+)",
-            "Mighty Blow",
-            "Thick Skull",
-            "Unchannelled Fury"
-          ],
-          "specialRules": [
-            "Gored by the Bull"
-          ]
-        }
-      ],
-      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Grashnak_Blackhoof/"
-    },
-    {
-      "id": "gretchen-wachter",
-      "name": "Gretchen Wächter",
-      "group": "veteran",
-      "cost": 180,
-      "playsFor": [
-        "Sylvanian Spotlight"
-      ],
-      "members": [
-        {
-          "name": "Gretchen Wächter",
-          "role": "Special, Undead, Wraith",
-          "stats": {
-            "MA": "7",
-            "ST": "3",
-            "AG": "2+",
-            "PA": "-",
-            "AV": "9+"
-          },
-          "skills": [
-            "Disturbing Presence",
-            "Dodge",
-            "Foul Appearance",
-            "Jump Up",
-            "Loner (4+)",
-            "No Ball",
-            "Regeneration",
-            "Shadowing",
-            "Sidestep"
-          ],
-          "specialRules": [
-            "Incorporeal"
-          ]
-        }
-      ],
-      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Gretchen_W%C3%A4chter/"
-    },
-    {
-      "id": "grim-ironjaw",
-      "name": "Grim Ironjaw",
-      "group": "veteran",
-      "cost": 190,
-      "playsFor": [
-        "Worlds Edge Superleague"
-      ],
-      "members": [
-        {
-          "name": "Grim Ironjaw",
-          "role": "Dwarf, Special",
+          "name": "Grak",
+          "role": "Big Guy, Ogre",
           "stats": {
             "MA": "5",
-            "ST": "4",
-            "AG": "3+",
-            "PA": "6+",
-            "AV": "9+"
+            "ST": "5",
+            "AG": "4+",
+            "PA": "4+",
+            "AV": "10+"
           },
           "skills": [
-            "Block",
-            "Dauntless",
-            "Frenzy",
-            "Hatred (Big Guy)",
+            "Bone Head",
+            "Kick Team-mate",
             "Loner (4+)",
-            "Multiple Block",
+            "Mighty Blow",
             "Thick Skull"
           ],
           "specialRules": [
-            "Slayer"
+            "I'll Carry You"
+          ]
+        },
+        {
+          "name": "Crumbleberry",
+          "role": "Halfling, Lineman",
+          "stats": {
+            "MA": "5",
+            "ST": "2",
+            "AG": "3+",
+            "PA": "5+",
+            "AV": "7+"
+          },
+          "skills": [
+            "Dodge",
+            "Lethal Flight",
+            "Loner (4+)",
+            "Right Stuff",
+            "Stunty",
+            "Sure Hands"
+          ],
+          "specialRules": [
+            "I'll Carry You"
           ]
         }
       ],
-      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Grim_Ironjaw/"
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Grak_and_Crumbleberry/"
     },
     {
       "id": "grombrindal",
@@ -6167,108 +6068,109 @@
       "source": "https://bloodbowlbase.ru/bb2025/starplayers/Grombrindal/"
     },
     {
-      "id": "guffle-pusmaw",
-      "name": "Guffle Pusmaw",
+      "id": "ivan-the-animal-deathshroud",
+      "name": "Ivan 'the Animal' Deathshroud",
       "group": "veteran",
-      "cost": 150,
+      "cost": 210,
       "playsFor": [
-        "Favoured of Nurgle"
+        "Sylvanian Spotlight"
       ],
       "members": [
         {
-          "name": "Guffle Pusmaw",
-          "role": "Blocker, Human",
+          "name": "Ivan 'the Animal' Deathshroud",
+          "role": "Blitzer, Human, Skeleton, Undead",
           "stats": {
-            "MA": "5",
+            "MA": "6",
             "ST": "4",
             "AG": "4+",
-            "PA": "6+",
-            "AV": "10+"
+            "PA": "5+",
+            "AV": "9+"
           },
           "skills": [
-            "Foul Appearance",
+            "Block",
+            "Disturbing Presence",
+            "Hatred (Dwarf)",
+            "Juggernaut",
             "Loner (4+)",
-            "Monstrous Mouth",
-            "Nerves of Steel",
-            "On the Ball",
-            "Plague Ridden"
+            "Regeneration",
+            "Strip Ball",
+            "Tackle"
           ],
           "specialRules": [
-            "Quick Bite"
+            "Dwarven Scourge"
           ]
         }
       ],
-      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Guffle_Pusmaw/"
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Ivan_%27the_Animal%27_Deathshroud/"
     },
     {
-      "id": "helmut-wulf",
-      "name": "Helmut Wulf",
+      "id": "ivar-eriksson",
+      "name": "Ivar Eriksson",
       "group": "veteran",
-      "cost": 140,
+      "cost": 215,
       "playsFor": [
         "Old World Classic"
       ],
       "members": [
         {
-          "name": "Helmut Wulf",
-          "role": "Human, Special",
+          "name": "Ivar Eriksson",
+          "role": "Blitzer, Human",
           "stats": {
             "MA": "6",
-            "ST": "3",
-            "AG": "3+",
-            "PA": "-",
-            "AV": "9+"
-          },
-          "skills": [
-            "Chainsaw",
-            "Loner (4+)",
-            "No Ball",
-            "Pro",
-            "Secret Weapon",
-            "Stand Firm"
-          ],
-          "specialRules": [
-            "Old Pro"
-          ]
-        }
-      ],
-      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Helmut_Wulf/"
-    },
-    {
-      "id": "josef-bugman",
-      "name": "Josef Bugman",
-      "group": "veteran",
-      "cost": 180,
-      "playsFor": [
-        "Old World Classic",
-        "Worlds Edge Superleague"
-      ],
-      "members": [
-        {
-          "name": "Josef Bugman",
-          "role": "Blocker, Dwarf",
-          "stats": {
-            "MA": "5",
-            "ST": "3",
+            "ST": "4",
             "AG": "3+",
             "PA": "4+",
             "AV": "9+"
           },
           "skills": [
             "Block",
-            "Drunkard",
-            "Fend",
-            "Loner (3+)",
-            "Tackle",
-            "Taunt",
-            "Thick Skull"
+            "Guard",
+            "Loner (4+)",
+            "Tackle"
           ],
           "specialRules": [
-            "Dwarfen Grit"
+            "Raiding Party"
           ]
         }
       ],
-      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Josef_Bugman/"
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Ivar_Eriksson/"
+    },
+    {
+      "id": "jeremiah-kool",
+      "name": "Jeremiah Kool",
+      "group": "veteran",
+      "cost": 300,
+      "playsFor": [
+        "Elven Kingdoms League"
+      ],
+      "members": [
+        {
+          "name": "Jeremiah Kool",
+          "role": "Elf, Runner",
+          "stats": {
+            "MA": "8",
+            "ST": "3",
+            "AG": "1+",
+            "PA": "2+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Block",
+            "Dodge",
+            "Diving Catch",
+            "Dump-off",
+            "Loner (4+)",
+            "Nerves of Steel",
+            "On the Ball",
+            "Pass",
+            "Sidestep"
+          ],
+          "specialRules": [
+            "The Flashing Blade"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Jeremiah_Kool/"
     },
     {
       "id": "karla-von-kill",
@@ -6305,70 +6207,143 @@
       "source": "https://bloodbowlbase.ru/bb2025/starplayers/Karla_von_Kill/"
     },
     {
-      "id": "kiroth-krakeneye",
-      "name": "Kiroth Krakeneye",
+      "id": "kreek-rustgouger",
+      "name": "Kreek Rustgouger",
       "group": "veteran",
-      "cost": 160,
+      "cost": 180,
       "playsFor": [
-        "Elven Kingdoms League"
+        "Underworld Challenge"
       ],
       "members": [
         {
-          "name": "Kiroth Krakeneye",
-          "role": "Elf, Runner",
+          "name": "Kreek Rustgouger",
+          "role": "Big Guy, Skaven, Special",
           "stats": {
-            "MA": "7",
-            "ST": "3",
-            "AG": "2+",
-            "PA": "3+",
-            "AV": "8+"
-          },
-          "skills": [
-            "Disturbing Presence",
-            "Foul Appearance",
-            "Loner (4+)",
-            "On the Ball",
-            "Tackle",
-            "Tentacles"
-          ],
-          "specialRules": [
-            "Black Ink"
-          ]
-        }
-      ],
-      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Kiroth_Krakeneye/"
-    },
-    {
-      "id": "max-spleenripper",
-      "name": "Max Spleenripper",
-      "group": "veteran",
-      "cost": 130,
-      "playsFor": [
-        "Favoured of Khorne"
-      ],
-      "members": [
-        {
-          "name": "Max Spleenripper",
-          "role": "Human, Special",
-          "stats": {
-            "MA": "5",
-            "ST": "4",
+            "MA": "4",
+            "ST": "7",
             "AG": "4+",
             "PA": "-",
-            "AV": "9+"
+            "AV": "10+"
           },
           "skills": [
-            "Chainsaw",
+            "Ball & Chain",
             "Loner (4+)",
+            "Mighty Blow",
             "No Ball",
+            "Prehensile Tail",
             "Secret Weapon"
           ],
           "specialRules": [
-            "Maximum Carnage"
+            "I'll Be Back!"
           ]
         }
       ],
-      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Max_Spleenripper/"
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Kreek_Rustgouger/"
+    },
+    {
+      "id": "lord-borak-the-despoiler",
+      "name": "Lord Borak the Despoiler",
+      "group": "veteran",
+      "cost": 270,
+      "playsFor": [
+        "Chaos Clash"
+      ],
+      "members": [
+        {
+          "name": "Lord Borak the Despoiler",
+          "role": "Blocker, Human",
+          "stats": {
+            "MA": "5",
+            "ST": "5",
+            "AG": "3+",
+            "PA": "5+",
+            "AV": "10+"
+          },
+          "skills": [
+            "Block",
+            "Dirty Player",
+            "Leader",
+            "Loner (3+)",
+            "Mighty Blow",
+            "Put the Boot In",
+            "Sneaky Git"
+          ],
+          "specialRules": [
+            "Lord of Chaos"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Lord_Borak_the_Despoiler/"
+    },
+    {
+      "id": "maple-highgrove",
+      "name": "Maple Highgrove",
+      "group": "veteran",
+      "cost": 210,
+      "playsFor": [
+        "Woodland League"
+      ],
+      "members": [
+        {
+          "name": "Maple Highgrove",
+          "role": "Big Guy, Treeman",
+          "stats": {
+            "MA": "3",
+            "ST": "5",
+            "AG": "5+",
+            "PA": "5+",
+            "AV": "11+"
+          },
+          "skills": [
+            "Brawler",
+            "Grab",
+            "Loner (4+)",
+            "Mighty Blow",
+            "Stand Firm",
+            "Tentacles",
+            "Thick Skull"
+          ],
+          "specialRules": [
+            "Vicious Vines"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Maple_Highgrove/"
+    },
+    {
+      "id": "morg-n-thorg",
+      "name": "Morg 'n' Thorg",
+      "group": "veteran",
+      "cost": 340,
+      "playsFor": [
+        "Any team except those from Sylvanian Spotlight"
+      ],
+      "members": [
+        {
+          "name": "Morg 'n' Thorg",
+          "role": "Big Guy, Ogre",
+          "stats": {
+            "MA": "6",
+            "ST": "6",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "11+"
+          },
+          "skills": [
+            "Block",
+            "Bullseye",
+            "Hatred (Undead)",
+            "Loner (4+)",
+            "Mighty Blow",
+            "Thick Skull",
+            "Throw Team-mate"
+          ],
+          "specialRules": [
+            "The Ballista"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Morg_%27n%27_Thorg/"
     },
     {
       "id": "nobbla-blackwart",
@@ -6408,214 +6383,73 @@
       "source": "https://bloodbowlbase.ru/bb2025/starplayers/Nobbla_Blackwart/"
     },
     {
-      "id": "puggy-baconbreath",
-      "name": "Puggy Baconbreath",
+      "id": "ripper-bolgrot",
+      "name": "Ripper Bolgrot",
       "group": "veteran",
-      "cost": 130,
-      "playsFor": [
-        "Halfling Thimble Cup",
-        "Old World Classic"
-      ],
-      "members": [
-        {
-          "name": "Puggy Baconbreath",
-          "role": "Blitzer, Halfling",
-          "stats": {
-            "MA": "5",
-            "ST": "3",
-            "AG": "3+",
-            "PA": "3+",
-            "AV": "8+"
-          },
-          "skills": [
-            "Block",
-            "Dodge",
-            "Loner (3+)",
-            "Nerves of Steel",
-            "Right Stuff",
-            "Stunty"
-          ],
-          "specialRules": [
-            "Halfling Luck"
-          ]
-        }
-      ],
-      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Puggy_Baconbreath/"
-    },
-    {
-      "id": "rashnak-backstabber",
-      "name": "Rashnak Backstabber",
-      "group": "veteran",
-      "cost": 130,
-      "playsFor": [
-        "Badlands Brawl"
-      ],
-      "members": [
-        {
-          "name": "Rashnak Backstabber",
-          "role": "Goblin, Special",
-          "stats": {
-            "MA": "7",
-            "ST": "3",
-            "AG": "3+",
-            "PA": "5+",
-            "AV": "8+"
-          },
-          "skills": [
-            "Loner (4+)",
-            "Shadowing",
-            "Sidestep",
-            "Sneaky Git",
-            "Stab"
-          ],
-          "specialRules": [
-            "Toxin Connoisseur"
-          ]
-        }
-      ],
-      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Rashnak_Backstabber/"
-    },
-    {
-      "id": "rodney-roachbait",
-      "name": "Rodney Roachbait",
-      "group": "veteran",
-      "cost": 70,
-      "playsFor": [
-        "Woodland League"
-      ],
-      "members": [
-        {
-          "name": "Rodney Roachbait",
-          "role": "Gnome, Special",
-          "stats": {
-            "MA": "6",
-            "ST": "2",
-            "AG": "3+",
-            "PA": "4+",
-            "AV": "7+"
-          },
-          "skills": [
-            "Catch",
-            "Diving Catch",
-            "Jump Up",
-            "Loner (4+)",
-            "On the Ball",
-            "Sidestep",
-            "Stunty",
-            "Wrestle"
-          ],
-          "specialRules": [
-            "Catch of the Day"
-          ]
-        }
-      ],
-      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Rodney_Roachbait/"
-    },
-    {
-      "id": "rowana-forestfoot",
-      "name": "Rowana Forestfoot",
-      "group": "veteran",
-      "cost": 160,
-      "playsFor": [
-        "Woodland League"
-      ],
-      "members": [
-        {
-          "name": "Rowana Forestfoot",
-          "role": "Blocker, Gnome",
-          "stats": {
-            "MA": "6",
-            "ST": "3",
-            "AG": "3+",
-            "PA": "4+",
-            "AV": "8+"
-          },
-          "skills": [
-            "Dodge",
-            "Dump-off",
-            "Guard",
-            "Horns",
-            "Jump Up",
-            "Leap",
-            "Loner (4+)"
-          ],
-          "specialRules": [
-            "Bounding Leap"
-          ]
-        }
-      ],
-      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Rowana_Forestfoot/"
-    },
-    {
-      "id": "rumbelow-sheepskin",
-      "name": "Rumbelow Sheepskin",
-      "group": "veteran",
-      "cost": 170,
-      "playsFor": [
-        "Halfling Thimble Cup"
-      ],
-      "members": [
-        {
-          "name": "Rumbelow Sheepskin",
-          "role": "Blitzer, Halfling",
-          "stats": {
-            "MA": "6",
-            "ST": "3",
-            "AG": "3+",
-            "PA": "5+",
-            "AV": "8+"
-          },
-          "skills": [
-            "Block",
-            "Horns",
-            "Juggernaut",
-            "Loner (4+)",
-            "Tackle",
-            "Thick Skull"
-          ],
-          "specialRules": [
-            "Ram"
-          ]
-        }
-      ],
-      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Rumbelow_Sheepskin/"
-    },
-    {
-      "id": "scrappa-sorehead",
-      "name": "Scrappa Sorehead",
-      "group": "veteran",
-      "cost": 120,
+      "cost": 250,
       "playsFor": [
         "Badlands Brawl",
         "Underworld Challenge"
       ],
       "members": [
         {
-          "name": "Scrappa Sorehead",
-          "role": "Goblin, Special",
+          "name": "Ripper Bolgrot",
+          "role": "Big Guy, Troll",
           "stats": {
-            "MA": "7",
-            "ST": "2",
-            "AG": "3+",
+            "MA": "5",
+            "ST": "6",
+            "AG": "5+",
             "PA": "4+",
-            "AV": "8+"
+            "AV": "10+"
           },
           "skills": [
-            "Dirty Player",
-            "Dodge",
+            "Bullseye",
+            "Grab",
             "Loner (4+)",
-            "Pogo",
-            "Right Stuff",
-            "Sprint",
-            "Stunty",
-            "Sure Feet"
+            "Mighty Blow",
+            "Regeneration",
+            "Throw Team-mate"
           ],
           "specialRules": [
-            "Yoink!"
+            "Thinking Man's Troll"
           ]
         }
       ],
-      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Scrappa_Sorehead/"
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Ripper_Bolgrot/"
+    },
+    {
+      "id": "roxanna-darknail",
+      "name": "Roxanna Darknail",
+      "group": "veteran",
+      "cost": 270,
+      "playsFor": [
+        "Elven Kingdoms League"
+      ],
+      "members": [
+        {
+          "name": "Roxanna Darknail",
+          "role": "Elf, Special",
+          "stats": {
+            "MA": "8",
+            "ST": "3",
+            "AG": "1+",
+            "PA": "3+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Dodge",
+            "Frenzy",
+            "Jump Up",
+            "Juggernaut",
+            "Leap",
+            "Loner (4+)"
+          ],
+          "specialRules": [
+            "Slashing Nails"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Roxanna_Darknail/"
     },
     {
       "id": "scyla-anfingrimm",
@@ -6653,112 +6487,6 @@
       "source": "https://bloodbowlbase.ru/bb2025/starplayers/Scyla_Anfingrimm/"
     },
     {
-      "id": "skrull-halfheight",
-      "name": "Skrull Halfheight",
-      "group": "veteran",
-      "cost": 150,
-      "playsFor": [
-        "Sylvanian Spotlight",
-        "Worlds Edge Superleague"
-      ],
-      "members": [
-        {
-          "name": "Skrull Halfheight",
-          "role": "Dwarf, Skeleton, Thrower, Undead",
-          "stats": {
-            "MA": "6",
-            "ST": "3",
-            "AG": "4+",
-            "PA": "3+",
-            "AV": "9+"
-          },
-          "skills": [
-            "Accurate",
-            "Loner (4+)",
-            "Nerves of Steel",
-            "Pass",
-            "Regeneration",
-            "Sure Hands",
-            "Thick Skull"
-          ],
-          "specialRules": [
-            "Strong Passing Game"
-          ]
-        }
-      ],
-      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Skrull_Halfheight/"
-    },
-    {
-      "id": "swiftvine-glimmershard",
-      "name": "Swiftvine Glimmershard",
-      "group": "veteran",
-      "cost": 110,
-      "playsFor": [
-        "Woodland League"
-      ],
-      "members": [
-        {
-          "name": "Swiftvine Glimmershard",
-          "role": "Special, Spite",
-          "stats": {
-            "MA": "7",
-            "ST": "2",
-            "AG": "3+",
-            "PA": "5+",
-            "AV": "7+"
-          },
-          "skills": [
-            "Disturbing Presence",
-            "Fend",
-            "Loner (4+)",
-            "Sidestep",
-            "Stab",
-            "Stunty"
-          ],
-          "specialRules": [
-            "Furious Outburst"
-          ]
-        }
-      ],
-      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Swiftvine_Glimmershard/"
-    },
-    {
-      "id": "the-black-gobbo",
-      "name": "The Black Gobbo",
-      "group": "veteran",
-      "cost": 210,
-      "playsFor": [
-        "Badlands Brawl",
-        "Underworld Challenge"
-      ],
-      "members": [
-        {
-          "name": "The Black Gobbo",
-          "role": "Goblin, Special",
-          "stats": {
-            "MA": "6",
-            "ST": "2",
-            "AG": "3+",
-            "PA": "3+",
-            "AV": "8+"
-          },
-          "skills": [
-            "Bombardier",
-            "Disturbing Presence",
-            "Dodge",
-            "Loner (3+)",
-            "Sidestep",
-            "Sneaky Git",
-            "Stab"
-          ],
-          "specialRules": [
-            "Sneakiest of the Lot"
-          ]
-        }
-      ],
-      "source": "https://bloodbowlbase.ru/bb2025/starplayers/The_Black_Gobbo/"
-    },
-    {
       "id": "the-mighty-zug",
       "name": "The Mighty Zug",
       "group": "veteran",
@@ -6790,6 +6518,60 @@
         }
       ],
       "source": "https://bloodbowlbase.ru/bb2025/starplayers/The_Mighty_Zug/"
+    },
+    {
+      "id": "the-swift-twins",
+      "name": "Lucien & Valen Swift",
+      "group": "veteran",
+      "cost": 300,
+      "playsFor": [
+        "Elven Kingdoms League"
+      ],
+      "members": [
+        {
+          "name": "Lucien Swift",
+          "role": "Blitzer, Elf",
+          "stats": {
+            "MA": "7",
+            "ST": "3",
+            "AG": "2+",
+            "PA": "3+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Block",
+            "Loner (4+)",
+            "Mighty Blow",
+            "Tackle"
+          ],
+          "specialRules": [
+            "Working In Tandem"
+          ]
+        },
+        {
+          "name": "Valen Swift",
+          "role": "Elf, Thrower",
+          "stats": {
+            "MA": "7",
+            "ST": "3",
+            "AG": "2+",
+            "PA": "2+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Accurate",
+            "Loner (4+)",
+            "Nerves of Steel",
+            "Pass",
+            "Safe Pass",
+            "Sure Hands"
+          ],
+          "specialRules": [
+            "Working In Tandem"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/The_Swift_Twins/"
     },
     {
       "id": "thorsson-stoutmead",
@@ -6894,457 +6676,324 @@
       "source": "https://bloodbowlbase.ru/bb2025/starplayers/Wilhelm_Chaney/"
     },
     {
-      "id": "willow-rosebark",
-      "name": "Willow Rosebark",
+      "id": "zolcath-the-zoat",
+      "name": "Zolcath the Zoat",
       "group": "veteran",
-      "cost": 160,
+      "cost": 220,
       "playsFor": [
-        "Woodland League"
+        "Elven Kingdoms League",
+        "Lustrian Superleague"
       ],
       "members": [
         {
-          "name": "Willow Rosebark",
-          "role": "Blitzer, Dryad",
+          "name": "Zolcath the Zoat",
+          "role": "Big Guy, Zoat",
           "stats": {
-            "MA": "6",
-            "ST": "4",
-            "AG": "3+",
+            "MA": "5",
+            "ST": "5",
+            "AG": "4+",
             "PA": "5+",
-            "AV": "9+"
+            "AV": "10+"
           },
           "skills": [
-            "Dauntless",
+            "Disturbing Presence",
+            "Juggernaut",
             "Loner (4+)",
-            "Sidestep",
-            "Thick Skull"
-          ],
-          "specialRules": [
-            "Woodland Fury"
-          ]
-        }
-      ],
-      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Willow_Rosebark/"
-    },
-    {
-      "id": "withergrasp-doubledrool",
-      "name": "Withergrasp Doubledrool",
-      "group": "veteran",
-      "cost": 170,
-      "playsFor": [
-        "Favoured of Nurgle"
-      ],
-      "members": [
-        {
-          "name": "Withergrasp Doubledrool",
-          "role": "Beastman, Blocker",
-          "stats": {
-            "MA": "6",
-            "ST": "3",
-            "AG": "3+",
-            "PA": "4+",
-            "AV": "9+"
-          },
-          "skills": [
-            "Foul Appearance",
-            "Loner (4+)",
+            "Mighty Blow",
             "Prehensile Tail",
-            "Tackle",
-            "Tentacles",
-            "Two Heads",
-            "Wrestle"
+            "Regeneration",
+            "Sure Feet"
           ],
           "specialRules": [
-            "Watch Out!"
+            "\"Excuse me, are you a Zoat?\""
           ]
         }
       ],
-      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Withergrasp_Doubledrool/"
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Zolcath_the_Zoat/"
     },
     {
-      "id": "zzharg-madeye",
-      "name": "Zzharg Madeye",
-      "group": "veteran",
-      "cost": 130,
-      "playsFor": [
-        "Favoured of Hashut"
-      ],
-      "members": [
-        {
-          "name": "Zzharg Madeye",
-          "role": "Dwarf, Special",
-          "stats": {
-            "MA": "4",
-            "ST": "4",
-            "AG": "4+",
-            "PA": "3+",
-            "AV": "10+"
-          },
-          "skills": [
-            "Cannoneer",
-            "Hail Mary Pass",
-            "Loner (4+)",
-            "Nerves of Steel",
-            "Secret Weapon",
-            "Thick Skull"
-          ],
-          "specialRules": [
-            "\"Blastin' Solves Everything\""
-          ]
-        }
-      ],
-      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Zzharg_Madeye/"
-    },
-    {
-      "id": "deeproot-strongbranch",
-      "name": "Deeproot Strongbranch",
+      "id": "bomber-dribblesnot",
+      "name": "Bomber Dribblesnot",
       "group": "legend",
-      "cost": 280,
-      "playsFor": [
-        "Woodland League"
-      ],
-      "members": [
-        {
-          "name": "Deeproot Strongbranch",
-          "role": "Big Guy, Treeman",
-          "stats": {
-            "MA": "2",
-            "ST": "7",
-            "AG": "5+",
-            "PA": "4+",
-            "AV": "11+"
-          },
-          "skills": [
-            "Block",
-            "Bullseye",
-            "Loner (4+)",
-            "Mighty Blow",
-            "Stand Firm",
-            "Strong Arm",
-            "Thick Skull",
-            "Throw Team-mate",
-            "Timmm-ber!"
-          ],
-          "specialRules": [
-            "Reliable"
-          ]
-        }
-      ],
-      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Deeproot_Strongbranch/"
-    },
-    {
-      "id": "grak-and-crumbleberry",
-      "name": "Grak & Crumbleberry",
-      "group": "legend",
-      "cost": 250,
-      "playsFor": [
-        "Any Team"
-      ],
-      "members": [
-        {
-          "name": "Grak",
-          "role": "Big Guy, Ogre",
-          "stats": {
-            "MA": "5",
-            "ST": "5",
-            "AG": "4+",
-            "PA": "4+",
-            "AV": "10+"
-          },
-          "skills": [
-            "Bone Head",
-            "Kick Team-mate",
-            "Loner (4+)",
-            "Mighty Blow",
-            "Thick Skull"
-          ],
-          "specialRules": [
-            "I'll Carry You"
-          ]
-        },
-        {
-          "name": "Crumbleberry",
-          "role": "Halfling, Lineman",
-          "stats": {
-            "MA": "5",
-            "ST": "2",
-            "AG": "3+",
-            "PA": "5+",
-            "AV": "7+"
-          },
-          "skills": [
-            "Dodge",
-            "Lethal Flight",
-            "Loner (4+)",
-            "Right Stuff",
-            "Stunty",
-            "Sure Hands"
-          ],
-          "specialRules": [
-            "I'll Carry You"
-          ]
-        }
-      ],
-      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Grak_and_Crumbleberry/"
-    },
-    {
-      "id": "ivar-eriksson",
-      "name": "Ivar Eriksson",
-      "group": "legend",
-      "cost": 215,
-      "playsFor": [
-        "Old World Classic"
-      ],
-      "members": [
-        {
-          "name": "Ivar Eriksson",
-          "role": "Blitzer, Human",
-          "stats": {
-            "MA": "6",
-            "ST": "4",
-            "AG": "3+",
-            "PA": "4+",
-            "AV": "9+"
-          },
-          "skills": [
-            "Block",
-            "Guard",
-            "Loner (4+)",
-            "Tackle"
-          ],
-          "specialRules": [
-            "Raiding Party"
-          ]
-        }
-      ],
-      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Ivar_Eriksson/"
-    },
-    {
-      "id": "kreek-rustgouger",
-      "name": "Kreek Rustgouger",
-      "group": "legend",
-      "cost": 180,
-      "playsFor": [
-        "Underworld Challenge"
-      ],
-      "members": [
-        {
-          "name": "Kreek Rustgouger",
-          "role": "Big Guy, Skaven, Special",
-          "stats": {
-            "MA": "4",
-            "ST": "7",
-            "AG": "4+",
-            "PA": "-",
-            "AV": "10+"
-          },
-          "skills": [
-            "Ball & Chain",
-            "Loner (4+)",
-            "Mighty Blow",
-            "No Ball",
-            "Prehensile Tail",
-            "Secret Weapon"
-          ],
-          "specialRules": [
-            "I'll Be Back!"
-          ]
-        }
-      ],
-      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Kreek_Rustgouger/"
-    },
-    {
-      "id": "lord-borak-the-despoiler",
-      "name": "Lord Borak the Despoiler",
-      "group": "legend",
-      "cost": 270,
-      "playsFor": [
-        "Chaos Clash"
-      ],
-      "members": [
-        {
-          "name": "Lord Borak the Despoiler",
-          "role": "Blocker, Human",
-          "stats": {
-            "MA": "5",
-            "ST": "5",
-            "AG": "3+",
-            "PA": "5+",
-            "AV": "10+"
-          },
-          "skills": [
-            "Block",
-            "Dirty Player",
-            "Leader",
-            "Loner (3+)",
-            "Mighty Blow",
-            "Put the Boot In",
-            "Sneaky Git"
-          ],
-          "specialRules": [
-            "Lord of Chaos"
-          ]
-        }
-      ],
-      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Lord_Borak_the_Despoiler/"
-    },
-    {
-      "id": "the-swift-twins",
-      "name": "Lucien & Valen Swift",
-      "group": "legend",
-      "cost": 300,
-      "playsFor": [
-        "Elven Kingdoms League"
-      ],
-      "members": [
-        {
-          "name": "Lucien Swift",
-          "role": "Blitzer, Elf",
-          "stats": {
-            "MA": "7",
-            "ST": "3",
-            "AG": "2+",
-            "PA": "3+",
-            "AV": "9+"
-          },
-          "skills": [
-            "Block",
-            "Loner (4+)",
-            "Mighty Blow",
-            "Tackle"
-          ],
-          "specialRules": [
-            "Working In Tandem"
-          ]
-        },
-        {
-          "name": "Valen Swift",
-          "role": "Elf, Thrower",
-          "stats": {
-            "MA": "7",
-            "ST": "3",
-            "AG": "2+",
-            "PA": "2+",
-            "AV": "9+"
-          },
-          "skills": [
-            "Accurate",
-            "Loner (4+)",
-            "Nerves of Steel",
-            "Pass",
-            "Safe Pass",
-            "Sure Hands"
-          ],
-          "specialRules": [
-            "Working In Tandem"
-          ]
-        }
-      ],
-      "source": "https://bloodbowlbase.ru/bb2025/starplayers/The_Swift_Twins/"
-    },
-    {
-      "id": "maple-highgrove",
-      "name": "Maple Highgrove",
-      "group": "legend",
-      "cost": 210,
-      "playsFor": [
-        "Woodland League"
-      ],
-      "members": [
-        {
-          "name": "Maple Highgrove",
-          "role": "Big Guy, Treeman",
-          "stats": {
-            "MA": "3",
-            "ST": "5",
-            "AG": "5+",
-            "PA": "5+",
-            "AV": "11+"
-          },
-          "skills": [
-            "Brawler",
-            "Grab",
-            "Loner (4+)",
-            "Mighty Blow",
-            "Stand Firm",
-            "Tentacles",
-            "Thick Skull"
-          ],
-          "specialRules": [
-            "Vicious Vines"
-          ]
-        }
-      ],
-      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Maple_Highgrove/"
-    },
-    {
-      "id": "morg-n-thorg",
-      "name": "Morg 'n' Thorg",
-      "group": "legend",
-      "cost": 340,
-      "playsFor": [
-        "Any team except those from Sylvanian Spotlight"
-      ],
-      "members": [
-        {
-          "name": "Morg 'n' Thorg",
-          "role": "Big Guy, Ogre",
-          "stats": {
-            "MA": "6",
-            "ST": "6",
-            "AG": "3+",
-            "PA": "4+",
-            "AV": "11+"
-          },
-          "skills": [
-            "Block",
-            "Bullseye",
-            "Hatred (Undead)",
-            "Loner (4+)",
-            "Mighty Blow",
-            "Thick Skull",
-            "Throw Team-mate"
-          ],
-          "specialRules": [
-            "The Ballista"
-          ]
-        }
-      ],
-      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Morg_%27n%27_Thorg/"
-    },
-    {
-      "id": "ripper-bolgrot",
-      "name": "Ripper Bolgrot",
-      "group": "legend",
-      "cost": 250,
+      "cost": 80,
       "playsFor": [
         "Badlands Brawl",
         "Underworld Challenge"
       ],
       "members": [
         {
-          "name": "Ripper Bolgrot",
-          "role": "Big Guy, Troll",
+          "name": "Bomber Dribblesnot",
+          "role": "Goblin, Special",
+          "stats": {
+            "MA": "6",
+            "ST": "2",
+            "AG": "3+",
+            "PA": "3+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Accurate",
+            "Bombardier",
+            "Dodge",
+            "Loner (4+)",
+            "Right Stuff",
+            "Secret Weapon",
+            "Stunty"
+          ],
+          "specialRules": [
+            "Kaboom! Once per game, if an opposition player catches a bomb thrown by Bomber, you can choose to have it explode rather than the opposition player immediately attempting to throw it again."
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Bomber_Dribblesnot/"
+    },
+    {
+      "id": "cindy-piewhistle",
+      "name": "Cindy Piewhistle",
+      "group": "legend",
+      "cost": 100,
+      "playsFor": [
+        "Halfling Thimble Cup",
+        "Old World Classic"
+      ],
+      "members": [
+        {
+          "name": "Cindy Piewhistle",
+          "role": "Halfling, Special",
+          "stats": {
+            "MA": "5",
+            "ST": "2",
+            "AG": "3+",
+            "PA": "3+",
+            "AV": "7+"
+          },
+          "skills": [
+            "Accurate",
+            "Bombardier",
+            "Dodge",
+            "Loner (4+)",
+            "Secret Weapon",
+            "Stunty"
+          ],
+          "specialRules": [
+            "All You Can Eat"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Cindy_Piewhistle/"
+    },
+    {
+      "id": "da-red-gobbo-s-squigmobile",
+      "name": "Da Red Gobbo's Squigmobile",
+      "group": "legend",
+      "cost": 200,
+      "playsFor": [
+        "Any team except a Dwarf team"
+      ],
+      "members": [
+        {
+          "name": "Da Red Gobbo's Squigmobile",
+          "role": "Big Guy, Goblin, Special",
           "stats": {
             "MA": "5",
             "ST": "6",
             "AG": "5+",
-            "PA": "4+",
+            "PA": "-",
             "AV": "10+"
           },
           "skills": [
-            "Bullseye",
-            "Grab",
+            "Bombardier",
+            "Break Tackle",
+            "Dirty Player",
+            "Hail Mary Pass",
+            "Hatred (Dwarf)",
+            "Juggernaut",
             "Loner (4+)",
             "Mighty Blow",
-            "Regeneration",
-            "Throw Team-mate"
+            "No Ball",
+            "Secret Weapon",
+            "Stand Firm"
           ],
           "specialRules": [
-            "Thinking Man's Troll"
+            "Have a Present, Ya Git"
           ]
         }
       ],
-      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Ripper_Bolgrot/"
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Da_Red_Gobbos_Squigmobile/"
+    },
+    {
+      "id": "estelle-la-veneaux",
+      "name": "Estelle la Veneaux",
+      "group": "legend",
+      "cost": 190,
+      "playsFor": [
+        "Lustrian Superleague"
+      ],
+      "members": [
+        {
+          "name": "Estelle la Veneaux",
+          "role": "Human, Lineman",
+          "stats": {
+            "MA": "6",
+            "ST": "3",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Disturbing Presence",
+            "Dodge",
+            "Guard",
+            "Loner (4+)",
+            "Sidestep"
+          ],
+          "specialRules": [
+            "Baleful Hex"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Estelle_la_Veneaux/"
+    },
+    {
+      "id": "griff-oberwald",
+      "name": "Griff Oberwald",
+      "group": "legend",
+      "cost": 300,
+      "playsFor": [
+        "Old World Classic"
+      ],
+      "members": [
+        {
+          "name": "Griff Oberwald",
+          "role": "Blitzer, Human",
+          "stats": {
+            "MA": "7",
+            "ST": "4",
+            "AG": "2+",
+            "PA": "3+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Block",
+            "Dodge",
+            "Fend",
+            "Loner (3+)",
+            "Sprint",
+            "Sure Feet"
+          ],
+          "specialRules": [
+            "Consummate Professional"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Griff_Oberwald/"
+    },
+    {
+      "id": "hakflem-skuttlespike",
+      "name": "Hakflem Skuttlespike",
+      "group": "legend",
+      "cost": 200,
+      "playsFor": [
+        "Underworld Challenge"
+      ],
+      "members": [
+        {
+          "name": "Hakflem Skuttlespike",
+          "role": "Runner, Skaven",
+          "stats": {
+            "MA": "8",
+            "ST": "3",
+            "AG": "2+",
+            "PA": "3+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Dodge",
+            "Extra Arms",
+            "Loner (4+)",
+            "Prehensile Tail",
+            "Two Heads"
+          ],
+          "specialRules": [
+            "Treacherous"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Hakflem_Skuttlespike/"
+    },
+    {
+      "id": "h-thark-the-unstoppable",
+      "name": "H'thark the Unstoppable",
+      "group": "legend",
+      "cost": 300,
+      "playsFor": [
+        "Badlands Brawl",
+        "Favoured of Hashut"
+      ],
+      "members": [
+        {
+          "name": "H'thark the Unstoppable",
+          "role": "Blitzer, Dwarf",
+          "stats": {
+            "MA": "6",
+            "ST": "6",
+            "AG": "4+",
+            "PA": "6+",
+            "AV": "10+"
+          },
+          "skills": [
+            "Block",
+            "Break Tackle",
+            "Defensive",
+            "Juggernaut",
+            "Loner (4+)",
+            "Sprint",
+            "Sure Feet",
+            "Thick Skull",
+            "Unsteady"
+          ],
+          "specialRules": [
+            "Unstoppable Momentum"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/H%27thark_the_Unstoppable/"
+    },
+    {
+      "id": "jordell-freshbreeze",
+      "name": "Jordell Freshbreeze",
+      "group": "legend",
+      "cost": 280,
+      "playsFor": [
+        "Elven Kingdoms League",
+        "Woodland League"
+      ],
+      "members": [
+        {
+          "name": "Jordell Freshbreeze",
+          "role": "Blitzer, Elf",
+          "stats": {
+            "MA": "8",
+            "ST": "3",
+            "AG": "1+",
+            "PA": "3+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Block",
+            "Diving Catch",
+            "Dodge",
+            "Leap",
+            "Loner (4+)",
+            "Sidestep",
+            "Steady Footing"
+          ],
+          "specialRules": [
+            "Swift as the Breeze"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Jordell_Freshbreeze/"
     },
     {
       "id": "skitter-stab-stab",
@@ -7415,40 +7064,840 @@
       "source": "https://bloodbowlbase.ru/bb2025/starplayers/Skrorg_Snowpelt/"
     },
     {
-      "id": "zolcath-the-zoat",
-      "name": "Zolcath the Zoat",
-      "group": "legend",
-      "cost": 220,
+      "id": "akhorne-the-squirrel",
+      "name": "Akhorne the Squirrel",
+      "group": "prospect",
+      "cost": 80,
       "playsFor": [
-        "Elven Kingdoms League",
-        "Lustrian Superleague"
+        "Any team"
       ],
       "members": [
         {
-          "name": "Zolcath the Zoat",
-          "role": "Big Guy, Zoat",
+          "name": "Akhorne The Squirrel",
+          "role": "Blitzer, Squirrel",
           "stats": {
-            "MA": "5",
-            "ST": "5",
-            "AG": "4+",
-            "PA": "5+",
-            "AV": "10+"
+            "MA": "7",
+            "ST": "1",
+            "AG": "2+",
+            "PA": "-",
+            "AV": "6+"
           },
           "skills": [
-            "Disturbing Presence",
-            "Juggernaut",
+            "Claws",
+            "Dauntless",
+            "Dodge",
+            "Frenzy",
+            "Jump Up",
             "Loner (4+)",
-            "Mighty Blow",
-            "Prehensile Tail",
-            "Regeneration",
-            "Sure Feet"
+            "No Ball",
+            "Sidestep",
+            "Stunty",
+            "Titchy"
           ],
           "specialRules": [
-            "\"Excuse me, are you a Zoat?\""
+            "Blind Rage"
           ]
         }
       ],
-      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Zolcath_the_Zoat/"
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Akhorne_The_Squirrel/"
+    },
+    {
+      "id": "barik-farblast",
+      "name": "Barik Farblast",
+      "group": "prospect",
+      "cost": 80,
+      "playsFor": [
+        "Old World Classic",
+        "Worlds Edge Superleague"
+      ],
+      "members": [
+        {
+          "name": "Barik Farblast",
+          "role": "Dwarf, Thrower",
+          "stats": {
+            "MA": "6",
+            "ST": "3",
+            "AG": "4+",
+            "PA": "3+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Cannoneer",
+            "Hail Mary Pass",
+            "Loner (4+)",
+            "Pass",
+            "Secret Weapon",
+            "Sure Hands",
+            "Thick Skull"
+          ],
+          "specialRules": [
+            "Blast It!"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Barik_Farblast/"
+    },
+    {
+      "id": "fungus-the-loon",
+      "name": "Fungus the Loon",
+      "group": "prospect",
+      "cost": 80,
+      "playsFor": [
+        "Badlands Brawl",
+        "Underworld Challenge"
+      ],
+      "members": [
+        {
+          "name": "Fungus the Loon",
+          "role": "Goblin, Special",
+          "stats": {
+            "MA": "4",
+            "ST": "7",
+            "AG": "3+",
+            "PA": "-",
+            "AV": "8+"
+          },
+          "skills": [
+            "Ball & Chain",
+            "Loner (4+)",
+            "Mighty Blow",
+            "No Ball",
+            "Secret Weapon",
+            "Stunty"
+          ],
+          "specialRules": [
+            "Whirling Dervish"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Fungus_the_Loon/"
+    },
+    {
+      "id": "gloriel-summerbloom",
+      "name": "Gloriel Summerbloom",
+      "group": "prospect",
+      "cost": 150,
+      "playsFor": [
+        "Elven Kingdoms League"
+      ],
+      "members": [
+        {
+          "name": "Gloriel Summerbloom",
+          "role": "Elf, Thrower",
+          "stats": {
+            "MA": "7",
+            "ST": "2",
+            "AG": "2+",
+            "PA": "2+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Accurate",
+            "Dodge",
+            "Loner (3+)",
+            "Pass",
+            "Sidestep",
+            "Sure Hands"
+          ],
+          "specialRules": [
+            "Shot to Nothing"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Gloriel_Summerbloom/"
+    },
+    {
+      "id": "grashnak-blackhoof",
+      "name": "Grashnak Blackhoof",
+      "group": "prospect",
+      "cost": 240,
+      "playsFor": [
+        "Chaos Clash"
+      ],
+      "members": [
+        {
+          "name": "Grashnak Blackhoof",
+          "role": "Big Guy, Minotaur",
+          "stats": {
+            "MA": "6",
+            "ST": "6",
+            "AG": "4+",
+            "PA": "6+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Frenzy",
+            "Horns",
+            "Loner (4+)",
+            "Mighty Blow",
+            "Thick Skull",
+            "Unchannelled Fury"
+          ],
+          "specialRules": [
+            "Gored by the Bull"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Grashnak_Blackhoof/"
+    },
+    {
+      "id": "gretchen-wachter",
+      "name": "Gretchen Wächter",
+      "group": "prospect",
+      "cost": 180,
+      "playsFor": [
+        "Sylvanian Spotlight"
+      ],
+      "members": [
+        {
+          "name": "Gretchen Wächter",
+          "role": "Special, Undead, Wraith",
+          "stats": {
+            "MA": "7",
+            "ST": "3",
+            "AG": "2+",
+            "PA": "-",
+            "AV": "9+"
+          },
+          "skills": [
+            "Disturbing Presence",
+            "Dodge",
+            "Foul Appearance",
+            "Jump Up",
+            "Loner (4+)",
+            "No Ball",
+            "Regeneration",
+            "Shadowing",
+            "Sidestep"
+          ],
+          "specialRules": [
+            "Incorporeal"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Gretchen_W%C3%A4chter/"
+    },
+    {
+      "id": "grim-ironjaw",
+      "name": "Grim Ironjaw",
+      "group": "prospect",
+      "cost": 190,
+      "playsFor": [
+        "Worlds Edge Superleague"
+      ],
+      "members": [
+        {
+          "name": "Grim Ironjaw",
+          "role": "Dwarf, Special",
+          "stats": {
+            "MA": "5",
+            "ST": "4",
+            "AG": "3+",
+            "PA": "6+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Block",
+            "Dauntless",
+            "Frenzy",
+            "Hatred (Big Guy)",
+            "Loner (4+)",
+            "Multiple Block",
+            "Thick Skull"
+          ],
+          "specialRules": [
+            "Slayer"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Grim_Ironjaw/"
+    },
+    {
+      "id": "guffle-pusmaw",
+      "name": "Guffle Pusmaw",
+      "group": "prospect",
+      "cost": 150,
+      "playsFor": [
+        "Favoured of Nurgle"
+      ],
+      "members": [
+        {
+          "name": "Guffle Pusmaw",
+          "role": "Blocker, Human",
+          "stats": {
+            "MA": "5",
+            "ST": "4",
+            "AG": "4+",
+            "PA": "6+",
+            "AV": "10+"
+          },
+          "skills": [
+            "Foul Appearance",
+            "Loner (4+)",
+            "Monstrous Mouth",
+            "Nerves of Steel",
+            "On the Ball",
+            "Plague Ridden"
+          ],
+          "specialRules": [
+            "Quick Bite"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Guffle_Pusmaw/"
+    },
+    {
+      "id": "helmut-wulf",
+      "name": "Helmut Wulf",
+      "group": "prospect",
+      "cost": 140,
+      "playsFor": [
+        "Old World Classic"
+      ],
+      "members": [
+        {
+          "name": "Helmut Wulf",
+          "role": "Human, Special",
+          "stats": {
+            "MA": "6",
+            "ST": "3",
+            "AG": "3+",
+            "PA": "-",
+            "AV": "9+"
+          },
+          "skills": [
+            "Chainsaw",
+            "Loner (4+)",
+            "No Ball",
+            "Pro",
+            "Secret Weapon",
+            "Stand Firm"
+          ],
+          "specialRules": [
+            "Old Pro"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Helmut_Wulf/"
+    },
+    {
+      "id": "josef-bugman",
+      "name": "Josef Bugman",
+      "group": "prospect",
+      "cost": 180,
+      "playsFor": [
+        "Old World Classic",
+        "Worlds Edge Superleague"
+      ],
+      "members": [
+        {
+          "name": "Josef Bugman",
+          "role": "Blocker, Dwarf",
+          "stats": {
+            "MA": "5",
+            "ST": "3",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Block",
+            "Drunkard",
+            "Fend",
+            "Loner (3+)",
+            "Tackle",
+            "Taunt",
+            "Thick Skull"
+          ],
+          "specialRules": [
+            "Dwarfen Grit"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Josef_Bugman/"
+    },
+    {
+      "id": "kiroth-krakeneye",
+      "name": "Kiroth Krakeneye",
+      "group": "prospect",
+      "cost": 160,
+      "playsFor": [
+        "Elven Kingdoms League"
+      ],
+      "members": [
+        {
+          "name": "Kiroth Krakeneye",
+          "role": "Elf, Runner",
+          "stats": {
+            "MA": "7",
+            "ST": "3",
+            "AG": "2+",
+            "PA": "3+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Disturbing Presence",
+            "Foul Appearance",
+            "Loner (4+)",
+            "On the Ball",
+            "Tackle",
+            "Tentacles"
+          ],
+          "specialRules": [
+            "Black Ink"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Kiroth_Krakeneye/"
+    },
+    {
+      "id": "max-spleenripper",
+      "name": "Max Spleenripper",
+      "group": "prospect",
+      "cost": 130,
+      "playsFor": [
+        "Favoured of Khorne"
+      ],
+      "members": [
+        {
+          "name": "Max Spleenripper",
+          "role": "Human, Special",
+          "stats": {
+            "MA": "5",
+            "ST": "4",
+            "AG": "4+",
+            "PA": "-",
+            "AV": "9+"
+          },
+          "skills": [
+            "Chainsaw",
+            "Loner (4+)",
+            "No Ball",
+            "Secret Weapon"
+          ],
+          "specialRules": [
+            "Maximum Carnage"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Max_Spleenripper/"
+    },
+    {
+      "id": "puggy-baconbreath",
+      "name": "Puggy Baconbreath",
+      "group": "prospect",
+      "cost": 130,
+      "playsFor": [
+        "Halfling Thimble Cup",
+        "Old World Classic"
+      ],
+      "members": [
+        {
+          "name": "Puggy Baconbreath",
+          "role": "Blitzer, Halfling",
+          "stats": {
+            "MA": "5",
+            "ST": "3",
+            "AG": "3+",
+            "PA": "3+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Block",
+            "Dodge",
+            "Loner (3+)",
+            "Nerves of Steel",
+            "Right Stuff",
+            "Stunty"
+          ],
+          "specialRules": [
+            "Halfling Luck"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Puggy_Baconbreath/"
+    },
+    {
+      "id": "rashnak-backstabber",
+      "name": "Rashnak Backstabber",
+      "group": "prospect",
+      "cost": 130,
+      "playsFor": [
+        "Badlands Brawl"
+      ],
+      "members": [
+        {
+          "name": "Rashnak Backstabber",
+          "role": "Goblin, Special",
+          "stats": {
+            "MA": "7",
+            "ST": "3",
+            "AG": "3+",
+            "PA": "5+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Loner (4+)",
+            "Shadowing",
+            "Sidestep",
+            "Sneaky Git",
+            "Stab"
+          ],
+          "specialRules": [
+            "Toxin Connoisseur"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Rashnak_Backstabber/"
+    },
+    {
+      "id": "rodney-roachbait",
+      "name": "Rodney Roachbait",
+      "group": "prospect",
+      "cost": 70,
+      "playsFor": [
+        "Woodland League"
+      ],
+      "members": [
+        {
+          "name": "Rodney Roachbait",
+          "role": "Gnome, Special",
+          "stats": {
+            "MA": "6",
+            "ST": "2",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "7+"
+          },
+          "skills": [
+            "Catch",
+            "Diving Catch",
+            "Jump Up",
+            "Loner (4+)",
+            "On the Ball",
+            "Sidestep",
+            "Stunty",
+            "Wrestle"
+          ],
+          "specialRules": [
+            "Catch of the Day"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Rodney_Roachbait/"
+    },
+    {
+      "id": "rowana-forestfoot",
+      "name": "Rowana Forestfoot",
+      "group": "prospect",
+      "cost": 160,
+      "playsFor": [
+        "Woodland League"
+      ],
+      "members": [
+        {
+          "name": "Rowana Forestfoot",
+          "role": "Blocker, Gnome",
+          "stats": {
+            "MA": "6",
+            "ST": "3",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Dodge",
+            "Dump-off",
+            "Guard",
+            "Horns",
+            "Jump Up",
+            "Leap",
+            "Loner (4+)"
+          ],
+          "specialRules": [
+            "Bounding Leap"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Rowana_Forestfoot/"
+    },
+    {
+      "id": "rumbelow-sheepskin",
+      "name": "Rumbelow Sheepskin",
+      "group": "prospect",
+      "cost": 170,
+      "playsFor": [
+        "Halfling Thimble Cup"
+      ],
+      "members": [
+        {
+          "name": "Rumbelow Sheepskin",
+          "role": "Blitzer, Halfling",
+          "stats": {
+            "MA": "6",
+            "ST": "3",
+            "AG": "3+",
+            "PA": "5+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Block",
+            "Horns",
+            "Juggernaut",
+            "Loner (4+)",
+            "Tackle",
+            "Thick Skull"
+          ],
+          "specialRules": [
+            "Ram"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Rumbelow_Sheepskin/"
+    },
+    {
+      "id": "scrappa-sorehead",
+      "name": "Scrappa Sorehead",
+      "group": "prospect",
+      "cost": 120,
+      "playsFor": [
+        "Badlands Brawl",
+        "Underworld Challenge"
+      ],
+      "members": [
+        {
+          "name": "Scrappa Sorehead",
+          "role": "Goblin, Special",
+          "stats": {
+            "MA": "7",
+            "ST": "2",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Dirty Player",
+            "Dodge",
+            "Loner (4+)",
+            "Pogo",
+            "Right Stuff",
+            "Sprint",
+            "Stunty",
+            "Sure Feet"
+          ],
+          "specialRules": [
+            "Yoink!"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Scrappa_Sorehead/"
+    },
+    {
+      "id": "skrull-halfheight",
+      "name": "Skrull Halfheight",
+      "group": "prospect",
+      "cost": 150,
+      "playsFor": [
+        "Sylvanian Spotlight",
+        "Worlds Edge Superleague"
+      ],
+      "members": [
+        {
+          "name": "Skrull Halfheight",
+          "role": "Dwarf, Skeleton, Thrower, Undead",
+          "stats": {
+            "MA": "6",
+            "ST": "3",
+            "AG": "4+",
+            "PA": "3+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Accurate",
+            "Loner (4+)",
+            "Nerves of Steel",
+            "Pass",
+            "Regeneration",
+            "Sure Hands",
+            "Thick Skull"
+          ],
+          "specialRules": [
+            "Strong Passing Game"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Skrull_Halfheight/"
+    },
+    {
+      "id": "swiftvine-glimmershard",
+      "name": "Swiftvine Glimmershard",
+      "group": "prospect",
+      "cost": 110,
+      "playsFor": [
+        "Woodland League"
+      ],
+      "members": [
+        {
+          "name": "Swiftvine Glimmershard",
+          "role": "Special, Spite",
+          "stats": {
+            "MA": "7",
+            "ST": "2",
+            "AG": "3+",
+            "PA": "5+",
+            "AV": "7+"
+          },
+          "skills": [
+            "Disturbing Presence",
+            "Fend",
+            "Loner (4+)",
+            "Sidestep",
+            "Stab",
+            "Stunty"
+          ],
+          "specialRules": [
+            "Furious Outburst"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Swiftvine_Glimmershard/"
+    },
+    {
+      "id": "the-black-gobbo",
+      "name": "The Black Gobbo",
+      "group": "prospect",
+      "cost": 210,
+      "playsFor": [
+        "Badlands Brawl",
+        "Underworld Challenge"
+      ],
+      "members": [
+        {
+          "name": "The Black Gobbo",
+          "role": "Goblin, Special",
+          "stats": {
+            "MA": "6",
+            "ST": "2",
+            "AG": "3+",
+            "PA": "3+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Bombardier",
+            "Disturbing Presence",
+            "Dodge",
+            "Loner (3+)",
+            "Sidestep",
+            "Sneaky Git",
+            "Stab"
+          ],
+          "specialRules": [
+            "Sneakiest of the Lot"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/The_Black_Gobbo/"
+    },
+    {
+      "id": "willow-rosebark",
+      "name": "Willow Rosebark",
+      "group": "prospect",
+      "cost": 160,
+      "playsFor": [
+        "Woodland League"
+      ],
+      "members": [
+        {
+          "name": "Willow Rosebark",
+          "role": "Blitzer, Dryad",
+          "stats": {
+            "MA": "6",
+            "ST": "4",
+            "AG": "3+",
+            "PA": "5+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Dauntless",
+            "Loner (4+)",
+            "Sidestep",
+            "Thick Skull"
+          ],
+          "specialRules": [
+            "Woodland Fury"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Willow_Rosebark/"
+    },
+    {
+      "id": "withergrasp-doubledrool",
+      "name": "Withergrasp Doubledrool",
+      "group": "prospect",
+      "cost": 170,
+      "playsFor": [
+        "Favoured of Nurgle"
+      ],
+      "members": [
+        {
+          "name": "Withergrasp Doubledrool",
+          "role": "Beastman, Blocker",
+          "stats": {
+            "MA": "6",
+            "ST": "3",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "9+"
+          },
+          "skills": [
+            "Foul Appearance",
+            "Loner (4+)",
+            "Prehensile Tail",
+            "Tackle",
+            "Tentacles",
+            "Two Heads",
+            "Wrestle"
+          ],
+          "specialRules": [
+            "Watch Out!"
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Withergrasp_Doubledrool/"
+    },
+    {
+      "id": "zzharg-madeye",
+      "name": "Zzharg Madeye",
+      "group": "prospect",
+      "cost": 130,
+      "playsFor": [
+        "Favoured of Hashut"
+      ],
+      "members": [
+        {
+          "name": "Zzharg Madeye",
+          "role": "Dwarf, Special",
+          "stats": {
+            "MA": "4",
+            "ST": "4",
+            "AG": "4+",
+            "PA": "3+",
+            "AV": "10+"
+          },
+          "skills": [
+            "Cannoneer",
+            "Hail Mary Pass",
+            "Loner (4+)",
+            "Nerves of Steel",
+            "Secret Weapon",
+            "Thick Skull"
+          ],
+          "specialRules": [
+            "\"Blastin' Solves Everything\""
+          ]
+        }
+      ],
+      "source": "https://bloodbowlbase.ru/bb2025/starplayers/Zzharg_Madeye/"
     }
   ]
 }

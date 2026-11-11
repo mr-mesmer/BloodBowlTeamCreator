@@ -118,12 +118,12 @@ describe('recommended tournament roster collection', () => {
     expect(addedSkillCost(khorngor.skills[0])).toBe(40);
   });
 
-  it.each(['goblin', 'halfling', 'ogre'])('charges the legend tax separately and allows legal Secondary for %s', (id) => {
+  it.each(['goblin', 'halfling', 'ogre'])('charges the veteran tax separately and allows legal Secondary for %s', (id) => {
     const roster = load(id);
     const calc = calculateRoster(roster);
     expect(roster.stars).toHaveLength(1);
-    expect(calc.starSurcharge).toBe(80);
-    expect(calc.skillCost).toBe(calc.advancementCost + 80);
+    expect(calc.starSurcharge).toBe(40);
+    expect(calc.skillCost).toBe(calc.advancementCost + 40);
     expect(calc.secondaryCount).toBeGreaterThan(0);
     expect(calc.errors).toEqual([]);
   });
@@ -192,13 +192,13 @@ describe('illegal edits to recommended rosters are rejected', () => {
 
   it('does not allow a veteran to be added alongside a legend', () => {
     const roster = load('halfling');
-    roster.stars.push({ id: 'illegal-extra-star', starId: 'rodney-roachbait' });
+    roster.stars.push({ id: 'illegal-extra-star', starId: 'griff-oberwald' });
     expect(errors(roster)).toContain('star-mix');
   });
 
   it('rejects a star outside the whitelist', () => {
     const roster = load('goblin');
-    roster.stars = [{ id: 'banned-star', starId: 'bomber-dribblesnot' }];
+    roster.stars = [{ id: 'banned-star', starId: 'unknown-star' }];
     expect(errors(roster)).toContain('star-unknown-banned-star');
   });
 

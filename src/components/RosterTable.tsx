@@ -1,3 +1,4 @@
+import { starGroupLabel } from '../lib/rules';
 import { useState } from 'react';
 import { ChevronDown, Plus, Shield, Star, Trash2, UserPlus, WandSparkles } from 'lucide-react';
 import { getPosition, getSkill, getStar } from '../lib/catalog';
@@ -102,7 +103,7 @@ export function RosterTable({ roster, team, playerCount, onAdd, onRemove, onRemo
                     <td className="row-number">{String(previousPlayers + memberIndex + 1).padStart(2, '0')}</td>
                     <td className="player-cell">
                       <div className="star-player-name"><Star size={13} fill="currentColor" />{member.name}</div>
-                      <div className="star-player-subtitle">{star.name} · {star.group === 'veteran' ? 'Veteran' : 'Legend'}</div>
+                      <div className="star-player-subtitle">{star.name} · {starGroupLabel(star.group)}</div>
                     </td>
                     {(['MA', 'ST', 'AG', 'PA', 'AV'] as const).map((stat) => <td key={stat} className="stat-cell">{member.stats[stat]}</td>)}
                     <td className="skills-cell"><div className="base-skills">{member.skills.join(' · ')}</div>{member.specialRules.length > 0 && <div className="special-rule-line"><Shield size={11} />{member.specialRules.join(' · ')}</div>}</td>
