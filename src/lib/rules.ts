@@ -1,4 +1,4 @@
-import type { Contract, Inducement, Team } from './types';
+import type { Contract, Inducement, Team, StarGroup } from './types';
 
 /** All values are in thousands of gold pieces (k). */
 export const RULE_PACK = {
@@ -43,7 +43,8 @@ export function tierRules(tier: number) {
   return RULE_PACK.tiers.find((item) => item.tier === tier) ?? RULE_PACK.tiers[0];
 }
 
-export function starSurcharge(tier: number, group: 'veteran' | 'legend') {
+export function starSurcharge(tier: number, group: StarGroup) {
+  if (group === 'prospect') return tier <= 5 ? 20 : 0;
   if (group === 'legend') return tier <= 5 ? 100 : 80;
   return tier <= 5 ? 50 : 40;
 }
@@ -72,3 +73,7 @@ export const CATEGORY_NAMES = {
   A: 'Agility', D: 'Devious', G: 'General',
   M: 'Mutation', P: 'Passing', S: 'Strength',
 } as const;
+
+export function starGroupLabel(group: StarGroup): string {
+  return { veteran: 'Veteran', legend: 'Legend', prospect: 'Prospect' }[group];
+}

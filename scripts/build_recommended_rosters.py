@@ -125,7 +125,7 @@ def player_cost(player: dict[str, Any], skills: dict[str, Any]) -> int:
 
 
 def fee(tier: int, group: str) -> int:
-    return (100 if tier <= 5 else 80) if group == 'legend' else (50 if tier <= 5 else 40)
+    return {'legend': (100, 80), 'veteran': (50, 40), 'prospect': (20, 0)}[group][0 if tier <= 5 else 1]
 
 
 def eligible(star: dict[str, Any], team: dict[str, Any], roster: dict[str, Any]) -> bool:
@@ -138,6 +138,9 @@ def eligible(star: dict[str, Any], team: dict[str, Any], roster: dict[str, Any])
             return True
         if rule == 'any team except those from sylvanian spotlight':
             if roster['league'] != 'Sylvanian Spotlight':
+                return True
+        elif rule == 'any team except a dwarf team':
+            if team['id'] != 'dwarf':
                 return True
         elif plays_for in tags:
             return True
@@ -251,13 +254,13 @@ def validate(roster: dict[str, Any], team: dict[str, Any], skills: dict[str, Any
         require(id_ in stars, f'Звезда {id_} не входит в whitelist каталога')
         star = stars[id_]
         require(eligible(star, team, roster), f"Звезда {star['name']} недоступна выбранной лиге/Favoured")
-        require(star['group'] in {'veteran', 'legend'}, 'Неизвестная категория звезды')
+        require(star['group'] in {'veteran', 'legend', 'prospect'}, 'Неизвестная категория звезды')
         groups[star['group']] += 1
         star_cost += star['cost']
         tax += fee(tier, star['group'])
         star_members += len(star['members'])
         insignificant += sum('insignificant' in {normalize(s) for s in m['skills']} for m in star['members'])
-    require(len(groups) <= 1 and groups['legend'] <= 1 and groups['veteran'] <= 2, 'Незаконная комбинация звёзд')
+    require(groups['legend'] <= 1 and not (groups['legend'] and groups['veteran'] + groups['prospect']) and groups['veteran'] + groups['prospect'] <= 2, 'Незаконная комбинация звёзд')
     require(not (hires and tier <= 4 and (secondaries or stacks)), 'Тиры 1–4 со звёздами: запрещены Secondary/стаки')
     total_players = len(roster['players']) + star_members
     require(11 <= total_players <= 16, f'В заявке {total_players} игроков, нужно 11–16')
@@ -345,7 +348,7 @@ def render_team(index: int, entry: dict[str, Any], roster: dict[str, Any], calc:
         star = stars[hire['starId']]
         count = len(star['members'])
         numbers = str(cursor + 1) if count == 1 else f'{cursor + 1}–{cursor + count}'
-        lines.append(f"| {numbers} ★ | {star['name']} — {'Legend' if star['group'] == 'legend' else 'Veteran'} | {count} | {star['cost']}k за найм | {star['cost']}k | Без прокачки; только базовый профиль | {fee(team['tier'], star['group'])}k — налог |")
+        lines.append(f"| {numbers} ★ | {star['name']} — {star['group'].title()} | {count} | {star['cost']}k за найм | {star['cost']}k | Без прокачки; только базовый профиль | {fee(team['tier'], star['group'])}k — налог |")
         cursor += count
     lines.extend(['', f"**Игроки и звёзды:** {calc['playersCost']}k + {calc['starsCost']}k = {calc['playersCost'] + calc['starsCost']}k Team Budget.", ''])
     if entry['captain'] is not None:
@@ -422,7 +425,7 @@ def main() -> int:
     require(generated_tiers == {t['name']: expected_tiers[t['id']] for t in teams.values()},
             'Генератор каталога восстановил бы неправильные тиры')
     require({s['id'] for s in catalog['skills'] if s['elite']} == ELITE, 'Расхождение списка Elite')
-    require(len(stars) == 52 and sum(s['group'] == 'veteran' for s in stars.values()) == 40, 'Расхождение whitelist звёзд')
+    require(len(stars) == 64 and sum(s['group'] == 'veteran' for s in stars.values()) == 30 and sum(s['group'] == 'legend' for s in stars.values()) == 10 and sum(s['group'] == 'prospect' for s in stars.values()) == 24, 'Расхождение whitelist звёзд')
     outputs: dict[Path, str] = {}
     reports = []
     rosters = []

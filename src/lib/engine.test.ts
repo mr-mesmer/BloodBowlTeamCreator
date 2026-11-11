@@ -18,12 +18,13 @@ function errorIds(roster: RosterState) {
 }
 
 describe('catalogue and tier budgets', () => {
-  it('contains all 31 teams and exactly the 52 allowed stars', () => {
+  it('contains all 31 teams and exactly the 64 allowed stars', () => {
     expect(catalog.teams).toHaveLength(31);
-    expect(catalog.stars).toHaveLength(52);
-    expect(catalog.stars.filter((star) => star.group === 'veteran')).toHaveLength(40);
-    expect(catalog.stars.filter((star) => star.group === 'legend')).toHaveLength(12);
-    expect(catalog.stars.some((star) => star.name === 'Griff Oberwald')).toBe(false);
+    expect(catalog.stars).toHaveLength(64);
+    expect(catalog.stars.filter((star) => star.group === 'veteran')).toHaveLength(30);
+    expect(catalog.stars.filter((star) => star.group === 'legend')).toHaveLength(10);
+    expect(catalog.stars.filter((star) => star.group === 'prospect')).toHaveLength(24);
+    expect(getStar('griff-oberwald')?.group).toBe('legend');
   });
 
   it.each(catalog.teams.map((team) => [team.name, team.id, team.tier] as const))('uses the custom budget for %s', (_name, id, tier) => {
@@ -48,6 +49,10 @@ describe('catalogue and tier budgets', () => {
   });
 
   it('uses the requested star surcharges', () => {
+    expect(starSurcharge(1, 'prospect')).toBe(20);
+    expect(starSurcharge(5, 'prospect')).toBe(20);
+    expect(starSurcharge(6, 'prospect')).toBe(0);
+    expect(starSurcharge(7, 'prospect')).toBe(0);
     expect(starSurcharge(1, 'veteran')).toBe(50);
     expect(starSurcharge(5, 'veteran')).toBe(50);
     expect(starSurcharge(6, 'veteran')).toBe(40);
@@ -163,9 +168,31 @@ describe('stars and combined roster limits', () => {
     const roster = withPlayers('human', 'Human Lineman', 11);
     roster.stars = [
       { id: 'hire-1', starId: getStar('akhorne-the-squirrel')!.id },
-      { id: 'hire-2', starId: getStar('deeproot-strongbranch')!.id },
+      { id: 'hire-2', starId: getStar('griff-oberwald')!.id },
     ];
     expect(errorIds(roster)).toContain('star-mix');
+  });
+
+  it('allows mixed non-legends but limits their combined count', () => {
+    const roster = createRoster('human');
+    roster.stars = [
+      { id: '1', starId: 'akhorne-the-squirrel' },
+      { id: '2', starId: 'grombrindal' },
+    ];
+    expect(errorIds(roster)).not.toContain('star-mix');
+    expect(calculateRoster(roster).starSurcharge).toBe(70);
+    roster.stars.push({ id: '3', starId: 'helmut-wulf' });
+    expect(errorIds(roster)).toContain('star-veterans');
+    roster.stars = [{ id: '1', starId: 'griff-oberwald' }, { id: '2', starId: 'grombrindal' }];
+    expect(errorIds(roster)).toContain('star-mix');
+    roster.stars = [{ id: '1', starId: 'griff-oberwald' }, { id: '2', starId: 'jordell-freshbreeze' }];
+    expect(errorIds(roster)).toContain('star-legend');
+  });
+
+  it('excludes only Dwarf teams from Squigmobile eligibility', () => {
+    const star = getStar('da-red-gobbo-s-squigmobile')!;
+    expect(isStarEligible(star, getTeam('dwarf'), createRoster('dwarf'))).toBe(false);
+    expect(isStarEligible(star, getTeam('chaos-dwarf'), createRoster('chaos-dwarf'))).toBe(true);
   });
 
   it('respects league-based star access', () => {

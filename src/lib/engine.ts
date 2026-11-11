@@ -16,7 +16,7 @@ export function isStarEligible(star: StarPlayer, team: Team, roster: RosterState
     const normalized = rule.toLowerCase();
     if (normalized === 'any team') return true;
     if (normalized.includes('any team except')) {
-      return !(normalized.includes('sylvanian spotlight') && roster.league === 'Sylvanian Spotlight');
+      return !(normalized.includes('sylvanian spotlight') && roster.league === 'Sylvanian Spotlight') && !(normalized.includes('dwarf team') && team.id === 'dwarf');
     }
     return tags.has(rule);
   });
@@ -143,12 +143,12 @@ export function calculateRoster(roster: RosterState): RosterCalculations {
       if (isInsignificant) insignificant += 1; else nonInsignificant += 1;
     }
   }
-  if (starGroups.size > 1) {
-    errors.push(message('star-mix', 'Veterans and a Legend cannot be hired at the same time.'));
+  if (starGroups.has('legend') && starGroups.size > 1) {
+    errors.push(message('star-mix', 'A Legend cannot be hired with a Veteran or Prospect.'));
   }
-  const veteranCount = roster.stars.filter((hire) => getStar(hire.starId)?.group === 'veteran').length;
+  const nonLegendCount = roster.stars.filter((hire) => { const group = getStar(hire.starId)?.group; return group === 'veteran' || group === 'prospect'; }).length;
   const legendCount = roster.stars.filter((hire) => getStar(hire.starId)?.group === 'legend').length;
-  if (veteranCount > 2) errors.push(message('star-veterans', 'No more than two Veterans may be hired.'));
+  if (nonLegendCount > 2) errors.push(message('star-veterans', 'No more than two Veterans and Prospects may be hired in total.'));
   if (legendCount > 1) errors.push(message('star-legend', 'Only one Legend may be hired.'));
   if (roster.stars.length > 0 && team.tier <= 4 && (secondaryCount > 0 || stackCount > 0)) {
     errors.push(message('star-skills', 'Tier 1–4 teams with star players cannot take Secondary skills or stacks.'));

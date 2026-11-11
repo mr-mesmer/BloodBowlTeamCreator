@@ -1,6 +1,6 @@
 export type SkillCategory = 'A' | 'D' | 'G' | 'M' | 'P' | 'S';
 export type SkillType = 'primary' | 'secondary';
-export type StarGroup = 'veteran' | 'legend';
+export type StarGroup = 'veteran' | 'legend' | 'prospect';
 
 export interface Stats {
   MA: string;

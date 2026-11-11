@@ -48,25 +48,9 @@ TEAM_SLUG_OVERRIDES = {
     'Tomb Kings': 'tomb-kings', 'Underworld Denizens': 'underworld-denizens',
     'Wood Elf': 'wood-elf',
 }
-VETERANS = [
-    'Akhorne The Squirrel', 'Anqi Panqi', 'Barik Farblast', 'Bilerot Vomitflesh',
-    "Boa Kon'ssstriktr", 'Count Luthor von Drakenborg', 'Captain Karina von Riesz',
-    'Eldril Sidewinder', 'Fungus the Loon', 'Glart Smashrip', 'Gloriel Summerbloom',
-    'Glotl Stop', 'Grashnak Blackhoof', 'Gretchen Wächter', 'Grim Ironjaw',
-    'Grombrindal', 'Guffle Pusmaw', 'Helmut Wulf', 'Josef Bugman', 'Karla von Kill',
-    'Kiroth Krakeneye', 'Max Spleenripper', 'Nobbla Blackwart', 'Puggy Baconbreath',
-    'Rashnak Backstabber', 'Rodney Roachbait', 'Rowana Forestfoot',
-    'Rumbelow Sheepskin', 'Scrappa Sorehead', 'Scyla Anfingrimm',
-    'Skrull Halfheight', 'Swiftvine Glimmershard', 'The Black Gobbo',
-    'The Mighty Zug', 'Thorsson Stoutmead', 'Varag Ghoul-Chewer', 'Wilhelm Chaney',
-    'Willow Rosebark', 'Withergrasp Doubledrool', 'Zzharg Madeye',
-]
-LEGENDS = [
-    'Deeproot Strongbranch', 'Grak and Crumbleberry', 'Ivar Eriksson',
-    'Kreek Rustgouger', 'Lord Borak the Despoiler', 'The Swift Twins',
-    'Maple Highgrove', "Morg 'n' Thorg", 'Ripper Bolgrot', 'Skitter Stab-Stab',
-    'Skrorg Snowpelt', 'Zolcath the Zoat',
-]
+LEGENDS = ['Bomber Dribblesnot', 'Cindy Piewhistle', "Da Red Gobbo's Squigmobile", 'Estelle la Veneaux', 'Griff Oberwald', 'Hakflem Skuttlespike', "H'thark the Unstoppable", 'Jordell Freshbreeze', 'Skitter Stab-Stab', 'Skrorg Snowpelt']
+PROSPECTS = ['Akhorne The Squirrel', 'Barik Farblast', 'Fungus the Loon', 'Gloriel Summerbloom', 'Grashnak Blackhoof', 'Gretchen Wächter', 'Grim Ironjaw', 'Guffle Pusmaw', 'Helmut Wulf', 'Josef Bugman', 'Kiroth Krakeneye', 'Max Spleenripper', 'Puggy Baconbreath', 'Rashnak Backstabber', 'Rodney Roachbait', 'Rowana Forestfoot', 'Rumbelow Sheepskin', 'Scrappa Sorehead', 'Skrull Halfheight', 'Swiftvine Glimmershard', 'The Black Gobbo', 'Willow Rosebark', 'Withergrasp Doubledrool', 'Zzharg Madeye']
+VETERANS = ['Anqi Panqi', 'Bilerot Vomitflesh', "Boa Kon'ssstriktr", 'Captain Karina von Riesz', 'Count Luthor von Drakenborg', 'Deeproot Strongbranch', 'Dribl and Drull', 'Eldril Sidewinder', 'Glart Smashrip', 'Glotl Stop', 'Grak and Crumbleberry', 'Grombrindal', "Ivan 'the Animal' Deathshroud", 'Ivar Eriksson', 'Jeremiah Kool', 'Karla von Kill', 'Kreek Rustgouger', 'Lord Borak the Despoiler', 'Maple Highgrove', "Morg 'n' Thorg", 'Nobbla Blackwart', 'Ripper Bolgrot', 'Roxanna Darknail', 'Scyla Anfingrimm', 'The Mighty Zug', 'The Swift Twins', 'Thorsson Stoutmead', 'Varag Ghoul-Chewer', 'Wilhelm Chaney', 'Zolcath the Zoat']
 DISPLAY_NAMES = {
     'Akhorne The Squirrel': 'Akhorne the Squirrel',
     'Captain Karina von Riesz': 'Cpt Karina von Riesz',
@@ -161,10 +145,19 @@ if not any(t['name'] == 'Slann' for t in teams):
     })
 
 source_stars = {s['name']: s for s in rosters['stars']}
-missing = [n for n in VETERANS + LEGENDS if n not in source_stars]
+source_stars["Da Red Gobbo's Squigmobile"] = {
+    'name': "Da Red Gobbo's Squigmobile", 'cost': '200K',
+    'plays_for': ['Any team except a Dwarf team'],
+    'members': [{'name': "Da Red Gobbo's Squigmobile", 'role': 'Big Guy, Goblin, Special',
+        'stats': {'MA': '5', 'ST': '6', 'AG': '5+', 'PA': '-', 'AV': '10+'},
+        'skills': ['Bombardier', 'Break Tackle', 'Dirty Player', 'Hail Mary Pass', 'Hatred (Dwarf)', 'Juggernaut', 'Loner (4+)', 'Mighty Blow', 'No Ball', 'Secret Weapon', 'Stand Firm'],
+        'special_rules': ['Have a Present, Ya Git']}],
+    'source': 'https://bloodbowlbase.ru/bb2025/starplayers/Da_Red_Gobbos_Squigmobile/',
+}
+missing = [n for n in VETERANS + LEGENDS + PROSPECTS if n not in source_stars]
 assert not missing, f'Missing star players: {missing}'
 stars = []
-for group, names in [('veteran', VETERANS), ('legend', LEGENDS)]:
+for group, names in [('veteran', VETERANS), ('legend', LEGENDS), ('prospect', PROSPECTS)]:
     for name in names:
         raw = source_stars[name]
         stars.append({
@@ -188,4 +181,4 @@ OUT.parent.mkdir(parents=True, exist_ok=True)
 OUT.write_text(json.dumps(catalog, ensure_ascii=False, indent=2) + '\n')
 print(f'Wrote {OUT}: {len(teams)} teams, {len(skills)} skills, {len(stars)} allowed stars')
 assert len(teams) == 31
-assert len(stars) == 52
+assert len(stars) == 64

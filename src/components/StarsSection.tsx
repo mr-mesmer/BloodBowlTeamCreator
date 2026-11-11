@@ -1,3 +1,4 @@
+import { starGroupLabel } from '../lib/rules';
 import { useMemo, useState } from 'react';
 import { ChevronDown, Plus, Search, Star, Trash2, Users, X } from 'lucide-react';
 import { getStar, normalizeName } from '../lib/catalog';
@@ -17,13 +18,13 @@ export function StarsSection({ roster, calc, onAdd, onRemove }: {
   const eligible = useMemo(() => availableStars(roster), [roster]);
   const normalizedQuery = normalizeName(query);
   const stars = eligible.filter((star) => star.group === group && (!normalizedQuery || normalizeName(star.name).includes(normalizedQuery)));
-  const veteranCount = roster.stars.filter((hire) => getStar(hire.starId)?.group === 'veteran').length;
+  const nonLegendCount = roster.stars.filter((hire) => { const group = getStar(hire.starId)?.group; return group === 'veteran' || group === 'prospect'; }).length;
   const legendCount = roster.stars.filter((hire) => getStar(hire.starId)?.group === 'legend').length;
 
   const canAdd = (starId: string) => {
     const star = getStar(starId);
     if (!star || roster.stars.some((hire) => hire.starId === starId)) return false;
-    if (star.group === 'veteran' && (veteranCount >= 2 || legendCount > 0)) return false;
+    if (star.group !== 'legend' && (nonLegendCount >= 2 || legendCount > 0)) return false;
     if (star.group === 'legend' && roster.stars.length > 0) return false;
     if (calc.playerCount + star.members.length > 16) return false;
     return true;
@@ -39,7 +40,7 @@ export function StarsSection({ roster, calc, onAdd, onRemove }: {
         {roster.stars.map((hire) => {
           const star = getStar(hire.starId);
           if (!star) return null;
-          return <div className="hired-star" key={hire.id}><span className="hired-star-icon"><Star size={17} fill="currentColor" /></span><div><strong>{star.name}</strong><small>{star.group === 'veteran' ? 'Veteran' : 'Legend'} · {star.cost}k TB + {starSurcharge(calc.team.tier, star.group)}k SG{star.members.length > 1 ? ' · pair' : ''}</small></div><button className="row-action" onClick={() => onRemove(hire.id)} aria-label={`Remove ${star.name}`}><Trash2 size={16} /></button></div>;
+          return <div className="hired-star" key={hire.id}><span className="hired-star-icon"><Star size={17} fill="currentColor" /></span><div><strong>{star.name}</strong><small>{starGroupLabel(star.group)} · {star.cost}k TB + {starSurcharge(calc.team.tier, star.group)}k SG{star.members.length > 1 ? ' · pair' : ''}</small></div><button className="row-action" onClick={() => onRemove(hire.id)} aria-label={`Remove ${star.name}`}><Trash2 size={16} /></button></div>;
         })}
         {calc.team.tier <= 4 && <div className="inline-alert warning">Tier {calc.team.tier} teams with stars may not take Secondary skills or stacks.</div>}
       </div>}
@@ -47,6 +48,7 @@ export function StarsSection({ roster, calc, onAdd, onRemove }: {
         <div className="star-browser-toolbar">
           <div className="segmented-control">
             <button className={group === 'veteran' ? 'active' : ''} onClick={() => setGroup('veteran')}>Veterans <span>1–2</span></button>
+            <button className={group === 'prospect' ? 'active' : ''} onClick={() => setGroup('prospect')}>Prospects <span>1–2</span></button>
             <button className={group === 'legend' ? 'active' : ''} onClick={() => setGroup('legend')}>Legends <span>1</span></button>
           </div>
           <label className="search-field"><Search size={16} /><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search stars" />{query && <button onClick={() => setQuery('')} aria-label="Clear"><X size={14} /></button>}</label>
