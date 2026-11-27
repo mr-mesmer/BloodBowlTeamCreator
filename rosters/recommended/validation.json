@@ -74,6 +74,7 @@
       "norse",
       "nurgle",
       "tomb-kings",
+      "night-goblin",
       "elven-union"
     ],
     "5": [
@@ -171,11 +172,11 @@
     }
   ],
   "inputs": {
-    "catalogSha256": "cb21dc3012dde8060cf8cc24cfc2c5e49102dc0914d44285dda585fc2f06e7b9",
-    "choicesSha256": "636f87c665ee4b7bb40d916a74e8a7811e1ceae7c293f9aaf8af9e3142835030"
+    "catalogSha256": "49d6bc51d6b74fbd88e6990d9d603570299db65fa3dca33b43ba7025652ca2d9",
+    "choicesSha256": "037bbce8c7f8eb8144ee177ebb11c5f264a626bd85bcbbf83f4069d1be317603"
   },
   "allValid": true,
-  "count": 31,
+  "count": 32,
   "rosters": [
     {
       "teamId": "old-world-alliance",
@@ -1504,6 +1505,88 @@
           "id": "tomb-kings-3",
           "count": 4,
           "max": 4
+        }
+      ],
+      "checks": {
+        "tierMatchesUserText": true,
+        "independentBudgets": true,
+        "skillAccessAndElite": true,
+        "noDuplicateSkills": true,
+        "onlyPrimaryStacks": true,
+        "maxThreeSecondary": true,
+        "maxThreeStacks": true,
+        "noStatIncreases": true,
+        "positionalLimits": true,
+        "sharedBigGuyLimits": true,
+        "elevenToSixteenPlayers": true,
+        "insignificant": true,
+        "starWhitelist": true,
+        "starLeagueAndGroup": true,
+        "starSkillRestrictions": true,
+        "staffAndInducements": true,
+        "uniqueContracts": true
+      }
+    },
+    {
+      "teamId": "night-goblin",
+      "teamName": "Night Goblin",
+      "tier": 4,
+      "valid": true,
+      "baseTeamBudget": 1120,
+      "baseSkillBudget": 200,
+      "teamBudget": 1120,
+      "skillBudget": 200,
+      "playersCost": 890,
+      "starsCost": 0,
+      "staffCost": 190,
+      "inducementsCost": 25,
+      "teamCost": 1105,
+      "advancementCost": 200,
+      "starSurcharge": 0,
+      "skillCost": 200,
+      "teamRemaining": 15,
+      "skillRemaining": 0,
+      "playerCount": 15,
+      "regularPlayerCount": 15,
+      "starMemberCount": 0,
+      "secondaryCount": 2,
+      "stackCount": 0,
+      "freeAssistants": 0,
+      "freeCheerleaders": 0,
+      "insignificantCount": 0,
+      "nonInsignificantCount": 15,
+      "regularBigGuyCount": 1,
+      "maxBigGuys": 1,
+      "positions": [
+        {
+          "id": "night-goblin-0",
+          "count": 9,
+          "max": 16
+        },
+        {
+          "id": "night-goblin-1",
+          "count": 1,
+          "max": 2
+        },
+        {
+          "id": "night-goblin-2",
+          "count": 2,
+          "max": 2
+        },
+        {
+          "id": "night-goblin-3",
+          "count": 1,
+          "max": 2
+        },
+        {
+          "id": "night-goblin-4",
+          "count": 1,
+          "max": 2
+        },
+        {
+          "id": "night-goblin-5",
+          "count": 1,
+          "max": 1
         }
       ],
       "checks": {

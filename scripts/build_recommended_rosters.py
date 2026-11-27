@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build/check the 31 authored tournament rosters, without network or npm.
+"""Build/check the 32 authored tournament rosters, without network or npm.
 
 This is deliberately an independent implementation of the supplied house pack,
 not a call into engine.ts. Vitest then feeds the exported RosterState JSON into
@@ -33,7 +33,7 @@ TIER_TEAMS = {
     1: ['orc', 'wood-elf', 'amazon'],
     2: ['old-world-alliance', 'skaven', 'underworld-denizens'],
     3: ['dark-elf', 'high-elf', 'human', 'lizardmen', 'shambling-undead', 'vampire', 'snotling'],
-    4: ['necromantic-horror', 'norse', 'nurgle', 'tomb-kings', 'elven-union'],
+    4: ['necromantic-horror', 'norse', 'nurgle', 'tomb-kings', 'night-goblin', 'elven-union'],
     5: ['chaos-chosen', 'chaos-dwarf', 'dwarf', 'imperial-nobility', 'slann'],
     6: ['black-orc', 'bretonnian', 'chaos-renegades', 'gnome', 'goblin', 'halfling', 'khorne'],
     7: ['ogre'],
@@ -412,8 +412,8 @@ def main() -> int:
     expected_tiers = {id_: tier for tier, ids in TIER_TEAMS.items() for id_ in ids}
     entries = choices['entries']
     require(catalog['edition'] == choices['edition'] == 'BB2025', 'Неверная редакция')
-    require(len(teams) == len(entries) == 31, 'Нужно ровно 31 команду и 31 ростер')
-    require(len({e['teamId'] for e in entries}) == 31, 'Повтор команды')
+    require(len(teams) == len(entries) == 32, 'Нужно ровно 32 команды и 32 ростера')
+    require(len({e['teamId'] for e in entries}) == 32, 'Повтор команды')
     require(set(teams) == set(expected_tiers) == {e['teamId'] for e in entries}, 'Список команд отличается от пака')
     # Parse just the literal tier map. Importing build_catalog.py would need its
     # external source data and overwrite the catalogue as an unwanted side effect.
@@ -451,8 +451,8 @@ def main() -> int:
     }
     outputs[DIRECTORY / 'validation.json'] = dump(report)
     lines = [(DIRECTORY / 'methodology.md').read_text().rstrip(), '', '<a id="summary"></a>',
-             '## Сводка: 31 ростер', '',
-             '**В каждой бюджетной ячейке: потрачено / доступно после контрактов. Skill Gold уже включает налог на звезду. Каждый из 31 ростера прошёл независимую проверку; JSON также проверяются движком билдера через `npm test`.**', '',
+             '## Сводка: 32 ростера', '',
+             '**В каждой бюджетной ячейке: потрачено / доступно после контрактов. Skill Gold уже включает налог на звезду. Каждый из 32 ростера прошёл независимую проверку; JSON также проверяются движком билдера через `npm test`.**', '',
              '| Команда | Тир | Игроки | Куплено RR | Leader | Apothecary | Звезда | Team Budget | Skill Gold | S / стаки |',
              '|---|---:|---:|---:|---:|---:|---|---:|---:|---:|']
     csv_buffer = io.StringIO(newline='')
@@ -490,7 +490,7 @@ def main() -> int:
         print(f"PASS {calc['teamName']:22} T{calc['tier']} n={calc['playerCount']:2} "
               f"TB {calc['teamCost']:4}/{calc['teamBudget']:4} SG {calc['skillCost']:3}/{calc['skillBudget']:3} "
               f"S={calc['secondaryCount']} stacks={calc['stackCount']}")
-    print('31/31 legal. Flowing Funds: 0. No budget transfers except explicit contracts.')
+    print('32/32 legal. Flowing Funds: 0. No budget transfers except explicit contracts.')
     return 0
 
 

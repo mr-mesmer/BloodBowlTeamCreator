@@ -39,7 +39,7 @@ const tierTeams = {
   1: ['orc', 'wood-elf', 'amazon'],
   2: ['old-world-alliance', 'skaven', 'underworld-denizens'],
   3: ['dark-elf', 'high-elf', 'human', 'lizardmen', 'shambling-undead', 'vampire', 'snotling'],
-  4: ['necromantic-horror', 'norse', 'nurgle', 'tomb-kings', 'elven-union'],
+  4: ['necromantic-horror', 'norse', 'nurgle', 'tomb-kings', 'night-goblin', 'elven-union'],
   5: ['chaos-chosen', 'chaos-dwarf', 'dwarf', 'imperial-nobility', 'slann'],
   6: ['black-orc', 'bretonnian', 'chaos-renegades', 'gnome', 'goblin', 'halfling', 'khorne'],
   7: ['ogre'],
@@ -47,13 +47,13 @@ const tierTeams = {
 
 describe('recommended tournament roster collection', () => {
   it('has exactly one exported, documented roster per team and no extra JSON files', () => {
-    expect(rows).toHaveLength(31);
+    expect(rows).toHaveLength(32);
     const ids = rows.map((row) => row.teamId).sort();
-    expect(new Set(ids).size).toBe(31);
+    expect(new Set(ids).size).toBe(32);
     expect(ids).toEqual(catalog.teams.map((team) => team.id).sort());
     expect(readdirSync(new URL('json/', directory)).sort()).toEqual(ids.map((id) => `${id}.json`).sort());
     const document = readFileSync(new URL('../../docs/tournament-rosters.md', import.meta.url), 'utf8');
-    expect(document.match(/^## \d+\./gm)).toHaveLength(31);
+    expect(document.match(/^## \d+\./gm)).toHaveLength(32);
     for (const id of ids) {
       expect(document).toContain(`<a id="${id}"></a>`);
       expect(document).toContain(`../rosters/recommended/json/${id}.json`);
@@ -81,7 +81,7 @@ describe('recommended tournament roster collection', () => {
       encoding: 'utf8',
       timeout: 15_000,
     });
-    expect(output).toContain('31/31 legal. Flowing Funds: 0.');
+    expect(output).toContain('32/32 legal. Flowing Funds: 0.');
   });
 
   it.each(rows)('$teamName is legal in the actual builder and agrees with the independent ledger', (expected) => {
