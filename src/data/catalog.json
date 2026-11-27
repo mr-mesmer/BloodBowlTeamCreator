@@ -2718,6 +2718,207 @@
       "source": "https://bloodbowlbase.ru/bb2025/teams/Tomb_Kings/"
     },
     {
+      "id": "night-goblin",
+      "name": "Night Goblin",
+      "tier": 4,
+      "positions": [
+        {
+          "id": "night-goblin-0",
+          "name": "Night Goblin Lineman",
+          "role": "Goblin, Lineman",
+          "max": 16,
+          "cost": 45,
+          "stats": {
+            "MA": "6",
+            "ST": "2",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Dodge",
+            "Right Stuff",
+            "Shadowing",
+            "Stunty",
+            "Taunt"
+          ],
+          "primary": [
+            "A",
+            "D"
+          ],
+          "secondary": [
+            "G",
+            "P",
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "night-goblin-1",
+          "name": "Squig Herder",
+          "role": "Goblin, Special",
+          "max": 2,
+          "cost": 55,
+          "stats": {
+            "MA": "6",
+            "ST": "2",
+            "AG": "3+",
+            "PA": "5+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Dodge",
+            "Disturbing Presence",
+            "Fend",
+            "Squig Restraint",
+            "Stunty"
+          ],
+          "primary": [
+            "A",
+            "D"
+          ],
+          "secondary": [
+            "G",
+            "P",
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "night-goblin-2",
+          "name": "Squig Hopper",
+          "role": "Goblin, Special, Squig",
+          "max": 2,
+          "cost": 80,
+          "stats": {
+            "MA": "7",
+            "ST": "3",
+            "AG": "3+",
+            "PA": "4+",
+            "AV": "8+"
+          },
+          "skills": [
+            "Dodge",
+            "Jump Up",
+            "Monstrous Mouth",
+            "Pogo",
+            "Squig Rage"
+          ],
+          "primary": [
+            "A",
+            "D"
+          ],
+          "secondary": [
+            "G",
+            "P",
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "night-goblin-3",
+          "name": "Squig Wrangler",
+          "role": "Goblin, Special, Squig",
+          "max": 2,
+          "cost": 70,
+          "stats": {
+            "MA": "3",
+            "ST": "7",
+            "AG": "3+",
+            "PA": "-",
+            "AV": "8+"
+          },
+          "skills": [
+            "Ball & Chain",
+            "No Ball",
+            "Squig Rage",
+            "Stunty"
+          ],
+          "primary": [
+            "D",
+            "S"
+          ],
+          "secondary": [
+            "A",
+            "G"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "night-goblin-4",
+          "name": "Cave Squig",
+          "role": "Special, Squig",
+          "max": 2,
+          "cost": 85,
+          "stats": {
+            "MA": "6",
+            "ST": "4",
+            "AG": "3+",
+            "PA": "-",
+            "AV": "9+"
+          },
+          "skills": [
+            "Frenzy",
+            "Jump Up",
+            "Monstrous Mouth",
+            "No Ball",
+            "Pogo",
+            "Squig Rage"
+          ],
+          "primary": [],
+          "secondary": [
+            "A",
+            "D",
+            "G",
+            "S"
+          ],
+          "bigGuy": false
+        },
+        {
+          "id": "night-goblin-5",
+          "name": "Trained Troll",
+          "role": "Big Guy, Troll",
+          "max": 1,
+          "cost": 115,
+          "stats": {
+            "MA": "4",
+            "ST": "5",
+            "AG": "5+",
+            "PA": "5+",
+            "AV": "10+"
+          },
+          "skills": [
+            "Always Hungry",
+            "Mighty Blow",
+            "Projectile Vomit",
+            "Really Stupid",
+            "Regeneration",
+            "Throw Team-mate"
+          ],
+          "primary": [
+            "S"
+          ],
+          "secondary": [
+            "A",
+            "G",
+            "P"
+          ],
+          "bigGuy": true
+        }
+      ],
+      "rerollCost": 70,
+      "apothecary": true,
+      "leagues": [
+        "Underworld Challenge"
+      ],
+      "specialRules": [
+        "Bribery and Corruption"
+      ],
+      "favouredOptions": [],
+      "maxBigGuys": 1,
+      "source": "https://bloodbowlbase.ru/bb2025/teams/Night_Goblin/"
+    },
+    {
       "id": "chaos-chosen",
       "name": "Chaos Chosen",
       "tier": 5,

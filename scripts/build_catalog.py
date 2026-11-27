@@ -23,7 +23,7 @@ TIER_NAMES = {
     1: ['Amazon', 'Orc', 'Wood Elf'],
     2: ['Old World Alliance', 'Skaven', 'Underworld Denizens'],
     3: ['Dark Elf', 'High Elf', 'Human', 'Lizardmen', 'Shambling Undead', 'Vampire', 'Snotling'],
-    4: ['Elven Union', 'Necromantic Horror', 'Norse', 'Nurgle', 'Tomb Kings'],
+    4: ['Elven Union', 'Necromantic Horror', 'Night Goblin', 'Norse', 'Nurgle', 'Tomb Kings'],
     5: ['Chaos Chosen', 'Chaos Dwarf', 'Dwarf', 'Imperial Nobility', 'Slann'],
     6: ['Black Orc', 'Bretonnian', 'Chaos Renegades', 'Gnome', 'Goblin', 'Halfling', 'Khorne'],
     7: ['Ogre'],
@@ -32,6 +32,7 @@ TEAM_TIER = {name: tier for tier, names in TIER_NAMES.items() for name in names}
 BIG_GUY_LIMITS = {
     'Chaos Chosen': 1,
     'Chaos Renegades': 3,
+    'Night Goblin': 1,
     'Old World Alliance': 1,
     'Underworld Denizens': 1,
 }
@@ -144,6 +145,31 @@ if not any(t['name'] == 'Slann' for t in teams):
         'source': 'https://www.thenaf.net/wp-content/uploads/2026/01/NAF-Regulations-for-Tournaments-2026.pdf',
     })
 
+# Night Goblin is supplemented manually so regeneration keeps it even if the
+# source catalogue does not carry this roster.
+if not any(t['name'] == 'Night Goblin' for t in teams):
+    night_goblin_positions = [
+        ('Night Goblin Lineman', 'Goblin, Lineman', 16, 45, ['6','2','3+','4+','8+'], ['Dodge','Right Stuff','Shadowing','Stunty','Taunt'], ['A','D'], ['G','P','S']),
+        ('Squig Herder', 'Goblin, Special', 2, 55, ['6','2','3+','5+','8+'], ['Dodge','Disturbing Presence','Fend','Squig Restraint','Stunty'], ['A','D'], ['G','P','S']),
+        ('Squig Hopper', 'Goblin, Special, Squig', 2, 80, ['7','3','3+','4+','8+'], ['Dodge','Jump Up','Monstrous Mouth','Pogo','Squig Rage'], ['A','D'], ['G','P','S']),
+        ('Squig Wrangler', 'Goblin, Special, Squig', 2, 70, ['3','7','3+','-','8+'], ['Ball & Chain','No Ball','Squig Rage','Stunty'], ['D','S'], ['A','G']),
+        ('Cave Squig', 'Special, Squig', 2, 85, ['6','4','3+','-','9+'], ['Frenzy','Jump Up','Monstrous Mouth','No Ball','Pogo','Squig Rage'], [], ['A','D','G','S']),
+        ('Trained Troll', 'Big Guy, Troll', 1, 115, ['4','5','5+','5+','10+'], ['Always Hungry','Mighty Blow','Projectile Vomit','Really Stupid','Regeneration','Throw Team-mate'], ['S'], ['A','G','P']),
+    ]
+    positions = []
+    for index, (name, role, maximum, price, stats, base, primary, secondary) in enumerate(night_goblin_positions):
+        positions.append({
+            'id': f'night-goblin-{index}', 'name': name, 'role': role, 'max': maximum,
+            'cost': price, 'stats': dict(zip(['MA','ST','AG','PA','AV'], stats)),
+            'skills': base, 'primary': primary, 'secondary': secondary, 'bigGuy': 'Big Guy' in role,
+        })
+    teams.append({
+        'id': 'night-goblin', 'name': 'Night Goblin', 'tier': 4, 'positions': positions,
+        'rerollCost': 70, 'apothecary': True, 'leagues': ['Underworld Challenge'],
+        'specialRules': ['Bribery and Corruption'], 'favouredOptions': [], 'maxBigGuys': 1,
+        'source': 'https://bloodbowlbase.ru/bb2025/teams/Night_Goblin/',
+    })
+
 source_stars = {s['name']: s for s in rosters['stars']}
 source_stars["Da Red Gobbo's Squigmobile"] = {
     'name': "Da Red Gobbo's Squigmobile", 'cost': '200K',
@@ -180,5 +206,5 @@ catalog = {
 OUT.parent.mkdir(parents=True, exist_ok=True)
 OUT.write_text(json.dumps(catalog, ensure_ascii=False, indent=2) + '\n')
 print(f'Wrote {OUT}: {len(teams)} teams, {len(skills)} skills, {len(stars)} allowed stars')
-assert len(teams) == 31
+assert len(teams) == 32
 assert len(stars) == 64

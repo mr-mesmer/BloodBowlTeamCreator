@@ -1251,6 +1251,89 @@
       }
     },
     {
+      "teamId": "night-goblin",
+      "title": "Тролль с Guard, носитель с Sure Hands и глубокая скамейка",
+      "league": "Underworld Challenge",
+      "favoured": "",
+      "groups": [
+        {
+          "positionId": "night-goblin-5",
+          "count": 1,
+          "skills": [
+            "guard"
+          ]
+        },
+        {
+          "positionId": "night-goblin-4",
+          "count": 1,
+          "skills": [
+            "tackle"
+          ]
+        },
+        {
+          "positionId": "night-goblin-2",
+          "count": 1,
+          "skills": [
+            "sure-hands"
+          ]
+        },
+        {
+          "positionId": "night-goblin-2",
+          "count": 1,
+          "skills": [
+            "catch"
+          ]
+        },
+        {
+          "positionId": "night-goblin-1",
+          "count": 1,
+          "skills": [
+            "shadowing"
+          ]
+        },
+        {
+          "positionId": "night-goblin-3",
+          "count": 1,
+          "skills": [
+            "guard"
+          ]
+        },
+        {
+          "positionId": "night-goblin-0",
+          "count": 1,
+          "skills": [
+            "dirty-player"
+          ]
+        },
+        {
+          "positionId": "night-goblin-0",
+          "count": 8,
+          "skills": []
+        }
+      ],
+      "stars": [],
+      "staff": {
+        "rerolls": 2,
+        "apothecary": 1,
+        "assistants": 0,
+        "cheerleaders": 0,
+        "fans": 0
+      },
+      "inducements": {
+        "mascot": 1
+      },
+      "sponsors": [],
+      "coaches": [],
+      "captain": null,
+      "reference": "https://bloodbowlbase.ru/bb2025/teams/Night_Goblin/",
+      "analysis": {
+        "priority": "Сохранить тролля, обоих Squig Hopper и Cave Squig: это единственная настоящая ударная и подвижная часть ростера. Нужны надёжный носитель с Sure Hands, приёмник с Catch и опора Guard, потому что реролл стоит 70k и третий реролл съел бы целую позицию.",
+        "plan": "Тролль с Guard и Squig Wrangler с Guard держат центр и поддерживают блицы; Cave Squig с Tackle бьёт Frenzy без лишнего риска против Dodge. Squig Hopper с Sure Hands носит мяч, второй с Catch принимает и страхует. Squig Herder с Shadowing маркирует носителя, линейный с Dirty Player фолит. Девять линейных дают замену при AV 8+.",
+        "tradeoff": "Нет второго Cave Squig и дорогого Secondary Mighty Blow: Skill Gold ушёл в Sure Hands и Tackle. Нет звезды — в тире 4 звезда запрещает Secondary и стаки. Mascot не гарантирует реролл. Глубина 15 игроков выбрана вместо третьего реролла за 70k.",
+        "comparison": "Турнирного образца EuroBowl для Night Goblin нет; состав собран по профилю ростера с bloodbowlbase и аналогиям Goblin и Underworld Denizens: глубокая скамейка, два реролла, Guard на Big Guy и один Secondary-носитель."
+      }
+    },
+    {
       "teamId": "chaos-chosen",
       "title": "Четыре Block Warriors и Beastman для отбора",
       "league": "Chaos Clash",

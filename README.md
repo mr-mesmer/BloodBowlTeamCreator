@@ -4,7 +4,7 @@
 
 ## Готовые турнирные ростеры
 
-**[31 рекомендуемый ростер под пользовательский пак](docs/tournament-rosters.md)** — по одному на каждую команду, с составом, нумерацией игроков, навыками, контрактами, обоими бюджетами, тактическими пояснениями и источниками BB2025. [Сводка CSV](rosters/recommended/summary.csv), [31 JSON в формате экспорта](rosters/recommended/json/) и [независимый протокол проверки](rosters/recommended/validation.json).
+**[32 рекомендуемых ростера под пользовательский пак](docs/tournament-rosters.md)** — по одному на каждую команду, с составом, нумерацией игроков, навыками, контрактами, обоими бюджетами, тактическими пояснениями и источниками BB2025. [Сводка CSV](rosters/recommended/summary.csv), [32 JSON в формате экспорта](rosters/recommended/json/) и [независимый протокол проверки](rosters/recommended/validation.json).
 
 Подборка от 01.11.2026 использует Snotlings в тире 3 и **не начисляет неуказанные Flowing Funds**. Авторский исходник — `rosters/recommended/choices.json`. JSON соответствуют текущей структуре `RosterState` v1, но кнопки их импорта в интерфейсе пока нет.
 
@@ -13,11 +13,11 @@ python3 scripts/build_recommended_rosters.py --check  # проверить со�
 python3 scripts/build_recommended_rosters.py --write  # пересобрать после правки choices.json
 ```
 
-`npm test` дополнительно прогоняет каждый из 31 экспорта через реальный движок и сравнивает расчёты с независимой проверкой. Для этого нужен **Python 3.10+** наряду с Node.js.
+`npm test` дополнительно прогоняет каждый из 32 экспортов через реальный движок и сравнивает расчёты с независимой проверкой. Для этого нужен **Python 3.10+** наряду с Node.js.
 
 ## Возможности
 
-- 31 ростер BB2025, включая Bretonnians, Chaos Renegades, Slann и Khorne.
+- 32 ростера BB2025, включая Bretonnians, Chaos Renegades, Slann, Khorne и Night Goblin.
 - Пользовательские тиры, бюджеты и позиционные лимиты.
 - Два независимых бюджета: **Team Budget** и **Skill Gold**. Остаток одного не покрывает расходы из другого.
 - Обычные игроки, Primary/Secondary навыки, Elite-надбавки и стаки двух Primary.

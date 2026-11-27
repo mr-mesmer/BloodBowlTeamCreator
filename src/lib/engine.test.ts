@@ -18,8 +18,8 @@ function errorIds(roster: RosterState) {
 }
 
 describe('catalogue and tier budgets', () => {
-  it('contains all 31 teams and exactly the 64 allowed stars', () => {
-    expect(catalog.teams).toHaveLength(31);
+  it('contains all 32 teams and exactly the 64 allowed stars', () => {
+    expect(catalog.teams).toHaveLength(32);
     expect(catalog.stars).toHaveLength(64);
     expect(catalog.stars.filter((star) => star.group === 'veteran')).toHaveLength(30);
     expect(catalog.stars.filter((star) => star.group === 'legend')).toHaveLength(10);

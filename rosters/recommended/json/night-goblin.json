@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "id": "recommended-night-goblin",
+  "name": "Night Goblin — Тролль с Guard, носитель с Sure Hands и глубокая скамейка",
+  "coach": "",
+  "teamId": "night-goblin",
+  "league": "Underworld Challenge",
+  "favoured": "",
+  "players": [
+    {
+      "id": "recommended-night-goblin-01",
+      "positionId": "night-goblin-5",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "guard",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-night-goblin-02",
+      "positionId": "night-goblin-4",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "tackle",
+          "type": "secondary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-night-goblin-03",
+      "positionId": "night-goblin-2",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "sure-hands",
+          "type": "secondary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-night-goblin-04",
+      "positionId": "night-goblin-2",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "catch",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-night-goblin-05",
+      "positionId": "night-goblin-1",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "shadowing",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-night-goblin-06",
+      "positionId": "night-goblin-3",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "guard",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-night-goblin-07",
+      "positionId": "night-goblin-0",
+      "name": "",
+      "skills": [
+        {
+          "skillId": "dirty-player",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "recommended-night-goblin-08",
+      "positionId": "night-goblin-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-night-goblin-09",
+      "positionId": "night-goblin-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-night-goblin-10",
+      "positionId": "night-goblin-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-night-goblin-11",
+      "positionId": "night-goblin-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-night-goblin-12",
+      "positionId": "night-goblin-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-night-goblin-13",
+      "positionId": "night-goblin-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-night-goblin-14",
+      "positionId": "night-goblin-0",
+      "name": "",
+      "skills": []
+    },
+    {
+      "id": "recommended-night-goblin-15",
+      "positionId": "night-goblin-0",
+      "name": "",
+      "skills": []
+    }
+  ],
+  "stars": [],
+  "staff": {
+    "rerolls": 2,
+    "apothecary": 1,
+    "assistants": 0,
+    "cheerleaders": 0,
+    "fans": 0
+  },
+  "inducements": {
+    "mascot": 1
+  },
+  "sponsors": [],
+  "coaches": [],
+  "updatedAt": "2026-11-01T00:00:00.000Z"
+}
